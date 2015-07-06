@@ -1,0 +1,21 @@
+/* style.css - a simple style sheet */
+body {
+    margin-left: 3%;
+    margin-right: 3%;
+    color: white;
+    background:#3D81A6;
+    font-family: "Lucida Sans", "Lucida Grande", Verdana, Arial, sans-serif;
+}
+p { font-family: inherit;
+    font-size: 12px;
+    line-height: 1}
+
+.icon {height: 35px;
+        width: 35px}
+
+li {font-family: inherit;
+    font-size: 12px
+}
+
+ul {list-style-type: disc}
+
