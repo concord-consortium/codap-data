@@ -1,0 +1,154 @@
+<?DOCTYPE html>
+<html>
+<head>
+    <title>CODAP Sample Documents</title>
+    <style type="text/css">
+        body {
+            font-family: 'Lato', georgia, times, "times new roman", serif;
+            color: #555;
+        }
+
+        #header {
+            background: #7EB563;
+            background: -moz-linear-gradient(top,  #7EB563 1%, #a4cb91 100%);
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#7EB563), color-stop(100%,#a4cb91));
+            background: -webkit-linear-gradient(top,  #7EB563 1%,#a4cb91 100%);
+            background: -o-linear-gradient(top,  #7EB563 1%,#a4cb91 100%);
+            background: -ms-linear-gradient(top,  #7EB563 1%,#a4cb91 100%);
+            background: linear-gradient(to bottom,  #7EB563 1%,#a4cb91 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7EB563', endColorstr='#a4cb91',GradientType=0 );
+            color: white;
+            padding: 0.5em 1em;
+            font-size: 1em;
+            font-weight: 600;
+        }
+
+        #credits {
+            font-size: 0.8em;
+            color: #777;
+        }
+
+        #credits p {
+            padding-left: 2em;
+            margin-bottom: -0.5em;
+        }
+
+        .sample-documents div {
+            background-color:#EEE;
+            border-radius: 10px;
+            border: #CCC 1px solid;
+            width: 1030px;
+            margin: 7px;
+            padding-left:10px;
+        }
+
+        .document-title {
+            font-weight: bold;
+            font-size: 16px;
+            -webkit-margin-before:.1em;
+            -webkit-margin-after:.1em;
+            width:248px;
+            max-width:248px;
+        }
+
+        .document-description {
+            -webkit-margin-before:.1em;
+            -webkit-margin-after:.1em;
+            width:620px;
+        }
+
+        .sample-table {
+            width:100%;
+        }
+
+        .sample-table tr:nth-child(odd) {
+            color:#000000;
+            background-color:#b1d2a1;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        a {
+            color: #3a878b;
+            font-weight: 600;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #da5936;
+        }
+    </style>
+
+</head>
+<body>
+<div id="header">
+    <h1>CODAP Sample Documents</h1>
+</div>
+
+<div id="credits">
+    <!--<p>Data Interactives repository: <a href="https://github.com/backspaces/agentscript">github.com/backspaces/agentscript</a></p>-->
+    <p>Concord Consortium's CODAP sample documents repository: <a target = "blank" href="https://github.com/concord-consortium/codap-data">https://github.com/concord-consortium/codap-data</a></p>
+    <p>Concord Consortium's CODAP data interactives repository: <a target="blank" href="https://github.com/concord-consortium/codap-data-interactives">github.com/concord-consortium/codap-data-interactives</a></p>
+    <p>Concord Consortium's CODAP project repository: <a target="blank" href="https://github.com/concord-consortium/codap">github.com/concord-consortium/codap</a></p>
+    <p>To find out more about the CODAP project: <a target="blank" href="http://concord.org/projects/codap">About CODAP</a></p>
+</div>
+<br>
+<p>This site has a list of CODAP sample documents.</p>
+<p> Please have an instance of CODAP open to a new document.<p>
+    <label>CODAP:
+        <input id="codap-url" size="75" type="text" value="http://codap.concord.org/releases/latest/static/dg/en/cert/index.html" />
+    </label>
+    <br>
+    <label>Document Server:
+        <input id="doc-server-url" size="75" type="text" value="http://document-store.herokuapp.com/" />
+    </label>
+</p>
+
+<div class="sample-documents">
+    <div>
+        <p>This section has sample CODAP documents. Right Click on the document title to open it in a new tab. In the tab with the opened json file, click and drag the url to the tab where you have CODAP open. Sample document should open.</p>
+
+        <table class="sample-table">
+            <tr><td class = "document-title"><a href="./markov/markov.json">Markov Data Game</td>
+                <td class="document-description">Play Roshambo agains the evil Dr. Markov. If you win, you can save Madeline the dog. Improve you odds by analyzing Markov's moves in a graph. Automate your strategy to determine how good it is in the long term.</td>
+            </tr>
+            <tr><td class = "document-title"><a href="./four-seals/four-seals.json">Four Seals</td>
+                <td class="document-description">Display the tracks of four elephant seals swimming in the Pacific, on a map. Make graphs and use selection to help determine what is going on.</td>
+            </tr>
+            <tr><td class = "document-title"><a href="./parachute/parachute.json">Parachute Model</td>
+                <td class="document-description">Experiment dropping a parachite to see how changing the parachute's size and mass of its cargo changes the terminal velocity of the drop.</td>
+            </tr>
+            <tr><td class = "document-title"><a href="./mammals/mammals.json">Mammals</td>
+                <td class="document-description">There are 27 mammals, each iwth eight attributes. Which of the mammals has the longest life span? Sleeps the most? What relationships can you find?</td>
+            </tr>
+            <tr><td class = "document-title"><a href="./statesnpeople/mnuniv.json">Map Data</td>
+                <td class="document-description">These are data gathered from the Minnesota Population Center. It [rovides aggregate information for the United States. What do you notice about the education levels within each state?</td>
+            </tr>
+
+        </table>
+    </div>
+    <div>
+        <p>Other sample documents</p>
+        <table class="interactive-table">
+            <tr><td class = "interactive-title">Cart Weight</td>
+                <td class="interactive-description">Win by predicting the total
+                    weight of a cart stacked with bricks.</td>
+                <td><a href="javascript:invokeDataInteractive('CartWeight')">Launch</a></td>
+                <td><a target="blank" href="./CartWeight/">Link</a></td>
+            </tr>
+
+        </table>
+    </div>
+    <div>
+        <p>More</p>
+        <table class="interactive-table">
+
+            </table>
+    </div>
+
+</div>
+
+
+</body>
+</html>
