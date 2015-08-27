@@ -21,3 +21,9 @@ ul {list-style-type: disc}
 .description_list {
     list-style-type: none;
     font-size: 12px    }
+
+#guide_next_button {
+    color: white;
+    font-family: "Lucida Sans", "Lucida Grande", Verdana, Arial, sans-serif;
+    font-size: 12px;
+}
