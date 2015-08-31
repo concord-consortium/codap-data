@@ -335,6 +335,98 @@ var map = {
   Sci_ESci_Mauna_Loa: {
     name: 'Mauna Loa Carbon Levels',
     path: 'FathomDocs/Science/E_Sciences/Mauna_Loa/Mauna_Loa.json'
+  },
+  Sci_ESci_North_American: {
+    name: 'North American Earthquakes',
+    path: 'FathomDocs/Science/E_Sciences/North_American/North_American.json'
+  },
+  Sci_ESci_R_Carbon: {
+    name: 'Regional Carbon Levels',
+    path: 'FathomDocs/Science/E_Sciences/R_Carbon/R_Carbon.json'
+  },
+  Sci_ESci_South_Pole: {
+    name: 'South Pole Temperatures',
+    path: 'FathomDocs/Science/E_Sciences/South_Pole/South_Pole.json'
+  },
+  Sci_ESci_Tides: {
+    name: 'Tides',
+    path: 'FathomDocs/Science/E_Sciences/Tides/Tides.json'
+  },
+  Sci_ESci_Tree_Rings: {
+    name: 'Tree_Rings',
+    path: 'FathomDocs/Science/E_Sciences/Tree_Rings/Tree_Rings.json'
+  },
+  Sci_ESci_Weather_Machine: {
+    name: 'Weather Model',
+    path: 'FathomDocs/Science/E_Sciences/Weather_Machine/Weather_Maching.json'
+  },
+  Sci_PhysChem_Boyle: {
+    name: "Boyle's Law",
+    path: 'FathomDocs/Science/PhysChem/Boyle/Boyle.json'
+  },
+  Sci_PhysChem_Elements: {
+    name: "Periodic Table",
+    path: 'FathomDocs/Science/PhysChem/Elements/Elements.json'
+  },
+  Sci_PhysChem_Heating: {
+    name: "Heating",
+    path: 'FathomDocs/Science/PhysChem/Heating/Heating.json'
+  },
+  Sci_PhysChem_Panel: {
+    name: "Solar Panel",
+    path: 'FathomDocs/Science/PhysChem/Panel/Panel.json'
+  },
+  Sci_PhysChem_Radiosonde: {
+    name: "Weather Balloon",
+    path: 'FathomDocs/Science/PhysChem/Radiosonde/Radiosonde.json'
+  },
+  Sci_PhysChem_RB_Ball: {
+    name: "Rubber Band Ball",
+    path: 'FathomDocs/Science/PhysChem/RB_Ball/RB_Ball.json'
+  },
+  Sci_Tech_Airplanes: {
+    name: "Airplanes",
+    path: 'FathomDocs/Science/Technology/Airplanes/Airplanes.json'
+  },
+  Sci_Tech_Cars: {
+    name: "Cars",
+    path: 'FathomDocs/Science/Technology/Cars/Cars.json'
+  },
+  Sci_Tech_Moore_Law: {
+    name: "Cars",
+    path: 'FathomDocs/Science/Technology/Moore_Law/Moore_Law.json'
+  },
+  Sci_Tech_Nails: {
+    name: "Nails",
+    path: 'FathomDocs/Science/Technology/Nails/Nails.json'
+  },
+  SocSci_CA_Alberta2024: {
+    name: "Receipts from Alberta 2024",
+    path: 'FathomDocs/Social_Science/Canada/Alberta2024/Alberta2024.json'
+  },
+  SocSci_CA_Metro: {
+    name: "Canadian Metro Areas",
+    path: 'FathomDocs/Social_Science/Canada/Canada_Metro/Canada_Metro.json'
+  },
+  SocSci_CA_Gov_Debt: {
+    name: "Government Debt",
+    path: 'FathomDocs/Social_Science/Canada/Gov_Debt/Gov_Debt.json'
+  },
+  SocSci_CA_Int_Export: {
+    name: "Exports",
+    path: 'FathomDocs/Social_Science/Canada/Int_Exports/Int_Exports.json'
+  },
+  SocSci_CA_Int_Imports: {
+    name: "Imports",
+    path: 'FathomDocs/Social_Science/Canada/Int_Imports/Int_Imports.json'
+  },
+  SocSci_CA_Military_69: {
+    name: "Military Personnel",
+    path: 'FathomDocs/Social_Science/Canada/Military_69/Military_69.json'
+  },
+  Sports: {
+    name: "Summer Olympics",
+    path: 'FathomDocs/Sports/Summer_Olympics/Summer_Olympics.json'
   }
 }
 
