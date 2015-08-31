@@ -27,3 +27,9 @@ ul {list-style-type: disc}
     font-family: "Lucida Sans", "Lucida Grande", Verdana, Arial, sans-serif;
     font-size: 12px;
 }
+
+#guide_back_button {
+    color: white;
+    font-family: "Lucida Sans", "Lucida Grande", Verdana, Arial, sans-serif;
+    font-size: 12px;
+}
