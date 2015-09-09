@@ -499,7 +499,7 @@ $(document).ready(function (){
         name: "Summer Olympics",
         path: 'FathomDocs/Sports/Summer_Olympics/Summer_Olympics.json'
       }
-    }
+    };
 
 
   function launchSampleDoc(url) {
@@ -516,9 +516,9 @@ $(document).ready(function (){
       url = 'http://concord-consortium.github.io/codap-data/' + path;
 
     if (docserverURL) {
-      launchSampleDoc(codapURL + '?documentServer=' + encodeURI(docserverURL) + '&url=' + encodeURI(url));
+      return (codapURL + '?documentServer=' + encodeURI(docserverURL) + '&url=' + encodeURI(url));
     } else {
-      launchSampleDoc(codapURL + '?url=' + encodeUR(url));
+      return (codapURL + '?url=' + encodeUR(url));
     }
   }
 
@@ -535,29 +535,38 @@ $(document).ready(function (){
     var html ='',
       table=$('<table>').addClass('sample-table'),
       row,
-      launchCell=$('<a href="#">Launch</a>'),
       name,
       description,
       path,
-      url=$('<a>', {text:"Launch", href:"#"});
+      url='http://concord-consortium.github.io/codap-data/';
+
 
       mapLength = Object.keys(map).length;
 
     console.log("This is the Object.keys(map) " +Object.keys(map));
     Object.getOwnPropertyNames(map).forEach(function (val,idx, array)
     {
-      name= map[val].name;
-      description = map[val].description || '(no description available)'
-      path = map[val].path;
+      var name= map[val].name,
+        description = map[val].description || '(no description available)',
+        path = map[val].path,
+        docURL=invokeSampleDoc(val),
+        launchLink=$('<a href=' + docURL +'>Launch</a>'),
+        linkLink=$('<a href=' + url+path + '>Link</a>'),
+        tdLaunch=$('<td>').addClass('launch-button').attr({'id':val+"-launch"}),
+        tdLink = $('<td>').addClass('link-button').attr({'id':val+"-link"});
+
       console.log(val+'->'+map[val].name + ' idx is ' + idx);
+
       row=$('<tr>');
       $('<td>').addClass('document-title').text(name).appendTo(row);
       $('<td>').addClass('document-description').text(description).appendTo(row);
-      $('<td>').addClass('launch-button').attr({'id':val+"-launch"}).text("Launch").appendTo(row);
-      $('<td>').text("Link").appendTo(row);
+      launchLink.click(invokeSampleDoc(val)).appendTo(tdLaunch);
+      tdLaunch.appendTo(row);
+      linkLink.appendTo(tdLink);
+      tdLink.appendTo(row);
       row.appendTo(table);
     });
     table.appendTo('#sample-document-list');
   }
   buildPage();
-})
+});
