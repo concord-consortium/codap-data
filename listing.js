@@ -299,63 +299,63 @@ $(document).ready(function (){
         name: 'Spinner Game',
         path: 'FathomDocs/Mathematics/Probability/Spinner_Game/Spinner_Game.json'
       },
-      Sci_Astro_Extra_Solar: {
+      Scie_Astro_Extra_Solar: {
         name: 'Extra Solar',
         path: 'FathomDocs/Science/Astronomy/Extra_Solar/Extra_Solar.json'
       },
-      Sci_Astro_Jupiter_Moons: {
+      Scie_Astro_Jupiter_Moons: {
         name: 'Jupiter Moons',
         path: 'FathomDocs/Science/Astronomy/Jupiter_Moons/Jupiter_Moons.json'
       },
-      Sci_Astro_Jupiter_Radius: {
+      Scie_Astro_Jupiter_Radius: {
         name: 'Jupiter Radius',
         path: 'FathomDocs/Science/Astronomy/Jupiter_Radius/Jupiter_Radius.json'
       },
-      Sci_Astro_Space_Data: {
+      Scie_Astro_Space_Data: {
         name: 'Space Data',
         path: 'FathomDocs/Science/Astronomy/Space_Data/Space_Data.json'
       },
-      Sci_Astro_Sunspots: {
+      Scie_Astro_Sunspots: {
         name: 'Sunspots',
         path: 'FathomDocs/Science/Astronomy/Sunspots/Sunspots.json'
       },
-      Sci_Bio_Bears: {
+      Scie_Bio_Bears: {
         name: 'Bears',
         path: 'FathomDocs/Science/Biology/Bears/Bears.json'
       },
-      Sci_Bio_Bird_Obs: {
+      Scie_Bio_Bird_Obs: {
         name: 'Bird Observations',
         path: 'FathomDocs/Science/Biology/Bird_Observations/Bird_Observations.json'
       },
-      Sci_Bio_Height: {
+      Scie_Bio_Height: {
         name: 'Heights',
         path: 'FathomDocs/Science/Biology/Height/Height.json'
       },
-      Sci_Bio_Mammals: {
+      Scie_Bio_Mammals: {
         name: 'Mammals',
         path: 'FathomDocs/Science/Biology/Mammals/Mammals.json'
       },
-      Sci_Bio_Midges: {
+      Scie_Bio_Midges: {
         name: 'Midges',
         path: 'FathomDocs/Science/Biology/Midges/Midges.json'
       },
-      Sci_Bio_Prey_Ped_Pop: {
+      Scie_Bio_Prey_Ped_Pop: {
         name: 'Prey Predator Population',
         path: 'FathomDocs/Science/Biology/Prey-Ped-Pop/Prey-Ped-Pop.json'
       },
-      Sci_ESci_AVG_Temp_AL: {
+      Scie_ESci_AVG_Temp_AL: {
         name: 'Alabama Average Temperatures',
         path: 'FathomDocs/Science/E_Sciences/AVG_Temps/AL_Avg_Temps/AL_Avg_Temps.json'
       },
-      Sci_ESci_AVG_Temp_AR: {
+      Scie_ESci_AVG_Temp_AR: {
         name: 'Arkansas Average Temperatures',
         path: 'FathomDocs/Science/E_Sciences/AVG_Temps/AR_Avg_Temps/AR_Avg_Temps.json'
       },
-      Sci_ESci_AVG_Temp_AZ: {
+      Scie_ESci_AVG_Temp_AZ: {
         name: 'Arizona Average Temperatures',
         path: 'FathomDocs/Science/E_Sciences/AVG_Temps/AZ_Avg_Temps/AZ_Avg_Temps.json'
       },
-      Sci_ESci_AVG_Temp_CA: {
+      Scie_ESci_AVG_Temp_CA: {
         name: 'California Average Temperatures',
         path: 'FathomDocs/Science/E_Sciences/AVG_Temps/CA_Avg_Temps/CA_Avg_Temps.json'
       },
@@ -363,111 +363,111 @@ $(document).ready(function (){
         name: 'Colorado Average Temperatures',
         path: 'FathomDocs/Science/E_Sciences/AVG_Temps/CO_Avg_Temps/CO_Avg_Temps.json'
       },
-      Sci_ESci_AVG_Temp_FL: {
+      Scie_ESci_AVG_Temp_FL: {
         name: 'Florida Average Temperatures',
         path: 'FathomDocs/Science/E_Sciences/AVG_Temps/FL_Avg_Temps/FL_Avg_Temps.json'
       },
-      Sci_ESci_AVG_Temp_ME: {
+      Scie_ESci_AVG_Temp_ME: {
         name: 'Maine Average Temperatures',
         path: 'FathomDocs/Science/E_Sciences/AVG_Temps/ME_Avg_Temps/ME_Avg_Temps.json'
       },
-      Sci_ESci_AVG_Temp_ND: {
+      Scie_ESci_AVG_Temp_ND: {
         name: 'North Dakota Average Temperatures',
         path: 'FathomDocs/Science/E_Sciences/AVG_Temps/ND_Avg_Temps/ND_Avg_Temps.json'
       },
-      Sci_ESci_AVG_Temp_NY: {
+      Scie_ESci_AVG_Temp_NY: {
         name: 'New York Average Temperatures',
         path: 'FathomDocs/Science/E_Sciences/AVG_Temps/NY_Avg_Temps/NY_Avg_Temps.json'
       },
-      Sci_ESci_AVG_Temp_WA: {
+      Scie_ESci_AVG_Temp_WA: {
         name: 'Washington Average Temperatures',
         path: 'FathomDocs/Science/E_Sciences/AVG_Temps/WA_Avg_Temps/WA_Avg_Temps.json'
       },
-      Sci_ESci_Concord_Weather: {
+      Scie_ESci_Concord_Weather: {
         name: 'Concord Weather',
         path: 'FathomDocs/Science/E_Sciences/Concord_Weather/Concord_Weather.json'
       },
-      Sci_ESci_Earthquakes: {
+      Scie_ESci_Earthquakes: {
         name: 'Earthquakes',
         path: 'FathomDocs/Science/E_Sciences/Earthquakes/Earthquakes.json'
       },
-      Sci_ESci_Global_Carbon: {
+      Scie_ESci_Global_Carbon: {
         name: 'Global Carbon Levels',
         path: 'FathomDocs/Science/E_Sciences/Global_Carbon/Global_Carbon.json'
       },
-      Sci_ESci_Iowa: {
+      Scie_ESci_Iowa: {
         name: 'Iowa Weather',
         path: 'FathomDocs/Science/E_Sciences/Iowa/Iowa.json'
       },
-      Sci_ESci_Kobe: {
+      Scie_ESci_Kobe: {
         name: 'Kobe Earthquake',
         path: 'FathomDocs/Science/E_Sciences/Kobe/Kobe.json'
       },
-      Sci_ESci_Mauna_Loa: {
+      Scie_ESci_Mauna_Loa: {
         name: 'Mauna Loa Carbon Levels',
         path: 'FathomDocs/Science/E_Sciences/Mauna_Loa/Mauna_Loa.json'
       },
-      Sci_ESci_North_American: {
+      Scie_ESci_North_American: {
         name: 'North American Earthquakes',
         path: 'FathomDocs/Science/E_Sciences/North_American/North_American.json'
       },
-      Sci_ESci_R_Carbon: {
+      Scie_ESci_R_Carbon: {
         name: 'Regional Carbon Levels',
         path: 'FathomDocs/Science/E_Sciences/R_Carbon/R_Carbon.json'
       },
-      Sci_ESci_South_Pole: {
+      Scie_ESci_South_Pole: {
         name: 'South Pole Temperatures',
         path: 'FathomDocs/Science/E_Sciences/South_Pole/South_Pole.json'
       },
-      Sci_ESci_Tides: {
+      Scie_ESci_Tides: {
         name: 'Tides',
         path: 'FathomDocs/Science/E_Sciences/Tides/Tides.json'
       },
-      Sci_ESci_Tree_Rings: {
+      Scie_ESci_Tree_Rings: {
         name: 'Tree_Rings',
         path: 'FathomDocs/Science/E_Sciences/Tree_Rings/Tree_Rings.json'
       },
-      Sci_ESci_Weather_Machine: {
+      Scie_ESci_Weather_Machine: {
         name: 'Weather Model',
         path: 'FathomDocs/Science/E_Sciences/Weather_Machine/Weather_Maching.json'
       },
-      Sci_PhysChem_Boyle: {
+      Scie_PhysChem_Boyle: {
         name: "Boyle's Law",
         path: 'FathomDocs/Science/PhysChem/Boyle/Boyle.json'
       },
-      Sci_PhysChem_Elements: {
+      Scie_PhysChem_Elements: {
         name: "Periodic Table",
         path: 'FathomDocs/Science/PhysChem/Elements/Elements.json'
       },
-      Sci_PhysChem_Heating: {
+      Scie_PhysChem_Heating: {
         name: "Heating",
         path: 'FathomDocs/Science/PhysChem/Heating/Heating.json'
       },
-      Sci_PhysChem_Panel: {
+      Scie_PhysChem_Panel: {
         name: "Solar Panel",
         path: 'FathomDocs/Science/PhysChem/Panel/Panel.json'
       },
-      Sci_PhysChem_Radiosonde: {
+      Scie_PhysChem_Radiosonde: {
         name: "Weather Balloon",
         path: 'FathomDocs/Science/PhysChem/Radiosonde/Radiosonde.json'
       },
-      Sci_PhysChem_RB_Ball: {
+      Scie_PhysChem_RB_Ball: {
         name: "Rubber Band Ball",
         path: 'FathomDocs/Science/PhysChem/RB_Ball/RB_Ball.json'
       },
-      Sci_Tech_Airplanes: {
+      Scie_Tech_Airplanes: {
         name: "Airplanes",
         path: 'FathomDocs/Science/Technology/Airplanes/Airplanes.json'
       },
-      Sci_Tech_Cars: {
+      Scie_Tech_Cars: {
         name: "Cars",
         path: 'FathomDocs/Science/Technology/Cars/Cars.json'
       },
-      Sci_Tech_Moore_Law: {
+      Scie_Tech_Moore_Law: {
         name: "Cars",
         path: 'FathomDocs/Science/Technology/Moore_Law/Moore_Law.json'
       },
-      Sci_Tech_Nails: {
+      Scie_Tech_Nails: {
         name: "Nails",
         path: 'FathomDocs/Science/Technology/Nails/Nails.json'
       },
@@ -535,9 +535,6 @@ $(document).ready(function (){
     var html ='',
       table=$('<table>').addClass('sample-table'),
       row,
-      name,
-      description,
-      path,
       url='http://concord-consortium.github.io/codap-data/';
 
 
@@ -548,8 +545,10 @@ $(document).ready(function (){
     {
       var name= map[val].name,
         description = map[val].description || '(no description available)',
+        ready=map[val].ready,
         path = map[val].path,
         docURL=invokeSampleDoc(val),
+        tdReady=$('<td>').append($('<input/>', {'type':'checkbox'})),
         launchLink=$('<a href=' + docURL +'>Launch</a>'),
         linkLink=$('<a href=' + url+path + '>Link</a>'),
         tdLaunch=$('<td>').addClass('launch-button').attr({'id':val+"-launch"}),
@@ -558,6 +557,7 @@ $(document).ready(function (){
       console.log(val+'->'+map[val].name + ' idx is ' + idx);
 
       row=$('<tr>');
+      tdReady.appendTo(row);
       $('<td>').addClass('document-title').text(name).appendTo(row);
       $('<td>').addClass('document-description').text(description).appendTo(row);
       launchLink.click(invokeSampleDoc(val)).appendTo(tdLaunch);
