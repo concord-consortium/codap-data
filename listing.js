@@ -15,134 +15,200 @@ $(document).ready(function (){
       },
       Four_Seals: {
         name: 'Four_Seals',
+        title: 'Four Seals',
+        description:'Display the tracks of four elephant seals in the Pacific on a map. Make graphs and use selection to help determine what is going on.',
         path: 'four-seals/four-seals.json'
       },
       Mammals: {
         name: 'Mammals',
+        title:'Mammal',
+        description:'There are 27 mammals, each with eight attributes. Which of the mammals has the longest life span? Sleeps the most? What relationships can you find?',
         path: 'mammals/Mammals_Sample.json'
       },
       Parachute: {
-        name: 'Parachute Model',
+        name: 'Parachute_Model',
+        title: 'Parachute Model',
+        description: "Experiment dropping a parachute to see how changing the parachute's size and mass of its cargo changes the terminal velocity of the drop.",
         path: 'parachute/Parachute_Model_Sample.json'
       },
       States_And_People: {
-        name: 'States and People',
+        name: 'States_and_People',
+        title: 'States and Education',
+        description: "These are data gathered from the Minnesota Population Center. It provides aggregate information for the United States. What do you notice about the education levels within each state?",
         path: 'statesnpeople/States_and_Education.json'
       },
       Education_API: {
-        name: '1999 API for all California High Schools',
+        name:'CA_HS_APIs',
+        title: '1999 API for all California High Schools',
+        description:"Has 1999 APIs for all California High Schools",
         path: 'FathomDocs/Education/API_All_CA_HS_1999/API_All_CA_HS_1999.json'
       },
       Education_Calc_Grades: {
-        name: 'Calculus Grades',
+        name: 'Calculus_Grades',
+        title:'Calculus Grades',
+        description: "Grades recorded during several years for a Calculus 2 course at the Instituto Tecnológico de Costa Rica",
         path: 'FathomDocs/Education/Calc_Grades/Grades_Calc.json'
       },
       Education_Faculty_Salaries: {
-        name: 'Faculty Salaries',
+        name: 'Faculty_Salaries',
+        title: "Faculty Salaries",
+        description: "Salaries of College faculty , in the 2002-2003 academic year",
         path: 'FathomDocs/Education/Faculty_Salaries/Faculty_Salaries.json'
       },
       Education_ITCR_Students: {
-        name: 'ITCR Students',
+        name: 'ITCR_Students',
+        title: 'ITCR Students Info',
+        description: "Results from polls taken in 1993, 1994, 2000 and 2003 among students of the Instituto Tecnológico de Costa Rica.",
         path: 'FathomDocs/Education/ITCR_Students.json'
       },
       Education_School_Children: {
-        name: 'School Children',
+        name: 'School_Children',
+        title: "School Children Info",
+        description:"Age (months), height (inches), and weight (pounds) were recorded for a group of school children.",
         path: 'FathomDocs/Education/School_Children/School_Children.json'
       },
       Education_Six_Tests: {
-        name: 'Six Tests',
+        name: 'Six_Tests',
+        title: "Six Tests",
+        description: "Do students who take standardized tests multiple times have an advantage over those who just take them once or twice?",
         path: 'FathomDocs/Education/Six_Tests/Six_Tests.json'
       },
       Education_School_Enrollments: {
-        name: 'Public School Enrollments',
+        name: 'Public_School_Enrollments',
+        title: "Public School Enrollments",
+        description: "Enrollment in public elementary and secondary schools, by state or jurisdiction: Fall 1988 to Fall 2010.",
         path: 'FathomDocs/Education/State_Public_School_Enrollments/Public_School_Enrollments.json'
       },
       Education_Education_Spending: {
-        name: 'Education Spending by State',
+        name: 'State_Education_Spending',
+        title: "Education Spending by State",
+        description: "How much money each state spent on education from 1969 to 2000",
         path: 'FathomDocs/Education/States_EdSpending/States_EdSpending.json'
       },
       Education_Stats_Grades: {
-        name: 'Stats Grades',
+        name: 'Stats_Grades',
+        title: "Stats Grades",
+        description: "Grades recorded during several years for a Statistics course at the Instituto Tecnológico de Costa Rica, with one case per student",
         path: 'FathomDocs/Education/Stats_Grades/Stats_Grades.json'
       },
       Education_Students_Grades: {
-        name: "Students' Grades",
+        name: "Students_Grades",
+        title: "Students' Grades",
+        description:"Grades obtained by students in the author's classes at the Instituto Tecnológico de Costa Rica.",
         path: "FathomDocs/Education/Students'_Grades/Students'_Grades.json"
       },
       Education_TAMU_Business: {
-        name: 'TAMU Business',
+        name: 'TAMU_Business',
+        title: "Texas A and M Univ Business Students' Grades",
+        description: "Grades obtained by Business students at Texas A and M University during the years 1989-1992.",
         path: 'FathomDocs/Education/TAMU_Business/TAMU_Business.json'
       },
       Education_Visits: {
         name: 'Visits',
+        title: "Visits",
+        description: "Visits of students to author's office hours.",
         path: 'FathomDocs/Education/Visits/Visits.json'
       },
       LA_2000_Words: {
-        name: '2000 Words',
+        name: '2000_Words',
+        title: "2000 Words",
+        description: "2000 words randomly chosen from the YAWL (yet another word list) that comes with the Unix operating system.",
         path: 'FathomDocs/LanguageArts/2000_Words/2000_Words.json'
       },
       LA_Art_Paintings: {
-        name: 'Art Paintings',
+        name: 'Art_Paintings',
+        title: "Art Paintings",
+        description: "This catalog of paintings is supplied by the National Gallery of Art",
         path: 'FathomDocs/LanguageArts/Art_Paintings/Art_Paintings.json'
       },
       LA_Artists: {
         name: 'Artists',
+        title: "Artists",
+        description: "List of art by artists",
         path: 'FathomDocs/LanguageArts/Artists/Artists.json'
       },
       LA_Googlewhacks: {
         name: 'Googlewhacks',
+        title: "Googlewhacks",
+        description: "The collection at left contains the most recent 500 of the more than 450,000 Googlewhacks that were listed on November 11, 2004.",
         path: 'FathomDocs/LanguageArts/Googlewhacks/Googlewhacks.json'
       },
       LA_TextPass_Bush89: {
-        name: 'Bush 1989 Speech',
+        name: 'Bush_89_Speech',
+        title: "Bush 1989 Inaugural Speech",
+        description: "Analyze the letter count of five paragraphs of George H. W. Bush's Inaugural Address, January 20, 1989.",
         path: 'FathomDocs/LanguageArts/TextPassages/Bush89/Bush89.json'
       },
       LA_TextPass_Declaration: {
-        name: 'Declaration of Independence',
+        name: 'Declaration_of_Independence',
+        title: "Declaration of Independence",
+        description: "Analyze the letter count of the first two paragraphs of the United States Declaration of Independence.",
         path: 'FathomDocs/LanguageArts/TextPassages/Declaration/Declaration.json'
       },
       LA_TextPass_Don: {
-        name: 'Don Juan',
+        name: 'Don_Juan',
+        title: "Don Juan",
+        description: "Analyze the letter count of of the first two paragraphs of Don Quixote de la Mancha.",
         path: 'FathomDocs/LanguageArts/TextPassages/Don/Don.json'
       },
       LA_TextPass_Faust: {
         name: 'Faust',
+        title: "Faust",
+        description: "Analyze the letter count of Goethe's Faust.",
         path: 'FathomDocs/LanguageArts/TextPassages/Faust/Faust.json'
       },
       LA_TextPass_Gettysburg: {
-        name: 'Gettysburg Address',
+        name: 'Gettysburg_Address',
+        title: "Gettysburg Address",
+        description:"Analyze the letter count in three paragraphs of the Gettysburg Address.",
         path: 'FathomDocs/LanguageArts/TextPassages/Gettysburg/Gettysburg.json'
       },
       LA_TextPass_OldMan: {
-        name: 'The Old Man and the Sea',
+        name: 'Old_Man_and_Sea',
+        title: "The Old Man and The Sea",
+        description : "Analyze the letter count in a passage from The Old Man and The Sea",
         path: 'FathomDocs/LanguageArts/TextPassages/OldMan/OldMan.json'
       },
       Math_Algebra_Buildings: {
         name: 'Buildings',
+        title: "Building Heights",
+        description: "How is the height of a building related to the number of stories it has?",
         path: 'FathomDocs/Mathematics/Algebra/Buildings/Buildings.json'
       },
       Math_Algebra_Compound: {
         name: 'Compound',
+        title: "Compound Interest",
+        description: "Case table shows a model of a savings account.",
         path: 'FathomDocs/Mathematics/Algebra/Compound/Compound.json'
       },
       Math_Algebra_Cost: {
-        name: 'Cost Adjustment by Year',
+        name: 'Cost_Adj_by_Year',
+        title: "Cost Adjustment by Year",
+        description: "How much is your money worth based on the consumer price index",
         path: 'FathomDocs/Mathematics/Algebra/Cost/Cost.json'
       },
       Math_Algebra_Font_Size: {
-        name: 'Font Size',
+        name: 'Font_Size',
+        title: "Font Size",
+        description: "Measurements of the length of a column and notice how that changes with the number of words and the font size.",
         path: 'FathomDocs/Mathematics/Algebra/Font_Size/Font_Size.json'
       },
       Math_Algebra_Guess: {
         name: 'Guess',
+        title: "Guess and Check",
+        description: "A 'guess and check' method for finding the correct answer to an Algebra problem.",
         path: 'FathomDocs/Mathematics/Algebra/Guess/Guess.json'
       },
       Math_Algebra_Pi: {
         name: 'Pi',
+        title: "Pi Scale",
+        description: "A scale marked in units of pi",
         path: 'FathomDocs/Mathematics/Algebra/Pi/Pi.json'
       },
       Math_Algebra_Quad: {
-        name: 'Quadratic Relationship',
+        name: 'Quadratic_Relationship',
+        title: "Quadratic Relationship",
+        description: "Figure out a method to find the best curve through the points.",
         path: 'FathomDocs/Mathematics/Algebra/Quad/Quad.json'
       },
       Math_Calculus_Integral: {
@@ -436,11 +502,12 @@ $(document).ready(function (){
     }
 
 
-  function launch(url) {
+  function launchSampleDoc(url) {
     window.open(url, '_blank');
   }
 
   function invokeSampleDoc(name) {
+    console.log("In invokeSampleDoc" + name);
     var codapURL = document.getElementById('codap-url').value,
       docserverURL = document.getElementById('doc-server-url').value,
       oldLocation = location.href,
@@ -449,9 +516,9 @@ $(document).ready(function (){
       url = 'http://concord-consortium.github.io/codap-data/' + path;
 
     if (docserverURL) {
-      launch(codapURL + '?documentServer=' + encodeURI(docserverURL) + '&url=' + encodeURI(url));
+      launchSampleDoc(codapURL + '?documentServer=' + encodeURI(docserverURL) + '&url=' + encodeURI(url));
     } else {
-      launch(codapURL + '?url=' + encodeUR(url));
+      launchSampleDoc(codapURL + '?url=' + encodeUR(url));
     }
   }
 
@@ -468,33 +535,29 @@ $(document).ready(function (){
     var html ='',
       table=$('<table>').addClass('sample-table'),
       row,
+      launchCell=$('<a href="#">Launch</a>'),
       name,
       description,
       path,
-      url;
+      url=$('<a>', {text:"Launch", href:"#"});
 
       mapLength = Object.keys(map).length;
-    html +='<ul>';
+
     console.log("This is the Object.keys(map) " +Object.keys(map));
     Object.getOwnPropertyNames(map).forEach(function (val,idx, array)
     {
       name= map[val].name;
       description = map[val].description || '(no description available)'
       path = map[val].path;
-      console.log(val+'->'+map[val].name);
+      console.log(val+'->'+map[val].name + ' idx is ' + idx);
       row=$('<tr>');
       $('<td>').addClass('document-title').text(name).appendTo(row);
       $('<td>').addClass('document-description').text(description).appendTo(row);
+      $('<td>').addClass('launch-button').attr({'id':val+"-launch"}).text("Launch").appendTo(row);
+      $('<td>').text("Link").appendTo(row);
       row.appendTo(table);
     });
-
-
     table.appendTo('#sample-document-list');
-
   }
   buildPage();
 })
-
-
-
-
