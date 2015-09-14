@@ -1,303 +1,411 @@
 $(document).ready(function (){
+/* map attribute definitions:
+    title = name of document as it appears in github.io/codap-data website
+    description = gives a brief description of document
+    path = path to document json file in github
+    ready = checkbox to indicate whether a document needs more work. Check mark indicates document needs more work.
+    categories = an array of categories that document can fall under in github.io/codap-data website */
 
   var map = {
       Markov: {
-        name: 'Markov',
-        title: 'Markov Data Game',
+        title: 'Markov',
         description: "Play Roshambo agains the evil Dr. Markov. If you win, you can save Madeline the dog. Improve you odds by analyzing Markov's moves in a graph.",
-        path: 'markov/Markov_Sample.json'
+        path: 'markov/Markov_Sample.json',
+        ready: true,
+        categories: ['statistics']
       },
       Climate_Change: {
-        name: 'Climate_Change',
-        title: "Climate Change",
+        title: 'Climate Change',
         description: "This is a simulation model of Climate Changes.",
-        path: 'Climate_Change/Climate-Change-A.json'
+        path: 'Climate_Change/Climate-Change-A.json',
+        ready: true,
+        categories: ['model']
       },
       Four_Seals: {
-        name: 'Four_Seals',
         title: 'Four Seals',
         description:'Display the tracks of four elephant seals in the Pacific on a map. Make graphs and use selection to help determine what is going on.',
-        path: 'four-seals/four-seals.json'
+        path: 'four-seals/four-seals.json',
+        ready: true,
+        categories: ['map']
       },
       Mammals: {
-        name: 'Mammals',
         title:'Mammal',
         description:'There are 27 mammals, each with eight attributes. Which of the mammals has the longest life span? Sleeps the most? What relationships can you find?',
-        path: 'mammals/Mammals_Sample.json'
+        path: 'mammals/Mammals_Sample.json',
+        ready: true,
+        categories: ['science']
+
       },
       Parachute: {
-        name: 'Parachute_Model',
         title: 'Parachute Model',
         description: "Experiment dropping a parachute to see how changing the parachute's size and mass of its cargo changes the terminal velocity of the drop.",
-        path: 'parachute/Parachute_Model_Sample.json'
+        path: 'parachute/Parachute_Model_Sample.json',
+        ready: true,
+        categories: ['model']
       },
       States_And_People: {
-        name: 'States_and_People',
         title: 'States and Education',
         description: "These are data gathered from the Minnesota Population Center. It provides aggregate information for the United States. What do you notice about the education levels within each state?",
-        path: 'statesnpeople/States_and_Education.json'
+        path: 'statesnpeople/States_and_Education.json',
+        ready: true,
+        categories: ['map']
       },
       Education_API: {
-        name:'CA_HS_APIs',
         title: '1999 API for all California High Schools',
         description:"Has 1999 APIs for all California High Schools",
-        path: 'FathomDocs/Education/API_All_CA_HS_1999/API_All_CA_HS_1999.json'
+        path: 'FathomDocs/Education/API_All_CA_HS_1999/API_All_CA_HS_1999.json',
+        ready: true,
+        categories: ['education']
       },
       Education_Calc_Grades: {
-        name: 'Calculus_Grades',
         title:'Calculus Grades',
         description: "Grades recorded during several years for a Calculus 2 course at the Instituto Tecnológico de Costa Rica",
-        path: 'FathomDocs/Education/Calc_Grades/Grades_Calc.json'
+        path: 'FathomDocs/Education/Calc_Grades/Grades_Calc.json',
+        ready: false,
+        categories: ['education']
       },
       Education_Faculty_Salaries: {
-        name: 'Faculty_Salaries',
         title: "Faculty Salaries",
         description: "Salaries of College faculty , in the 2002-2003 academic year",
-        path: 'FathomDocs/Education/Faculty_Salaries/Faculty_Salaries.json'
+        path: 'FathomDocs/Education/Faculty_Salaries/Faculty_Salaries.json',
+        ready: false,
+        categories: ['education']
       },
       Education_ITCR_Students: {
-        name: 'ITCR_Students',
         title: 'ITCR Students Info',
         description: "Results from polls taken in 1993, 1994, 2000 and 2003 among students of the Instituto Tecnológico de Costa Rica.",
-        path: 'FathomDocs/Education/ITCR_Students.json'
+        path: 'FathomDocs/Education/ITCR_Students.json',
+        ready: false,
+        categories: ['education']
       },
       Education_School_Children: {
-        name: 'School_Children',
         title: "School Children Info",
         description:"Age (months), height (inches), and weight (pounds) were recorded for a group of school children.",
-        path: 'FathomDocs/Education/School_Children/School_Children.json'
+        path: 'FathomDocs/Education/School_Children/School_Children.json',
+        ready: false,
+        categories: ['education']
       },
       Education_Six_Tests: {
-        name: 'Six_Tests',
         title: "Six Tests",
         description: "Do students who take standardized tests multiple times have an advantage over those who just take them once or twice?",
-        path: 'FathomDocs/Education/Six_Tests/Six_Tests.json'
+        path: 'FathomDocs/Education/Six_Tests/Six_Tests.json',
+        ready: false,
+        categories: ['education']
       },
       Education_School_Enrollments: {
-        name: 'Public_School_Enrollments',
-        title: "Public School Enrollments",
+        title: "State Public School Enrollments",
         description: "Enrollment in public elementary and secondary schools, by state or jurisdiction: Fall 1988 to Fall 2010.",
-        path: 'FathomDocs/Education/State_Public_School_Enrollments/Public_School_Enrollments.json'
+        path: 'FathomDocs/Education/State_Public_School_Enrollments/Public_School_Enrollments.json',
+        ready: false,
+        categories: ['education']
       },
       Education_Education_Spending: {
-        name: 'State_Education_Spending',
         title: "Education Spending by State",
         description: "How much money each state spent on education from 1969 to 2000",
-        path: 'FathomDocs/Education/States_EdSpending/States_EdSpending.json'
+        path: 'FathomDocs/Education/States_EdSpending/States_EdSpending.json',
+        ready: false,
+        categories: ['education']
       },
       Education_Stats_Grades: {
-        name: 'Stats_Grades',
         title: "Stats Grades",
         description: "Grades recorded during several years for a Statistics course at the Instituto Tecnológico de Costa Rica, with one case per student",
-        path: 'FathomDocs/Education/Stats_Grades/Stats_Grades.json'
+        path: 'FathomDocs/Education/Stats_Grades/Stats_Grades.json',
+        ready: false,
+        categories: ['education']
       },
       Education_Students_Grades: {
-        name: "Students_Grades",
         title: "Students' Grades",
         description:"Grades obtained by students in the author's classes at the Instituto Tecnológico de Costa Rica.",
-        path: "FathomDocs/Education/Students'_Grades/Students'_Grades.json"
+        path: "FathomDocs/Education/Students'_Grades/Students'_Grades.json",
+        ready: false,
+        categories: ['education']
       },
       Education_TAMU_Business: {
-        name: 'TAMU_Business',
         title: "Texas A and M Univ Business Students' Grades",
         description: "Grades obtained by Business students at Texas A and M University during the years 1989-1992.",
-        path: 'FathomDocs/Education/TAMU_Business/TAMU_Business.json'
+        path: 'FathomDocs/Education/TAMU_Business/TAMU_Business.json',
+        ready: false,
+        categories: ['education']
       },
       Education_Visits: {
-        name: 'Visits',
         title: "Visits",
         description: "Visits of students to author's office hours.",
-        path: 'FathomDocs/Education/Visits/Visits.json'
+        path: 'FathomDocs/Education/Visits/Visits.json',
+        ready: false,
+        categories: ['education']
       },
       LA_2000_Words: {
-        name: '2000_Words',
         title: "2000 Words",
         description: "2000 words randomly chosen from the YAWL (yet another word list) that comes with the Unix operating system.",
-        path: 'FathomDocs/LanguageArts/2000_Words/2000_Words.json'
+        path: 'FathomDocs/LanguageArts/2000_Words/2000_Words.json',
+        ready: false,
+        categories: ['langarts']
       },
       LA_Art_Paintings: {
-        name: 'Art_Paintings',
         title: "Art Paintings",
         description: "This catalog of paintings is supplied by the National Gallery of Art",
-        path: 'FathomDocs/LanguageArts/Art_Paintings/Art_Paintings.json'
+        path: 'FathomDocs/LanguageArts/Art_Paintings/Art_Paintings.json',
+        ready: true,
+        categories: ['langarts']
       },
       LA_Artists: {
-        name: 'Artists',
         title: "Artists",
         description: "List of art by artists",
-        path: 'FathomDocs/LanguageArts/Artists/Artists.json'
+        path: 'FathomDocs/LanguageArts/Artists/Artists.json',
+        ready: false,
+        categories: ['langarts']
       },
       LA_Googlewhacks: {
-        name: 'Googlewhacks',
         title: "Googlewhacks",
         description: "The collection at left contains the most recent 500 of the more than 450,000 Googlewhacks that were listed on November 11, 2004.",
-        path: 'FathomDocs/LanguageArts/Googlewhacks/Googlewhacks.json'
+        path: 'FathomDocs/LanguageArts/Googlewhacks/Googlewhacks.json',
+        ready: false,
+        categories: ['langarts']
       },
       LA_TextPass_Bush89: {
-        name: 'Bush_89_Speech',
         title: "Bush 1989 Inaugural Speech",
         description: "Analyze the letter count of five paragraphs of George H. W. Bush's Inaugural Address, January 20, 1989.",
-        path: 'FathomDocs/LanguageArts/TextPassages/Bush89/Bush89.json'
+        path: 'FathomDocs/LanguageArts/TextPassages/Bush89/Bush89.json',
+        ready: true,
+        categories: ['langarts']
       },
       LA_TextPass_Declaration: {
-        name: 'Declaration_of_Independence',
         title: "Declaration of Independence",
         description: "Analyze the letter count of the first two paragraphs of the United States Declaration of Independence.",
-        path: 'FathomDocs/LanguageArts/TextPassages/Declaration/Declaration.json'
+        path: 'FathomDocs/LanguageArts/TextPassages/Declaration/Declaration.json',
+        ready: true,
+        categories: ['langarts']
       },
       LA_TextPass_Don: {
-        name: 'Don_Juan',
         title: "Don Juan",
         description: "Analyze the letter count of of the first two paragraphs of Don Quixote de la Mancha.",
-        path: 'FathomDocs/LanguageArts/TextPassages/Don/Don.json'
+        path: 'FathomDocs/LanguageArts/TextPassages/Don/Don.json',
+        ready: true,
+        categories: ['langarts']
       },
       LA_TextPass_Faust: {
-        name: 'Faust',
         title: "Faust",
         description: "Analyze the letter count of Goethe's Faust.",
-        path: 'FathomDocs/LanguageArts/TextPassages/Faust/Faust.json'
+        path: 'FathomDocs/LanguageArts/TextPassages/Faust/Faust.json',
+        ready: true,
+        categories: ['langarts']
       },
       LA_TextPass_Gettysburg: {
-        name: 'Gettysburg_Address',
         title: "Gettysburg Address",
         description:"Analyze the letter count in three paragraphs of the Gettysburg Address.",
-        path: 'FathomDocs/LanguageArts/TextPassages/Gettysburg/Gettysburg.json'
+        path: 'FathomDocs/LanguageArts/TextPassages/Gettysburg/Gettysburg.json',
+        ready: true,
+        categories: ['langarts']
       },
       LA_TextPass_OldMan: {
-        name: 'Old_Man_and_Sea',
         title: "The Old Man and The Sea",
         description : "Analyze the letter count in a passage from The Old Man and The Sea",
-        path: 'FathomDocs/LanguageArts/TextPassages/OldMan/OldMan.json'
+        path: 'FathomDocs/LanguageArts/TextPassages/OldMan/OldMan.json',
+        ready: true,
+        categories: ['langarts']
       },
       Math_Algebra_Buildings: {
-        name: 'Buildings',
         title: "Building Heights",
         description: "How is the height of a building related to the number of stories it has?",
-        path: 'FathomDocs/Mathematics/Algebra/Buildings/Buildings.json'
+        path: 'FathomDocs/Mathematics/Algebra/Buildings/Buildings.json',
+        ready: false,
+        categories: ['algebra']
       },
       Math_Algebra_Compound: {
-        name: 'Compound',
         title: "Compound Interest",
         description: "Case table shows a model of a savings account.",
-        path: 'FathomDocs/Mathematics/Algebra/Compound/Compound.json'
+        path: 'FathomDocs/Mathematics/Algebra/Compound/Compound.json',
+        ready: true,
+        categories: ['algebra']
       },
       Math_Algebra_Cost: {
-        name: 'Cost_Adj_by_Year',
         title: "Cost Adjustment by Year",
         description: "How much is your money worth based on the consumer price index",
-        path: 'FathomDocs/Mathematics/Algebra/Cost/Cost.json'
+        path: 'FathomDocs/Mathematics/Algebra/Cost/Cost.json',
+        ready: false,
+        categories: ['algebra']
       },
       Math_Algebra_Font_Size: {
-        name: 'Font_Size',
         title: "Font Size",
         description: "Measurements of the length of a column and notice how that changes with the number of words and the font size.",
-        path: 'FathomDocs/Mathematics/Algebra/Font_Size/Font_Size.json'
+        path: 'FathomDocs/Mathematics/Algebra/Font_Size/Font_Size.json',
+        ready: true,
+        categories: ['algebra']
       },
       Math_Algebra_Guess: {
-        name: 'Guess',
         title: "Guess and Check",
         description: "A 'guess and check' method for finding the correct answer to an Algebra problem.",
-        path: 'FathomDocs/Mathematics/Algebra/Guess/Guess.json'
+        path: 'FathomDocs/Mathematics/Algebra/Guess/Guess.json',
+        ready: true,
+        categories: ['algebra']
       },
       Math_Algebra_Pi: {
-        name: 'Pi',
         title: "Pi Scale",
         description: "A scale marked in units of pi",
-        path: 'FathomDocs/Mathematics/Algebra/Pi/Pi.json'
+        path: 'FathomDocs/Mathematics/Algebra/Pi/Pi.json',
+        ready: true,
+        categories: ['algebra']
       },
       Math_Algebra_Quad: {
-        name: 'Quadratic_Relationship',
         title: "Quadratic Relationship",
         description: "Figure out a method to find the best curve through the points.",
-        path: 'FathomDocs/Mathematics/Algebra/Quad/Quad.json'
+        path: 'FathomDocs/Mathematics/Algebra/Quad/Quad.json',
+        ready: true,
+        categories: ['algebra']
       },
       Math_Calculus_Integral: {
-        name: 'Integral',
-        path: 'FathomDocs/Mathematics/Calculus/Integral/Integral.json'
+        title: 'Integrals and Derivatives',
+        description: 'Demonstrates the visualization or integrals and derivatives',
+        path: 'FathomDocs/Mathematics/Calculus/Integral/Integral.json',
+        ready: true,
+        categories: ['calculus']
       },
       Math_Calculus_Integration: {
-        name: 'Integration',
-        path: 'FathomDocs/Mathematics/Calculus/Integration/Integration.json'
+        title: 'Integration',
+        description: 'This document illustrates how to do numerical integration of an arbitrary function.',
+        path: 'FathomDocs/Mathematics/Calculus/Integration/Integration.json',
+        ready: true,
+        categories: ['calculus']
       },
       Math_Calculus_Logistics: {
-        name: 'Logistics',
-        path: 'FathomDocs/Mathematics/Calculus/Logistics/Logistics.json'
+        title: 'Logistics',
+        description: 'Investigate the effect of changing x and k in the logistics function f(x)=kx(1-x)',
+        path: 'FathomDocs/Mathematics/Calculus/Logistics/Logistics.json',
+        ready: true,
+        categories: ['calculus']
       },
       Math_Calculus_Minimization: {
-        name: 'Minimization',
-        path: 'FathomDocs/Mathematics/Calculus/Minimization/Minimization.json'
+        title: 'Minimization',
+        description: 'Find the minimum of a plotted function',
+        path: 'FathomDocs/Mathematics/Calculus/Minimization/Minimization.json',
+        ready: false,
+        categories: ['calculus']
       },
       Math_Calculus_Pi: {
-        name: 'Pi',
-        path: 'FathomDocs/Mathematics/Calculus/Pi/Pi.json'
+        title: 'Unit Pi',
+        description: 'Plotting a graph that uses pi as a unit',
+        path: 'FathomDocs/Mathematics/Calculus/Pi/Pi.json',
+        ready: false,
+        categories: ['calculus']
       },
       Math_Geometry_Solids: {
-        name: 'Solids',
-        path: 'FathomDocs/Mathematics/Geometry/Solids/Solids.json'
+        title: 'Johnson Solids',
+        description: 'Explore the Johnson solids',
+        path: 'FathomDocs/Mathematics/Geometry/Solids/Solids.json',
+        ready: true,
+        categories: ['geometry']
       },
       Math_NTheory_Pi: {
-        name: 'Digits of Pi',
-        path: 'FathomDocs/Mathematics/Number_Theory/Digits_of_Pi/Digits_of_Pi.json'
+        title: 'Digits of Pi',
+        description: 'Explore the digits of pi',
+        path: 'FathomDocs/Mathematics/Number_Theory/Digits_of_Pi/Digits_of_Pi.json',
+        ready: true,
+        categories: ['num_theory','other_math']
       },
       Math_NTheory_IntRing: {
-        name: 'Integer Ring',
-        path: 'FathomDocs/Mathematics/Number_Theory/Integer_Ring/Integer_Ring.json'
+        title: 'Integer Ring',
+        description:'Explore the patterns of addition and multiplication of integers',
+        path: 'FathomDocs/Mathematics/Number_Theory/Integer_Ring/Integer_Ring.json',
+        ready: false,
+        categories: ['num_theory']
       },
       Math_NTheory_Prime_Density: {
-        name: 'Prime Density',
-        path: 'FathomDocs/Mathematics/Number_Theory/Prime_Density/Prime_Density.json'
+        title: 'Prime Density',
+        description: 'Investigate the spacing between prime numbers',
+        path: 'FathomDocs/Mathematics/Number_Theory/Prime_Density/Prime_Density.json',
+        ready: false,
+        categories: ['num_theory']
       },
       Math_OMath_Growth: {
-        name: 'Growth',
-        path: 'FathomDocs/Mathematics/Other_Mathematics/Growth/Growth.json'
+        title: 'Growth',
+        description: 'Investigate the theory of chaotic growth',
+        path: 'FathomDocs/Mathematics/Other_Mathematics/Growth/Growth.json',
+        ready: false,
+        categories:['num_theory']
       },
       Math_OMath_NumTheory_Pi: {
-        name: 'Number Theory Pi',
-        path: 'FathomDocs/Mathematics/Other_Mathematics/Number_Theory/Digits_of_Pi/Digits_of_Pi.json'
+        title: 'Number Theory Pi',
+        description: 'Similar to Digits of Pi in Number Theory',
+        path: 'FathomDocs/Mathematics/Other_Mathematics/Number_Theory/Digits_of_Pi/Digits_of_Pi.json',
+        ready: true,
+        categories: ['num_theory','other_math']
       },
       Math_OMath_Series: {
-        name: 'Series',
-        path: 'FathomDocs/Mathematics/Other_Mathematics/Series/Series.json'
+        title: 'Fourier Series',
+        description: 'Explore the Fourier Series',
+        path: 'FathomDocs/Mathematics/Other_Mathematics/Series/Series.json',
+        ready: false,
+        categories: ['num_theory']
       },
       Math_Prob_Birthdays: {
-        name: 'Birthdays',
-        path: 'FathomDocs/Mathematics/Probability/Birthdays/Birthdays.json'
+        title: 'Birthdays',
+        description: 'Explore the distribution of bithdays in the USj in 1978',
+        path: 'FathomDocs/Mathematics/Probability/Birthdays/Birthdays.json',
+        ready: true,
+        categories: ['probability']
       },
       Math_Prob_Blackjack: {
-        name: 'Blackjack',
-        path: 'FathomDocs/Mathematics/Probability/Blackjack/Blackjack.json'
+        title: 'Blackjack',
+        description: 'How many of the card pairs make a blackjack hand?',
+        path: 'FathomDocs/Mathematics/Probability/Blackjack/Blackjack.json',
+        ready: true,
+        categories: ['probability']
       },
       Math_Prob_Chaos: {
-        name: 'Chaos Game',
-        path: 'FathomDocs/Mathematics/Probability/Chaos_Game/Chaos_Game.json'
+        title: 'Chaos Game Simulation',
+        description: 'Explore the Chaos Game!',
+        path: 'FathomDocs/Mathematics/Probability/Chaos_Game/Chaos_Game.json',
+        ready: false,
+        categories: ['probability']
       },
       Math_Prob_Est_Pi: {
-        name: 'Estimating Pi',
-        path: 'FathomDocs/Mathematics/Probability/Estimating_Pi/Estimating_Pi.json'
+        title: 'Estimating Pi',
+        description: 'How to use the graph to estimate pi',
+        path: 'FathomDocs/Mathematics/Probability/Estimating_Pi/Estimating_Pi.json',
+        ready: true,
+        categories: ['probability']
       },
       Math_Prob_Geo_Cards: {
-        name: 'Geometric Cards',
-        path: 'FathomDocs/Mathematics/Probability/Geometric_Cards/Geometric_Cards.json'
+        title: 'Geometric Cards',
+        description: 'How many cards do you have to draw until you get a club',
+        path: 'FathomDocs/Mathematics/Probability/Geometric_Cards/Geometric_Cards.json',
+        ready: true,
+        categories: ['probability']
       },
       Math_Prob_Life_Expect: {
-        name: 'Life Expectancy',
-        path: 'FathomDocs/Mathematics/Probability/Life_Expectancy/Life_Expectancy.json'
+        title: 'Life Expectancy Probability',
+        description: "What's the chance you're going to die in the next year",
+        path: 'FathomDocs/Mathematics/Probability/Life_Expectancy/Life_Expectancy.json',
+        ready: true,
+        categories: ['probability']
       },
       Math_Prob_Lotto: {
-        name: 'Lotto',
-        path: 'FathomDocs/Mathematics/Probability/Lotto/Lotto.json'
+        title: 'Lotto',
+        description: 'Does Lotto pay?',
+        path: 'FathomDocs/Mathematics/Probability/Lotto/Lotto.json',
+        ready: false,
+        categories: ['probability']
       },
       Math_Prob_Motion: {
-        name: 'Motion',
-        path: 'FathomDocs/Mathematics/Probability/Motion/Motion.json'
+        title: 'Brownian Motion',
+        description: 'Explore the motion of a molecule',
+        path: 'FathomDocs/Mathematics/Probability/Motion/Motion.json',
+        ready: true,
+        categories: ['probability']
       },
       Math_Prob_Shoot_Match: {
-        name: 'Shooting Match',
-        path: 'FathomDocs/Mathematics/Probability/Shooting_Match/Shooting_Match.json'
+        title: 'Shooting Match',
+        description: 'Which strategy is best when each person has different shooting abilities',
+        path: 'FathomDocs/Mathematics/Probability/Shooting_Match/Shooting_Match.json',
+        ready: true,
+        categories: ['probability']
       },
       Math_Prob_Spin_Game: {
-        name: 'Spinner Game',
-        path: 'FathomDocs/Mathematics/Probability/Spinner_Game/Spinner_Game.json'
+        title: 'Spinner Game',
+        description: 'What is the best largest value for Player 1 in the Showcase Showdown',
+        path: 'FathomDocs/Mathematics/Probability/Spinner_Game/Spinner_Game.json',
+        ready: true,
+        categories: ['probability']
       },
       Scie_Astro_Extra_Solar: {
         name: 'Extra Solar',
@@ -537,28 +645,30 @@ $(document).ready(function (){
       row,
       url='http://concord-consortium.github.io/codap-data/';
 
-
       mapLength = Object.keys(map).length;
 
-    console.log("This is the Object.keys(map) " +Object.keys(map));
     Object.getOwnPropertyNames(map).forEach(function (val,idx, array)
     {
-      var name= map[val].name,
+      var title= map[val].title,
         description = map[val].description || '(no description available)',
         ready=map[val].ready,
         path = map[val].path,
         docURL=invokeSampleDoc(val),
-        tdReady=$('<td>').append($('<input/>', {'type':'checkbox'})),
-        launchLink=$('<a href=' + docURL +'>Launch</a>'),
+        //tdReady=$('<td>').append($('<input/>', {'type':'checkbox'})),
+        launchLink=$('<a target = "_blank" href=' + docURL +'>Launch</a>'),
         linkLink=$('<a href=' + url+path + '>Link</a>'),
         tdLaunch=$('<td>').addClass('launch-button').attr({'id':val+"-launch"}),
         tdLink = $('<td>').addClass('link-button').attr({'id':val+"-link"});
 
       console.log(val+'->'+map[val].name + ' idx is ' + idx);
-
+      if (map[val].ready === false) {
+        tdReady=$('<td>').append($('<input/>', {'type':'checkbox'}).prop("checked",true));
+      } else {
+        tdReady=$('<td>').append($('<input/>', {'type':'checkbox'}));
+      }
       row=$('<tr>');
       tdReady.appendTo(row);
-      $('<td>').addClass('document-title').text(name).appendTo(row);
+      $('<td>').addClass('document-title').text(title).appendTo(row);
       $('<td>').addClass('document-description').text(description).appendTo(row);
       launchLink.click(invokeSampleDoc(val)).appendTo(tdLaunch);
       tdLaunch.appendTo(row);
