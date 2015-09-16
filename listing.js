@@ -408,204 +408,354 @@ $(document).ready(function (){
         categories: ['probability']
       },
       Scie_Astro_Extra_Solar: {
-        name: 'Extra Solar',
-        path: 'FathomDocs/Science/Astronomy/Extra_Solar/Extra_Solar.json'
+        title: 'Extra Solar',
+          description: 'Explore 111 extrasolar masses and orbital characteristics of known extrasolar planets',
+        path: 'FathomDocs/Science/Astronomy/Extra_Solar/Extra_Solar.json',
+          ready: true,
+          categories:['astrology']
       },
       Scie_Astro_Jupiter_Moons: {
-        name: 'Jupiter Moons',
-        path: 'FathomDocs/Science/Astronomy/Jupiter_Moons/Jupiter_Moons.json'
+        title: 'Jupiter Moons',
+          description: 'A case table about four moons of Jupiter: Io, Europa, Ganymede, and Callisto',
+        path: 'FathomDocs/Science/Astronomy/Jupiter_Moons/Jupiter_Moons.json',
+          ready: true,
+          categories: ['astrology']
       },
       Scie_Astro_Jupiter_Radius: {
-        name: 'Jupiter Radius',
-        path: 'FathomDocs/Science/Astronomy/Jupiter_Radius/Jupiter_Radius.json'
+        title: 'Jupiter Radius',
+          description: 'Explain the plot of radius versus mean Julian date',
+        path: 'FathomDocs/Science/Astronomy/Jupiter_Radius/Jupiter_Radius.json',
+          ready: true,
+          categories: ['astrology']
       },
       Scie_Astro_Space_Data: {
-        name: 'Space Data',
-        path: 'FathomDocs/Science/Astronomy/Space_Data/Space_Data.json'
+        title: 'Space Data',
+          description: 'Explore a study about how to grow plants in space.',
+        path: 'FathomDocs/Science/Astronomy/Space_Data/Space_Data.json',
+          ready: true,
+          categories: ['astrology']
       },
       Scie_Astro_Sunspots: {
-        name: 'Sunspots',
-        path: 'FathomDocs/Science/Astronomy/Sunspots/Sunspots.json'
+        title: 'Sunspots',
+          description: 'A case table gives the sunspot number for a random sample of 2000 days since 1951.',
+        path: 'FathomDocs/Science/Astronomy/Sunspots/Sunspots.json',
+          ready: true,
+          categories: ['astrology']
       },
       Scie_Bio_Bears: {
-        name: 'Bears',
-        path: 'FathomDocs/Science/Biology/Bears/Bears.json'
+        title: 'Bears',
+          description: 'How can you use other measurements to measure the weight of a bear',
+        path: 'FathomDocs/Science/Biology/Bears/Bears.json',
+          ready: true,
+          categories: ['biology']
       },
       Scie_Bio_Bird_Obs: {
-        name: 'Bird Observations',
-        path: 'FathomDocs/Science/Biology/Bird_Observations/Bird_Observations.json'
+        title: 'Bird Observations',
+          description: 'Explore raw data about what bird species were seen and when, per year',
+        path: 'FathomDocs/Science/Biology/Bird_Observations/Bird_Observations.json',
+          ready: true,
+          categories:['biology']
       },
       Scie_Bio_Height: {
-        name: 'Heights',
-        path: 'FathomDocs/Science/Biology/Height/Height.json'
+        title: 'Heights',
+          description: 'What is the difference in heights at different times of the day for several subjects between the ages of 20 and 25',
+        path: 'FathomDocs/Science/Biology/Height/Height.json',
+          ready: true,
+          categories: ['biology']
       },
       Scie_Bio_Mammals: {
-        name: 'Mammals',
-        path: 'FathomDocs/Science/Biology/Mammals/Mammals.json'
+        title: 'Mammals',
+          description: 'Explore the sleeping habits of 62 different species of mammals',
+        path: 'FathomDocs/Science/Biology/Mammals/Mammals.json',
+          ready: true,
+          categories: ['biology']
       },
       Scie_Bio_Midges: {
-        name: 'Midges',
-        path: 'FathomDocs/Science/Biology/Midges/Midges.json'
+        title: 'Midges',
+          description: 'What are the difference between two varieties of midges',
+        path: 'FathomDocs/Science/Biology/Midges/Midges.json',
+          ready: true,
+          categories: ['biology']
       },
       Scie_Bio_Prey_Ped_Pop: {
-        name: 'Prey Predator Population',
-        path: 'FathomDocs/Science/Biology/Prey-Ped-Pop/Prey-Ped-Pop.json'
+        title: 'Prey Predator Population',
+          description: 'Explore data of a simulated ecosystem containing predators and their prey',
+        path: 'FathomDocs/Science/Biology/Prey-Ped-Pop/Prey-Ped-Pop.json',
+          ready: true,
+          categories: ['biology']
       },
       Scie_ESci_AVG_Temp_AL: {
-        name: 'Alabama Average Temperatures',
-        path: 'FathomDocs/Science/E_Sciences/AVG_Temps/AL_Avg_Temps/AL_Avg_Temps.json'
+        title: 'Alabama Average Temperatures',
+          description: 'A collection of data from multiple stations around Alabama over a period of about 100 years',
+        path: 'FathomDocs/Science/E_Sciences/AVG_Temps/AL_Avg_Temps/AL_Avg_Temps.json',
+          ready: true,
+          categories: ['earth sciences']
       },
       Scie_ESci_AVG_Temp_AR: {
-        name: 'Arkansas Average Temperatures',
-        path: 'FathomDocs/Science/E_Sciences/AVG_Temps/AR_Avg_Temps/AR_Avg_Temps.json'
+        title: 'Arkansas Average Temperatures',
+          description: 'A collection of data from multiple stations around Arkansas over a period of about 100 years',
+        path: 'FathomDocs/Science/E_Sciences/AVG_Temps/AR_Avg_Temps/AR_Avg_Temps.json',
+          ready: true,
+          categories: ['earth sciences']
       },
       Scie_ESci_AVG_Temp_AZ: {
-        name: 'Arizona Average Temperatures',
-        path: 'FathomDocs/Science/E_Sciences/AVG_Temps/AZ_Avg_Temps/AZ_Avg_Temps.json'
+        title: 'Arizona Average Temperatures',
+          description: 'A collection of data from multiple stations around Arizona over a period of about 100 years',
+        path: 'FathomDocs/Science/E_Sciences/AVG_Temps/AZ_Avg_Temps/AZ_Avg_Temps.json',
+          ready: true,
+          categories: ['earth sciences']
       },
       Scie_ESci_AVG_Temp_CA: {
-        name: 'California Average Temperatures',
-        path: 'FathomDocs/Science/E_Sciences/AVG_Temps/CA_Avg_Temps/CA_Avg_Temps.json'
+        title: 'California Average Temperatures',
+          description: 'A collection of data from multiple stations around California over a period of about 100 years',
+        path: 'FathomDocs/Science/E_Sciences/AVG_Temps/CA_Avg_Temps/CA_Avg_Temps.json',
+          ready: true,
+          categories: ['earth sciences']
       },
       Sci_ESci_AVG_Temp_CO: {
-        name: 'Colorado Average Temperatures',
-        path: 'FathomDocs/Science/E_Sciences/AVG_Temps/CO_Avg_Temps/CO_Avg_Temps.json'
+        title: 'Colorado Average Temperatures',
+          description: 'A collection of data from multiple stations around Colorado over a period of about 100 years',
+        path: 'FathomDocs/Science/E_Sciences/AVG_Temps/CO_Avg_Temps/CO_Avg_Temps.json',
+          ready: true,
+          categories: ['earth sciences']
       },
       Scie_ESci_AVG_Temp_FL: {
-        name: 'Florida Average Temperatures',
-        path: 'FathomDocs/Science/E_Sciences/AVG_Temps/FL_Avg_Temps/FL_Avg_Temps.json'
+        title: 'Florida Average Temperatures',
+          description: 'A collection of data from multiple stations around Florida over a period of about 100 years',
+        path: 'FathomDocs/Science/E_Sciences/AVG_Temps/FL_Avg_Temps/FL_Avg_Temps.json',
+          ready: true,
+          categories: ['earth sciences']
       },
       Scie_ESci_AVG_Temp_ME: {
-        name: 'Maine Average Temperatures',
-        path: 'FathomDocs/Science/E_Sciences/AVG_Temps/ME_Avg_Temps/ME_Avg_Temps.json'
+        title: 'Maine Average Temperatures',
+          description: 'A collection of data from multiple stations around Maine over a period of about 100 years',
+        path: 'FathomDocs/Science/E_Sciences/AVG_Temps/ME_Avg_Temps/ME_Avg_Temps.json',
+          ready: true,
+          categories: ['earth sciences']
       },
       Scie_ESci_AVG_Temp_ND: {
-        name: 'North Dakota Average Temperatures',
-        path: 'FathomDocs/Science/E_Sciences/AVG_Temps/ND_Avg_Temps/ND_Avg_Temps.json'
+        title: 'North Dakota Average Temperatures',
+          description: 'A collection of data from multiple stations around North Dakota over a period of about 100 years',
+        path: 'FathomDocs/Science/E_Sciences/AVG_Temps/ND_Avg_Temps/ND_Avg_Temps.json',
+          ready: true,
+          categories: ['earth sciences']
       },
       Scie_ESci_AVG_Temp_NY: {
-        name: 'New York Average Temperatures',
-        path: 'FathomDocs/Science/E_Sciences/AVG_Temps/NY_Avg_Temps/NY_Avg_Temps.json'
+        title: 'New York Average Temperatures',
+          description: 'A collection of data from multiple stations around New York over a period of about 100 years',
+        path: 'FathomDocs/Science/E_Sciences/AVG_Temps/NY_Avg_Temps/NY_Avg_Temps.json',
+          ready: true,
+          categories: ['earth sciences']
       },
       Scie_ESci_AVG_Temp_WA: {
-        name: 'Washington Average Temperatures',
-        path: 'FathomDocs/Science/E_Sciences/AVG_Temps/WA_Avg_Temps/WA_Avg_Temps.json'
+        title: 'Washington Average Temperatures',
+          description: 'A collection of data from multiple stations around Washington over a period of about 100 years',
+        path: 'FathomDocs/Science/E_Sciences/AVG_Temps/WA_Avg_Temps/WA_Avg_Temps.json',
+          ready: true,
+          categories: ['earth sciences']
       },
       Scie_ESci_Concord_Weather: {
-        name: 'Concord Weather',
-        path: 'FathomDocs/Science/E_Sciences/Concord_Weather/Concord_Weather.json'
+        title: 'Concord Weather',
+          description: 'Explore information about the weather in Concord',
+        path: 'FathomDocs/Science/E_Sciences/Concord_Weather/Concord_Weather.json',
+          ready: false,
+          categories: ['earth sciences']
       },
       Scie_ESci_Earthquakes: {
-        name: 'Earthquakes',
-        path: 'FathomDocs/Science/E_Sciences/Earthquakes/Earthquakes.json'
+        title: 'Earthquakes',
+          description: 'Explore earthquakes across California and western Nevada',
+        path: 'FathomDocs/Science/E_Sciences/Earthquakes/Earthquakes.json',
+          ready: false,
+          categories: ['earth sciences']
       },
       Scie_ESci_Global_Carbon: {
-        name: 'Global Carbon Levels',
-        path: 'FathomDocs/Science/E_Sciences/Global_Carbon/Global_Carbon.json'
+        title: 'Global Carbon',
+          description: 'A case table containing yearly carbon dioxide emissions from various sources around the world',
+        path: 'FathomDocs/Science/E_Sciences/Global_Carbon/Global_Carbon.json',
+          ready: true,
+          categories: ['earth sciences']
       },
       Scie_ESci_Iowa: {
-        name: 'Iowa Weather',
-        path: 'FathomDocs/Science/E_Sciences/Iowa/Iowa.json'
+        title: 'Iowa Weather',
+          description: 'Explore weather information Mr. Frye gathered information about Marion, Iowa, using instruments and procedures, for 1096 days.',
+        path: 'FathomDocs/Science/E_Sciences/Iowa/Iowa.json',
+          ready: true,
+          categories: ['earth sciences']
       },
       Scie_ESci_Kobe: {
-        name: 'Kobe Earthquake',
-        path: 'FathomDocs/Science/E_Sciences/Kobe/Kobe.json'
+        title: 'Kobe Earthquake',
+          description: 'Explore the seismograph recording of the Kobe earthquake on January 16, 1995, in Australia.',
+        path: 'FathomDocs/Science/E_Sciences/Kobe/Kobe.json',
+          ready: true,
+          categories: ['earth sciences']
       },
       Scie_ESci_Mauna_Loa: {
-        name: 'Mauna Loa Carbon Levels',
-        path: 'FathomDocs/Science/E_Sciences/Mauna_Loa/Mauna_Loa.json'
+        title: 'Mauna Loa Carbon Levels',
+          description: 'A case table of the levels of CO2 from 1958 to 2010 on Mauna Loa',
+        path: 'FathomDocs/Science/E_Sciences/Mauna_Loa/Mauna_Loa.json',
+          ready: true,
+          categories: ['earth sciences']
       },
       Scie_ESci_North_American: {
-        name: 'North American Earthquakes',
-        path: 'FathomDocs/Science/E_Sciences/North_American/North_American.json'
+        title: 'North American Earthquakes',
+          description: 'A compilation of North American earthquakes from 1920 to 1989 of the magnitude 4.5 and higher.',
+        path: 'FathomDocs/Science/E_Sciences/North_American/North_American.json',
+          ready: true,
+          categories: ['earth sciences']
       },
       Scie_ESci_R_Carbon: {
-        name: 'Regional Carbon Levels',
-        path: 'FathomDocs/Science/E_Sciences/R_Carbon/R_Carbon.json'
+        title: 'Regional Carbon Levels',
+          description: 'A collection of regional CO2 emissions from the burnin gof fossil-fuels, manufacturing cement, and gas flaring from 1751-2009.',
+        path: 'FathomDocs/Science/E_Sciences/R_Carbon/R_Carbon.json',
+          ready: true,
+          categories: ['earth sciences']
       },
       Scie_ESci_South_Pole: {
-        name: 'South Pole Temperatures',
-        path: 'FathomDocs/Science/E_Sciences/South_Pole/South_Pole.json'
+        title: 'South Pole Temperatures',
+          description: 'A case table showing the temperatures recorded at the South Pole every month from the year 1957 to the year 1988.',
+        path: 'FathomDocs/Science/E_Sciences/South_Pole/South_Pole.json',
+          ready: true,
+          categories: ['earth sciences']
       },
       Scie_ESci_Tides: {
-        name: 'Tides',
-        path: 'FathomDocs/Science/E_Sciences/Tides/Tides.json'
+        title: 'Tides',
+          description: 'Explore data of the tide patterns of Alcatraz Island, in California, and Birch Island, in Maine.',
+        path: 'FathomDocs/Science/E_Sciences/Tides/Tides.json',
+          ready: true,
+          categories: ['earth sciences']
       },
       Scie_ESci_Tree_Rings: {
-        name: 'Tree_Rings',
-        path: 'FathomDocs/Science/E_Sciences/Tree_Rings/Tree_Rings.json'
+        title: 'Tree_Rings',
+          description: 'Are there any relationships between the growth of the tree and historical weather?',
+        path: 'FathomDocs/Science/E_Sciences/Tree_Rings/Tree_Rings.json',
+          ready: true,
+          categories: ['earth sciences']
       },
       Scie_ESci_Weather_Machine: {
-        name: 'Weather Model',
-        path: 'FathomDocs/Science/E_Sciences/Weather_Machine/Weather_Maching.json'
+        title: 'Weather Model',
+          description: 'A model of a weather pattern generated by a weather machine.',
+        path: 'FathomDocs/Science/E_Sciences/Weather_Machine/Weather_Maching.json',
+          ready: true,
+          categories: ['earth sciences']
       },
       Scie_PhysChem_Boyle: {
-        name: "Boyle's Law",
-        path: 'FathomDocs/Science/PhysChem/Boyle/Boyle.json'
+        title: "Boyle's Law",
+          description: 'A case table of the data of the Boyle Pressure vs. Volume Experiment in 1662.',
+        path: 'FathomDocs/Science/PhysChem/Boyle/Boyle.json',
+          ready: true,
+          categories: ['physics and chemistry']
       },
       Scie_PhysChem_Elements: {
-        name: "Periodic Table",
-        path: 'FathomDocs/Science/PhysChem/Elements/Elements.json'
+        title: "Periodic Table",
+          description: 'A case table with information about all of the elements of the periodic table.',
+        path: 'FathomDocs/Science/PhysChem/Elements/Elements.json',
+          ready: true,
+          categories: ['physics and chemistry']
       },
       Scie_PhysChem_Heating: {
-        name: "Heating",
-        path: 'FathomDocs/Science/PhysChem/Heating/Heating.json'
+        title: "Heating",
+          description: 'How is the temperature of water affected by the length of time it is heated?',
+        path: 'FathomDocs/Science/PhysChem/Heating/Heating.json',
+          ready: true,
+          categories: ['physics and chemistry']
       },
       Scie_PhysChem_Panel: {
-        name: "Solar Panel",
-        path: 'FathomDocs/Science/PhysChem/Panel/Panel.json'
+        title: "Solar Panel",
+          description: 'Explore information gathered from a project done with a solar panel.',
+        path: 'FathomDocs/Science/PhysChem/Panel/Panel.json',
+          ready: true,
+          categories: ['physics and chemistry']
       },
       Scie_PhysChem_Radiosonde: {
-        name: "Weather Balloon",
-        path: 'FathomDocs/Science/PhysChem/Radiosonde/Radiosonde.json'
+        title: "Weather Balloon",
+          description: 'Find relationships in data were gathered during a weather balloon ascent.',
+        path: 'FathomDocs/Science/PhysChem/Radiosonde/Radiosonde.json',
+          ready: true,
+          categories: ['physics and chemistry']
       },
       Scie_PhysChem_RB_Ball: {
-        name: "Rubber Band Ball",
-        path: 'FathomDocs/Science/PhysChem/RB_Ball/RB_Ball.json'
+        title: "Rubber Band Ball",
+          description: 'Explore an experiment about the size and bounce height of a rubber band ball',
+        path: 'FathomDocs/Science/PhysChem/RB_Ball/RB_Ball.json',
+          ready: true,
+          categories: ['physics and chemistry']
       },
       Scie_Tech_Airplanes: {
-        name: "Airplanes",
-        path: 'FathomDocs/Science/Technology/Airplanes/Airplanes.json'
+        title: "Airplanes",
+          description: 'A case table about the operation statistics of various airplane models in 1999',
+        path: 'FathomDocs/Science/Technology/Airplanes/Airplanes.json',
+          ready: true,
+          categories: ['technology']
       },
       Scie_Tech_Cars: {
-        name: "Cars",
-        path: 'FathomDocs/Science/Technology/Cars/Cars.json'
+        title: "Cars",
+          description: 'Explore information about car models from 1993',
+        path: 'FathomDocs/Science/Technology/Cars/Cars.json',
+          ready: true,
+          categories: ['technology']
       },
       Scie_Tech_Moore_Law: {
-        name: "Cars",
-        path: 'FathomDocs/Science/Technology/Moore_Law/Moore_Law.json'
+        title: "Moore's Law",
+          description: 'Explore the trend in the evolution of transistors that was discovered by Gordan Moore',
+        path: 'FathomDocs/Science/Technology/Moore_Law/Moore_Law.json',
+          ready: true,
+          categories: ['technology']
       },
       Scie_Tech_Nails: {
-        name: "Nails",
-        path: 'FathomDocs/Science/Technology/Nails/Nails.json'
+        title: "Nails",
+          description: 'How does the measurement of a nail relate to the penny size of the nail?',
+        path: 'FathomDocs/Science/Technology/Nails/Nails.json',
+          ready: true,
+          categories: ['technology']
       },
       SocSci_CA_Alberta2024: {
-        name: "Receipts from Alberta 2024",
-        path: 'FathomDocs/Social_Science/Canada/Alberta2024/Alberta2024.json'
+        title: "Receipts from Alberta 2024",
+          description: 'Explore data about purchases made by people 20-24 years old in Alberta, Canada.',
+        path: 'FathomDocs/Social_Science/Canada/Alberta2024/Alberta2024.json',
+          ready: true,
+          categories: ['canada']
       },
       SocSci_CA_Metro: {
-        name: "Canadian Metro Areas",
-        path: 'FathomDocs/Social_Science/Canada/Canada_Metro/Canada_Metro.json'
+        title: "Canadian Metro Areas",
+          description: 'What are the relationships between each of the Metro Areas in Canada?',
+        path: 'FathomDocs/Social_Science/Canada/Canada_Metro/Canada_Metro.json',
+          ready: true,
+          categories: ['canada']
       },
       SocSci_CA_Gov_Debt: {
-        name: "Government Debt",
-        path: 'FathomDocs/Social_Science/Canada/Gov_Debt/Gov_Debt.json'
+        title: "Government Debt",
+          description: 'Explore information about debt in the Canadian government.',
+        path: 'FathomDocs/Social_Science/Canada/Gov_Debt/Gov_Debt.json',
+          ready: true,
+          categories: ['canada']
       },
       SocSci_CA_Int_Export: {
-        name: "Exports",
-        path: 'FathomDocs/Social_Science/Canada/Int_Exports/Int_Exports.json'
+        title: "International Exports",
+          description: 'Compare the amounts of each item exported in Canada',
+        path: 'FathomDocs/Social_Science/Canada/Int_Exports/Int_Exports.json',
+          ready: true,
+          categories: ['canada']
       },
       SocSci_CA_Int_Imports: {
-        name: "Imports",
-        path: 'FathomDocs/Social_Science/Canada/Int_Imports/Int_Imports.json'
+        title: "International Imports",
+          description: 'Compare the amounts of each item imported in Canada',
+        path: 'FathomDocs/Social_Science/Canada/Int_Imports/Int_Imports.json',
+          ready: true,
+          categories: ['canada']
       },
       SocSci_CA_Military_69: {
-        name: "Military Personnel",
-        path: 'FathomDocs/Social_Science/Canada/Military_69/Military_69.json'
+        title: "Military Personnel",
+          description: 'Find relationships between the number of military personnel per year and historical events',
+        path: 'FathomDocs/Social_Science/Canada/Military_69/Military_69.json',
+          ready: true,
+          categories: ['canada']
       },
-      Sports: {
-        name: "Summer Olympics",
-        path: 'FathomDocs/Sports/Summer_Olympics/Summer_Olympics.json'
+      Sports_Summer_Olympics: {
+        title: "Summer Olympics",
+          description: 'Compare the number of medals each country has won in the Summer Olympics',
+        path: 'FathomDocs/Sports/Summer_Olympics/Summer_Olympics.json',
+          ready: false,
+          categories: ['sports']
       }
     };
 
