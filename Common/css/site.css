@@ -1,0 +1,129 @@
+/*Style sheet for concord-consortium.github.io/codap-data site*/
+
+body {
+    font-family: "Lucida Sans", "Lucida Grande", Verdana, Arial, sans-serif;
+    color: #555;
+}
+
+#header {
+    background: #7EB563;
+    background: -moz-linear-gradient(top,  #7EB563 1%, #a4cb91 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#7EB563), color-stop(100%,#a4cb91));
+    background: -webkit-linear-gradient(top,  #7EB563 1%,#a4cb91 100%);
+    background: -o-linear-gradient(top,  #7EB563 1%,#a4cb91 100%);
+    background: -ms-linear-gradient(top,  #7EB563 1%,#a4cb91 100%);
+    background: linear-gradient(to bottom,  #7EB563 1%,#a4cb91 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7EB563', endColorstr='#a4cb91',GradientType=0 );
+    color: white;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+#credits {
+    font-size: 0.8em;
+    color: #777;
+}
+
+#credits p {
+    padding-left: 2em;
+    margin-bottom: -0.5em;
+}
+
+.sample-documents div {
+    background-color:#EEE;
+    border-radius: 10px;
+    border: #CCC 1px solid;
+    width: 1030px;
+    margin: 7px;
+    padding-left:10px;
+}
+
+.document-title {
+    font-weight: bold;
+    font-size: 12px;
+    -webkit-margin-before:.1em;
+    -webkit-margin-after:.1em;
+    width:150px;
+    max-width:150px;
+}
+
+.document-description {
+    -webkit-margin-before:.1em;
+    -webkit-margin-after:.1em;
+    width:620px;
+    font-size: 12px;
+}
+
+.sample-table {
+    background-color:#EEE;
+    border-radius: 10px;
+    border: #CCC 1px solid;
+    width: 1030px;
+    margin: 7px;
+    padding-left:10px;
+    width:100%;
+}
+
+.sample-table tr:nth-child(odd) {
+    color:#000000;
+    background-color:#b1d2a1;
+}
+
+#top-nav-bar a {
+    width:100%;
+    background-color: #7fb2be;
+    color: white;
+    font-size: 14px;
+    padding: 0.2em 0.6em;
+    border-right: 1px solid white;
+}
+
+#top-nav-bar a:hover {
+    background-color: #0797A8;
+}
+.nav-bar {
+    width:1000px;
+    margin: 0px auto;
+}
+
+.nav-bar li {
+    margin: 0px;
+}
+
+.nav-bar a {
+
+    background-color: #0797A8;
+}
+
+.nav-bar >ul >li {
+
+    padding: 0;
+    display: inline-block;
+    position:relative;
+}
+
+.menu-h-dropdown {
+    width: 160%;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    visibility: collapse;
+}
+
+.menu-h-dropdown a:hover {
+    visibility: visible;
+}
+
+.menu-h-dropdown li{
+    display: block;
+}
+
+a {
+    color: #3a878b;
+    font-weight: 600;
+    text-decoration: none;
+}
+a:hover {
+    color: #da5936;
+}
