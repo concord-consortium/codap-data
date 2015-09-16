@@ -61,6 +61,7 @@ body {
     border: #CCC 1px solid;
     margin: 7px;
     padding-left:10px;
+    padding-right:10px;
     width:100%;
 }
 
@@ -125,4 +126,21 @@ a {
 }
 a:hover {
     color: #da5936;
+}
+
+.nav-to-top {
+    font-size: 10px;
+}
+
+.home-icon {
+    height: 20px;
+    width: 20px;
+}
+
+.sample-div {
+    border-style: dotted;
+    border-width: thin;
+    border-radius: 20px;
+    padding-left:5px;
+    padding-right:5px;
 }
