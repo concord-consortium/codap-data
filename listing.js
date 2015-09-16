@@ -12,7 +12,7 @@ $(document).ready(function (){
         description: "Play Roshambo agains the evil Dr. Markov. If you win, you can save Madeline the dog. Improve you odds by analyzing Markov's moves in a graph.",
         path: 'markov/Markov_Sample.json',
         ready: true,
-        categories: ['statistics']
+        categories: ['probability']
       },
       Climate_Change: {
         title: 'Climate Change',
@@ -33,7 +33,7 @@ $(document).ready(function (){
         description:'There are 27 mammals, each with eight attributes. Which of the mammals has the longest life span? Sleeps the most? What relationships can you find?',
         path: 'mammals/Mammals_Sample.json',
         ready: true,
-        categories: ['science']
+        categories: ['biology']
 
       },
       Parachute: {
@@ -412,35 +412,35 @@ $(document).ready(function (){
           description: 'Explore 111 extrasolar masses and orbital characteristics of known extrasolar planets',
         path: 'FathomDocs/Science/Astronomy/Extra_Solar/Extra_Solar.json',
           ready: true,
-          categories:['astrology']
+          categories:['astronomy']
       },
       Scie_Astro_Jupiter_Moons: {
         title: 'Jupiter Moons',
           description: 'A case table about four moons of Jupiter: Io, Europa, Ganymede, and Callisto',
         path: 'FathomDocs/Science/Astronomy/Jupiter_Moons/Jupiter_Moons.json',
           ready: true,
-          categories: ['astrology']
+          categories: ['astronomy']
       },
       Scie_Astro_Jupiter_Radius: {
         title: 'Jupiter Radius',
           description: 'Explain the plot of radius versus mean Julian date',
         path: 'FathomDocs/Science/Astronomy/Jupiter_Radius/Jupiter_Radius.json',
           ready: true,
-          categories: ['astrology']
+          categories: ['astronomy']
       },
       Scie_Astro_Space_Data: {
         title: 'Space Data',
           description: 'Explore a study about how to grow plants in space.',
         path: 'FathomDocs/Science/Astronomy/Space_Data/Space_Data.json',
           ready: true,
-          categories: ['astrology']
+          categories: ['astronomy']
       },
       Scie_Astro_Sunspots: {
         title: 'Sunspots',
           description: 'A case table gives the sunspot number for a random sample of 2000 days since 1951.',
         path: 'FathomDocs/Science/Astronomy/Sunspots/Sunspots.json',
           ready: true,
-          categories: ['astrology']
+          categories: ['astronomy']
       },
       Scie_Bio_Bears: {
         title: 'Bears',
@@ -489,196 +489,196 @@ $(document).ready(function (){
           description: 'A collection of data from multiple stations around Alabama over a period of about 100 years',
         path: 'FathomDocs/Science/E_Sciences/AVG_Temps/AL_Avg_Temps/AL_Avg_Temps.json',
           ready: true,
-          categories: ['earth sciences']
+          categories: ['earth_sciences']
       },
       Scie_ESci_AVG_Temp_AR: {
         title: 'Arkansas Average Temperatures',
           description: 'A collection of data from multiple stations around Arkansas over a period of about 100 years',
         path: 'FathomDocs/Science/E_Sciences/AVG_Temps/AR_Avg_Temps/AR_Avg_Temps.json',
           ready: true,
-          categories: ['earth sciences']
+          categories: ['earth_sciences']
       },
       Scie_ESci_AVG_Temp_AZ: {
         title: 'Arizona Average Temperatures',
           description: 'A collection of data from multiple stations around Arizona over a period of about 100 years',
         path: 'FathomDocs/Science/E_Sciences/AVG_Temps/AZ_Avg_Temps/AZ_Avg_Temps.json',
           ready: true,
-          categories: ['earth sciences']
+          categories: ['earth_sciences']
       },
       Scie_ESci_AVG_Temp_CA: {
         title: 'California Average Temperatures',
           description: 'A collection of data from multiple stations around California over a period of about 100 years',
         path: 'FathomDocs/Science/E_Sciences/AVG_Temps/CA_Avg_Temps/CA_Avg_Temps.json',
           ready: true,
-          categories: ['earth sciences']
+          categories: ['earth_sciences']
       },
       Sci_ESci_AVG_Temp_CO: {
         title: 'Colorado Average Temperatures',
           description: 'A collection of data from multiple stations around Colorado over a period of about 100 years',
         path: 'FathomDocs/Science/E_Sciences/AVG_Temps/CO_Avg_Temps/CO_Avg_Temps.json',
           ready: true,
-          categories: ['earth sciences']
+          categories: ['earth_sciences']
       },
       Scie_ESci_AVG_Temp_FL: {
         title: 'Florida Average Temperatures',
           description: 'A collection of data from multiple stations around Florida over a period of about 100 years',
         path: 'FathomDocs/Science/E_Sciences/AVG_Temps/FL_Avg_Temps/FL_Avg_Temps.json',
           ready: true,
-          categories: ['earth sciences']
+          categories: ['earth_sciences']
       },
       Scie_ESci_AVG_Temp_ME: {
         title: 'Maine Average Temperatures',
           description: 'A collection of data from multiple stations around Maine over a period of about 100 years',
         path: 'FathomDocs/Science/E_Sciences/AVG_Temps/ME_Avg_Temps/ME_Avg_Temps.json',
           ready: true,
-          categories: ['earth sciences']
+          categories: ['earth_sciences']
       },
       Scie_ESci_AVG_Temp_ND: {
         title: 'North Dakota Average Temperatures',
           description: 'A collection of data from multiple stations around North Dakota over a period of about 100 years',
         path: 'FathomDocs/Science/E_Sciences/AVG_Temps/ND_Avg_Temps/ND_Avg_Temps.json',
           ready: true,
-          categories: ['earth sciences']
+          categories: ['earth_sciences']
       },
       Scie_ESci_AVG_Temp_NY: {
         title: 'New York Average Temperatures',
           description: 'A collection of data from multiple stations around New York over a period of about 100 years',
         path: 'FathomDocs/Science/E_Sciences/AVG_Temps/NY_Avg_Temps/NY_Avg_Temps.json',
           ready: true,
-          categories: ['earth sciences']
+          categories: ['earth_sciences']
       },
       Scie_ESci_AVG_Temp_WA: {
         title: 'Washington Average Temperatures',
           description: 'A collection of data from multiple stations around Washington over a period of about 100 years',
         path: 'FathomDocs/Science/E_Sciences/AVG_Temps/WA_Avg_Temps/WA_Avg_Temps.json',
           ready: true,
-          categories: ['earth sciences']
+          categories: ['earth_sciences']
       },
       Scie_ESci_Concord_Weather: {
         title: 'Concord Weather',
           description: 'Explore information about the weather in Concord',
         path: 'FathomDocs/Science/E_Sciences/Concord_Weather/Concord_Weather.json',
           ready: false,
-          categories: ['earth sciences']
+          categories: ['earth_sciences']
       },
       Scie_ESci_Earthquakes: {
         title: 'Earthquakes',
           description: 'Explore earthquakes across California and western Nevada',
         path: 'FathomDocs/Science/E_Sciences/Earthquakes/Earthquakes.json',
           ready: false,
-          categories: ['earth sciences']
+          categories: ['earth_sciences']
       },
       Scie_ESci_Global_Carbon: {
         title: 'Global Carbon',
           description: 'A case table containing yearly carbon dioxide emissions from various sources around the world',
         path: 'FathomDocs/Science/E_Sciences/Global_Carbon/Global_Carbon.json',
           ready: true,
-          categories: ['earth sciences']
+          categories: ['earth_sciences']
       },
       Scie_ESci_Iowa: {
         title: 'Iowa Weather',
           description: 'Explore weather information Mr. Frye gathered information about Marion, Iowa, using instruments and procedures, for 1096 days.',
         path: 'FathomDocs/Science/E_Sciences/Iowa/Iowa.json',
           ready: true,
-          categories: ['earth sciences']
+          categories: ['earth_sciences']
       },
       Scie_ESci_Kobe: {
         title: 'Kobe Earthquake',
           description: 'Explore the seismograph recording of the Kobe earthquake on January 16, 1995, in Australia.',
         path: 'FathomDocs/Science/E_Sciences/Kobe/Kobe.json',
           ready: true,
-          categories: ['earth sciences']
+          categories: ['earth_sciences']
       },
       Scie_ESci_Mauna_Loa: {
         title: 'Mauna Loa Carbon Levels',
           description: 'A case table of the levels of CO2 from 1958 to 2010 on Mauna Loa',
         path: 'FathomDocs/Science/E_Sciences/Mauna_Loa/Mauna_Loa.json',
           ready: true,
-          categories: ['earth sciences']
+          categories: ['earth_sciences']
       },
       Scie_ESci_North_American: {
         title: 'North American Earthquakes',
           description: 'A compilation of North American earthquakes from 1920 to 1989 of the magnitude 4.5 and higher.',
         path: 'FathomDocs/Science/E_Sciences/North_American/North_American.json',
           ready: true,
-          categories: ['earth sciences']
+          categories: ['earth_sciences']
       },
       Scie_ESci_R_Carbon: {
         title: 'Regional Carbon Levels',
           description: 'A collection of regional CO2 emissions from the burnin gof fossil-fuels, manufacturing cement, and gas flaring from 1751-2009.',
         path: 'FathomDocs/Science/E_Sciences/R_Carbon/R_Carbon.json',
           ready: true,
-          categories: ['earth sciences']
+          categories: ['earth_sciences']
       },
       Scie_ESci_South_Pole: {
         title: 'South Pole Temperatures',
           description: 'A case table showing the temperatures recorded at the South Pole every month from the year 1957 to the year 1988.',
         path: 'FathomDocs/Science/E_Sciences/South_Pole/South_Pole.json',
           ready: true,
-          categories: ['earth sciences']
+          categories: ['earth_sciences']
       },
       Scie_ESci_Tides: {
         title: 'Tides',
           description: 'Explore data of the tide patterns of Alcatraz Island, in California, and Birch Island, in Maine.',
         path: 'FathomDocs/Science/E_Sciences/Tides/Tides.json',
           ready: true,
-          categories: ['earth sciences']
+          categories: ['earth_sciences']
       },
       Scie_ESci_Tree_Rings: {
         title: 'Tree_Rings',
           description: 'Are there any relationships between the growth of the tree and historical weather?',
         path: 'FathomDocs/Science/E_Sciences/Tree_Rings/Tree_Rings.json',
           ready: true,
-          categories: ['earth sciences']
+          categories: ['earth_sciences']
       },
       Scie_ESci_Weather_Machine: {
         title: 'Weather Model',
           description: 'A model of a weather pattern generated by a weather machine.',
         path: 'FathomDocs/Science/E_Sciences/Weather_Machine/Weather_Maching.json',
           ready: true,
-          categories: ['earth sciences']
+          categories: ['earth_sciences']
       },
       Scie_PhysChem_Boyle: {
         title: "Boyle's Law",
           description: 'A case table of the data of the Boyle Pressure vs. Volume Experiment in 1662.',
         path: 'FathomDocs/Science/PhysChem/Boyle/Boyle.json',
           ready: true,
-          categories: ['physics and chemistry']
+          categories: ['physics_and_chemistry']
       },
       Scie_PhysChem_Elements: {
         title: "Periodic Table",
           description: 'A case table with information about all of the elements of the periodic table.',
         path: 'FathomDocs/Science/PhysChem/Elements/Elements.json',
           ready: true,
-          categories: ['physics and chemistry']
+          categories: ['physics_and_chemistry']
       },
       Scie_PhysChem_Heating: {
         title: "Heating",
           description: 'How is the temperature of water affected by the length of time it is heated?',
         path: 'FathomDocs/Science/PhysChem/Heating/Heating.json',
           ready: true,
-          categories: ['physics and chemistry']
+          categories: ['physics_and_chemistry']
       },
       Scie_PhysChem_Panel: {
         title: "Solar Panel",
           description: 'Explore information gathered from a project done with a solar panel.',
         path: 'FathomDocs/Science/PhysChem/Panel/Panel.json',
           ready: true,
-          categories: ['physics and chemistry']
+          categories: ['physics_and_chemistry']
       },
       Scie_PhysChem_Radiosonde: {
         title: "Weather Balloon",
           description: 'Find relationships in data were gathered during a weather balloon ascent.',
         path: 'FathomDocs/Science/PhysChem/Radiosonde/Radiosonde.json',
           ready: true,
-          categories: ['physics and chemistry']
+          categories: ['physics_and_chemistry']
       },
       Scie_PhysChem_RB_Ball: {
         title: "Rubber Band Ball",
           description: 'Explore an experiment about the size and bounce height of a rubber band ball',
         path: 'FathomDocs/Science/PhysChem/RB_Ball/RB_Ball.json',
           ready: true,
-          categories: ['physics and chemistry']
+          categories: ['physics_and_chemistry']
       },
       Scie_Tech_Airplanes: {
         title: "Airplanes",
@@ -791,7 +791,7 @@ $(document).ready(function (){
     console.log("in buildPage");
 
     var html ='',
-      table=$('<table>').addClass('sample-table'),
+
       row,
       url='http://concord-consortium.github.io/codap-data/';
 
@@ -804,6 +804,7 @@ $(document).ready(function (){
         ready=map[val].ready,
         path = map[val].path,
         docURL=invokeSampleDoc(val),
+        table='',
         //tdReady=$('<td>').append($('<input/>', {'type':'checkbox'})),
         launchLink=$('<a target = "_blank" href=' + docURL +'>Launch</a>'),
         linkLink=$('<a href=' + url+path + '>Link</a>'),
@@ -811,6 +812,29 @@ $(document).ready(function (){
         tdLink = $('<td>').addClass('link-button').attr({'id':val+"-link"});
 
       console.log(val+'->'+map[val].name + ' idx is ' + idx);
+      console.log("Category is: "+ map[val].categories[0]);
+      switch (map[val].categories[0])  {
+        case "probability": table=$('#probability-table'); break;
+        case "model": table=$('#models-table'); break;
+        case "map": table=$('#maps-table'); break;
+        case "education": table=$('#education-table'); break;
+        case "langarts": table=$('#language-arts-table'); break;
+        case "algebra": table=$('#algebra-table'); break;
+        case "calculus": table=$('#calculus-table'); break;
+        case "geometry": table=$('#geometry-table'); break;
+        case "num_theory": table=$('#numtheory-table'); break;
+        case "other_math": table=$('#math-other-table'); break;
+        case "astronomy": table=$('#astronomy-table'); break;
+        case "biology": table=$('#biology-table'); break;
+        case "earth_sciences": table=$('#earthscience-table'); break;
+        case "physics_and_chemistry": table=$('#physics-table'); break;
+        case "technology": table=$('#technology-table'); break;
+        case "canada": table=$('#socsci-table'); break;
+        case "sports": table=$('#sports-table'); break;
+        default: table=$("#sample-document-list");
+      }
+      console.log("Table ID is: " + table);
+
       if (map[val].ready === false) {
         tdReady=$('<td>').append($('<input/>', {'type':'checkbox'}).prop("checked",true));
       } else {
@@ -826,7 +850,7 @@ $(document).ready(function (){
       tdLink.appendTo(row);
       row.appendTo(table);
     });
-    table.appendTo('#sample-document-list');
+    //table.appendTo('#sample-document-list');
   }
   buildPage();
 });
