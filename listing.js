@@ -339,7 +339,7 @@ $(document).ready(function (){
       },
       Math_Prob_Birthdays: {
         title: 'Birthdays',
-        description: 'Explore the distribution of bithdays in the USj in 1978',
+        description: 'Explore the distribution of birthdays in the USj in 1978',
         path: 'FathomDocs/Mathematics/Probability/Birthdays/Birthdays.json',
         ready: true,
         categories: ['probability']
@@ -751,12 +751,24 @@ $(document).ready(function (){
           categories: ['canada']
       },
       Sports_Summer_Olympics: {
-        title: "Summer Olympics",
+          title: "Summer Olympics",
           description: 'Compare the number of medals each country has won in the Summer Olympics',
-        path: 'FathomDocs/Sports/Summer_Olympics/Summer_Olympics.json',
+          path: 'FathomDocs/Sports/Summer_Olympics/Summer_Olympics.json',
           ready: false,
           categories: ['sports']
+      },
+      SocSci_CA_CPI_Canada: {
+          title: "CPI Canada",
+          description: 'Explore information about the CPI for Canada annually, from 1914 to 2006.',
+        path: 'FathomDocs/Social_Science/Canada/CPI_Canada/CPI_Canada.json',
+          ready: true,
+          categories: ['canada']
+      },
+      SocSci_CA_Crime_Canada: {
+          title: "Crime Canada",
+          description: 'Find relationships among rates of different types of crime from 1977'
       }
+
     };
 
 
