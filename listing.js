@@ -208,7 +208,7 @@ $(document).ready(function (){
         title: "Building Heights",
         description: "How is the height of a building related to the number of stories it has?",
         path: 'FathomDocs/Mathematics/Algebra/Buildings/Buildings.json',
-        ready: false,
+        ready: true,
         categories: ['algebra']
       },
       Math_Algebra_Compound: {
@@ -306,7 +306,7 @@ $(document).ready(function (){
         title: 'Integer Ring',
         description:'Explore the patterns of addition and multiplication of integers.',
         path: 'FathomDocs/Mathematics/Number_Theory/Integer_Ring/Integer_Ring.json',
-        ready: false,
+        ready: true,
         categories: ['num_theory']
       },
       Math_NTheory_Prime_Density: {
@@ -1099,6 +1099,69 @@ $(document).ready(function (){
             path: 'FathomDocs/Social_Science/United_States/Census/VA-Arlington/VA-Arlington.json',
             ready: true,
             categories: ['united_states','census']
+      },
+      Sports_Atlanta96: {
+          title: "Atlanta 96",
+            description: 'Explore data about the gold medal track times from the 1996 Atlanta Olympics.',
+            path: 'FathomDocs/Sports/Atlanta96/Atlanta96.json',
+            ready: true,
+            categories: ['sports']
+      },
+      Sports_Baseball: {
+          title: "Baseball 2009",
+            description: 'Explore statistics about baseball players in 2009.',
+            path: 'FathomDocs/Sports/Baseball09/Baseball09.json',
+            ready: true,
+            categories: ['sports']
+      },
+      Sports_BestOfSeven: {
+          title: "Best of Seven",
+            description: 'Explore MLB, NBA, and NHL best-of-7 series results.',
+            path: 'FathomDocs/Sports/BestOfSeven/BestOfSeven.json',
+            ready: true,
+            categories: ['sports']
+      },
+      Sports_Bicycling: {
+          title: "Bicycling",
+            description: 'Find relationships between several bicycle trips on mountainous terrain.',
+            path: 'FathomDocs/Sports/Bicycling/Bicycling.json',
+            ready: true,
+            categories: ['sports']
+      },
+      Sports_Marathon_Times: {
+          title: "NY Marathon Times",
+            description: 'A case table about marathon times from 1970 to 2011.',
+            path: 'FathomDocs/Sports/Marathon_Times/Marathon_Times.json',
+            ready: true,
+            categories: ['sports']
+      },
+      Sports_World_Records: {
+          title: "Metric World Records",
+            description: 'Estimate of the world running record in August, 1976 from a case table.',
+            path: 'FathomDocs/Sports/World_Record/World_Record.json',
+            ready: true,
+            categories: ['sports']
+      },
+      Sports_NFL_Games: {
+          title: "2001 NFL Games",
+            description: 'Find relationships in the digits of 2001 NFL scores.',
+            path: 'FathomDocs/Sports/NFL_Games/NFL_Games.json',
+            ready: true,
+            categories: ['sports']
+      },
+      Sports_OlympicCost: {
+          title: "Olympic Broadcasting Cost",
+            description: 'Investigate the amount of dollars each broadcasting station paid the right to broadcast The Olympics',
+            path: 'FathomDocs/Sports/OlympicCost/OlympicCost.json',
+            ready: true,
+            categories: ['sports']
+      },
+      Sports_OlympicsResults: {
+          title: "Olympics Results",
+            description: 'Explore the gold medal winner results of the Summer Olympic Games.',
+            path: 'FathomDocs/Sports/OlympicsResults/OlympicsResults.json',
+            ready: true,
+            categories: ['sports']
       }
 };
 
