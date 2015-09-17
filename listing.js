@@ -1236,6 +1236,9 @@ $(document).ready(function (){
         case "physics_and_chemistry": table=$('#physics-table'); break;
         case "technology": table=$('#technology-table'); break;
         case "canada": table=$('#socsci-table'); break;
+        case "europe": table=$('#socsci-table'); break;
+        case "latin_america": table=$('#socsci-table'); break;
+        case "united_states": table=$('#socsci-table'); break;
         case "sports": table=$('#sports-table'); break;
         default: table=$("#sample-document-list");
       }
