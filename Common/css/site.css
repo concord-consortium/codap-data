@@ -84,7 +84,7 @@ body {
 }
 .nav-bar {
     width:1000px;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 
 .nav-bar a {
@@ -113,7 +113,7 @@ body {
     width: 160%;
     position: absolute;
     top: 100%;
-    left: 0px;
+    left: 0;
     display: none;
 }
 
