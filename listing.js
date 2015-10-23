@@ -472,7 +472,7 @@ var map = {
   Scie_Bio_Prey_Ped_Pop: {
     title: 'Prey Predator Population',
     description: 'Explore data of a simulated ecosystem containing predators and their prey.',
-    path: 'FathomDocs/Science/Biology/Prey-Ped-Pop/Prey-Ped-Pop.json',
+    path: 'FathomDocs/Science/Biology/Prey-Pred-Pop/Prey-Pred-Pop.json',
     ready: true,
     categories: ['biology']
   },
