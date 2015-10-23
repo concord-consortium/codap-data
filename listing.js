@@ -1091,6 +1091,34 @@ var map = {
     path: 'FathomDocs/Sports/Summer_Olympics/Summer_Olympics.json',
     ready: false,
     categories: ['sports']
+  },
+  Sports_Atlanta96: {
+    title: "Atlanta 1996 Olympics Track Times",
+    description: 'This document contains information about the gold medal track times from the 1996 Atlanta Olympics.',
+    path: 'FathomDocs/Sports/Atlanta96/Atlanta96.json',
+    ready: false,
+    categories: ['sports']
+  },
+  Sports_Baseball09: {
+    title: "Baseball Stats 2009",
+    description: 'This document contains information about baseball players in 2009.',
+    path: 'FathomDocs/Sports/Baseball09/Baseball09.json',
+    ready: false,
+    categories: ['sports']
+  },
+  Sports_BestOfSeven: {
+    title: "Best of Seven",
+    description: 'Statistics on the best of seven games from NHL, NBA and MLB',
+    path: 'FathomDocs/Sports/BestOfSeven/BestOfSeven.json',
+    ready: false,
+    categories: ['sports']
+  },
+  Sports_Bicycling: {
+    title: "Bicycling",
+    description: 'This document contains information about bycicle trips on mountainous terrain',
+    path: 'FathomDocs/Sports/Bicycling/Bicycling.json',
+    ready: false,
+    categories: ['sports']
   }
 };
 
