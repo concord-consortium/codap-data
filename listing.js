@@ -742,13 +742,6 @@ var map = {
     ready: true,
     categories: ['canada']
   },
-  Sports_Summer_Olympics: {
-    title: "Summer Olympics",
-    description: 'Compare the number of medals each country has won in the Summer Olympics.',
-    path: 'FathomDocs/Sports/Summer_Olympics/Summer_Olympics.json',
-    ready: false,
-    categories: ['sports']
-  },
   SocSci_CA_CPI_Canada: {
     title: "CPI Canada",
     description: 'Explore information about the CPI for Canada annually, from 1914 to 2006.',
@@ -1091,6 +1084,13 @@ var map = {
     path: 'FathomDocs/Social_Science/United_States/Census/VA-Arlington/VA-Arlington.json',
     ready: true,
     categories: ['united_states','census']
+  },
+  Sports_Summer_Olympics: {
+    title: "Summer Olympics",
+    description: 'Compare the number of medals each country has won in the Summer Olympics.',
+    path: 'FathomDocs/Sports/Summer_Olympics/Summer_Olympics.json',
+    ready: false,
+    categories: ['sports']
   }
 };
 
@@ -1111,7 +1111,7 @@ function invokeSampleDoc(name) {
   if (docserverURL) {
     return (codapURL + '?documentServer=' + encodeURI(docserverURL) + '&url=' + encodeURI(url));
   } else {
-    return (codapURL + '?url=' + encodeUR(url));
+    return (codapURL + '?url=' + encodeURI(url));
   }
 }
 
@@ -1122,15 +1122,6 @@ $(document).ready(function (){
    path = path to document json file in github
    ready = checkbox to indicate whether a document needs more work. Check mark indicates document needs more work.
    categories = an array of categories that document can fall under in github.io/codap-data website */
-
-
-
-  function getSampleDocURL(name) {
-    var path = map[name].path,
-      url = 'http://concord-consortium.github.io/codap-data/' + path;
-    console.log(url);
-    return url;
-  }
 
   function buildPage(){
     console.log("in buildPage");
