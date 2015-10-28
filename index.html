@@ -20,9 +20,19 @@
         <input id="codap-url" size="75" type="text" value="http://codap.concord.org/releases/latest/static/dg/en/cert/index.html" />
     </label>
     <br>
-    <label>Document Server:
-        <input id="doc-server-url" size="75" type="text" value="http://document-store.herokuapp.com/" />
-    </label>
+    <label>Document Server:</label>
+        <input id="doc-server-url" size="75" type="text" value="" />
+        <script type="text/javascript">
+            var pageLoc = location.href;
+            if (pageLoc.indexOf("https") > -1) {
+                $("#codap-url").val("https://codap.concord.org/releases/latest/static/dg/en/cert/index.html");
+                $("#doc-server-url").val("https://document-store.concord.org");
+            } else {
+                $("#codap-url").val("http://codap.concord.org/releases/latest/static/dg/en/cert/index.html");
+                $("#doc-server-url").val("http://document-store.concord.org");
+            }
+        </script>
+
 <div id="top-nav-bar">
     <nav class="nav-bar">
         <ul class="menu-h">
@@ -152,7 +162,7 @@
     <p>Concord Consortium's CODAP sample documents repository: <a target = "blank" href="https://github.com/concord-consortium/codap-data">https://github.com/concord-consortium/codap-data</a></p>
     <p>Concord Consortium's CODAP data interactives repository: <a target="blank" href="https://github.com/concord-consortium/codap-data-interactives">github.com/concord-consortium/codap-data-interactives</a></p>
     <p>Concord Consortium's CODAP project repository: <a target="blank" href="https://github.com/concord-consortium/codap">github.com/concord-consortium/codap</a></p>
-    <p>To find out more about the CODAP project: <a target="blank" href="http://concord.org/projects/codap">About CODAP</a></p>
+    <p>To find out more about the CODAP project: <a target="blank" href="https://concord.org/projects/codap">About CODAP</a></p>
 </div>
 
 </body>
