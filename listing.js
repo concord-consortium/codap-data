@@ -1134,7 +1134,28 @@ function invokeSampleDoc(name) {
     oldLocation = location.href,
     newLocation = oldLocation.replace(/index.html.*/, ''),
     path = map[name].path,
-    url = 'http://concord-consortium.github.io/codap-data/' + path;
+    newLocSSL = "",
+    url = ""
+
+  //if codapURL is SSL, then newLoc should be SSL and url should use newLocSSL. Because codapURL will already be https if github.io/codap-data-interactive is SSL, not need to check if location.href is SSL. This check is only if the user changes the codapURL to SSL manually.  Also changes the docserver URL to SSL
+  if (codapURL.indexOf("https") > -1) {
+    //check if location.href is already https. If it not then replace http with https, else do nothing.
+    if (newLocation.indexOf("https") > -1) {
+      newLocSSL=newLocation;
+    } else {
+      newLocSSL = newLocation.replace("http", "https");
+    }
+    url = newLocSSL + '/' + path;
+    if (docserverURL) {
+      if (docserverURL.indexOf("https") === -1){
+        oldDocServerURL = docserverURL;
+        docserverURL = oldDocServerURL.replace("http","https");
+      }
+    }
+  } else {
+    url = newLocation + '/' + path;
+  }
+  //  url = 'http://concord-consortium.github.io/codap-data/' + path;
 
   if (docserverURL) {
     return (codapURL + '?documentServer=' + encodeURI(docserverURL) + '&url=' + encodeURI(url));
