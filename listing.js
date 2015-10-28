@@ -1145,13 +1145,14 @@ function invokeSampleDoc(name) {
     } else {
       newLocSSL = newLocation.replace("http", "https");
     }
-    url = newLocSSL + '/' + path;
+    //url = newLocSSL + '/' + path;
     if (docserverURL) {
       if (docserverURL.indexOf("https") === -1){
         oldDocServerURL = docserverURL;
         docserverURL = oldDocServerURL.replace("http","https");
       }
     }
+    url = newLocSSL + '/' + path;
   } else {
     url = newLocation + '/' + path;
   }
@@ -1178,7 +1179,7 @@ $(document).ready(function (){
     var html ='',
 
       row,
-      url='http://concord-consortium.github.io/codap-data/';
+      url='https://concord-consortium.github.io/codap-data/';
 
     mapLength = Object.keys(map).length;
 
