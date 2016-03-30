@@ -1,0 +1,1721 @@
+{
+  "name": "Moons_of_Jupiter",
+  "guid": 1,
+  "components": [
+    {
+      "type": "DG.TableView",
+      "guid": 105,
+      "componentStorage": {
+        "_links_": {
+          "context": {
+            "type": "DG.DataContextRecord",
+            "id": 2
+          }
+        },
+        "attributeWidths": [
+          
+        ],
+        "title": "Measurements of positions of Jupiter's moons over time"
+      },
+      "layout": {
+        "width": 690,
+        "height": 200,
+        "left": 5,
+        "top": 5,
+        "zIndex": 1,
+        "isVisible": true
+      },
+      "savedHeight": null
+    },
+    {
+      "type": "DG.GraphView",
+      "guid": 106,
+      "componentStorage": {
+        "_links_": {
+          "context": {
+            "type": "DG.DataContextRecord",
+            "id": 2
+          },
+          "hiddenCases": [
+            
+          ],
+          "xColl": {
+            "type": "DG.Collection",
+            "id": 3
+          },
+          "xAttr": {
+            "type": "DG.Attribute",
+            "id": 4
+          },
+          "yColl": {
+            "type": "DG.Collection",
+            "id": 3
+          },
+          "yAttr": {
+            "type": "DG.Attribute",
+            "id": 12
+          }
+        },
+        "legendRole": 0,
+        "legendAttributeType": 0,
+        "pointColor": "#e6805b",
+        "strokeColor": "white",
+        "pointSizeMultiplier": 1,
+        "transparency": 0.85,
+        "strokeTransparency": 0.4,
+        "isTransparent": false,
+        "xRole": 1,
+        "xAttributeType": 1,
+        "yRole": 4,
+        "yAttributeType": 1,
+        "y2Role": 0,
+        "y2AttributeType": 0,
+        "xAxisClass": "DG.CellLinearAxisModel",
+        "xLowerBound": 51541.56153846154,
+        "xUpperBound": 51577.5,
+        "yAxisClass": "DG.CellLinearAxisModel",
+        "yLowerBound": -225,
+        "yUpperBound": 275,
+        "y2AxisClass": "DG.AxisModel",
+        "plotModels": [
+          {
+            "plotModelStorage": {
+              "verticalAxisIsY2": false,
+              "adornments": {
+                "connectingLine": {
+                  "isVisible": false
+                }
+              }
+            },
+            "plotClass": "DG.ScatterPlotModel"
+          }
+        ],
+        "title": "Measurements"
+      },
+      "layout": {
+        "width": 695,
+        "height": 300,
+        "left": 5,
+        "top": 210,
+        "zIndex": 17,
+        "isVisible": true
+      },
+      "savedHeight": null
+    }
+  ],
+  "contexts": [
+    {
+      "type": "DG.DataContext",
+      "document": 1,
+      "guid": 2,
+      "flexibleGroupingChangeFlag": false,
+      "collections": [
+        {
+          "areParentChildLinksConfigured": false,
+          "attrs": [
+            {
+              "name": "mjd",
+              "type": null,
+              "description": "",
+              "colormap": {
+                
+              },
+              "blockDisplayOfEmptyCategories": true,
+              "editable": false,
+              "guid": 4,
+              "precision": 2,
+              "unit": "day"
+            },
+            {
+              "name": "year",
+              "type": null,
+              "description": "",
+              "colormap": {
+                
+              },
+              "blockDisplayOfEmptyCategories": true,
+              "editable": false,
+              "guid": 5,
+              "precision": 2,
+              "unit": null
+            },
+            {
+              "name": "mo",
+              "type": null,
+              "description": "",
+              "colormap": {
+                
+              },
+              "blockDisplayOfEmptyCategories": true,
+              "editable": false,
+              "guid": 6,
+              "precision": 2,
+              "unit": null
+            },
+            {
+              "name": "dy",
+              "type": null,
+              "description": "",
+              "colormap": {
+                
+              },
+              "blockDisplayOfEmptyCategories": true,
+              "editable": false,
+              "guid": 7,
+              "precision": 2,
+              "unit": null
+            },
+            {
+              "name": "hr",
+              "type": null,
+              "description": "",
+              "colormap": {
+                
+              },
+              "blockDisplayOfEmptyCategories": true,
+              "editable": false,
+              "guid": 8,
+              "precision": 2,
+              "unit": null
+            },
+            {
+              "name": "mi",
+              "type": null,
+              "description": "",
+              "colormap": {
+                
+              },
+              "blockDisplayOfEmptyCategories": true,
+              "editable": false,
+              "guid": 9,
+              "precision": 2,
+              "unit": null
+            },
+            {
+              "name": "limb",
+              "type": null,
+              "description": "",
+              "colormap": {
+                
+              },
+              "blockDisplayOfEmptyCategories": true,
+              "editable": false,
+              "guid": 10,
+              "precision": 2,
+              "unit": "arcseconds"
+            },
+            {
+              "name": "Io",
+              "type": null,
+              "description": "",
+              "colormap": {
+                
+              },
+              "blockDisplayOfEmptyCategories": true,
+              "editable": false,
+              "guid": 11,
+              "precision": 2,
+              "unit": "arcseconds"
+            },
+            {
+              "name": "Europa",
+              "type": null,
+              "description": "",
+              "colormap": {
+                
+              },
+              "blockDisplayOfEmptyCategories": true,
+              "editable": false,
+              "guid": 12,
+              "precision": 2,
+              "unit": "arcseconds"
+            },
+            {
+              "name": "Ganymede",
+              "type": null,
+              "description": "",
+              "colormap": {
+                
+              },
+              "blockDisplayOfEmptyCategories": true,
+              "editable": false,
+              "guid": 13,
+              "precision": 2,
+              "unit": "arcseconds"
+            },
+            {
+              "name": "Callisto",
+              "type": null,
+              "description": "",
+              "colormap": {
+                
+              },
+              "blockDisplayOfEmptyCategories": true,
+              "editable": false,
+              "guid": 14,
+              "precision": 2,
+              "unit": "arcseconds"
+            }
+          ],
+          "cases": [
+            {
+              "guid": 15,
+              "values": {
+                "mjd": 51543,
+                "year": 1999,
+                "mo": 12,
+                "dy": 31,
+                "hr": 0,
+                "mi": 0,
+                "limb": 21.44,
+                "Io": 85.44,
+                "Europa": 109.85,
+                "Ganymede": 283.68,
+                "Callisto": 208.84
+              }
+            },
+            {
+              "guid": 16,
+              "values": {
+                "mjd": 51543,
+                "year": 1999,
+                "mo": 12,
+                "dy": 31,
+                "hr": 1,
+                "mi": 0,
+                "limb": 21.44,
+                "Io": 98.25,
+                "Europa": 121.87,
+                "Ganymede": 277.94,
+                "Callisto": 217.05
+              }
+            },
+            {
+              "guid": 17,
+              "values": {
+                "mjd": 51543.1,
+                "year": 1999,
+                "mo": 12,
+                "dy": 31,
+                "hr": 2,
+                "mi": 0,
+                "limb": 21.43,
+                "Io": 108.89,
+                "Europa": 133.25,
+                "Ganymede": 271.83,
+                "Callisto": 225.2
+              }
+            },
+            {
+              "guid": 18,
+              "values": {
+                "mjd": 51543.1,
+                "year": 1999,
+                "mo": 12,
+                "dy": 31,
+                "hr": 3,
+                "mi": 0,
+                "limb": 21.43,
+                "Io": 117.13,
+                "Europa": 143.93,
+                "Ganymede": 265.36,
+                "Callisto": 233.29
+              }
+            },
+            {
+              "guid": 19,
+              "values": {
+                "mjd": 51543.2,
+                "year": 1999,
+                "mo": 12,
+                "dy": 31,
+                "hr": 4,
+                "mi": 0,
+                "limb": 21.43,
+                "Io": 122.78,
+                "Europa": 153.84,
+                "Ganymede": 258.54,
+                "Callisto": 241.33
+              }
+            },
+            {
+              "guid": 20,
+              "values": {
+                "mjd": 51543.2,
+                "year": 1999,
+                "mo": 12,
+                "dy": 31,
+                "hr": 5,
+                "mi": 0,
+                "limb": 21.42,
+                "Io": 125.73,
+                "Europa": 162.93,
+                "Ganymede": 251.38,
+                "Callisto": 249.3
+              }
+            },
+            {
+              "guid": 21,
+              "values": {
+                "mjd": 51543.2,
+                "year": 1999,
+                "mo": 12,
+                "dy": 31,
+                "hr": 6,
+                "mi": 0,
+                "limb": 21.42,
+                "Io": 125.92,
+                "Europa": 171.16,
+                "Ganymede": 243.88,
+                "Callisto": 257.2
+              }
+            },
+            {
+              "guid": 22,
+              "values": {
+                "mjd": 51543.3,
+                "year": 1999,
+                "mo": 12,
+                "dy": 31,
+                "hr": 7,
+                "mi": 0,
+                "limb": 21.42,
+                "Io": 123.34,
+                "Europa": 178.48,
+                "Ganymede": 236.06,
+                "Callisto": 265.04
+              }
+            },
+            {
+              "guid": 23,
+              "values": {
+                "mjd": 51543.3,
+                "year": 1999,
+                "mo": 12,
+                "dy": 31,
+                "hr": 8,
+                "mi": 0,
+                "limb": 21.41,
+                "Io": 118.07,
+                "Europa": 184.85,
+                "Ganymede": 227.93,
+                "Callisto": 272.82
+              }
+            },
+            {
+              "guid": 24,
+              "values": {
+                "mjd": 51543.4,
+                "year": 1999,
+                "mo": 12,
+                "dy": 31,
+                "hr": 9,
+                "mi": 0,
+                "limb": 21.41,
+                "Io": 110.21,
+                "Europa": 190.24,
+                "Ganymede": 219.49,
+                "Callisto": 280.52
+              }
+            },
+            {
+              "guid": 25,
+              "values": {
+                "mjd": 51543.4,
+                "year": 1999,
+                "mo": 12,
+                "dy": 31,
+                "hr": 10,
+                "mi": 0,
+                "limb": 21.41,
+                "Io": 99.96,
+                "Europa": 194.61,
+                "Ganymede": 210.77,
+                "Callisto": 288.15
+              }
+            },
+            {
+              "guid": 26,
+              "values": {
+                "mjd": 51543.5,
+                "year": 1999,
+                "mo": 12,
+                "dy": 31,
+                "hr": 11,
+                "mi": 0,
+                "limb": 21.41,
+                "Io": 87.53,
+                "Europa": 197.95,
+                "Ganymede": 201.77,
+                "Callisto": 295.71
+              }
+            },
+            {
+              "guid": 27,
+              "values": {
+                "mjd": 51543.5,
+                "year": 1999,
+                "mo": 12,
+                "dy": 31,
+                "hr": 12,
+                "mi": 0,
+                "limb": 21.4,
+                "Io": 73.2,
+                "Europa": 200.23,
+                "Ganymede": 192.5,
+                "Callisto": 303.19
+              }
+            },
+            {
+              "guid": 28,
+              "values": {
+                "mjd": 51543.5,
+                "year": 1999,
+                "mo": 12,
+                "dy": 31,
+                "hr": 13,
+                "mi": 0,
+                "limb": 21.4,
+                "Io": 57.28,
+                "Europa": 201.43,
+                "Ganymede": 182.98,
+                "Callisto": 310.59
+              }
+            },
+            {
+              "guid": 29,
+              "values": {
+                "mjd": 51543.6,
+                "year": 1999,
+                "mo": 12,
+                "dy": 31,
+                "hr": 14,
+                "mi": 0,
+                "limb": 21.4,
+                "Io": 40.13,
+                "Europa": 201.56,
+                "Ganymede": 173.21,
+                "Callisto": 317.91
+              }
+            },
+            {
+              "guid": 30,
+              "values": {
+                "mjd": 51543.6,
+                "year": 1999,
+                "mo": 12,
+                "dy": 31,
+                "hr": 15,
+                "mi": 0,
+                "limb": 21.39,
+                "Io": 22.12,
+                "Europa": 200.61,
+                "Ganymede": 163.22,
+                "Callisto": 325.16
+              }
+            },
+            {
+              "guid": 31,
+              "values": {
+                "mjd": 51543.7,
+                "year": 1999,
+                "mo": 12,
+                "dy": 31,
+                "hr": 16,
+                "mi": 0,
+                "limb": 21.39,
+                "Io": 3.63,
+                "Europa": 198.58,
+                "Ganymede": 153.02,
+                "Callisto": 332.32
+              }
+            },
+            {
+              "guid": 32,
+              "values": {
+                "mjd": 51543.7,
+                "year": 1999,
+                "mo": 12,
+                "dy": 31,
+                "hr": 17,
+                "mi": 0,
+                "limb": 21.39,
+                "Io": "-14.93",
+                "Europa": 195.48,
+                "Ganymede": 142.61,
+                "Callisto": 339.4
+              }
+            },
+            {
+              "guid": 33,
+              "values": {
+                "mjd": 51543.8,
+                "year": 1999,
+                "mo": 12,
+                "dy": 31,
+                "hr": 18,
+                "mi": 0,
+                "limb": 21.38,
+                "Io": "-33.16",
+                "Europa": 191.32,
+                "Ganymede": 132.01,
+                "Callisto": 346.39
+              }
+            },
+            {
+              "guid": 34,
+              "values": {
+                "mjd": 51543.8,
+                "year": 1999,
+                "mo": 12,
+                "dy": 31,
+                "hr": 19,
+                "mi": 0,
+                "limb": 21.38,
+                "Io": "-50.67",
+                "Europa": 186.13,
+                "Ganymede": 121.25,
+                "Callisto": 353.29
+              }
+            },
+            {
+              "guid": 35,
+              "values": {
+                "mjd": 51543.8,
+                "year": 1999,
+                "mo": 12,
+                "dy": 31,
+                "hr": 20,
+                "mi": 0,
+                "limb": 21.38,
+                "Io": "-67.09",
+                "Europa": 179.93,
+                "Ganymede": 110.32,
+                "Callisto": 360.1
+              }
+            },
+            {
+              "guid": 36,
+              "values": {
+                "mjd": 51543.9,
+                "year": 1999,
+                "mo": 12,
+                "dy": 31,
+                "hr": 21,
+                "mi": 0,
+                "limb": 21.38,
+                "Io": "-82.05",
+                "Europa": 172.76,
+                "Ganymede": 99.25,
+                "Callisto": 366.83
+              }
+            },
+            {
+              "guid": 37,
+              "values": {
+                "mjd": 51543.9,
+                "year": 1999,
+                "mo": 12,
+                "dy": 31,
+                "hr": 22,
+                "mi": 0,
+                "limb": 21.37,
+                "Io": "-95.23",
+                "Europa": 164.65,
+                "Ganymede": 88.05,
+                "Callisto": 373.46
+              }
+            },
+            {
+              "guid": 38,
+              "values": {
+                "mjd": 51544,
+                "year": 1999,
+                "mo": 12,
+                "dy": 31,
+                "hr": 23,
+                "mi": 0,
+                "limb": 21.37,
+                "Io": "-106.36",
+                "Europa": 155.64,
+                "Ganymede": 76.74,
+                "Callisto": 380
+              }
+            },
+            {
+              "guid": 39,
+              "values": {
+                "mjd": 51544,
+                "year": 2000,
+                "mo": 1,
+                "dy": 1,
+                "hr": 0,
+                "mi": 0,
+                "limb": 21.37,
+                "Io": "-115.18",
+                "Europa": 145.78,
+                "Ganymede": 65.32,
+                "Callisto": 386.44
+              }
+            },
+            {
+              "guid": 40,
+              "values": {
+                "mjd": 51544,
+                "year": 2000,
+                "mo": 1,
+                "dy": 1,
+                "hr": 1,
+                "mi": 0,
+                "limb": 21.36,
+                "Io": "-121.5",
+                "Europa": 135.13,
+                "Ganymede": 53.83,
+                "Callisto": 392.78
+              }
+            },
+            {
+              "guid": 41,
+              "values": {
+                "mjd": 51544.1,
+                "year": 2000,
+                "mo": 1,
+                "dy": 1,
+                "hr": 2,
+                "mi": 0,
+                "limb": 21.36,
+                "Io": "-125.19",
+                "Europa": 123.74,
+                "Ganymede": 42.26,
+                "Callisto": 399.03
+              }
+            },
+            {
+              "guid": 42,
+              "values": {
+                "mjd": 51544.1,
+                "year": 2000,
+                "mo": 1,
+                "dy": 1,
+                "hr": 3,
+                "mi": 0,
+                "limb": 21.36,
+                "Io": "-126.17",
+                "Europa": 111.67,
+                "Ganymede": 30.64,
+                "Callisto": 405.17
+              }
+            },
+            {
+              "guid": 43,
+              "values": {
+                "mjd": 51544.2,
+                "year": 2000,
+                "mo": 1,
+                "dy": 1,
+                "hr": 4,
+                "mi": 0,
+                "limb": 21.35,
+                "Io": "-124.39",
+                "Europa": 98.99,
+                "Ganymede": 18.99,
+                "Callisto": 411.22
+              }
+            },
+            {
+              "guid": 44,
+              "values": {
+                "mjd": 51544.2,
+                "year": 2000,
+                "mo": 1,
+                "dy": 1,
+                "hr": 5,
+                "mi": 0,
+                "limb": 21.35,
+                "Io": "-119.91",
+                "Europa": 85.76,
+                "Ganymede": 7.31,
+                "Callisto": 417.16
+              }
+            },
+            {
+              "guid": 45,
+              "values": {
+                "mjd": 51544.2,
+                "year": 2000,
+                "mo": 1,
+                "dy": 1,
+                "hr": 6,
+                "mi": 0,
+                "limb": 21.35,
+                "Io": "-112.81",
+                "Europa": 72.07,
+                "Ganymede": "-4.37",
+                "Callisto": 423
+              }
+            },
+            {
+              "guid": 46,
+              "values": {
+                "mjd": 51544.3,
+                "year": 2000,
+                "mo": 1,
+                "dy": 1,
+                "hr": 7,
+                "mi": 0,
+                "limb": 21.35,
+                "Io": "-103.25",
+                "Europa": 57.98,
+                "Ganymede": "-16.05",
+                "Callisto": 428.73
+              }
+            },
+            {
+              "guid": 47,
+              "values": {
+                "mjd": 51544.3,
+                "year": 2000,
+                "mo": 1,
+                "dy": 1,
+                "hr": 8,
+                "mi": 0,
+                "limb": 21.34,
+                "Io": "-91.43",
+                "Europa": 43.57,
+                "Ganymede": "-27.7",
+                "Callisto": 434.35
+              }
+            },
+            {
+              "guid": 48,
+              "values": {
+                "mjd": 51544.4,
+                "year": 2000,
+                "mo": 1,
+                "dy": 1,
+                "hr": 9,
+                "mi": 0,
+                "limb": 21.34,
+                "Io": "-77.6",
+                "Europa": 28.92,
+                "Ganymede": "-39.31",
+                "Callisto": 439.87
+              }
+            },
+            {
+              "guid": 49,
+              "values": {
+                "mjd": 51544.4,
+                "year": 2000,
+                "mo": 1,
+                "dy": 1,
+                "hr": 10,
+                "mi": 0,
+                "limb": 21.34,
+                "Io": "-62.08",
+                "Europa": 14.12,
+                "Ganymede": "-50.86",
+                "Callisto": 445.27
+              }
+            },
+            {
+              "guid": 50,
+              "values": {
+                "mjd": 51544.5,
+                "year": 2000,
+                "mo": 1,
+                "dy": 1,
+                "hr": 11,
+                "mi": 0,
+                "limb": 21.33,
+                "Io": "-45.19",
+                "Europa": "-0.76",
+                "Ganymede": "-62.34",
+                "Callisto": 450.57
+              }
+            },
+            {
+              "guid": 51,
+              "values": {
+                "mjd": 51544.5,
+                "year": 2000,
+                "mo": 1,
+                "dy": 1,
+                "hr": 12,
+                "mi": 0,
+                "limb": 21.33,
+                "Io": "-27.31",
+                "Europa": "-15.63",
+                "Ganymede": "-73.74",
+                "Callisto": 455.75
+              }
+            },
+            {
+              "guid": 52,
+              "values": {
+                "mjd": 51544.5,
+                "year": 2000,
+                "mo": 1,
+                "dy": 1,
+                "hr": 13,
+                "mi": 0,
+                "limb": 21.33,
+                "Io": "-8.83",
+                "Europa": "-30.41",
+                "Ganymede": "-85.03",
+                "Callisto": 460.82
+              }
+            },
+            {
+              "guid": 53,
+              "values": {
+                "mjd": 51544.6,
+                "year": 2000,
+                "mo": 1,
+                "dy": 1,
+                "hr": 14,
+                "mi": 0,
+                "limb": 21.32,
+                "Io": 9.83,
+                "Europa": "-45.01",
+                "Ganymede": "-96.21",
+                "Callisto": 465.78
+              }
+            },
+            {
+              "guid": 54,
+              "values": {
+                "mjd": 51544.6,
+                "year": 2000,
+                "mo": 1,
+                "dy": 1,
+                "hr": 15,
+                "mi": 0,
+                "limb": 21.32,
+                "Io": 28.28,
+                "Europa": "-59.36",
+                "Ganymede": "-107.25",
+                "Callisto": 470.62
+              }
+            },
+            {
+              "guid": 55,
+              "values": {
+                "mjd": 51544.7,
+                "year": 2000,
+                "mo": 1,
+                "dy": 1,
+                "hr": 16,
+                "mi": 0,
+                "limb": 21.32,
+                "Io": 46.09,
+                "Europa": "-73.37",
+                "Ganymede": "-118.15",
+                "Callisto": 475.34
+              }
+            },
+            {
+              "guid": 56,
+              "values": {
+                "mjd": 51544.7,
+                "year": 2000,
+                "mo": 1,
+                "dy": 1,
+                "hr": 17,
+                "mi": 0,
+                "limb": 21.32,
+                "Io": 62.88,
+                "Europa": "-86.97",
+                "Ganymede": "-128.89",
+                "Callisto": 479.95
+              }
+            },
+            {
+              "guid": 57,
+              "values": {
+                "mjd": 51544.8,
+                "year": 2000,
+                "mo": 1,
+                "dy": 1,
+                "hr": 18,
+                "mi": 0,
+                "limb": 21.31,
+                "Io": 78.28,
+                "Europa": "-100.08",
+                "Ganymede": "-139.45",
+                "Callisto": 484.43
+              }
+            },
+            {
+              "guid": 58,
+              "values": {
+                "mjd": 51544.8,
+                "year": 2000,
+                "mo": 1,
+                "dy": 1,
+                "hr": 19,
+                "mi": 0,
+                "limb": 21.31,
+                "Io": 91.94,
+                "Europa": "-112.62",
+                "Ganymede": "-149.82",
+                "Callisto": 488.8
+              }
+            },
+            {
+              "guid": 59,
+              "values": {
+                "mjd": 51544.8,
+                "year": 2000,
+                "mo": 1,
+                "dy": 1,
+                "hr": 20,
+                "mi": 0,
+                "limb": 21.31,
+                "Io": 103.56,
+                "Europa": "-124.54",
+                "Ganymede": "-159.99",
+                "Callisto": 493.04
+              }
+            },
+            {
+              "guid": 60,
+              "values": {
+                "mjd": 51544.9,
+                "year": 2000,
+                "mo": 1,
+                "dy": 1,
+                "hr": 21,
+                "mi": 0,
+                "limb": 21.3,
+                "Io": 112.9,
+                "Europa": "-135.76",
+                "Ganymede": "-169.94",
+                "Callisto": 497.17
+              }
+            },
+            {
+              "guid": 61,
+              "values": {
+                "mjd": 51544.9,
+                "year": 2000,
+                "mo": 1,
+                "dy": 1,
+                "hr": 22,
+                "mi": 0,
+                "limb": 21.3,
+                "Io": 119.75,
+                "Europa": "-146.21",
+                "Ganymede": "-179.67",
+                "Callisto": 501.17
+              }
+            },
+            {
+              "guid": 62,
+              "values": {
+                "mjd": 51545,
+                "year": 2000,
+                "mo": 1,
+                "dy": 1,
+                "hr": 23,
+                "mi": 0,
+                "limb": 21.3,
+                "Io": 123.95,
+                "Europa": "-155.85",
+                "Ganymede": "-189.14",
+                "Callisto": 505.04
+              }
+            },
+            {
+              "guid": 63,
+              "values": {
+                "mjd": 51545,
+                "year": 2000,
+                "mo": 1,
+                "dy": 2,
+                "hr": 0,
+                "mi": 0,
+                "limb": 21.29,
+                "Io": 125.43,
+                "Europa": "-164.62",
+                "Ganymede": "-198.37",
+                "Callisto": 508.79
+              }
+            },
+            {
+              "guid": 64,
+              "values": {
+                "mjd": 51545.2,
+                "year": 2000,
+                "mo": 1,
+                "dy": 2,
+                "hr": 6,
+                "mi": 0,
+                "limb": 21.28,
+                "Io": 79.7,
+                "Europa": "-196.68",
+                "Ganymede": "-247.67",
+                "Callisto": 528.64
+              }
+            },
+            {
+              "guid": 65,
+              "values": {
+                "mjd": 51545.5,
+                "year": 2000,
+                "mo": 1,
+                "dy": 2,
+                "hr": 12,
+                "mi": 0,
+                "limb": 21.26,
+                "Io": "-24.48",
+                "Europa": "-190.36",
+                "Ganymede": "-285",
+                "Callisto": 543.81
+              }
+            },
+            {
+              "guid": 66,
+              "values": {
+                "mjd": 51545.8,
+                "year": 2000,
+                "mo": 1,
+                "dy": 2,
+                "hr": 18,
+                "mi": 0,
+                "limb": 21.24,
+                "Io": "-110.65",
+                "Europa": "-147.37",
+                "Ganymede": "-308.57",
+                "Callisto": 554.2
+              }
+            },
+            {
+              "guid": 67,
+              "values": {
+                "mjd": 51546,
+                "year": 2000,
+                "mo": 1,
+                "dy": 3,
+                "hr": 0,
+                "mi": 0,
+                "limb": 21.22,
+                "Io": "-115.78",
+                "Europa": "-76.39",
+                "Ganymede": "-317.27",
+                "Callisto": 559.74
+              }
+            },
+            {
+              "guid": 68,
+              "values": {
+                "mjd": 51546.2,
+                "year": 2000,
+                "mo": 1,
+                "dy": 3,
+                "hr": 6,
+                "mi": 0,
+                "limb": 21.21,
+                "Io": "-35.62",
+                "Europa": 8.88,
+                "Ganymede": "-310.69",
+                "Callisto": 560.39
+              }
+            },
+            {
+              "guid": 69,
+              "values": {
+                "mjd": 51546.5,
+                "year": 2000,
+                "mo": 1,
+                "dy": 3,
+                "hr": 12,
+                "mi": 0,
+                "limb": 21.19,
+                "Io": 70.8,
+                "Europa": 92.35,
+                "Ganymede": "-289.19",
+                "Callisto": 556.17
+              }
+            },
+            {
+              "guid": 70,
+              "values": {
+                "mjd": 51550,
+                "year": 2000,
+                "mo": 1,
+                "dy": 7,
+                "hr": 0,
+                "mi": 0,
+                "limb": 20.94,
+                "Io": 55.05,
+                "Europa": 74.53,
+                "Ganymede": 295.17,
+                "Callisto": 82.53
+              }
+            },
+            {
+              "guid": 71,
+              "values": {
+                "mjd": 51551,
+                "year": 2000,
+                "mo": 1,
+                "dy": 8,
+                "hr": 0,
+                "mi": 0,
+                "limb": 20.87,
+                "Io": "-94.16",
+                "Europa": 165.1,
+                "Ganymede": 106.59,
+                "Callisto": "-121.47"
+              }
+            },
+            {
+              "guid": 72,
+              "values": {
+                "mjd": 51552,
+                "year": 2000,
+                "mo": 1,
+                "dy": 9,
+                "hr": 0,
+                "mi": 0,
+                "limb": 20.8,
+                "Io": 117.52,
+                "Europa": "-137.39",
+                "Ganymede": "-157.1",
+                "Callisto": "-307.44"
+              }
+            },
+            {
+              "guid": 73,
+              "values": {
+                "mjd": 51553,
+                "year": 2000,
+                "mo": 1,
+                "dy": 10,
+                "hr": 0,
+                "mi": 0,
+                "limb": 20.73,
+                "Io": "-121.64",
+                "Europa": "-107.1",
+                "Ganymede": "-305.87",
+                "Callisto": "-449.83"
+              }
+            },
+            {
+              "guid": 74,
+              "values": {
+                "mjd": 51554,
+                "year": 2000,
+                "mo": 1,
+                "dy": 11,
+                "hr": 0,
+                "mi": 0,
+                "limb": 20.66,
+                "Io": 105.06,
+                "Europa": 178.82,
+                "Ganymede": "-233.08",
+                "Callisto": "-528.85"
+              }
+            },
+            {
+              "guid": 75,
+              "values": {
+                "mjd": 51555,
+                "year": 2000,
+                "mo": 1,
+                "dy": 12,
+                "hr": 0,
+                "mi": 0,
+                "limb": 20.59,
+                "Io": "-72.65",
+                "Europa": 39.51,
+                "Ganymede": 7.15,
+                "Callisto": "-533.49"
+              }
+            },
+            {
+              "guid": 76,
+              "values": {
+                "mjd": 51556,
+                "year": 2000,
+                "mo": 1,
+                "dy": 13,
+                "hr": 0,
+                "mi": 0,
+                "limb": 20.52,
+                "Io": 27.09,
+                "Europa": "-192.14",
+                "Ganymede": 240.76,
+                "Callisto": "-463.09"
+              }
+            },
+            {
+              "guid": 77,
+              "values": {
+                "mjd": 51557,
+                "year": 2000,
+                "mo": 1,
+                "dy": 14,
+                "hr": 0,
+                "mi": 0,
+                "limb": 20.45,
+                "Io": 21.47,
+                "Europa": 37.73,
+                "Ganymede": 300.35,
+                "Callisto": "-327.74"
+              }
+            },
+            {
+              "guid": 78,
+              "values": {
+                "mjd": 51558,
+                "year": 2000,
+                "mo": 1,
+                "dy": 15,
+                "hr": 0,
+                "mi": 0,
+                "limb": 20.39,
+                "Io": "-66.65",
+                "Europa": 177.94,
+                "Ganymede": 144.54,
+                "Callisto": "-146.93"
+              }
+            },
+            {
+              "guid": 79,
+              "values": {
+                "mjd": 51559,
+                "year": 2000,
+                "mo": 1,
+                "dy": 16,
+                "hr": 0,
+                "mi": 0,
+                "limb": 20.32,
+                "Io": 100.73,
+                "Europa": "-106.09",
+                "Ganymede": "-113.77",
+                "Callisto": 53.44
+              }
+            },
+            {
+              "guid": 80,
+              "values": {
+                "mjd": 51560,
+                "year": 2000,
+                "mo": 1,
+                "dy": 17,
+                "hr": 0,
+                "mi": 0,
+                "limb": 20.25,
+                "Io": "-117.83",
+                "Europa": "-133.03",
+                "Ganymede": "-288.5",
+                "Callisto": 244.96
+              }
+            },
+            {
+              "guid": 81,
+              "values": {
+                "mjd": 51561,
+                "year": 2000,
+                "mo": 1,
+                "dy": 18,
+                "hr": 0,
+                "mi": 0,
+                "limb": 20.19,
+                "Io": 115.44,
+                "Europa": 157.15,
+                "Ganymede": "-254.23",
+                "Callisto": 400.99
+              }
+            },
+            {
+              "guid": 82,
+              "values": {
+                "mjd": 51562,
+                "year": 2000,
+                "mo": 1,
+                "dy": 19,
+                "hr": 0,
+                "mi": 0,
+                "limb": 20.12,
+                "Io": "-94.85",
+                "Europa": 73.29,
+                "Ganymede": "-37.12",
+                "Callisto": 500.29
+              }
+            },
+            {
+              "guid": 83,
+              "values": {
+                "mjd": 51563,
+                "year": 2000,
+                "mo": 1,
+                "dy": 20,
+                "hr": 0,
+                "mi": 0,
+                "limb": 20.05,
+                "Io": 57.8,
+                "Europa": "-184.68",
+                "Ganymede": 205.33,
+                "Callisto": 530.09
+              }
+            },
+            {
+              "guid": 84,
+              "values": {
+                "mjd": 51564,
+                "year": 2000,
+                "mo": 1,
+                "dy": 21,
+                "hr": 0,
+                "mi": 0,
+                "limb": 19.99,
+                "Io": "-12.58",
+                "Europa": 0.79,
+                "Ganymede": 299.19,
+                "Callisto": 487.25
+              }
+            },
+            {
+              "guid": 85,
+              "values": {
+                "mjd": 51565,
+                "year": 2000,
+                "mo": 1,
+                "dy": 22,
+                "hr": 0,
+                "mi": 0,
+                "limb": 19.92,
+                "Io": "-34.93",
+                "Europa": 183.92,
+                "Ganymede": 178.41,
+                "Callisto": 378.51
+              }
+            },
+            {
+              "guid": 86,
+              "values": {
+                "mjd": 51566,
+                "year": 2000,
+                "mo": 1,
+                "dy": 23,
+                "hr": 0,
+                "mi": 0,
+                "limb": 19.86,
+                "Io": 76.55,
+                "Europa": "-71.91",
+                "Ganymede": "-69.27",
+                "Callisto": 219.23
+              }
+            },
+            {
+              "guid": 87,
+              "values": {
+                "mjd": 51567,
+                "year": 2000,
+                "mo": 1,
+                "dy": 24,
+                "hr": 0,
+                "mi": 0,
+                "limb": 19.8,
+                "Io": "-104.86",
+                "Europa": "-153.3",
+                "Ganymede": "-265.54",
+                "Callisto": 31.33
+              }
+            },
+            {
+              "guid": 88,
+              "values": {
+                "mjd": 51568,
+                "year": 2000,
+                "mo": 1,
+                "dy": 25,
+                "hr": 0,
+                "mi": 0,
+                "limb": 19.73,
+                "Io": 116.29,
+                "Europa": 130.51,
+                "Ganymede": "-269.46",
+                "Callisto": "-159.55"
+              }
+            },
+            {
+              "guid": 89,
+              "values": {
+                "mjd": 51569,
+                "year": 2000,
+                "mo": 1,
+                "dy": 26,
+                "hr": 0,
+                "mi": 0,
+                "limb": 19.67,
+                "Io": "-108.68",
+                "Europa": 103.26,
+                "Ganymede": "-79.43",
+                "Callisto": "-327.43"
+              }
+            },
+            {
+              "guid": 90,
+              "values": {
+                "mjd": 51570,
+                "year": 2000,
+                "mo": 1,
+                "dy": 27,
+                "hr": 0,
+                "mi": 0,
+                "limb": 19.61,
+                "Io": 82.8,
+                "Europa": "-170.66",
+                "Ganymede": 166.56,
+                "Callisto": "-449.24"
+              }
+            },
+            {
+              "guid": 91,
+              "values": {
+                "mjd": 51571,
+                "year": 2000,
+                "mo": 1,
+                "dy": 28,
+                "hr": 0,
+                "mi": 0,
+                "limb": 19.55,
+                "Io": "-44.37",
+                "Europa": "-34.98",
+                "Ganymede": 291.73,
+                "Callisto": "-508.12"
+              }
+            },
+            {
+              "guid": 92,
+              "values": {
+                "mjd": 51572,
+                "year": 2000,
+                "mo": 1,
+                "dy": 29,
+                "hr": 0,
+                "mi": 0,
+                "limb": 19.49,
+                "Io": "-1.6",
+                "Europa": 182.93,
+                "Ganymede": 207.54,
+                "Callisto": "-495.8"
+              }
+            },
+            {
+              "guid": 93,
+              "values": {
+                "mjd": 51573,
+                "year": 2000,
+                "mo": 1,
+                "dy": 30,
+                "hr": 0,
+                "mi": 0,
+                "limb": 19.42,
+                "Io": 47.09,
+                "Europa": "-36.17",
+                "Ganymede": "-24.54",
+                "Callisto": "-414.03"
+              }
+            },
+            {
+              "guid": 94,
+              "values": {
+                "mjd": 51574,
+                "year": 2000,
+                "mo": 1,
+                "dy": 31,
+                "hr": 0,
+                "mi": 0,
+                "limb": 19.36,
+                "Io": "-83.97",
+                "Europa": "-167.26",
+                "Ganymede": "-237.49",
+                "Callisto": "-274.47"
+              }
+            },
+            {
+              "guid": 95,
+              "values": {
+                "mjd": 51546.8,
+                "year": 2000,
+                "mo": 1,
+                "dy": 3,
+                "hr": 18,
+                "mi": 0,
+                "limb": 21.17,
+                "Io": 124.35,
+                "Europa": 158.43,
+                "Ganymede": "-253.83",
+                "Callisto": 547.12
+              }
+            },
+            {
+              "guid": 96,
+              "values": {
+                "mjd": 51547,
+                "year": 2000,
+                "mo": 1,
+                "dy": 4,
+                "hr": 0,
+                "mi": 0,
+                "limb": 21.15,
+                "Io": 85.78,
+                "Europa": 194.66,
+                "Ganymede": "-206.34",
+                "Callisto": 533.35
+              }
+            },
+            {
+              "guid": 97,
+              "values": {
+                "mjd": 51547.2,
+                "year": 2000,
+                "mo": 1,
+                "dy": 4,
+                "hr": 6,
+                "mi": 0,
+                "limb": 21.13,
+                "Io": "-15.72",
+                "Europa": 193.99,
+                "Ganymede": "-149.02",
+                "Callisto": 514.97
+              }
+            },
+            {
+              "guid": 98,
+              "values": {
+                "mjd": 51547.5,
+                "year": 2000,
+                "mo": 1,
+                "dy": 4,
+                "hr": 12,
+                "mi": 0,
+                "limb": 21.12,
+                "Io": "-105.61",
+                "Europa": 156.2,
+                "Ganymede": "-84.65",
+                "Callisto": 492.17
+              }
+            },
+            {
+              "guid": 99,
+              "values": {
+                "mjd": 51547.8,
+                "year": 2000,
+                "mo": 1,
+                "dy": 4,
+                "hr": 18,
+                "mi": 0,
+                "limb": 21.1,
+                "Io": "-118.15",
+                "Europa": 88.23,
+                "Ganymede": "-16.33",
+                "Callisto": 465.16
+              }
+            },
+            {
+              "guid": 100,
+              "values": {
+                "mjd": 51548,
+                "year": 2000,
+                "mo": 1,
+                "dy": 5,
+                "hr": 0,
+                "mi": 0,
+                "limb": 21.08,
+                "Io": "-43.67",
+                "Europa": 3.13,
+                "Ganymede": 52.67,
+                "Callisto": 434.19
+              }
+            },
+            {
+              "guid": 101,
+              "values": {
+                "mjd": 51548.2,
+                "year": 2000,
+                "mo": 1,
+                "dy": 5,
+                "hr": 6,
+                "mi": 0,
+                "limb": 21.06,
+                "Io": 63.04,
+                "Europa": "-82.44",
+                "Ganymede": 119.02,
+                "Callisto": 399.54
+              }
+            },
+            {
+              "guid": 102,
+              "values": {
+                "mjd": 51548.5,
+                "year": 2000,
+                "mo": 1,
+                "dy": 5,
+                "hr": 12,
+                "mi": 0,
+                "limb": 21.05,
+                "Io": 122.66,
+                "Europa": "-151.57",
+                "Ganymede": 179.58,
+                "Callisto": 361.5
+              }
+            },
+            {
+              "guid": 103,
+              "values": {
+                "mjd": 51548.8,
+                "year": 2000,
+                "mo": 1,
+                "dy": 5,
+                "hr": 18,
+                "mi": 0,
+                "limb": 21.03,
+                "Io": 91.36,
+                "Europa": "-190.77",
+                "Ganymede": 231.45,
+                "Callisto": 320.4
+              }
+            },
+            {
+              "guid": 104,
+              "values": {
+                "mjd": 51549,
+                "year": 2000,
+                "mo": 1,
+                "dy": 6,
+                "hr": 0,
+                "mi": 0,
+                "limb": 21.01,
+                "Io": "-6.99",
+                "Europa": "-192.69",
+                "Ganymede": 272.18,
+                "Callisto": 276.62
+              }
+            }
+          ],
+          "caseName": null,
+          "childAttrName": null,
+          "collapseChildren": null,
+          "guid": 3,
+          "name": "Measurements",
+          "type": "DG.Collection"
+        }
+      ],
+      "contextStorage": {
+        
+      }
+    }
+  ],
+  "globalValues": [
+    
+  ],
+  "appName": "DG",
+  "appVersion": "2.0",
+  "appBuildNum": "0331"
+}

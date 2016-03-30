@@ -1,0 +1,28 @@
+body {
+  padding-top: 10px;
+}
+.starter-template {
+  padding: 20px 15px;
+  text-align: center;
+  background-color: #1290AE;
+  color: white;
+}
+.container {
+	background-color: #FDE59A;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.content {
+	padding: 20px;
+}
+
+.footer {
+	padding: 10px;
+	font-size: smaller;
+}
+
+img {
+	float: right;
+	padding: 10px;
+}
