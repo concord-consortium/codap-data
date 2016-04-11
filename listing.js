@@ -927,7 +927,7 @@ var map = {
   SocSci_US_States_Accidents: {
     title: "States - Accidents",
     description: 'Data about the number of fatal accidents per state.',
-    path: 'FathomDocs/Social_Science/United_States/Accidents/Accidents.json',
+    path: 'FathomDocs/Social_Science/United_States/States/Accidents/Accidents.json',
     ready: true,
     categories: ['united_states','states']
   },
