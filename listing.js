@@ -273,13 +273,13 @@ var map = {
     ready: false,
     categories: ['calculus']
   },
-  Math_Calculus_Pi: {
-    title: 'Unit Pi',
-    description: 'Plotting a graph that uses pi as a unit.',
-    path: 'FathomDocs/Mathematics/Calculus/Pi/Pi.json',
-    ready: false,
-    categories: ['calculus']
-  },
+//  Math_Calculus_Pi: {
+//    title: 'Unit Pi',
+//    description: 'Plotting a graph that uses pi as a unit.',
+//    path: 'FathomDocs/Mathematics/Calculus/Pi/Pi.json',
+//    ready: false,
+//    categories: ['calculus']
+//  },
   Math_Geometry_Solids: {
     title: 'Johnson Solids',
     description: 'Explore the Johnson solids.',
@@ -836,7 +836,7 @@ var map = {
   SocSci_Euro_TransSiberian: {
     title: "Trans Siberian Railroad",
     description: 'The train schedule of the Trans-Siberian Railway from approximately the early 1980.',
-    path: 'FathomDocs/Social_Science/Europe/TransSiberian/TransSiberian.json',
+    path: 'FathomDocs/Social_Science/Europe/TransSiberia/TransSiberia.json',
     ready: true,
     categories: ['europe']
   },
