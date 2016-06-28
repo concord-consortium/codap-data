@@ -49,13 +49,13 @@ var map = {
     ready: true,
     categories: ['education']
   },
-  Education_Calc_Grades: {
-    title:'Calculus Grades',
-    description: "Grades recorded during several years for a Calculus 2 course at the Instituto Tecnológico de Costa Rica.",
-    path: 'FathomDocs/Education/Calc_Grades/Grades_Calc.json',
-    ready: false,
-    categories: ['education']
-  },
+  // Education_Calc_Grades: {
+  //   title:'Calculus Grades',
+  //   description: "Grades recorded during several years for a Calculus 2 course at the Instituto Tecnológico de Costa Rica.",
+  //   path: 'FathomDocs/Education/Calc_Grades/Grades_Calc.json',
+  //   ready: false,
+  //   categories: ['education']
+  // },
   Education_Faculty_Salaries: {
     title: "Faculty Salaries",
     description: "Salaries of college faculty, in the 2002-2003 academic year.",
