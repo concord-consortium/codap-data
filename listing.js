@@ -1230,14 +1230,14 @@ $(document).ready(function (){
         tdReady=$('<td>').append($('<input/>', {'type':'checkbox'}));
       }
       row=$('<tr>');
-      tdReady.appendTo(row);
+      //tdReady.appendTo(row);
       $('<td>').addClass('document-title').text(title).appendTo(row);
       $('<td>').addClass('document-description').text(description).appendTo(row);
       docURL=invokeSampleDoc(val),
       launchLink=$('<a target = "_blank" href="javascript:launchSampleDoc(invokeSampleDoc(\'' + val +'\'))">Launch</a>'),
       linkLink=$('<a href=' + url+path + '>Link</a>'),
-      launchLink.appendTo(tdLaunch);
-      tdLaunch.appendTo(row);
+      //launchLink.appendTo(tdLaunch);
+      //tdLaunch.appendTo(row);
       linkLink.appendTo(tdLink);
       tdLink.appendTo(row);
       row.appendTo(table);
