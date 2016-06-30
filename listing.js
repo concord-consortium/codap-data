@@ -11,14 +11,14 @@ var map = {
     description: "This is a simulation model of Climate Changes.",
     path: 'Climate_Change/Climate-Change-A.json',
     ready: true,
-    categories: ['model']
+    categories: ['models']
   },
   Four_Seals: {
     title: 'Four Seals',
     description:'Display the tracks of four elephant seals in the Pacific on a map. Make graphs and use selection to help determine what is going on.',
     path: 'four-seals/four-seals.json',
     ready: true,
-    categories: ['map']
+    categories: ['models']
   },
   Mammals: {
     title:'Mammal',
@@ -40,15 +40,15 @@ var map = {
     description: "These are data gathered from the Minnesota Population Center. It provides aggregate information for the United States. What do you notice about the education levels within each state?",
     path: 'statesnpeople/States_and_Education.json',
     ready: true,
-    categories: ['map']
+    categories: ['models']
   },
-  Education_API: {
-    title: '1999 API for all California High Schools',
-    description:"Has 1999 APIs for all California High Schools.",
-    path: 'FathomDocs/Education/API_All_CA_HS_1999/API_All_CA_HS_1999.json',
-    ready: true,
-    categories: ['education']
-  },
+  // Education_API: {
+  //   title: '1999 API for all California High Schools',
+  //   description:"Has 1999 APIs for all California High Schools.",
+  //   path: 'FathomDocs/Education/API_All_CA_HS_1999/API_All_CA_HS_1999.json',
+  //   ready: true,
+  //   categories: ['education']
+  // },
   // Education_Calc_Grades: {
   //   title:'Calculus Grades',
   //   description: "Grades recorded during several years for a Calculus 2 course at the Instituto Tecnológico de Costa Rica.",
@@ -63,16 +63,16 @@ var map = {
     ready: false,
     categories: ['education']
   },
-  Education_ITCR_Students: {
-    title: 'ITCR Students Info',
-    description: "Results from polls taken in 1993, 1994, 2000 and 2003 among students of the Instituto Tecnológico de Costa Rica.",
-    path: 'FathomDocs/Education/ITCR_Students.json',
-    ready: false,
-    categories: ['education']
-  },
+  // Education_ITCR_Students: {
+  //   title: 'ITCR Students Info',
+  //   description: "Results from polls taken in 1993, 1994, 2000 and 2003 among students of the Instituto Tecnológico de Costa Rica.",
+  //   path: 'FathomDocs/Education/ITCR_Students.json',
+  //   ready: false,
+  //   categories: ['education']
+  // },
   Education_School_Children: {
     title: "School Children Info",
-    description:"Age (months), height (inches), and weight (pounds) were recorded for a group of school children.",
+    description:"A group of researchers recorded Age (months), height (inches), and weight (pounds) for a group of school children.",
     path: 'FathomDocs/Education/School_Children/School_Children.json',
     ready: false,
     categories: ['education']
