@@ -58,7 +58,7 @@ var map = {
   // },
   Education_Faculty_Salaries: {
     title: "Faculty Salaries",
-    description: "Salaries of college faculty, in the 2002-2003 academic year.",
+    description: "This data includes salaries of College faculty, in the 2002-2003 academic year.",
     path: 'FathomDocs/Education/Faculty_Salaries/Faculty_Salaries.json',
     ready: false,
     categories: ['education']
