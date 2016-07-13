@@ -11,14 +11,14 @@ var map = {
     description: "This is a simulation model of Climate Changes.",
     path: 'Climate_Change/Climate-Change-A.json',
     ready: true,
-    categories: ['models']
+    categories: ['model']
   },
   Four_Seals: {
     title: 'Four Seals',
     description:'Display the tracks of four elephant seals in the Pacific on a map. Make graphs and use selection to help determine what is going on.',
     path: 'four-seals/four-seals.json',
     ready: true,
-    categories: ['models']
+    categories: ['model']
   },
   Mammals: {
     title:'Mammal',
@@ -40,7 +40,7 @@ var map = {
     description: "These are data gathered from the Minnesota Population Center. It provides aggregate information for the United States. What do you notice about the education levels within each state?",
     path: 'statesnpeople/States_and_Education.json',
     ready: true,
-    categories: ['models']
+    categories: ['model']
   },
   // Education_API: {
   //   title: '1999 API for all California High Schools',
@@ -58,7 +58,7 @@ var map = {
   // },
   Education_Faculty_Salaries: {
     title: "Faculty Salaries",
-    description: "Salaries of college faculty, in the 2002-2003 academic year.",
+    description: "This data includes salaries of College faculty, in the 2002-2003 academic year.",
     path: 'FathomDocs/Education/Faculty_Salaries/Faculty_Salaries.json',
     ready: false,
     categories: ['education']
@@ -72,7 +72,7 @@ var map = {
   // },
   Education_School_Children: {
     title: "School Children Info",
-    description:"A group of researchers recorded Age (months), height (inches), and weight (pounds) for a group of school children.",
+    description:"Age (months), height (inches), and weight (pounds) were recorded for a group of school children.",
     path: 'FathomDocs/Education/School_Children/School_Children.json',
     ready: false,
     categories: ['education']
@@ -1202,7 +1202,7 @@ $(document).ready(function (){
       switch (map[val].categories[0])  {
         case "probability": table=$('#probability-table'); break;
         case "model": table=$('#models-table'); break;
-        case "map": table=$('#maps-table'); break;
+       // case "map": table=$('#maps-table'); break;
         case "education": table=$('#education-table'); break;
         case "langarts": table=$('#language-arts-table'); break;
         case "algebra": table=$('#algebra-table'); break;
