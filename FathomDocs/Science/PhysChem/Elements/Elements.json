@@ -14712,7 +14712,7 @@
                 "Classification": "non-metal",
                 "CrystalStructure": "Hexagonal",
                 "Discoverer": "Henry Cavendish",
-                "Cost": "0.12 dollars/g",
+                "Cost": "0.12",
                 "NaturalForming": "yes",
                 "PrimaryUse": "rocket fuel",
                 "Table_Row_": "-1"
@@ -14742,7 +14742,7 @@
                 "Classification": "non-metal",
                 "CrystalStructure": "Hexagonal",
                 "Discoverer": "Sir William Ramsey",
-                "Cost": "0.052 dollars/g",
+                "Cost": "0.052",
                 "NaturalForming": "yes",
                 "PrimaryUse": "blimps",
                 "Table_Row_": "-1"
@@ -14772,7 +14772,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Cubic body centered",
                 "Discoverer": "Johann Arfvedson",
-                "Cost": "0.27 dollars/g",
+                "Cost": "0.27",
                 "NaturalForming": "yes",
                 "PrimaryUse": "batteries",
                 "Table_Row_": "-2"
@@ -14802,7 +14802,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Hexagonal",
                 "Discoverer": "Louis Nicolas Vauquelin",
-                "Cost": "5.3 dollars/g",
+                "Cost": "5.3",
                 "NaturalForming": "yes",
                 "PrimaryUse": "watch springs",
                 "Table_Row_": "-2"
@@ -14832,7 +14832,7 @@
                 "Classification": "metalloid",
                 "CrystalStructure": "Rhombohedral",
                 "Discoverer": "Sir Humphry Davy & J.L. Gay-Lussac",
-                "Cost": "2.5 dollars/g",
+                "Cost": "2.5",
                 "NaturalForming": "yes",
                 "PrimaryUse": "tennis rackets",
                 "Table_Row_": "-2"
@@ -14862,7 +14862,7 @@
                 "Classification": "non-metal",
                 "CrystalStructure": "Hexagonal",
                 "Discoverer": "",
-                "Cost": "0.024 dollars/g",
+                "Cost": "0.024",
                 "NaturalForming": "yes",
                 "PrimaryUse": "pencils",
                 "Table_Row_": "-2"
@@ -14892,7 +14892,7 @@
                 "Classification": "non-metal",
                 "CrystalStructure": "Hexagonal",
                 "Discoverer": "Daniel Rutherford",
-                "Cost": "0.004 dollars/g",
+                "Cost": "0.004",
                 "NaturalForming": "yes",
                 "PrimaryUse": "rocket fuel",
                 "Table_Row_": "-2"
@@ -14922,7 +14922,7 @@
                 "Classification": "non-metal",
                 "CrystalStructure": "Cubic",
                 "Discoverer": "Joseph Priestly",
-                "Cost": "0.003 dollars/g",
+                "Cost": "0.003",
                 "NaturalForming": "yes",
                 "PrimaryUse": "combustion",
                 "Table_Row_": "-2"
@@ -14952,7 +14952,7 @@
                 "Classification": "non-metal",
                 "CrystalStructure": "Cubic",
                 "Discoverer": "Joseph Henri Moissan",
-                "Cost": "1.9 dollars/g",
+                "Cost": "1.9",
                 "NaturalForming": "yes",
                 "PrimaryUse": "toothpaste",
                 "Table_Row_": "-2"
@@ -14982,7 +14982,7 @@
                 "Classification": "non-metal",
                 "CrystalStructure": "Cubic face centered",
                 "Discoverer": "Sir William Ramsey",
-                "Cost": "0.33 dollars/g",
+                "Cost": "0.33",
                 "NaturalForming": "yes",
                 "PrimaryUse": "lights",
                 "Table_Row_": "-2"
@@ -15012,7 +15012,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Cubic body centered",
                 "Discoverer": "Sir Humphry Davy",
-                "Cost": "0.07 dollars/g",
+                "Cost": "0.07",
                 "NaturalForming": "yes",
                 "PrimaryUse": "salt (NaCl)",
                 "Table_Row_": "-3"
@@ -15042,7 +15042,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Hexagonal",
                 "Discoverer": "Joseph Black",
-                "Cost": "0.037 dollars/g",
+                "Cost": "0.037",
                 "NaturalForming": "yes",
                 "PrimaryUse": "racing bikes",
                 "Table_Row_": "-3"
@@ -15072,7 +15072,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Cubic face centered",
                 "Discoverer": "Hans Christian Oersted",
-                "Cost": "0.018 dollars/g",
+                "Cost": "0.018",
                 "NaturalForming": "yes",
                 "PrimaryUse": "soda cans",
                 "Table_Row_": "-3"
@@ -15102,7 +15102,7 @@
                 "Classification": "metalloid",
                 "CrystalStructure": "Cubic face centered",
                 "Discoverer": "Jons Berzelius",
-                "Cost": "0.054 dollars/g",
+                "Cost": "0.054",
                 "NaturalForming": "yes",
                 "PrimaryUse": "micro chips",
                 "Table_Row_": "-3"
@@ -15132,7 +15132,7 @@
                 "Classification": "non-metal",
                 "CrystalStructure": "Monoclinic",
                 "Discoverer": "Hennig Brand",
-                "Cost": "0.04 dollars/g",
+                "Cost": "0.04",
                 "NaturalForming": "yes",
                 "PrimaryUse": "matches",
                 "Table_Row_": "-3"
@@ -15162,7 +15162,7 @@
                 "Classification": "non-metal",
                 "CrystalStructure": "Orthorhombic",
                 "Discoverer": "",
-                "Cost": "0.24 dollars/g",
+                "Cost": "0.24",
                 "NaturalForming": "yes",
                 "PrimaryUse": "fireworks",
                 "Table_Row_": "-3"
@@ -15192,7 +15192,7 @@
                 "Classification": "non-metal",
                 "CrystalStructure": "Orthorhombic",
                 "Discoverer": "Carl Wilhelm Scheele",
-                "Cost": "0.0015 dollars/g",
+                "Cost": "0.0015",
                 "NaturalForming": "yes",
                 "PrimaryUse": "water purification",
                 "Table_Row_": "-3"
@@ -15222,7 +15222,7 @@
                 "Classification": "non-metal",
                 "CrystalStructure": "Cubic face centered",
                 "Discoverer": "Lord Dayleigh & Sir William Ramsey",
-                "Cost": "0.005 dollars/g",
+                "Cost": "0.005",
                 "NaturalForming": "yes",
                 "PrimaryUse": "light bulbs",
                 "Table_Row_": "-3"
@@ -15252,7 +15252,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Cubic body centered",
                 "Discoverer": "Sir Humphrey Davy",
-                "Cost": "0.85 dollars/g",
+                "Cost": "0.85",
                 "NaturalForming": "yes",
                 "PrimaryUse": "fertilizer",
                 "Table_Row_": "-4"
@@ -15282,7 +15282,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Cubic face centered",
                 "Discoverer": "Sir Humphery Davy",
-                "Cost": "0.11 dollars/g",
+                "Cost": "0.11",
                 "NaturalForming": "yes",
                 "PrimaryUse": "cement and plaster of paris",
                 "Table_Row_": "-4"
@@ -15312,7 +15312,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Hexagonal",
                 "Discoverer": "Lars Nilson",
-                "Cost": "14 dollars/g",
+                "Cost": "14",
                 "NaturalForming": "yes",
                 "PrimaryUse": "stadium lighting",
                 "Table_Row_": "-4"
@@ -15342,7 +15342,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Hexagonal",
                 "Discoverer": "William Gregor",
-                "Cost": "0.061 dollars/g",
+                "Cost": "0.061",
                 "NaturalForming": "yes",
                 "PrimaryUse": "expensive tools",
                 "Table_Row_": "-4"
@@ -15372,7 +15372,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Cubic body centered",
                 "Discoverer": "Nils Sefstrom",
-                "Cost": "2.2 dollars/g",
+                "Cost": "2.2",
                 "NaturalForming": "yes",
                 "PrimaryUse": "tools",
                 "Table_Row_": "-4"
@@ -15402,7 +15402,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Cubic body centered",
                 "Discoverer": "Louis Nicolas Vauquelin",
-                "Cost": "0.1 dollars/g",
+                "Cost": "0.1",
                 "NaturalForming": "yes",
                 "PrimaryUse": "plating in cars",
                 "Table_Row_": "-4"
@@ -15432,7 +15432,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Cubic body centered",
                 "Discoverer": "Johann Gahn",
-                "Cost": "0.017 dollars/g",
+                "Cost": "0.017",
                 "NaturalForming": "yes",
                 "PrimaryUse": "plows",
                 "Table_Row_": "-4"
@@ -15462,7 +15462,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Cubic body centered",
                 "Discoverer": "",
-                "Cost": "0.067 dollars/g",
+                "Cost": "0.067",
                 "NaturalForming": "yes",
                 "PrimaryUse": "tools",
                 "Table_Row_": "-4"
@@ -15492,7 +15492,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Hexagonal",
                 "Discoverer": "George Brandt",
-                "Cost": "0.21 dollars/g",
+                "Cost": "0.21",
                 "NaturalForming": "yes",
                 "PrimaryUse": "permanent magnets",
                 "Table_Row_": "-4"
@@ -15522,7 +15522,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Cubic face centered",
                 "Discoverer": "Alex Cronstedt",
-                "Cost": "0.077 dollars/g",
+                "Cost": "0.077",
                 "NaturalForming": "yes",
                 "PrimaryUse": "coins",
                 "Table_Row_": "-4"
@@ -15552,7 +15552,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Cubic face centered",
                 "Discoverer": "",
-                "Cost": "0.027 dollars/g",
+                "Cost": "0.027",
                 "NaturalForming": "yes",
                 "PrimaryUse": "pennies",
                 "Table_Row_": "-4"
@@ -15582,7 +15582,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Hexagonal",
                 "Discoverer": "Andreas Marggraf",
-                "Cost": "0.037 dollars/g",
+                "Cost": "0.037",
                 "NaturalForming": "yes",
                 "PrimaryUse": "gutters",
                 "Table_Row_": "-4"
@@ -15612,7 +15612,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Orthorhombic",
                 "Discoverer": "Paul Emile Lecoq de Boisbaudran",
-                "Cost": "2.2 dollars/g",
+                "Cost": "2.2",
                 "NaturalForming": "yes",
                 "PrimaryUse": "computer memory",
                 "Table_Row_": "-4"
@@ -15642,7 +15642,7 @@
                 "Classification": "metalloid",
                 "CrystalStructure": "Cubic face centered",
                 "Discoverer": "Clemens Winkler",
-                "Cost": "3.6 dollars/g",
+                "Cost": "3.6",
                 "NaturalForming": "yes",
                 "PrimaryUse": "wide-angle lenses",
                 "Table_Row_": "-4"
@@ -15672,7 +15672,7 @@
                 "Classification": "metalloid",
                 "CrystalStructure": "Rhombohedral",
                 "Discoverer": "",
-                "Cost": "3.2 dollars/g",
+                "Cost": "3.2",
                 "NaturalForming": "yes",
                 "PrimaryUse": "LEDs",
                 "Table_Row_": "-4"
@@ -15702,7 +15702,7 @@
                 "Classification": "non-metal",
                 "CrystalStructure": "Hexagonal",
                 "Discoverer": "Jons Berzelius",
-                "Cost": "0.14 dollars/g",
+                "Cost": "0.14",
                 "NaturalForming": "yes",
                 "PrimaryUse": "copy machines",
                 "Table_Row_": "-4"
@@ -15732,7 +15732,7 @@
                 "Classification": "non-metal",
                 "CrystalStructure": "Orthorhombic",
                 "Discoverer": "Antoine J. Balard",
-                "Cost": "0.049 dollars/g",
+                "Cost": "0.049",
                 "NaturalForming": "yes",
                 "PrimaryUse": "photographic film",
                 "Table_Row_": "-4"
@@ -15762,7 +15762,7 @@
                 "Classification": "non-metal",
                 "CrystalStructure": "Cubic face centered",
                 "Discoverer": "Sir William Ramsey",
-                "Cost": "0.33 dollars/g",
+                "Cost": "0.33",
                 "NaturalForming": "yes",
                 "PrimaryUse": "fluorescent bulbs",
                 "Table_Row_": "-4"
@@ -15792,7 +15792,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Cubic body centered",
                 "Discoverer": "R. Bunsen",
-                "Cost": "12 dollars/g",
+                "Cost": "12",
                 "NaturalForming": "yes",
                 "PrimaryUse": "heart muscle research",
                 "Table_Row_": "-5"
@@ -15822,7 +15822,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Cubic face centered",
                 "Discoverer": "A. Crawford",
-                "Cost": "1 dollars/g",
+                "Cost": "1",
                 "NaturalForming": "yes",
                 "PrimaryUse": "nuclear batteries in buoys",
                 "Table_Row_": "-5"
@@ -15852,7 +15852,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Hexagonal",
                 "Discoverer": "Johann Gadolin",
-                "Cost": "2.2 dollars/g",
+                "Cost": "2.2",
                 "NaturalForming": "yes",
                 "PrimaryUse": "color TV screens",
                 "Table_Row_": "-5"
@@ -15882,7 +15882,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Hexagonal",
                 "Discoverer": "Martin Klaproth",
-                "Cost": "0.16 dollars/g",
+                "Cost": "0.16",
                 "NaturalForming": "yes",
                 "PrimaryUse": "zircon gemstone",
                 "Table_Row_": "-5"
@@ -15912,7 +15912,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Cubic body centered",
                 "Discoverer": "Charles Hatchet",
-                "Cost": "0.18 dollars/g",
+                "Cost": "0.18",
                 "NaturalForming": "yes",
                 "PrimaryUse": "welding rods",
                 "Table_Row_": "-5"
@@ -15942,7 +15942,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Cubic body centered",
                 "Discoverer": "Carl Wilhelm Scheele",
-                "Cost": "0.11 dollars/g",
+                "Cost": "0.11",
                 "NaturalForming": "yes",
                 "PrimaryUse": "filament in electric heaters",
                 "Table_Row_": "-5"
@@ -16002,7 +16002,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Hexagonal",
                 "Discoverer": "Karl Klaus",
-                "Cost": "14 dollars/g",
+                "Cost": "14",
                 "NaturalForming": "yes",
                 "PrimaryUse": "eye treatment",
                 "Table_Row_": "-5"
@@ -16032,7 +16032,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Cubic face centered",
                 "Discoverer": "William Hyde Wollaston",
-                "Cost": "130 dollars/g",
+                "Cost": "130",
                 "NaturalForming": "yes",
                 "PrimaryUse": "headlight reflectors",
                 "Table_Row_": "-5"
@@ -16062,7 +16062,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Cubic face centered",
                 "Discoverer": "William Hyde Wollaston",
-                "Cost": "0.15 dollars/g",
+                "Cost": "0.15",
                 "NaturalForming": "yes",
                 "PrimaryUse": "dental crowns",
                 "Table_Row_": "-5"
@@ -16092,7 +16092,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Cubic face centered",
                 "Discoverer": "",
-                "Cost": "1.2 dollars/g",
+                "Cost": "1.2",
                 "NaturalForming": "yes",
                 "PrimaryUse": "silverware",
                 "Table_Row_": " jewelry"
@@ -16122,7 +16122,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Hexagonal",
                 "Discoverer": "Fredrich Stromeyer",
-                "Cost": "0.06 dollars/g",
+                "Cost": "0.06",
                 "NaturalForming": "yes",
                 "PrimaryUse": "rechargable batteries",
                 "Table_Row_": "-5"
@@ -16152,7 +16152,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Tetragonal",
                 "Discoverer": "Ferdinand Reich",
-                "Cost": "1.2 dollars/g",
+                "Cost": "1.2",
                 "NaturalForming": "yes",
                 "PrimaryUse": "transistors",
                 "Table_Row_": "-5"
@@ -16182,7 +16182,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Tetragonal",
                 "Discoverer": "",
-                "Cost": "0.08 dollars/g",
+                "Cost": "0.08",
                 "NaturalForming": "yes",
                 "PrimaryUse": "organ pipes",
                 "Table_Row_": "-5"
@@ -16212,7 +16212,7 @@
                 "Classification": "metalloid",
                 "CrystalStructure": "Rhombohedral",
                 "Discoverer": "",
-                "Cost": "0.045 dollars/g",
+                "Cost": "0.045",
                 "NaturalForming": "yes",
                 "PrimaryUse": "ceramic glazes",
                 "Table_Row_": "-5"
@@ -16242,7 +16242,7 @@
                 "Classification": "metalloid",
                 "CrystalStructure": "Hexagonal",
                 "Discoverer": "Franz Muller von Reichenstein",
-                "Cost": "0.24 dollars/g",
+                "Cost": "0.24",
                 "NaturalForming": "yes",
                 "PrimaryUse": "vulcanization of rubber",
                 "Table_Row_": "-5"
@@ -16272,7 +16272,7 @@
                 "Classification": "non-metal",
                 "CrystalStructure": "Orthorhombic",
                 "Discoverer": "Bernard Courtois",
-                "Cost": "0.083 dollars/g",
+                "Cost": "0.083",
                 "NaturalForming": "yes",
                 "PrimaryUse": "disinfectant",
                 "Table_Row_": "-5"
@@ -16302,7 +16302,7 @@
                 "Classification": "non-metal",
                 "CrystalStructure": "Cubic face centered",
                 "Discoverer": "Sir William Ramsey",
-                "Cost": "1.2 dollars/g",
+                "Cost": "1.2",
                 "NaturalForming": "yes",
                 "PrimaryUse": "sun lamps",
                 "Table_Row_": "-5"
@@ -16332,7 +16332,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Cubic body centered",
                 "Discoverer": "Gustav Kirchoff",
-                "Cost": "11 dollars/g",
+                "Cost": "11",
                 "NaturalForming": "yes",
                 "PrimaryUse": "photoelectric cells",
                 "Table_Row_": "-6"
@@ -16362,7 +16362,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Cubic body centered",
                 "Discoverer": "Sir Humphrey Davy",
-                "Cost": "0.55 dollars/g",
+                "Cost": "0.55",
                 "NaturalForming": "yes",
                 "PrimaryUse": "spark plugs",
                 "Table_Row_": "-6"
@@ -16392,7 +16392,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Hexagonal",
                 "Discoverer": "Carl Mosander",
-                "Cost": "0.64 dollars/g",
+                "Cost": "0.64",
                 "NaturalForming": "yes",
                 "PrimaryUse": "camera lenses",
                 "Table_Row_": "-8"
@@ -16422,7 +16422,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Cubic face centered",
                 "Discoverer": "W. von Hisinger",
-                "Cost": "0.57 dollars/g",
+                "Cost": "0.57",
                 "NaturalForming": "yes",
                 "PrimaryUse": "lighter flints",
                 "Table_Row_": "-8"
@@ -16452,7 +16452,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Hexagonal",
                 "Discoverer": "C.F. Aver von Welsbach",
-                "Cost": "1.7 dollars/g",
+                "Cost": "1.7",
                 "NaturalForming": "yes",
                 "PrimaryUse": "ceramic coloring",
                 "Table_Row_": "-8"
@@ -16482,7 +16482,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Hexagonal",
                 "Discoverer": "C.F. Aver von Welsbach",
-                "Cost": "1.1 dollars/g",
+                "Cost": "1.1",
                 "NaturalForming": "yes",
                 "PrimaryUse": "high strength magnets for disk drives",
                 "Table_Row_": "-8"
@@ -16542,7 +16542,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Rhombohedral",
                 "Discoverer": "Paul Emile Lecoq de Boisbaudran",
-                "Cost": "1.3 dollars/g",
+                "Cost": "1.3",
                 "NaturalForming": "yes",
                 "PrimaryUse": "lasers",
                 "Table_Row_": "-8"
@@ -16572,7 +16572,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Cubic body centered",
                 "Discoverer": "Eugene Demarcay",
-                "Cost": "36 dollars/g",
+                "Cost": "36",
                 "NaturalForming": "yes",
                 "PrimaryUse": "color TV tubes",
                 "Table_Row_": "-8"
@@ -16602,7 +16602,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Hexagonal",
                 "Discoverer": "Jean de Marignac",
-                "Cost": "1.91 dollars/g",
+                "Cost": "1.91",
                 "NaturalForming": "yes",
                 "PrimaryUse": "computer memory",
                 "Table_Row_": "-8"
@@ -16632,7 +16632,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Hexagonal",
                 "Discoverer": "Carl Mosander",
-                "Cost": "18 dollars/g",
+                "Cost": "18",
                 "NaturalForming": "yes",
                 "PrimaryUse": "fluorescent lamps",
                 "Table_Row_": "-8"
@@ -16662,7 +16662,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Hexagonal",
                 "Discoverer": "Paul Emile Lecoq de Boisbaudran",
-                "Cost": "2.1 dollars/g",
+                "Cost": "2.1",
                 "NaturalForming": "yes",
                 "PrimaryUse": "color TV tubes",
                 "Table_Row_": "-8"
@@ -16692,7 +16692,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Hexagonal",
                 "Discoverer": "J.L. Soret",
-                "Cost": "7.4 dollars/g",
+                "Cost": "7.4",
                 "NaturalForming": "yes",
                 "PrimaryUse": "eye-safe lasers",
                 "Table_Row_": "-8"
@@ -16722,7 +16722,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Hexagonal",
                 "Discoverer": "Carl Mosander",
-                "Cost": "2.7 dollars/g",
+                "Cost": "2.7",
                 "NaturalForming": "yes",
                 "PrimaryUse": "coating for sunglasses",
                 "Table_Row_": "-8"
@@ -16752,7 +16752,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Hexagonal",
                 "Discoverer": "Per Theodor Cleve",
-                "Cost": "41 dollars/g",
+                "Cost": "41",
                 "NaturalForming": "yes",
                 "PrimaryUse": "lasers",
                 "Table_Row_": "-8"
@@ -16782,7 +16782,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Cubic face centered",
                 "Discoverer": "Jena de Marignac",
-                "Cost": "5.3 dollars/g",
+                "Cost": "5.3",
                 "NaturalForming": "yes",
                 "PrimaryUse": "dentures",
                 "Table_Row_": "-8"
@@ -16812,7 +16812,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Hexagonal",
                 "Discoverer": "Georges Urbain",
-                "Cost": "69 dollars/g",
+                "Cost": "69",
                 "NaturalForming": "yes",
                 "PrimaryUse": "dentures",
                 "Table_Row_": "-8"
@@ -16842,7 +16842,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Hexagonal",
                 "Discoverer": "Dirk Coster",
-                "Cost": "1.2 dollars/g",
+                "Cost": "1.2",
                 "NaturalForming": "yes",
                 "PrimaryUse": "nuclear submarines",
                 "Table_Row_": "-6"
@@ -16872,7 +16872,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Cubic body centered",
                 "Discoverer": "Anders Ekeberg",
-                "Cost": "1.2 dollars/g",
+                "Cost": "1.2",
                 "NaturalForming": "yes",
                 "PrimaryUse": "weights",
                 "Table_Row_": "-6"
@@ -16902,7 +16902,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Cubic body centered",
                 "Discoverer": "Fausto & Juan Jose de Elhuyar",
-                "Cost": "0.11 dollars/g",
+                "Cost": "0.11",
                 "NaturalForming": "yes",
                 "PrimaryUse": "lamp filaments",
                 "Table_Row_": "-6"
@@ -16932,7 +16932,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Hexagonal",
                 "Discoverer": "Ida & Walter Noddack",
-                "Cost": "5.4 dollars/g",
+                "Cost": "5.4",
                 "NaturalForming": "yes",
                 "PrimaryUse": "jewelry plating",
                 "Table_Row_": "-6"
@@ -16962,7 +16962,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Hexagonal",
                 "Discoverer": "Smithson Tenant",
-                "Cost": "77 dollars/g",
+                "Cost": "77",
                 "NaturalForming": "yes",
                 "PrimaryUse": "fountain pen points",
                 "Table_Row_": "-6"
@@ -16992,7 +16992,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Cubic face centered",
                 "Discoverer": "Smithson Tenant",
-                "Cost": "42 dollars/g",
+                "Cost": "42",
                 "NaturalForming": "yes",
                 "PrimaryUse": "helicopter spark plugs",
                 "Table_Row_": "-6"
@@ -17022,7 +17022,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Cubic face centered",
                 "Discoverer": "Julius Scaliger",
-                "Cost": "47 dollars/g",
+                "Cost": "47",
                 "NaturalForming": "yes",
                 "PrimaryUse": "dental crowns",
                 "Table_Row_": "-6"
@@ -17052,7 +17052,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Cubic face centered",
                 "Discoverer": "",
-                "Cost": "44 dollars/g",
+                "Cost": "44",
                 "NaturalForming": "yes",
                 "PrimaryUse": "gold bars",
                 "Table_Row_": " jewelry"
@@ -17082,7 +17082,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Rhombohedral",
                 "Discoverer": "",
-                "Cost": "0.05 dollars/g",
+                "Cost": "0.05",
                 "NaturalForming": "yes",
                 "PrimaryUse": "thermometers",
                 "Table_Row_": "-6"
@@ -17112,7 +17112,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Hexagonal",
                 "Discoverer": "Sir William Crookes",
-                "Cost": "0.48 dollars/g",
+                "Cost": "0.48",
                 "NaturalForming": "yes",
                 "PrimaryUse": "insecticide",
                 "Table_Row_": "-6"
@@ -17142,7 +17142,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Cubic face centered",
                 "Discoverer": "",
-                "Cost": "0.015 dollars/g",
+                "Cost": "0.015",
                 "NaturalForming": "yes",
                 "PrimaryUse": "batteries",
                 "Table_Row_": "-6"
@@ -17172,7 +17172,7 @@
                 "Classification": "metal",
                 "CrystalStructure": "Rhombohedral",
                 "Discoverer": "Casper Newmann",
-                "Cost": "0.11 dollars/g",
+                "Cost": "0.11",
                 "NaturalForming": "yes",
                 "PrimaryUse": "fuses",
                 "Table_Row_": "-6"
