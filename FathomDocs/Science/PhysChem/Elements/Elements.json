@@ -1,5 +1,5 @@
 {
-  "name": "xElements.json",
+  "name": "Elements.json",
   "guid": 1,
   "components": [
     {
@@ -20,7 +20,7 @@
                 "id": 1166
               }
             },
-            "width": 60
+            "width": 82
           },
           {
             "_links_": {
@@ -38,7 +38,7 @@
                 "id": 1168
               }
             },
-            "width": 60
+            "width": 81
           },
           {
             "_links_": {
@@ -56,7 +56,7 @@
                 "id": 1170
               }
             },
-            "width": 60
+            "width": 100
           },
           {
             "_links_": {
@@ -65,7 +65,7 @@
                 "id": 1171
               }
             },
-            "width": 60
+            "width": 83
           },
           {
             "_links_": {
@@ -74,7 +74,7 @@
                 "id": 1172
               }
             },
-            "width": 60
+            "width": 96
           },
           {
             "_links_": {
@@ -92,7 +92,7 @@
                 "id": 1174
               }
             },
-            "width": 60
+            "width": 86
           },
           {
             "_links_": {
@@ -119,7 +119,7 @@
                 "id": 1177
               }
             },
-            "width": 82
+            "width": 107
           },
           {
             "_links_": {
@@ -128,7 +128,7 @@
                 "id": 1178
               }
             },
-            "width": 60
+            "width": 77
           },
           {
             "_links_": {
@@ -137,7 +137,7 @@
                 "id": 1179
               }
             },
-            "width": 60
+            "width": 115
           },
           {
             "_links_": {
@@ -146,7 +146,7 @@
                 "id": 1180
               }
             },
-            "width": 60
+            "width": 97
           },
           {
             "_links_": {
@@ -155,7 +155,7 @@
                 "id": 1181
               }
             },
-            "width": 60
+            "width": 129
           },
           {
             "_links_": {
@@ -164,7 +164,7 @@
                 "id": 1182
               }
             },
-            "width": 60
+            "width": 118
           },
           {
             "_links_": {
@@ -173,7 +173,7 @@
                 "id": 1183
               }
             },
-            "width": 60
+            "width": 87
           },
           {
             "_links_": {
@@ -182,7 +182,7 @@
                 "id": 1184
               }
             },
-            "width": 60
+            "width": 102
           },
           {
             "_links_": {
@@ -191,7 +191,7 @@
                 "id": 1185
               }
             },
-            "width": 60
+            "width": 103
           },
           {
             "_links_": {
@@ -200,7 +200,7 @@
                 "id": 1186
               }
             },
-            "width": 60
+            "width": 74
           },
           {
             "_links_": {
@@ -218,7 +218,7 @@
                 "id": 1188
               }
             },
-            "width": 69
+            "width": 98
           },
           {
             "_links_": {
@@ -227,26 +227,17 @@
                 "id": 1189
               }
             },
-            "width": 60
-          },
-          {
-            "_links_": {
-              "attr": {
-                "type": "DG.Attribute",
-                "id": 1190
-              }
-            },
-            "width": 60
+            "width": 90
           }
         ],
         "title": "List of Periodic Table Elements"
       },
       "layout": {
-        "width": 455,
+        "width": 450,
         "height": 265,
-        "left": 2,
-        "top": 6,
-        "zIndex": 64,
+        "left": 0,
+        "top": 5,
+        "zIndex": 114,
         "isVisible": true
       },
       "savedHeight": null
@@ -410,7 +401,6 @@
     }
   ],
   "contexts": [
-
     {
       "type": "DG.DataContext",
       "document": 1,
@@ -424,24 +414,13 @@
             {
               "name": "AtomicNumber",
               "type": null,
-              "description": "",
+              "description": "The Atomic number of the element",
               "colormap": {},
               "blockDisplayOfEmptyCategories": true,
               "editable": false,
               "guid": 1171,
               "precision": 2,
               "unit": null
-            },
-            {
-              "name": "AtomicWeight",
-              "type": null,
-              "description": "",
-              "colormap": {},
-              "blockDisplayOfEmptyCategories": true,
-              "editable": false,
-              "guid": 1172,
-              "precision": 2,
-              "unit": "amu"
             },
             {
               "name": "Name",
@@ -453,6 +432,17 @@
               "guid": 1166,
               "precision": 2,
               "unit": null
+            },
+            {
+              "name": "AtomicWeight",
+              "type": null,
+              "description": "the average weight of an atom of an element, based on 1/12 the weight of the carbon-12 atom.",
+              "colormap": {},
+              "blockDisplayOfEmptyCategories": true,
+              "editable": false,
+              "guid": 1172,
+              "precision": 2,
+              "unit": "amu"
             },
             {
               "name": "Symbol",
@@ -490,7 +480,7 @@
             {
               "name": "Density",
               "type": null,
-              "description": "",
+              "description": "The atomic density is the concentration of atoms or molecules per unit volume. g/cc means grams per cubic centimeter.",
               "colormap": {},
               "blockDisplayOfEmptyCategories": true,
               "editable": false,
@@ -523,7 +513,7 @@
             {
               "name": "Table_Row",
               "type": null,
-              "description": "",
+              "description": "The row number in the periodic table.",
               "colormap": {},
               "blockDisplayOfEmptyCategories": true,
               "editable": false,
@@ -534,7 +524,7 @@
             {
               "name": "Table_Column",
               "type": null,
-              "description": "",
+              "description": "The column number in the periodic table.",
               "colormap": {},
               "blockDisplayOfEmptyCategories": true,
               "editable": false,
@@ -545,7 +535,7 @@
             {
               "name": "ChemicalSeries",
               "type": null,
-              "description": "",
+              "description": "A group of elements with shared characteristics.",
               "colormap": {
                 "Nonmetal": {
                   "h": 0.8266666666666667,
@@ -617,7 +607,7 @@
             {
               "name": "AtomicRadius",
               "type": null,
-              "description": "",
+              "description": "distance from the center of the nucleus to the boundary of its cloud of electrons",
               "colormap": {},
               "blockDisplayOfEmptyCategories": true,
               "editable": false,
@@ -628,7 +618,7 @@
             {
               "name": "NaturalState",
               "type": null,
-              "description": "",
+              "description": "Natural phase at room temperature (solid, liquid, gas)",
               "colormap": {
                 "gas": "rgb(235,255,85)",
                 "liquid": "rgb(85,167,255)",
@@ -666,13 +656,13 @@
             {
               "name": "ElectronAffinity",
               "type": null,
-              "description": "",
+              "description": "The change in energy of a nutral atom when an electron is added to the atom to form a negative ion",
               "colormap": {},
               "blockDisplayOfEmptyCategories": true,
               "editable": false,
               "guid": 1180,
               "precision": 2,
-              "unit": null
+              "unit": "kJ/mole"
             },
             {
               "name": "NumberOfIsotopes",
@@ -750,17 +740,6 @@
               "guid": 1189,
               "precision": 2,
               "unit": null
-            },
-            {
-              "name": "Table_Row_",
-              "type": null,
-              "description": "",
-              "colormap": {},
-              "blockDisplayOfEmptyCategories": true,
-              "editable": false,
-              "guid": 1190,
-              "precision": 2,
-              "unit": null
             }
           ],
           "cases": [
@@ -768,8 +747,8 @@
               "guid": 1191,
               "values": {
                 "AtomicNumber": 1,
-                "AtomicWeight": "1.008",
                 "Name": "Hydrogen",
+                "AtomicWeight": "1.008",
                 "Symbol": "H",
                 "MeltingPoint": "-259.14",
                 "BoilingPoint": "-252.9",
@@ -790,16 +769,15 @@
                 "Discoverer": "Henry Cavendish",
                 "Cost": "0.12 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "rocket fuel",
-                "Table_Row_": "-1"
+                "PrimaryUse": "rocket fuel"
               }
             },
             {
               "guid": 1192,
               "values": {
                 "AtomicNumber": 2,
-                "AtomicWeight": "4.003",
                 "Name": "Helium",
+                "AtomicWeight": "4.003",
                 "Symbol": "He",
                 "MeltingPoint": "-272",
                 "BoilingPoint": "-268.6",
@@ -820,16 +798,15 @@
                 "Discoverer": "Sir William Ramsey",
                 "Cost": "0.052 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "blimps",
-                "Table_Row_": "-1"
+                "PrimaryUse": "blimps"
               }
             },
             {
               "guid": 1193,
               "values": {
                 "AtomicNumber": 3,
-                "AtomicWeight": "6.941",
                 "Name": "Lithium",
+                "AtomicWeight": "6.941",
                 "Symbol": "Li",
                 "MeltingPoint": "180.54",
                 "BoilingPoint": "180.0",
@@ -850,16 +827,15 @@
                 "Discoverer": "Johann Arfvedson",
                 "Cost": "0.27 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "batteries",
-                "Table_Row_": "-2"
+                "PrimaryUse": "batteries"
               }
             },
             {
               "guid": 1194,
               "values": {
                 "AtomicNumber": 4,
-                "AtomicWeight": "9.012",
                 "Name": "Beryllium",
+                "AtomicWeight": "9.012",
                 "Symbol": "Be",
                 "MeltingPoint": "1278",
                 "BoilingPoint": "2970.0",
@@ -880,16 +856,15 @@
                 "Discoverer": "Louis Nicolas Vauquelin",
                 "Cost": "5.3 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "watch springs",
-                "Table_Row_": "-2"
+                "PrimaryUse": "watch springs"
               }
             },
             {
               "guid": 1195,
               "values": {
                 "AtomicNumber": 5,
-                "AtomicWeight": "10.810",
                 "Name": "Boron",
+                "AtomicWeight": "10.810",
                 "Symbol": "B",
                 "MeltingPoint": "2300",
                 "BoilingPoint": "2550.0",
@@ -910,16 +885,15 @@
                 "Discoverer": "Sir Humphry Davy & J.L. Gay-Lussac",
                 "Cost": "2.5 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "tennis rackets",
-                "Table_Row_": "-2"
+                "PrimaryUse": "tennis rackets"
               }
             },
             {
               "guid": 1196,
               "values": {
                 "AtomicNumber": 6,
-                "AtomicWeight": "12.010",
                 "Name": "Carbon",
+                "AtomicWeight": "12.010",
                 "Symbol": "C",
                 "MeltingPoint": "3500",
                 "BoilingPoint": "4827.0",
@@ -940,16 +914,15 @@
                 "Discoverer": "",
                 "Cost": "0.024 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "pencils",
-                "Table_Row_": "-2"
+                "PrimaryUse": "pencils"
               }
             },
             {
               "guid": 1197,
               "values": {
                 "AtomicNumber": 7,
-                "AtomicWeight": "14.010",
                 "Name": "Nitrogen",
+                "AtomicWeight": "14.010",
                 "Symbol": "N",
                 "MeltingPoint": "-209.9",
                 "BoilingPoint": "-196.0",
@@ -970,16 +943,15 @@
                 "Discoverer": "Daniel Rutherford",
                 "Cost": "0.004 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "rocket fuel",
-                "Table_Row_": "-2"
+                "PrimaryUse": "rocket fuel"
               }
             },
             {
               "guid": 1198,
               "values": {
                 "AtomicNumber": 8,
-                "AtomicWeight": "16.000",
                 "Name": "Oxygen",
+                "AtomicWeight": "16.000",
                 "Symbol": "O",
                 "MeltingPoint": "-218.4",
                 "BoilingPoint": "-1.4",
@@ -1000,16 +972,15 @@
                 "Discoverer": "Joseph Priestly",
                 "Cost": "0.003 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "combustion",
-                "Table_Row_": "-2"
+                "PrimaryUse": "combustion"
               }
             },
             {
               "guid": 1199,
               "values": {
                 "AtomicNumber": 9,
-                "AtomicWeight": "19.000",
                 "Name": "Fluorine",
+                "AtomicWeight": "19.000",
                 "Symbol": "F",
                 "MeltingPoint": "-219.62",
                 "BoilingPoint": "-188.0",
@@ -1030,16 +1001,15 @@
                 "Discoverer": "Joseph Henri Moissan",
                 "Cost": "1.9 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "toothpaste",
-                "Table_Row_": "-2"
+                "PrimaryUse": "toothpaste"
               }
             },
             {
               "guid": 1200,
               "values": {
                 "AtomicNumber": 10,
-                "AtomicWeight": "20.180",
                 "Name": "Neon",
+                "AtomicWeight": "20.180",
                 "Symbol": "Ne",
                 "MeltingPoint": "-248.6",
                 "BoilingPoint": "-249.0",
@@ -1060,16 +1030,15 @@
                 "Discoverer": "Sir William Ramsey",
                 "Cost": "0.33 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "lights",
-                "Table_Row_": "-2"
+                "PrimaryUse": "lights"
               }
             },
             {
               "guid": 1201,
               "values": {
                 "AtomicNumber": 11,
-                "AtomicWeight": "22.990",
                 "Name": "Sodium",
+                "AtomicWeight": "22.990",
                 "Symbol": "Na",
                 "MeltingPoint": "97.8",
                 "BoilingPoint": "883.0",
@@ -1090,16 +1059,15 @@
                 "Discoverer": "Sir Humphry Davy",
                 "Cost": "0.07 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "salt (NaCl)",
-                "Table_Row_": "-3"
+                "PrimaryUse": "salt (NaCl)"
               }
             },
             {
               "guid": 1202,
               "values": {
                 "AtomicNumber": 12,
-                "AtomicWeight": "24.310",
                 "Name": "Magnesium",
+                "AtomicWeight": "24.310",
                 "Symbol": "Mg",
                 "MeltingPoint": "638.8",
                 "BoilingPoint": "1090.0",
@@ -1120,16 +1088,15 @@
                 "Discoverer": "Joseph Black",
                 "Cost": "0.037 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "racing bikes",
-                "Table_Row_": "-3"
+                "PrimaryUse": "racing bikes"
               }
             },
             {
               "guid": 1203,
               "values": {
                 "AtomicNumber": 13,
-                "AtomicWeight": "26.980",
                 "Name": "Aluminum",
+                "AtomicWeight": "26.980",
                 "Symbol": "Al",
                 "MeltingPoint": "660.37",
                 "BoilingPoint": "2467.0",
@@ -1150,16 +1117,15 @@
                 "Discoverer": "Hans Christian Oersted",
                 "Cost": "0.018 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "soda cans",
-                "Table_Row_": "-3"
+                "PrimaryUse": "soda cans"
               }
             },
             {
               "guid": 1204,
               "values": {
                 "AtomicNumber": 14,
-                "AtomicWeight": "28.090",
                 "Name": "Silicon",
+                "AtomicWeight": "28.090",
                 "Symbol": "Si",
                 "MeltingPoint": "1410",
                 "BoilingPoint": "2355.0",
@@ -1180,16 +1146,15 @@
                 "Discoverer": "Jons Berzelius",
                 "Cost": "0.054 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "micro chips",
-                "Table_Row_": "-3"
+                "PrimaryUse": "micro chips"
               }
             },
             {
               "guid": 1205,
               "values": {
                 "AtomicNumber": 15,
-                "AtomicWeight": "30.970",
                 "Name": "Phosporus",
+                "AtomicWeight": "30.970",
                 "Symbol": "P",
                 "MeltingPoint": "44.1",
                 "BoilingPoint": "280.0",
@@ -1210,16 +1175,15 @@
                 "Discoverer": "Hennig Brand",
                 "Cost": "0.04 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "matches",
-                "Table_Row_": "-3"
+                "PrimaryUse": "matches"
               }
             },
             {
               "guid": 1206,
               "values": {
                 "AtomicNumber": 16,
-                "AtomicWeight": "32.070",
                 "Name": "Sulfur",
+                "AtomicWeight": "32.070",
                 "Symbol": "S",
                 "MeltingPoint": "112.8",
                 "BoilingPoint": "445.0",
@@ -1240,16 +1204,15 @@
                 "Discoverer": "",
                 "Cost": "0.24 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "fireworks",
-                "Table_Row_": "-3"
+                "PrimaryUse": "fireworks"
               }
             },
             {
               "guid": 1207,
               "values": {
                 "AtomicNumber": 17,
-                "AtomicWeight": "35.450",
                 "Name": "Chlorine",
+                "AtomicWeight": "35.450",
                 "Symbol": "Cl",
                 "MeltingPoint": "-100.98",
                 "BoilingPoint": "-35.0",
@@ -1270,16 +1233,15 @@
                 "Discoverer": "Carl Wilhelm Scheele",
                 "Cost": "0.0015 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "water purification",
-                "Table_Row_": "-3"
+                "PrimaryUse": "water purification"
               }
             },
             {
               "guid": 1208,
               "values": {
                 "AtomicNumber": 18,
-                "AtomicWeight": "39.950",
                 "Name": "Argon",
+                "AtomicWeight": "39.950",
                 "Symbol": "Ar",
                 "MeltingPoint": "-189.3",
                 "BoilingPoint": "-186.0",
@@ -1300,16 +1262,15 @@
                 "Discoverer": "Lord Dayleigh & Sir William Ramsey",
                 "Cost": "0.005 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "light bulbs",
-                "Table_Row_": "-3"
+                "PrimaryUse": "light bulbs"
               }
             },
             {
               "guid": 1209,
               "values": {
                 "AtomicNumber": 19,
-                "AtomicWeight": "39.100",
                 "Name": "Potassium",
+                "AtomicWeight": "39.100",
                 "Symbol": "K",
                 "MeltingPoint": "63.65",
                 "BoilingPoint": "774.0",
@@ -1330,16 +1291,15 @@
                 "Discoverer": "Sir Humphrey Davy",
                 "Cost": "0.85 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "fertilizer",
-                "Table_Row_": "-4"
+                "PrimaryUse": "fertilizer"
               }
             },
             {
               "guid": 1210,
               "values": {
                 "AtomicNumber": 20,
-                "AtomicWeight": "40.080",
                 "Name": "Calcium",
+                "AtomicWeight": "40.080",
                 "Symbol": "Ca",
                 "MeltingPoint": "839",
                 "BoilingPoint": "1484.0",
@@ -1360,16 +1320,15 @@
                 "Discoverer": "Sir Humphery Davy",
                 "Cost": "0.11 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "cement and plaster of paris",
-                "Table_Row_": "-4"
+                "PrimaryUse": "cement and plaster of paris"
               }
             },
             {
               "guid": 1211,
               "values": {
                 "AtomicNumber": 21,
-                "AtomicWeight": "44.960",
                 "Name": "Scandium",
+                "AtomicWeight": "44.960",
                 "Symbol": "Sc",
                 "MeltingPoint": "1539",
                 "BoilingPoint": "2832.0",
@@ -1390,16 +1349,15 @@
                 "Discoverer": "Lars Nilson",
                 "Cost": "14 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "stadium lighting",
-                "Table_Row_": "-4"
+                "PrimaryUse": "stadium lighting"
               }
             },
             {
               "guid": 1212,
               "values": {
                 "AtomicNumber": 22,
-                "AtomicWeight": "47.880",
                 "Name": "Titanium",
+                "AtomicWeight": "47.880",
                 "Symbol": "Ti",
                 "MeltingPoint": "1660",
                 "BoilingPoint": "3287.0",
@@ -1420,16 +1378,15 @@
                 "Discoverer": "William Gregor",
                 "Cost": "0.061 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "expensive tools",
-                "Table_Row_": "-4"
+                "PrimaryUse": "expensive tools"
               }
             },
             {
               "guid": 1213,
               "values": {
                 "AtomicNumber": 23,
-                "AtomicWeight": "50.940",
                 "Name": "Vanadium",
+                "AtomicWeight": "50.940",
                 "Symbol": "V",
                 "MeltingPoint": "1690",
                 "BoilingPoint": "3380.0",
@@ -1450,16 +1407,15 @@
                 "Discoverer": "Nils Sefstrom",
                 "Cost": "2.2 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "tools",
-                "Table_Row_": "-4"
+                "PrimaryUse": "tools"
               }
             },
             {
               "guid": 1214,
               "values": {
                 "AtomicNumber": 24,
-                "AtomicWeight": "52.000",
                 "Name": "Chromium",
+                "AtomicWeight": "52.000",
                 "Symbol": "Cr",
                 "MeltingPoint": "1857",
                 "BoilingPoint": "2672.0",
@@ -1480,16 +1436,15 @@
                 "Discoverer": "Louis Nicolas Vauquelin",
                 "Cost": "0.1 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "plating in cars",
-                "Table_Row_": "-4"
+                "PrimaryUse": "plating in cars"
               }
             },
             {
               "guid": 1215,
               "values": {
                 "AtomicNumber": 25,
-                "AtomicWeight": "54.940",
                 "Name": "Manganese",
+                "AtomicWeight": "54.940",
                 "Symbol": "Mn",
                 "MeltingPoint": "1245",
                 "BoilingPoint": "1962.0",
@@ -1510,16 +1465,15 @@
                 "Discoverer": "Johann Gahn",
                 "Cost": "0.017 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "plows",
-                "Table_Row_": "-4"
+                "PrimaryUse": "plows"
               }
             },
             {
               "guid": 1216,
               "values": {
                 "AtomicNumber": 26,
-                "AtomicWeight": "55.850",
                 "Name": "Iron",
+                "AtomicWeight": "55.850",
                 "Symbol": "Fe",
                 "MeltingPoint": "1535",
                 "BoilingPoint": "2750.0",
@@ -1540,16 +1494,15 @@
                 "Discoverer": "",
                 "Cost": "0.067 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "tools",
-                "Table_Row_": "-4"
+                "PrimaryUse": "tools"
               }
             },
             {
               "guid": 1217,
               "values": {
                 "AtomicNumber": 27,
-                "AtomicWeight": "58.933",
                 "Name": "Cobalt",
+                "AtomicWeight": "58.933",
                 "Symbol": "Co",
                 "MeltingPoint": "1495",
                 "BoilingPoint": "2870.0",
@@ -1570,16 +1523,15 @@
                 "Discoverer": "George Brandt",
                 "Cost": "0.21 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "permanent magnets",
-                "Table_Row_": "-4"
+                "PrimaryUse": "permanent magnets"
               }
             },
             {
               "guid": 1218,
               "values": {
                 "AtomicNumber": 28,
-                "AtomicWeight": "58.690",
                 "Name": "Nickel",
+                "AtomicWeight": "58.690",
                 "Symbol": "Ni",
                 "MeltingPoint": "1453",
                 "BoilingPoint": "2732.0",
@@ -1600,16 +1552,15 @@
                 "Discoverer": "Alex Cronstedt",
                 "Cost": "0.077 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "coins",
-                "Table_Row_": "-4"
+                "PrimaryUse": "coins"
               }
             },
             {
               "guid": 1219,
               "values": {
                 "AtomicNumber": 29,
-                "AtomicWeight": "63.550",
                 "Name": "Copper",
+                "AtomicWeight": "63.550",
                 "Symbol": "Cu",
                 "MeltingPoint": "1803",
                 "BoilingPoint": "2567.0",
@@ -1630,16 +1581,15 @@
                 "Discoverer": "",
                 "Cost": "0.027 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "pennies",
-                "Table_Row_": "-4"
+                "PrimaryUse": "pennies"
               }
             },
             {
               "guid": 1220,
               "values": {
                 "AtomicNumber": 30,
-                "AtomicWeight": "65.390",
                 "Name": "Zinc",
+                "AtomicWeight": "65.390",
                 "Symbol": "Zn",
                 "MeltingPoint": "419.58",
                 "BoilingPoint": "907.0",
@@ -1660,16 +1610,15 @@
                 "Discoverer": "Andreas Marggraf",
                 "Cost": "0.037 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "gutters",
-                "Table_Row_": "-4"
+                "PrimaryUse": "gutters"
               }
             },
             {
               "guid": 1221,
               "values": {
                 "AtomicNumber": 31,
-                "AtomicWeight": "69.720",
                 "Name": "Gallium",
+                "AtomicWeight": "69.720",
                 "Symbol": "Ga",
                 "MeltingPoint": "29.78",
                 "BoilingPoint": "2403.0",
@@ -1690,16 +1639,15 @@
                 "Discoverer": "Paul Emile Lecoq de Boisbaudran",
                 "Cost": "2.2 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "computer memory",
-                "Table_Row_": "-4"
+                "PrimaryUse": "computer memory"
               }
             },
             {
               "guid": 1222,
               "values": {
                 "AtomicNumber": 32,
-                "AtomicWeight": "72.590",
                 "Name": "Germanium",
+                "AtomicWeight": "72.590",
                 "Symbol": "Ge",
                 "MeltingPoint": "937.4",
                 "BoilingPoint": "2830.0",
@@ -1720,16 +1668,15 @@
                 "Discoverer": "Clemens Winkler",
                 "Cost": "3.6 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "wide-angle lenses",
-                "Table_Row_": "-4"
+                "PrimaryUse": "wide-angle lenses"
               }
             },
             {
               "guid": 1223,
               "values": {
                 "AtomicNumber": 33,
-                "AtomicWeight": "74.920",
                 "Name": "Arsenic",
+                "AtomicWeight": "74.920",
                 "Symbol": "As",
                 "MeltingPoint": "81",
                 "BoilingPoint": "613.0",
@@ -1750,16 +1697,15 @@
                 "Discoverer": "",
                 "Cost": "3.2 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "LEDs",
-                "Table_Row_": "-4"
+                "PrimaryUse": "LEDs"
               }
             },
             {
               "guid": 1224,
               "values": {
                 "AtomicNumber": 34,
-                "AtomicWeight": "78.960",
                 "Name": "Selenium",
+                "AtomicWeight": "78.960",
                 "Symbol": "Se",
                 "MeltingPoint": "217",
                 "BoilingPoint": "685.0",
@@ -1780,16 +1726,15 @@
                 "Discoverer": "Jons Berzelius",
                 "Cost": "0.14 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "copy machines",
-                "Table_Row_": "-4"
+                "PrimaryUse": "copy machines"
               }
             },
             {
               "guid": 1225,
               "values": {
                 "AtomicNumber": 35,
-                "AtomicWeight": "79.900",
                 "Name": "Bromine",
+                "AtomicWeight": "79.900",
                 "Symbol": "Br",
                 "MeltingPoint": "-7.2",
                 "BoilingPoint": "59.0",
@@ -1810,16 +1755,15 @@
                 "Discoverer": "Antoine J. Balard",
                 "Cost": "0.049 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "photographic film",
-                "Table_Row_": "-4"
+                "PrimaryUse": "photographic film"
               }
             },
             {
               "guid": 1226,
               "values": {
                 "AtomicNumber": 36,
-                "AtomicWeight": "83.800",
                 "Name": "Krypton",
+                "AtomicWeight": "83.800",
                 "Symbol": "Kr",
                 "MeltingPoint": "-157.2",
                 "BoilingPoint": "-153.0",
@@ -1840,16 +1784,15 @@
                 "Discoverer": "Sir William Ramsey",
                 "Cost": "0.33 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "fluorescent bulbs",
-                "Table_Row_": "-4"
+                "PrimaryUse": "fluorescent bulbs"
               }
             },
             {
               "guid": 1227,
               "values": {
                 "AtomicNumber": 37,
-                "AtomicWeight": "85.470",
                 "Name": "Rubidium",
+                "AtomicWeight": "85.470",
                 "Symbol": "Rb",
                 "MeltingPoint": "38.89",
                 "BoilingPoint": "688.0",
@@ -1870,16 +1813,15 @@
                 "Discoverer": "R. Bunsen",
                 "Cost": "12 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "heart muscle research",
-                "Table_Row_": "-5"
+                "PrimaryUse": "heart muscle research"
               }
             },
             {
               "guid": 1228,
               "values": {
                 "AtomicNumber": 38,
-                "AtomicWeight": "87.620",
                 "Name": "Strontium",
+                "AtomicWeight": "87.620",
                 "Symbol": "Sr",
                 "MeltingPoint": "769",
                 "BoilingPoint": "1384.0",
@@ -1900,16 +1842,15 @@
                 "Discoverer": "A. Crawford",
                 "Cost": "1 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "nuclear batteries in buoys",
-                "Table_Row_": "-5"
+                "PrimaryUse": "nuclear batteries in buoys"
               }
             },
             {
               "guid": 1229,
               "values": {
                 "AtomicNumber": 39,
-                "AtomicWeight": "88.910",
                 "Name": "Yttrium",
+                "AtomicWeight": "88.910",
                 "Symbol": "Y",
                 "MeltingPoint": "1523",
                 "BoilingPoint": "3337.0",
@@ -1930,16 +1871,15 @@
                 "Discoverer": "Johann Gadolin",
                 "Cost": "2.2 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "color TV screens",
-                "Table_Row_": "-5"
+                "PrimaryUse": "color TV screens"
               }
             },
             {
               "guid": 1230,
               "values": {
                 "AtomicNumber": 40,
-                "AtomicWeight": "91.220",
                 "Name": "Zirconium",
+                "AtomicWeight": "91.220",
                 "Symbol": "Zr",
                 "MeltingPoint": "",
                 "BoilingPoint": "4377.0",
@@ -1960,16 +1900,15 @@
                 "Discoverer": "Martin Klaproth",
                 "Cost": "0.16 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "zircon gemstone",
-                "Table_Row_": "-5"
+                "PrimaryUse": "zircon gemstone"
               }
             },
             {
               "guid": 1231,
               "values": {
                 "AtomicNumber": 41,
-                "AtomicWeight": "92.910",
                 "Name": "Niobium",
+                "AtomicWeight": "92.910",
                 "Symbol": "Nb",
                 "MeltingPoint": "2468",
                 "BoilingPoint": "4927.0",
@@ -1990,16 +1929,15 @@
                 "Discoverer": "Charles Hatchet",
                 "Cost": "0.18 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "welding rods",
-                "Table_Row_": "-5"
+                "PrimaryUse": "welding rods"
               }
             },
             {
               "guid": 1232,
               "values": {
                 "AtomicNumber": 42,
-                "AtomicWeight": "95.940",
                 "Name": "Molybdenum",
+                "AtomicWeight": "95.940",
                 "Symbol": "Mo",
                 "MeltingPoint": "2617",
                 "BoilingPoint": "4612.0",
@@ -2020,16 +1958,15 @@
                 "Discoverer": "Carl Wilhelm Scheele",
                 "Cost": "0.11 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "filament in electric heaters",
-                "Table_Row_": "-5"
+                "PrimaryUse": "filament in electric heaters"
               }
             },
             {
               "guid": 1233,
               "values": {
                 "AtomicNumber": 43,
-                "AtomicWeight": "98.910",
                 "Name": "Technetium",
+                "AtomicWeight": "98.910",
                 "Symbol": "Tc",
                 "MeltingPoint": "2200",
                 "BoilingPoint": "4877.0",
@@ -2050,16 +1987,15 @@
                 "Discoverer": "Carlos Perrier",
                 "Cost": "",
                 "NaturalForming": "no",
-                "PrimaryUse": "radiation source for medical research",
-                "Table_Row_": "-5"
+                "PrimaryUse": "radiation source for medical research"
               }
             },
             {
               "guid": 1234,
               "values": {
                 "AtomicNumber": 44,
-                "AtomicWeight": "101.100",
                 "Name": "Ruthenium",
+                "AtomicWeight": "101.100",
                 "Symbol": "Ru",
                 "MeltingPoint": "2250",
                 "BoilingPoint": "3900.0",
@@ -2080,16 +2016,15 @@
                 "Discoverer": "Karl Klaus",
                 "Cost": "14 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "eye treatment",
-                "Table_Row_": "-5"
+                "PrimaryUse": "eye treatment"
               }
             },
             {
               "guid": 1235,
               "values": {
                 "AtomicNumber": 45,
-                "AtomicWeight": "102.900",
                 "Name": "Rhodium",
+                "AtomicWeight": "102.900",
                 "Symbol": "Rh",
                 "MeltingPoint": "1966",
                 "BoilingPoint": "3727.0",
@@ -2110,16 +2045,15 @@
                 "Discoverer": "William Hyde Wollaston",
                 "Cost": "130 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "headlight reflectors",
-                "Table_Row_": "-5"
+                "PrimaryUse": "headlight reflectors"
               }
             },
             {
               "guid": 1236,
               "values": {
                 "AtomicNumber": 46,
-                "AtomicWeight": "106.400",
                 "Name": "Palladium",
+                "AtomicWeight": "106.400",
                 "Symbol": "Pd",
                 "MeltingPoint": "1552",
                 "BoilingPoint": "2927.0",
@@ -2140,16 +2074,15 @@
                 "Discoverer": "William Hyde Wollaston",
                 "Cost": "0.15 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "dental crowns",
-                "Table_Row_": "-5"
+                "PrimaryUse": "dental crowns"
               }
             },
             {
               "guid": 1237,
               "values": {
                 "AtomicNumber": 47,
-                "AtomicWeight": "107.900",
                 "Name": "Silver",
+                "AtomicWeight": "107.900",
                 "Symbol": "Ag",
                 "MeltingPoint": "961.93",
                 "BoilingPoint": "2212.0",
@@ -2170,16 +2103,15 @@
                 "Discoverer": "",
                 "Cost": "1.2 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "silverware",
-                "Table_Row_": " jewelry"
+                "PrimaryUse": "silverware"
               }
             },
             {
               "guid": 1238,
               "values": {
                 "AtomicNumber": 48,
-                "AtomicWeight": "112.400",
                 "Name": "Cadmium",
+                "AtomicWeight": "112.400",
                 "Symbol": "Cd",
                 "MeltingPoint": "320.9",
                 "BoilingPoint": "765.0",
@@ -2200,16 +2132,15 @@
                 "Discoverer": "Fredrich Stromeyer",
                 "Cost": "0.06 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "rechargable batteries",
-                "Table_Row_": "-5"
+                "PrimaryUse": "rechargable batteries"
               }
             },
             {
               "guid": 1239,
               "values": {
                 "AtomicNumber": 49,
-                "AtomicWeight": "114.800",
                 "Name": "Indium",
+                "AtomicWeight": "114.800",
                 "Symbol": "In",
                 "MeltingPoint": "156.61",
                 "BoilingPoint": "2000.0",
@@ -2230,16 +2161,15 @@
                 "Discoverer": "Ferdinand Reich",
                 "Cost": "1.2 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "transistors",
-                "Table_Row_": "-5"
+                "PrimaryUse": "transistors"
               }
             },
             {
               "guid": 1240,
               "values": {
                 "AtomicNumber": 50,
-                "AtomicWeight": "118.700",
                 "Name": "Tin",
+                "AtomicWeight": "118.700",
                 "Symbol": "Sn",
                 "MeltingPoint": "231.9",
                 "BoilingPoint": "2270.0",
@@ -2260,16 +2190,15 @@
                 "Discoverer": "",
                 "Cost": "0.08 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "organ pipes",
-                "Table_Row_": "-5"
+                "PrimaryUse": "organ pipes"
               }
             },
             {
               "guid": 1241,
               "values": {
                 "AtomicNumber": 51,
-                "AtomicWeight": "121.800",
                 "Name": "Antimony",
+                "AtomicWeight": "121.800",
                 "Symbol": "Sb",
                 "MeltingPoint": "630",
                 "BoilingPoint": "1750.0",
@@ -2290,16 +2219,15 @@
                 "Discoverer": "",
                 "Cost": "0.045 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "ceramic glazes",
-                "Table_Row_": "-5"
+                "PrimaryUse": "ceramic glazes"
               }
             },
             {
               "guid": 1242,
               "values": {
                 "AtomicNumber": 52,
-                "AtomicWeight": "127.600",
                 "Name": "Tellurium",
+                "AtomicWeight": "127.600",
                 "Symbol": "Te",
                 "MeltingPoint": "449.5",
                 "BoilingPoint": "990.0",
@@ -2320,16 +2248,15 @@
                 "Discoverer": "Franz Muller von Reichenstein",
                 "Cost": "0.24 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "vulcanization of rubber",
-                "Table_Row_": "-5"
+                "PrimaryUse": "vulcanization of rubber"
               }
             },
             {
               "guid": 1243,
               "values": {
                 "AtomicNumber": 53,
-                "AtomicWeight": "126.900",
                 "Name": "Iodine",
+                "AtomicWeight": "126.900",
                 "Symbol": "I",
                 "MeltingPoint": "113.5",
                 "BoilingPoint": "184.0",
@@ -2350,16 +2277,15 @@
                 "Discoverer": "Bernard Courtois",
                 "Cost": "0.083 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "disinfectant",
-                "Table_Row_": "-5"
+                "PrimaryUse": "disinfectant"
               }
             },
             {
               "guid": 1244,
               "values": {
                 "AtomicNumber": 54,
-                "AtomicWeight": "131.300",
                 "Name": "Xenon",
+                "AtomicWeight": "131.300",
                 "Symbol": "Xe",
                 "MeltingPoint": "-111.9",
                 "BoilingPoint": "-108.0",
@@ -2380,16 +2306,15 @@
                 "Discoverer": "Sir William Ramsey",
                 "Cost": "1.2 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "sun lamps",
-                "Table_Row_": "-5"
+                "PrimaryUse": "sun lamps"
               }
             },
             {
               "guid": 1245,
               "values": {
                 "AtomicNumber": 55,
-                "AtomicWeight": "132.900",
                 "Name": "Cesium",
+                "AtomicWeight": "132.900",
                 "Symbol": "Cs",
                 "MeltingPoint": "28.5",
                 "BoilingPoint": "678.0",
@@ -2410,16 +2335,15 @@
                 "Discoverer": "Gustav Kirchoff",
                 "Cost": "11 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "photoelectric cells",
-                "Table_Row_": "-6"
+                "PrimaryUse": "photoelectric cells"
               }
             },
             {
               "guid": 1246,
               "values": {
                 "AtomicNumber": 56,
-                "AtomicWeight": "137.300",
                 "Name": "Barium",
+                "AtomicWeight": "137.300",
                 "Symbol": "Ba",
                 "MeltingPoint": "725",
                 "BoilingPoint": "1140.0",
@@ -2440,16 +2364,15 @@
                 "Discoverer": "Sir Humphrey Davy",
                 "Cost": "0.55 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "spark plugs",
-                "Table_Row_": "-6"
+                "PrimaryUse": "spark plugs"
               }
             },
             {
               "guid": 1247,
               "values": {
                 "AtomicNumber": 57,
-                "AtomicWeight": "138.900",
                 "Name": "Lanthanum",
+                "AtomicWeight": "138.900",
                 "Symbol": "La",
                 "MeltingPoint": "920",
                 "BoilingPoint": "3469.0",
@@ -2470,16 +2393,15 @@
                 "Discoverer": "Carl Mosander",
                 "Cost": "0.64 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "camera lenses",
-                "Table_Row_": "-8"
+                "PrimaryUse": "camera lenses"
               }
             },
             {
               "guid": 1248,
               "values": {
                 "AtomicNumber": 58,
-                "AtomicWeight": "140.100",
                 "Name": "Cerium",
+                "AtomicWeight": "140.100",
                 "Symbol": "Ce",
                 "MeltingPoint": "795",
                 "BoilingPoint": "3257.0",
@@ -2500,16 +2422,15 @@
                 "Discoverer": "W. von Hisinger",
                 "Cost": "0.57 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "lighter flints",
-                "Table_Row_": "-8"
+                "PrimaryUse": "lighter flints"
               }
             },
             {
               "guid": 1249,
               "values": {
                 "AtomicNumber": 59,
-                "AtomicWeight": "140.900",
                 "Name": "Praseodymium",
+                "AtomicWeight": "140.900",
                 "Symbol": "Pr",
                 "MeltingPoint": "935",
                 "BoilingPoint": "3127.0",
@@ -2530,16 +2451,15 @@
                 "Discoverer": "C.F. Aver von Welsbach",
                 "Cost": "1.7 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "ceramic coloring",
-                "Table_Row_": "-8"
+                "PrimaryUse": "ceramic coloring"
               }
             },
             {
               "guid": 1250,
               "values": {
                 "AtomicNumber": 60,
-                "AtomicWeight": "144.500",
                 "Name": "Neodymium",
+                "AtomicWeight": "144.500",
                 "Symbol": "Nd",
                 "MeltingPoint": "1010",
                 "BoilingPoint": "3127.0",
@@ -2560,16 +2480,15 @@
                 "Discoverer": "C.F. Aver von Welsbach",
                 "Cost": "1.1 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "high strength magnets for disk drives",
-                "Table_Row_": "-8"
+                "PrimaryUse": "high strength magnets for disk drives"
               }
             },
             {
               "guid": 1251,
               "values": {
                 "AtomicNumber": 61,
-                "AtomicWeight": "147.000",
                 "Name": "Promethium",
+                "AtomicWeight": "147.000",
                 "Symbol": "Pm",
                 "MeltingPoint": "",
                 "BoilingPoint": "1100.0",
@@ -2590,16 +2509,15 @@
                 "Discoverer": "J.A. Marinsky",
                 "Cost": "",
                 "NaturalForming": "no",
-                "PrimaryUse": "nuclear batteries",
-                "Table_Row_": "-8"
+                "PrimaryUse": "nuclear batteries"
               }
             },
             {
               "guid": 1252,
               "values": {
                 "AtomicNumber": 62,
-                "AtomicWeight": "150.400",
                 "Name": "Samarium",
+                "AtomicWeight": "150.400",
                 "Symbol": "Sm",
                 "MeltingPoint": "1072",
                 "BoilingPoint": "1900.0",
@@ -2620,16 +2538,15 @@
                 "Discoverer": "Paul Emile Lecoq de Boisbaudran",
                 "Cost": "1.3 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "lasers",
-                "Table_Row_": "-8"
+                "PrimaryUse": "lasers"
               }
             },
             {
               "guid": 1253,
               "values": {
                 "AtomicNumber": 63,
-                "AtomicWeight": "152.000",
                 "Name": "Europium",
+                "AtomicWeight": "152.000",
                 "Symbol": "Eu",
                 "MeltingPoint": "822",
                 "BoilingPoint": "1597.0",
@@ -2650,16 +2567,15 @@
                 "Discoverer": "Eugene Demarcay",
                 "Cost": "36 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "color TV tubes",
-                "Table_Row_": "-8"
+                "PrimaryUse": "color TV tubes"
               }
             },
             {
               "guid": 1254,
               "values": {
                 "AtomicNumber": 64,
-                "AtomicWeight": "157.300",
                 "Name": "Gadolinium",
+                "AtomicWeight": "157.300",
                 "Symbol": "Gd",
                 "MeltingPoint": "1311",
                 "BoilingPoint": "3233.0",
@@ -2680,16 +2596,15 @@
                 "Discoverer": "Jean de Marignac",
                 "Cost": "1.91 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "computer memory",
-                "Table_Row_": "-8"
+                "PrimaryUse": "computer memory"
               }
             },
             {
               "guid": 1255,
               "values": {
                 "AtomicNumber": 65,
-                "AtomicWeight": "158.900",
                 "Name": "Terbium",
+                "AtomicWeight": "158.900",
                 "Symbol": "Tb",
                 "MeltingPoint": "1360",
                 "BoilingPoint": "3041.0",
@@ -2710,16 +2625,15 @@
                 "Discoverer": "Carl Mosander",
                 "Cost": "18 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "fluorescent lamps",
-                "Table_Row_": "-8"
+                "PrimaryUse": "fluorescent lamps"
               }
             },
             {
               "guid": 1256,
               "values": {
                 "AtomicNumber": 66,
-                "AtomicWeight": "162.500",
                 "Name": "Dysprosium",
+                "AtomicWeight": "162.500",
                 "Symbol": "Dy",
                 "MeltingPoint": "1412",
                 "BoilingPoint": "2562.0",
@@ -2740,16 +2654,15 @@
                 "Discoverer": "Paul Emile Lecoq de Boisbaudran",
                 "Cost": "2.1 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "color TV tubes",
-                "Table_Row_": "-8"
+                "PrimaryUse": "color TV tubes"
               }
             },
             {
               "guid": 1257,
               "values": {
                 "AtomicNumber": 67,
-                "AtomicWeight": "164.900",
                 "Name": "Holmium",
+                "AtomicWeight": "164.900",
                 "Symbol": "Ho",
                 "MeltingPoint": "1470",
                 "BoilingPoint": "2720.0",
@@ -2770,16 +2683,15 @@
                 "Discoverer": "J.L. Soret",
                 "Cost": "7.4 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "eye-safe lasers",
-                "Table_Row_": "-8"
+                "PrimaryUse": "eye-safe lasers"
               }
             },
             {
               "guid": 1258,
               "values": {
                 "AtomicNumber": 68,
-                "AtomicWeight": "167.300",
                 "Name": "Erbium",
+                "AtomicWeight": "167.300",
                 "Symbol": "Er",
                 "MeltingPoint": "1522",
                 "BoilingPoint": "2510.0",
@@ -2800,16 +2712,15 @@
                 "Discoverer": "Carl Mosander",
                 "Cost": "2.7 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "coating for sunglasses",
-                "Table_Row_": "-8"
+                "PrimaryUse": "coating for sunglasses"
               }
             },
             {
               "guid": 1259,
               "values": {
                 "AtomicNumber": 69,
-                "AtomicWeight": "168.900",
                 "Name": "Thulium",
+                "AtomicWeight": "168.900",
                 "Symbol": "Tm",
                 "MeltingPoint": "1545",
                 "BoilingPoint": "1727.0",
@@ -2830,16 +2741,15 @@
                 "Discoverer": "Per Theodor Cleve",
                 "Cost": "41 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "lasers",
-                "Table_Row_": "-8"
+                "PrimaryUse": "lasers"
               }
             },
             {
               "guid": 1260,
               "values": {
                 "AtomicNumber": 70,
-                "AtomicWeight": "173.000",
                 "Name": "Ytterbium",
+                "AtomicWeight": "173.000",
                 "Symbol": "Yb",
                 "MeltingPoint": "824",
                 "BoilingPoint": "1466.0",
@@ -2860,16 +2770,15 @@
                 "Discoverer": "Jena de Marignac",
                 "Cost": "5.3 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "dentures",
-                "Table_Row_": "-8"
+                "PrimaryUse": "dentures"
               }
             },
             {
               "guid": 1261,
               "values": {
                 "AtomicNumber": 71,
-                "AtomicWeight": "175.000",
                 "Name": "Lutetium",
+                "AtomicWeight": "175.000",
                 "Symbol": "Lu",
                 "MeltingPoint": "1656",
                 "BoilingPoint": "3315.0",
@@ -2890,16 +2799,15 @@
                 "Discoverer": "Georges Urbain",
                 "Cost": "69 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "dentures",
-                "Table_Row_": "-8"
+                "PrimaryUse": "dentures"
               }
             },
             {
               "guid": 1262,
               "values": {
                 "AtomicNumber": 72,
-                "AtomicWeight": "178.500",
                 "Name": "Hafnium",
+                "AtomicWeight": "178.500",
                 "Symbol": "Hf",
                 "MeltingPoint": "2150",
                 "BoilingPoint": "5400.0",
@@ -2920,16 +2828,15 @@
                 "Discoverer": "Dirk Coster",
                 "Cost": "1.2 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "nuclear submarines",
-                "Table_Row_": "-6"
+                "PrimaryUse": "nuclear submarines"
               }
             },
             {
               "guid": 1263,
               "values": {
                 "AtomicNumber": 73,
-                "AtomicWeight": "180.900",
                 "Name": "Tantalum",
+                "AtomicWeight": "180.900",
                 "Symbol": "Ta",
                 "MeltingPoint": "2996",
                 "BoilingPoint": "5425.0",
@@ -2950,16 +2857,15 @@
                 "Discoverer": "Anders Ekeberg",
                 "Cost": "1.2 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "weights",
-                "Table_Row_": "-6"
+                "PrimaryUse": "weights"
               }
             },
             {
               "guid": 1264,
               "values": {
                 "AtomicNumber": 74,
-                "AtomicWeight": "183.900",
                 "Name": "Tungsten",
+                "AtomicWeight": "183.900",
                 "Symbol": "W",
                 "MeltingPoint": "3410",
                 "BoilingPoint": "5660.0",
@@ -2980,16 +2886,15 @@
                 "Discoverer": "Fausto & Juan Jose de Elhuyar",
                 "Cost": "0.11 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "lamp filaments",
-                "Table_Row_": "-6"
+                "PrimaryUse": "lamp filaments"
               }
             },
             {
               "guid": 1265,
               "values": {
                 "AtomicNumber": 75,
-                "AtomicWeight": "186.200",
                 "Name": "Rhenium",
+                "AtomicWeight": "186.200",
                 "Symbol": "Re",
                 "MeltingPoint": "",
                 "BoilingPoint": "5627.0",
@@ -3010,16 +2915,15 @@
                 "Discoverer": "Ida & Walter Noddack",
                 "Cost": "5.4 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "jewelry plating",
-                "Table_Row_": "-6"
+                "PrimaryUse": "jewelry plating"
               }
             },
             {
               "guid": 1266,
               "values": {
                 "AtomicNumber": 76,
-                "AtomicWeight": "190.200",
                 "Name": "Osmium",
+                "AtomicWeight": "190.200",
                 "Symbol": "Os",
                 "MeltingPoint": "3045",
                 "BoilingPoint": "5027.0",
@@ -3040,16 +2944,15 @@
                 "Discoverer": "Smithson Tenant",
                 "Cost": "77 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "fountain pen points",
-                "Table_Row_": "-6"
+                "PrimaryUse": "fountain pen points"
               }
             },
             {
               "guid": 1267,
               "values": {
                 "AtomicNumber": 77,
-                "AtomicWeight": "190.200",
                 "Name": "Iridium",
+                "AtomicWeight": "190.200",
                 "Symbol": "Ir",
                 "MeltingPoint": "2410",
                 "BoilingPoint": "4527.0",
@@ -3070,16 +2973,15 @@
                 "Discoverer": "Smithson Tenant",
                 "Cost": "42 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "helicopter spark plugs",
-                "Table_Row_": "-6"
+                "PrimaryUse": "helicopter spark plugs"
               }
             },
             {
               "guid": 1268,
               "values": {
                 "AtomicNumber": 78,
-                "AtomicWeight": "195.100",
                 "Name": "Platinum",
+                "AtomicWeight": "195.100",
                 "Symbol": "Pt",
                 "MeltingPoint": "1772",
                 "BoilingPoint": "3827.0",
@@ -3100,16 +3002,15 @@
                 "Discoverer": "Julius Scaliger",
                 "Cost": "47 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "dental crowns",
-                "Table_Row_": "-6"
+                "PrimaryUse": "dental crowns"
               }
             },
             {
               "guid": 1269,
               "values": {
                 "AtomicNumber": 79,
-                "AtomicWeight": "197.000",
                 "Name": "Gold",
+                "AtomicWeight": "197.000",
                 "Symbol": "Au",
                 "MeltingPoint": "1064.43",
                 "BoilingPoint": "2807.0",
@@ -3130,16 +3031,15 @@
                 "Discoverer": "",
                 "Cost": "44 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "gold bars",
-                "Table_Row_": " jewelry"
+                "PrimaryUse": "gold bars"
               }
             },
             {
               "guid": 1270,
               "values": {
                 "AtomicNumber": 80,
-                "AtomicWeight": "200.500",
                 "Name": "Mercury",
+                "AtomicWeight": "200.500",
                 "Symbol": "Hg",
                 "MeltingPoint": "-38.87",
                 "BoilingPoint": "357.0",
@@ -3160,16 +3060,15 @@
                 "Discoverer": "",
                 "Cost": "0.05 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "thermometers",
-                "Table_Row_": "-6"
+                "PrimaryUse": "thermometers"
               }
             },
             {
               "guid": 1271,
               "values": {
                 "AtomicNumber": 81,
-                "AtomicWeight": "204.400",
                 "Name": "Thallium",
+                "AtomicWeight": "204.400",
                 "Symbol": "Tl",
                 "MeltingPoint": "303.5",
                 "BoilingPoint": "1457.0",
@@ -3190,16 +3089,15 @@
                 "Discoverer": "Sir William Crookes",
                 "Cost": "0.48 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "insecticide",
-                "Table_Row_": "-6"
+                "PrimaryUse": "insecticide"
               }
             },
             {
               "guid": 1272,
               "values": {
                 "AtomicNumber": 82,
-                "AtomicWeight": "207.200",
                 "Name": "Lead",
+                "AtomicWeight": "207.200",
                 "Symbol": "Pb",
                 "MeltingPoint": "327.5",
                 "BoilingPoint": "1740.0",
@@ -3220,16 +3118,15 @@
                 "Discoverer": "",
                 "Cost": "0.015 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "batteries",
-                "Table_Row_": "-6"
+                "PrimaryUse": "batteries"
               }
             },
             {
               "guid": 1273,
               "values": {
                 "AtomicNumber": 83,
-                "AtomicWeight": "209.000",
                 "Name": "Bismuth",
+                "AtomicWeight": "209.000",
                 "Symbol": "Bi",
                 "MeltingPoint": "271.3",
                 "BoilingPoint": "1560.0",
@@ -3250,16 +3147,15 @@
                 "Discoverer": "Casper Newmann",
                 "Cost": "0.11 dollars/g",
                 "NaturalForming": "yes",
-                "PrimaryUse": "fuses",
-                "Table_Row_": "-6"
+                "PrimaryUse": "fuses"
               }
             },
             {
               "guid": 1274,
               "values": {
                 "AtomicNumber": 84,
-                "AtomicWeight": "210.000",
                 "Name": "Polonium",
+                "AtomicWeight": "210.000",
                 "Symbol": "Po",
                 "MeltingPoint": "254",
                 "BoilingPoint": "962.0",
@@ -3280,16 +3176,15 @@
                 "Discoverer": "Pierre & Marie Curie",
                 "Cost": "",
                 "NaturalForming": "yes",
-                "PrimaryUse": "nuclear batteries",
-                "Table_Row_": "-6"
+                "PrimaryUse": "nuclear batteries"
               }
             },
             {
               "guid": 1275,
               "values": {
                 "AtomicNumber": 85,
-                "AtomicWeight": "210.000",
                 "Name": "Astatine",
+                "AtomicWeight": "210.000",
                 "Symbol": "At",
                 "MeltingPoint": "302",
                 "BoilingPoint": "",
@@ -3310,16 +3205,15 @@
                 "Discoverer": "D.R. Corson",
                 "Cost": "",
                 "NaturalForming": "yes",
-                "PrimaryUse": "",
-                "Table_Row_": "-6"
+                "PrimaryUse": ""
               }
             },
             {
               "guid": 1276,
               "values": {
                 "AtomicNumber": 86,
-                "AtomicWeight": "222.000",
                 "Name": "Radon",
+                "AtomicWeight": "222.000",
                 "Symbol": "Rn",
                 "MeltingPoint": "-71",
                 "BoilingPoint": "-61.7",
@@ -3340,16 +3234,15 @@
                 "Discoverer": "Fredrich Ernst Dorn",
                 "Cost": "",
                 "NaturalForming": "yes",
-                "PrimaryUse": "earthquake prediction",
-                "Table_Row_": "-6"
+                "PrimaryUse": "earthquake prediction"
               }
             },
             {
               "guid": 1277,
               "values": {
                 "AtomicNumber": 87,
-                "AtomicWeight": "223.000",
                 "Name": "Francium",
+                "AtomicWeight": "223.000",
                 "Symbol": "Fr",
                 "MeltingPoint": "27",
                 "BoilingPoint": "677.0",
@@ -3370,16 +3263,15 @@
                 "Discoverer": "Marguerite Derey",
                 "Cost": "",
                 "NaturalForming": "yes",
-                "PrimaryUse": "",
-                "Table_Row_": "-7"
+                "PrimaryUse": ""
               }
             },
             {
               "guid": 1278,
               "values": {
                 "AtomicNumber": 88,
-                "AtomicWeight": "226.000",
                 "Name": "Radium",
+                "AtomicWeight": "226.000",
                 "Symbol": "Ra",
                 "MeltingPoint": "700",
                 "BoilingPoint": "1737.0",
@@ -3400,16 +3292,15 @@
                 "Discoverer": "Pierre & Marie Curie",
                 "Cost": "",
                 "NaturalForming": "yes",
-                "PrimaryUse": "glow-in-the-dark paint",
-                "Table_Row_": "-7"
+                "PrimaryUse": "glow-in-the-dark paint"
               }
             },
             {
               "guid": 1279,
               "values": {
                 "AtomicNumber": 89,
-                "AtomicWeight": "227.000",
                 "Name": "Actinium",
+                "AtomicWeight": "227.000",
                 "Symbol": "Ac",
                 "MeltingPoint": "1050",
                 "BoilingPoint": "3200.0",
@@ -3430,16 +3321,15 @@
                 "Discoverer": "Andre Debierne",
                 "Cost": "",
                 "NaturalForming": "yes",
-                "PrimaryUse": "neutron source",
-                "Table_Row_": "-9"
+                "PrimaryUse": "neutron source"
               }
             },
             {
               "guid": 1280,
               "values": {
                 "AtomicNumber": 90,
-                "AtomicWeight": "232.000",
                 "Name": "Thorium",
+                "AtomicWeight": "232.000",
                 "Symbol": "Th",
                 "MeltingPoint": "1750",
                 "BoilingPoint": "4790.0",
@@ -3460,16 +3350,15 @@
                 "Discoverer": "Jons Berzelius",
                 "Cost": "",
                 "NaturalForming": "yes",
-                "PrimaryUse": "crucibles",
-                "Table_Row_": "-9"
+                "PrimaryUse": "crucibles"
               }
             },
             {
               "guid": 1281,
               "values": {
                 "AtomicNumber": 91,
-                "AtomicWeight": "231.000",
                 "Name": "Protactinium",
+                "AtomicWeight": "231.000",
                 "Symbol": "Pa",
                 "MeltingPoint": "1600",
                 "BoilingPoint": "4800.0",
@@ -3490,16 +3379,15 @@
                 "Discoverer": "Fredrich Soddy",
                 "Cost": "",
                 "NaturalForming": "yes",
-                "PrimaryUse": "",
-                "Table_Row_": "-9"
+                "PrimaryUse": ""
               }
             },
             {
               "guid": 1282,
               "values": {
                 "AtomicNumber": 92,
-                "AtomicWeight": "238.000",
                 "Name": "Uranium",
+                "AtomicWeight": "238.000",
                 "Symbol": "U",
                 "MeltingPoint": "1132",
                 "BoilingPoint": "3815.0",
@@ -3520,16 +3408,15 @@
                 "Discoverer": "Martin Klaproth",
                 "Cost": "",
                 "NaturalForming": "yes",
-                "PrimaryUse": "nuclear fission",
-                "Table_Row_": "-9"
+                "PrimaryUse": "nuclear fission"
               }
             },
             {
               "guid": 1283,
               "values": {
                 "AtomicNumber": 93,
-                "AtomicWeight": "237.000",
                 "Name": "Neptunium",
+                "AtomicWeight": "237.000",
                 "Symbol": "Np",
                 "MeltingPoint": "640",
                 "BoilingPoint": "3235.0",
@@ -3550,16 +3437,15 @@
                 "Discoverer": "E.M. McMillan",
                 "Cost": "",
                 "NaturalForming": "no",
-                "PrimaryUse": "none",
-                "Table_Row_": "-9"
+                "PrimaryUse": "none"
               }
             },
             {
               "guid": 1284,
               "values": {
                 "AtomicNumber": 94,
-                "AtomicWeight": "242.000",
                 "Name": "Plutonium",
+                "AtomicWeight": "242.000",
                 "Symbol": "Pu",
                 "MeltingPoint": "640",
                 "BoilingPoint": "3235.0",
@@ -3580,16 +3466,15 @@
                 "Discoverer": "G.T. Seaborg",
                 "Cost": "",
                 "NaturalForming": "no",
-                "PrimaryUse": "nuclear batteries",
-                "Table_Row_": "-9"
+                "PrimaryUse": "nuclear batteries"
               }
             },
             {
               "guid": 1285,
               "values": {
                 "AtomicNumber": 95,
-                "AtomicWeight": "243.000",
                 "Name": "Americium",
+                "AtomicWeight": "243.000",
                 "Symbol": "Am",
                 "MeltingPoint": "994",
                 "BoilingPoint": "2607.0",
@@ -3610,16 +3495,15 @@
                 "Discoverer": "G.T. Seaborg",
                 "Cost": "",
                 "NaturalForming": "no",
-                "PrimaryUse": "crystal research",
-                "Table_Row_": "-9"
+                "PrimaryUse": "crystal research"
               }
             },
             {
               "guid": 1286,
               "values": {
                 "AtomicNumber": 96,
-                "AtomicWeight": "247.000",
                 "Name": "Curium",
+                "AtomicWeight": "247.000",
                 "Symbol": "Cm",
                 "MeltingPoint": "1340",
                 "BoilingPoint": "",
@@ -3640,16 +3524,15 @@
                 "Discoverer": "G.T. Seaborg",
                 "Cost": "",
                 "NaturalForming": "no",
-                "PrimaryUse": "none",
-                "Table_Row_": "-9"
+                "PrimaryUse": "none"
               }
             },
             {
               "guid": 1287,
               "values": {
                 "AtomicNumber": 97,
-                "AtomicWeight": "247.000",
                 "Name": "Berkelium",
+                "AtomicWeight": "247.000",
                 "Symbol": "Bk",
                 "MeltingPoint": "986",
                 "BoilingPoint": "",
@@ -3670,16 +3553,15 @@
                 "Discoverer": "G.T. Seaborg",
                 "Cost": "",
                 "NaturalForming": "no",
-                "PrimaryUse": "none",
-                "Table_Row_": "-9"
+                "PrimaryUse": "none"
               }
             },
             {
               "guid": 1288,
               "values": {
                 "AtomicNumber": 98,
-                "AtomicWeight": "249.000",
                 "Name": "Californium",
+                "AtomicWeight": "249.000",
                 "Symbol": "Cf",
                 "MeltingPoint": "900",
                 "BoilingPoint": "",
@@ -3700,16 +3582,15 @@
                 "Discoverer": "G.T. Seaborg",
                 "Cost": "",
                 "NaturalForming": "no",
-                "PrimaryUse": "rocket fuel",
-                "Table_Row_": "-9"
+                "PrimaryUse": "rocket fuel"
               }
             },
             {
               "guid": 1289,
               "values": {
                 "AtomicNumber": 99,
-                "AtomicWeight": "254.000",
                 "Name": "Einsteinium",
+                "AtomicWeight": "254.000",
                 "Symbol": "Es",
                 "MeltingPoint": "860",
                 "BoilingPoint": "",
@@ -3730,16 +3611,15 @@
                 "Discoverer": "Argonne",
                 "Cost": " Los Alamos",
                 "NaturalForming": " Univ. of CA",
-                "PrimaryUse": "",
-                "Table_Row_": "no"
+                "PrimaryUse": ""
               }
             },
             {
               "guid": 1290,
               "values": {
                 "AtomicNumber": 100,
-                "AtomicWeight": "253.000",
                 "Name": "Fermium",
+                "AtomicWeight": "253.000",
                 "Symbol": "Fm",
                 "MeltingPoint": "1527",
                 "BoilingPoint": "",
@@ -3760,16 +3640,15 @@
                 "Discoverer": "Argonne",
                 "Cost": " Los Alamos",
                 "NaturalForming": " Univ. of CA",
-                "PrimaryUse": "",
-                "Table_Row_": "no"
+                "PrimaryUse": ""
               }
             },
             {
               "guid": 1291,
               "values": {
                 "AtomicNumber": 101,
-                "AtomicWeight": "256.000",
                 "Name": "Menelevium",
+                "AtomicWeight": "256.000",
                 "Symbol": "Md",
                 "MeltingPoint": "",
                 "BoilingPoint": "",
@@ -3790,16 +3669,15 @@
                 "Discoverer": "G.T. Seaborg",
                 "Cost": "",
                 "NaturalForming": "no",
-                "PrimaryUse": "none",
-                "Table_Row_": "-9"
+                "PrimaryUse": "none"
               }
             },
             {
               "guid": 1292,
               "values": {
                 "AtomicNumber": 102,
-                "AtomicWeight": "254.000",
                 "Name": "Nobelium",
+                "AtomicWeight": "254.000",
                 "Symbol": "No",
                 "MeltingPoint": "827",
                 "BoilingPoint": "",
@@ -3820,16 +3698,15 @@
                 "Discoverer": "Nobel Institute for Physics",
                 "Cost": "",
                 "NaturalForming": "no",
-                "PrimaryUse": "none",
-                "Table_Row_": "-9"
+                "PrimaryUse": "none"
               }
             },
             {
               "guid": 1293,
               "values": {
                 "AtomicNumber": 103,
-                "AtomicWeight": "257.000",
                 "Name": "Lawrencium",
+                "AtomicWeight": "257.000",
                 "Symbol": "Lr",
                 "MeltingPoint": "",
                 "BoilingPoint": "",
@@ -3850,16 +3727,15 @@
                 "Discoverer": "A. Ghiorso",
                 "Cost": "",
                 "NaturalForming": "no",
-                "PrimaryUse": "none",
-                "Table_Row_": "-9"
+                "PrimaryUse": "none"
               }
             },
             {
               "guid": 1294,
               "values": {
                 "AtomicNumber": 104,
-                "AtomicWeight": "257.000",
                 "Name": "Rutherfordium",
+                "AtomicWeight": "257.000",
                 "Symbol": "Rf",
                 "MeltingPoint": "",
                 "BoilingPoint": "",
@@ -3880,16 +3756,15 @@
                 "Discoverer": "A. Ghiorso",
                 "Cost": "",
                 "NaturalForming": "no",
-                "PrimaryUse": "none",
-                "Table_Row_": "-7"
+                "PrimaryUse": "none"
               }
             },
             {
               "guid": 1295,
               "values": {
                 "AtomicNumber": 105,
-                "AtomicWeight": "260.000",
                 "Name": "Dubnium",
+                "AtomicWeight": "260.000",
                 "Symbol": "Db",
                 "MeltingPoint": "",
                 "BoilingPoint": "",
@@ -3910,16 +3785,15 @@
                 "Discoverer": "A. Ghiorso",
                 "Cost": "",
                 "NaturalForming": "no",
-                "PrimaryUse": "none",
-                "Table_Row_": "-7"
+                "PrimaryUse": "none"
               }
             },
             {
               "guid": 1296,
               "values": {
                 "AtomicNumber": 106,
-                "AtomicWeight": "263.000",
                 "Name": "Seaborgium",
+                "AtomicWeight": "263.000",
                 "Symbol": "Sg",
                 "MeltingPoint": "",
                 "BoilingPoint": "",
@@ -3940,16 +3814,15 @@
                 "Discoverer": "",
                 "Cost": "",
                 "NaturalForming": "no",
-                "PrimaryUse": "none",
-                "Table_Row_": "-7"
+                "PrimaryUse": "none"
               }
             },
             {
               "guid": 1297,
               "values": {
                 "AtomicNumber": 107,
-                "AtomicWeight": "262.000",
                 "Name": "Bohrium",
+                "AtomicWeight": "262.000",
                 "Symbol": "Bh",
                 "MeltingPoint": "",
                 "BoilingPoint": "",
@@ -3970,16 +3843,15 @@
                 "Discoverer": "Soviets at Dubna",
                 "Cost": "",
                 "NaturalForming": "no",
-                "PrimaryUse": "none",
-                "Table_Row_": "-7"
+                "PrimaryUse": "none"
               }
             },
             {
               "guid": 1298,
               "values": {
                 "AtomicNumber": 108,
-                "AtomicWeight": "265.000",
                 "Name": "Hassium",
+                "AtomicWeight": "265.000",
                 "Symbol": "Hs",
                 "MeltingPoint": "",
                 "BoilingPoint": "",
@@ -4000,16 +3872,15 @@
                 "Discoverer": "Peter Armbruster",
                 "Cost": " Gottfried Munzenber",
                 "NaturalForming": " and co-workers at GSI in Darmstadt",
-                "PrimaryUse": " Germany",
-                "Table_Row_": ""
+                "PrimaryUse": " Germany"
               }
             },
             {
               "guid": 1299,
               "values": {
                 "AtomicNumber": 109,
-                "AtomicWeight": "266.000",
                 "Name": "Meitnerium",
+                "AtomicWeight": "266.000",
                 "Symbol": "Mt",
                 "MeltingPoint": "",
                 "BoilingPoint": "",
@@ -4030,16 +3901,15 @@
                 "Discoverer": "Heavy Ion Research Laboratory",
                 "Cost": " Darmstadt",
                 "NaturalForming": " W.Germany",
-                "PrimaryUse": "",
-                "Table_Row_": "no"
+                "PrimaryUse": ""
               }
             },
             {
               "guid": 1300,
               "values": {
                 "AtomicNumber": 110,
-                "AtomicWeight": "269.000",
                 "Name": "Darmstadtium",
+                "AtomicWeight": "269.000",
                 "Symbol": "Ds",
                 "MeltingPoint": "",
                 "BoilingPoint": "",
@@ -4060,16 +3930,15 @@
                 "Discoverer": "GSI",
                 "Cost": " Darmstadt",
                 "NaturalForming": " Germany",
-                "PrimaryUse": "",
-                "Table_Row_": "no"
+                "PrimaryUse": ""
               }
             },
             {
               "guid": 1301,
               "values": {
                 "AtomicNumber": 111,
-                "AtomicWeight": "272.000",
                 "Name": "Roentgenium",
+                "AtomicWeight": "272.000",
                 "Symbol": "Rg",
                 "MeltingPoint": "",
                 "BoilingPoint": "",
@@ -4090,16 +3959,15 @@
                 "Discoverer": "GSI",
                 "Cost": " Darmstadt",
                 "NaturalForming": " Germany",
-                "PrimaryUse": "",
-                "Table_Row_": "no"
+                "PrimaryUse": ""
               }
             },
             {
               "guid": 1302,
               "values": {
                 "AtomicNumber": 112,
-                "AtomicWeight": "277.000",
                 "Name": "Ununbium",
+                "AtomicWeight": "277.000",
                 "Symbol": "Uub",
                 "MeltingPoint": "",
                 "BoilingPoint": "",
@@ -4120,8 +3988,7 @@
                 "Discoverer": "GSI",
                 "Cost": " Darmstadt",
                 "NaturalForming": " Germany",
-                "PrimaryUse": "",
-                "Table_Row_": "no"
+                "PrimaryUse": ""
               }
             }
           ],
@@ -4129,7 +3996,7 @@
           "childAttrName": null,
           "collapseChildren": null,
           "guid": 1165,
-          "name": "cases",
+          "name": "Periodic Table Elements",
           "title": null,
           "type": "DG.Collection"
         }
@@ -4141,7 +4008,8 @@
   "appName": "DG",
   "appVersion": "2.0",
   "appBuildNum": "0342",
+  "_permissions": 1,
   "metadata": {
-    "changeCount": 39
+    "changeCount": 21
   }
 }
