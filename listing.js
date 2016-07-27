@@ -13,6 +13,13 @@ var map = {
     ready: true,
     categories: ['model']
   },
+fast_plantss: {
+  title: 'Fast Plants',
+      description:'A nice example document for CODAP beginners. Make graphs and use selection to look for patterns in fast plant experiments.',
+      path: 'fast_plants/fast_plants.json',
+      ready: true,
+      categories: ['model']
+},
   Four_Seals: {
     title: 'Four Seals',
     description:'Display the tracks of four elephant seals in the Pacific on a map. Make graphs and use selection to help determine what is going on.',
