@@ -15,7 +15,7 @@ var map = {
   },
 fast_plantss: {
   title: 'Fast Plants',
-      description:'A nice example document for CODAP beginners. Make graphs and use selection to look for patterns in fast plant experiments.',
+      description:'An example document for CODAP beginners. Make graphs and use selection to look for patterns in fast plant growth.',
       path: 'fast_plants/fast_plants.json',
       ready: true,
       categories: ['model']
@@ -98,55 +98,55 @@ fast_plantss: {
     ready: false,
     categories: ['education']
   },
-  Education_Education_Spending: {
-    title: "Education Spending by State",
-    description: "How much money each state spent on education from 1969 to 2000?",
-    path: 'FathomDocs/Education/States_EdSpending/States_EdSpending.json',
-    ready: false,
-    categories: ['education']
-  },
-  Education_Stats_Grades: {
-    title: "Stats Grades",
-    description: "Grades recorded during several years for a Statistics course at the Instituto Tecnológico de Costa Rica, with one case per student.",
-    path: 'FathomDocs/Education/Stats_Grades/Stats_Grades.json',
-    ready: false,
-    categories: ['education']
-  },
-  Education_Students_Grades: {
-    title: "Students' Grades",
-    description:"Grades obtained by students in the author's classes at the Instituto Tecnológico de Costa Rica.",
-    path: "FathomDocs/Education/Students'_Grades/Students'_Grades.json",
-    ready: false,
-    categories: ['education']
-  },
-  Education_TAMU_Business: {
-    title: "Texas A and M Univ Business Students' Grades",
-    description: "Grades obtained by Business students at Texas A and M University during the years 1989-1992.",
-    path: 'FathomDocs/Education/TAMU_Business/TAMU_Business.json',
-    ready: false,
-    categories: ['education']
-  },
-  Education_Visits: {
-    title: "Visits",
-    description: "Visits of students to author's office hours.",
-    path: 'FathomDocs/Education/Visits/Visits.json',
-    ready: false,
-    categories: ['education']
-  },
-  LA_2000_Words: {
-    title: "2000 Words",
-    description: "2000 words randomly chosen from the YAWL (yet another word list) that comes with the Unix operating system.",
-    path: 'FathomDocs/LanguageArts/2000_Words/2000_Words.json',
-    ready: false,
-    categories: ['langarts']
-  },
-  LA_Art_Paintings: {
-    title: "Art Paintings",
-    description: "This catalog of paintings is supplied by the National Gallery of Art.",
-    path: 'FathomDocs/LanguageArts/Art_Paintings/Art_Paintings.json',
-    ready: true,
-    categories: ['langarts']
-  },
+ // Education_Education_Spending: {
+  //  title: "Education Spending by State",
+   // description: "How much money each state spent on education from 1969 to 2000?",
+   // path: 'FathomDocs/Education/States_EdSpending/States_EdSpending.json',
+   // ready: false,
+   // categories: ['education']
+ // },
+  //Education_Stats_Grades: {
+    //title: "Stats Grades",
+    //description: "Grades recorded during several years for a Statistics course at the Instituto Tecnológico de Costa Rica, with one case per student.",
+    //path: 'FathomDocs/Education/Stats_Grades/Stats_Grades.json',
+    //ready: false,
+    //categories: ['education']
+  //},
+ // Education_Students_Grades: {
+   // title: "Students' Grades",
+   // description:"Grades obtained by students in the author's classes at the Instituto Tecnológico de Costa Rica.",
+   // path: "FathomDocs/Education/Students'_Grades/Students'_Grades.json",
+   // ready: false,
+   // categories: ['education']
+ // },
+  //Education_TAMU_Business: {
+   // title: "Texas A and M Univ Business Students' Grades",
+    //description: "Grades obtained by Business students at Texas A and M University during the years 1989-1992.",
+    //path: 'FathomDocs/Education/TAMU_Business/TAMU_Business.json',
+    //ready: false,
+    //categories: ['education']
+ // },
+  //Education_Visits: {
+    //title: "Visits",
+    //description: "Visits of students to author's office hours.",
+   // path: 'FathomDocs/Education/Visits/Visits.json',
+    //ready: false,
+    //categories: ['education']
+ // },
+ // LA_2000_Words: {
+   // title: "2000 Words",
+   // description: "2000 words randomly chosen from the YAWL (yet another word list) that comes with the Unix operating system.",
+   // path: 'FathomDocs/LanguageArts/2000_Words/2000_Words.json',
+   // ready: false,
+   // categories: ['langarts']
+ // },
+ // LA_Art_Paintings: {
+  //  title: "Art Paintings",
+   // description: "This catalog of paintings is supplied by the National Gallery of Art.",
+   // path: 'FathomDocs/LanguageArts/Art_Paintings/Art_Paintings.json',
+   // ready: true,
+   // categories: ['langarts']
+ // },
   LA_Artists: {
     title: "Artists",
     description: "List of art by artists.",
@@ -161,48 +161,48 @@ fast_plantss: {
     ready: false,
     categories: ['langarts']
   },
-  LA_TextPass_Bush89: {
-    title: "Bush 1989 Inaugural Speech",
-    description: "Analyze the letter count of five paragraphs of George H. W. Bush's Inaugural Address, January 20, 1989.",
-    path: 'FathomDocs/LanguageArts/TextPassages/Bush89/Bush89.json',
-    ready: true,
-    categories: ['langarts']
-  },
-  LA_TextPass_Declaration: {
-    title: "Declaration of Independence",
-    description: "Analyze the letter count of the first two paragraphs of the United States Declaration of Independence.",
-    path: 'FathomDocs/LanguageArts/TextPassages/Declaration/Declaration.json',
-    ready: true,
-    categories: ['langarts']
-  },
-  LA_TextPass_Don: {
-    title: "Don Juan",
-    description: "Analyze the letter count of of the first two paragraphs of Don Quixote de la Mancha.",
-    path: 'FathomDocs/LanguageArts/TextPassages/Don/Don.json',
-    ready: true,
-    categories: ['langarts']
-  },
-  LA_TextPass_Faust: {
-    title: "Faust",
-    description: "Analyze the letter count of Goethe's Faust.",
-    path: 'FathomDocs/LanguageArts/TextPassages/Faust/Faust.json',
-    ready: true,
-    categories: ['langarts']
-  },
-  LA_TextPass_Gettysburg: {
-    title: "Gettysburg Address",
-    description:"Analyze the letter count in three paragraphs of the Gettysburg Address.",
-    path: 'FathomDocs/LanguageArts/TextPassages/Gettysburg/Gettysburg.json',
-    ready: true,
-    categories: ['langarts']
-  },
-  LA_TextPass_OldMan: {
-    title: "The Old Man and The Sea",
-    description : "Analyze the letter count in a passage from The Old Man and The Sea.",
-    path: 'FathomDocs/LanguageArts/TextPassages/OldMan/OldMan.json',
-    ready: true,
-    categories: ['langarts']
-  },
+  // LA_TextPass_Bush89: {
+  //   title: "Bush 1989 Inaugural Speech",
+  //   description: "Analyze the letter count of five paragraphs of George H. W. Bush's Inaugural Address, January 20, 1989.",
+  //   path: 'FathomDocs/LanguageArts/TextPassages/Bush89/Bush89.json',
+  //   ready: true,
+  //   categories: ['langarts']
+  // },
+  // LA_TextPass_Declaration: {
+  //   title: "Declaration of Independence",
+  //   description: "Analyze the letter count of the first two paragraphs of the United States Declaration of Independence.",
+  //   path: 'FathomDocs/LanguageArts/TextPassages/Declaration/Declaration.json',
+  //   ready: true,
+  //   categories: ['langarts']
+  // },
+  // LA_TextPass_Don: {
+  //   title: "Don Juan",
+  //   description: "Analyze the letter count of of the first two paragraphs of Don Quixote de la Mancha.",
+  //   path: 'FathomDocs/LanguageArts/TextPassages/Don/Don.json',
+  //   ready: true,
+  //   categories: ['langarts']
+  // },
+  // LA_TextPass_Faust: {
+  //   title: "Faust",
+  //   description: "Analyze the letter count of Goethe's Faust.",
+  //   path: 'FathomDocs/LanguageArts/TextPassages/Faust/Faust.json',
+  //   ready: true,
+  //   categories: ['langarts']
+  // },
+  // LA_TextPass_Gettysburg: {
+  //   title: "Gettysburg Address",
+  //   description:"Analyze the letter count in three paragraphs of the Gettysburg Address.",
+  //   path: 'FathomDocs/LanguageArts/TextPassages/Gettysburg/Gettysburg.json',
+  //   ready: true,
+  //   categories: ['langarts']
+  // },
+  // LA_TextPass_OldMan: {
+  //   title: "The Old Man and The Sea",
+  //   description : "Analyze the letter count in a passage from The Old Man and The Sea.",
+  //   path: 'FathomDocs/LanguageArts/TextPassages/OldMan/OldMan.json',
+  //   ready: true,
+  //   categories: ['langarts']
+  // },
   Math_Algebra_Buildings: {
     title: "Building Heights",
     description: "How is the height of a building related to the number of stories it has?",
@@ -243,7 +243,7 @@ fast_plantss: {
     description: "A scale marked in units of pi",
     path: 'FathomDocs/Mathematics/Algebra/Pi/Pi.json',
     ready: true,
-    categories: ['algebra']
+    categories: ['calculus']
   },
   Math_Algebra_Quad: {
     title: "Quadratic Relationship",
