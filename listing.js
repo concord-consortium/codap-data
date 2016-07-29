@@ -241,7 +241,7 @@ fast_plantss: {
   Math_Algebra_Pi: {
     title: "Pi Scale",
     description: "A scale marked in units of pi",
-    path: 'FathomDocs/Mathematics/Algebra/Pi/Pi.json',
+    path: 'FathomDocs/Mathematics/Calculus/Pi/Pi.json',
     ready: true,
     categories: ['calculus']
   },
@@ -249,7 +249,7 @@ fast_plantss: {
     title: "Quadratic Relationship",
     description: "Figure out a method to find the best curve through the points.",
     path: 'FathomDocs/Mathematics/Algebra/Quad/Quad.json',
-    ready: true,
+    ready: false,
     categories: ['algebra']
   },
   Math_Calculus_Integral: {
