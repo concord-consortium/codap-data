@@ -263,14 +263,14 @@ fast_plantss: {
     title: 'Integration',
     description: 'This document illustrates how to do numerical integration of an arbitrary function.',
     path: 'FathomDocs/Mathematics/Calculus/Integration/Integration.json',
-    ready: true,
+    ready: false,
     categories: ['calculus']
   },
   Math_Calculus_Logistics: {
     title: 'Logistics',
     description: 'Investigate the effect of changing x and k in the logistics function f(x)=kx(1-x).',
     path: 'FathomDocs/Mathematics/Calculus/Logistics/Logistics.json',
-    ready: true,
+    ready: false,
     categories: ['calculus']
   },
   Math_Calculus_Minimization: {
