@@ -280,13 +280,13 @@ fast_plantss: {
     ready: false,
     categories: ['calculus']
   },
-//  Math_Calculus_Pi: {
-//    title: 'Unit Pi',
-//    description: 'Plotting a graph that uses pi as a unit.',
-//    path: 'FathomDocs/Mathematics/Calculus/Pi/Pi.json',
-//    ready: false,
-//    categories: ['calculus']
-//  },
+  Math_Calculus_Pi: {
+    title: 'Unit Pi',
+    description: 'Plotting a graph that uses pi as a unit.',
+    path: 'FathomDocs/Mathematics/Calculus/Pi/Pi.json',
+    ready: false,
+    categories: ['calculus']
+  },
   Math_Geometry_Solids: {
     title: 'Johnson Solids',
     description: 'Explore the Johnson solids.',
