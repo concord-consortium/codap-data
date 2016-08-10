@@ -217,13 +217,13 @@ fast_plantss: {
     ready: true,
     categories: ['algebra']
   },
-  Math_Algebra_Cost: {
-    title: "Cost Adjustment by Year",
-    description: "How much is your money worth based on the consumer price index.",
-    path: 'FathomDocs/Mathematics/Algebra/Cost/Cost.json',
-    ready: false,
-    categories: ['algebra']
-  },
+  // Math_Algebra_Cost: {
+  //   title: "Cost Adjustment by Year",
+  //   description: "How much is your money worth based on the consumer price index.",
+  //   path: 'FathomDocs/Mathematics/Algebra/Cost/Cost.json',
+  //   ready: false,
+  //   categories: ['algebra']
+ // },
   Math_Algebra_Font_Size: {
     title: "Font Size",
     description: "Measurements of the length of a column and notice how that changes with the number of words and the font size.",
@@ -297,9 +297,9 @@ fast_plantss: {
   Math_NTheory_Pi: {
     title: 'Digits of Pi',
     description: 'Explore the digits of pi.',
-    path: 'FathomDocs/Mathematics/Number_Theory/Digits_of_Pi/Digits_of_Pi.json',
+    path: 'FathomDocs/Mathematics/Calculus/Digits_of_Pi/Digits_of_Pi.json',
     ready: true,
-    categories: ['num_theory','other_math']
+    categories: ['calculus']
   },
   Math_NTheory_IntRing: {
     title: 'Integer Ring',
