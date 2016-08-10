@@ -238,13 +238,13 @@ fast_plantss: {
     ready: true,
     categories: ['algebra']
   },
-  Math_Algebra_Pi: {
-    title: "Pi Scale",
-    description: "A scale marked in units of pi",
-    path: 'FathomDocs/Mathematics/Calculus/Pi/Pi.json',
-    ready: true,
-    categories: ['calculus']
-  },
+  // Math_Algebra_Pi: {
+  //   title: "Pi Scale",
+  //   description: "A scale marked in units of pi",
+  //   path: 'FathomDocs/Mathematics/Calculus/Pi/Pi.json',
+  //   ready: true,
+  //   categories: ['calculus']
+  // },
   Math_Algebra_Quad: {
     title: "Quadratic Relationship",
     description: "Figure out a method to find the best curve through the points.",
@@ -322,14 +322,14 @@ fast_plantss: {
     ready: false,
     categories:['num_theory']
   },
-  Math_OMath_NumTheory_Pi: {
-    title: 'Number Theory Pi',
-    description: 'Similar to Digits of Pi in Number Theory.',
-    path: 'FathomDocs/Mathematics/Other_Mathematics/Number_Theory/Digits_of_Pi/Digits_of_Pi.json',
-    ready: true,
-    categories: ['num_theory','other_math']
-  },
-  Math_OMath_Series: {
+  // Math_OMath_NumTheory_Pi: {
+  //   title: 'Number Theory Pi',
+  //   description: 'Similar to Digits of Pi in Number Theory.',
+  //   path: 'FathomDocs/Mathematics/Other_Mathematics/Number_Theory/Digits_of_Pi/Digits_of_Pi.json',
+  //   ready: true,
+  //   categories: ['num_theory','other_math']
+  // },
+   Math_OMath_Series: {
     title: 'Fourier Series',
     description: 'Explore the Fourier Series.',
     path: 'FathomDocs/Mathematics/Other_Mathematics/Series/Series.json',
