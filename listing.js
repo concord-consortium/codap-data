@@ -245,13 +245,13 @@ fast_plantss: {
   //   ready: true,
   //   categories: ['calculus']
   // },
-  Math_Algebra_Quad: {
-    title: "Quadratic Relationship",
-    description: "Figure out a method to find the best curve through the points.",
-    path: 'FathomDocs/Mathematics/Algebra/Quad/Quad.json',
-    ready: false,
-    categories: ['algebra']
-  },
+  // Math_Algebra_Quad: {
+  //   title: "Quadratic Relationship",
+  //   description: "Figure out a method to find the best curve through the points.",
+  //   path: 'FathomDocs/Mathematics/Algebra/Quad/Quad.json',
+  //   ready: false,
+  //   categories: ['algebra']
+  // },
   Math_Calculus_Integral: {
     title: 'Integrals and Derivatives',
     description: 'Demonstrates the visualization or integrals and derivatives.',
