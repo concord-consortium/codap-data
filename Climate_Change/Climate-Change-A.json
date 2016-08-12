@@ -108,7 +108,7 @@
               "editable": false,
               "guid": 1041,
               "precision": 1,
-              "unit": null
+              "unit": ""
             },
             {
               "name": "Final_Avg_Temp",
