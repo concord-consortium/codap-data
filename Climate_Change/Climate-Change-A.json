@@ -79,9 +79,9 @@
       "layout": {
         "left": 800,
         "top": 5,
-        "width": 465,
+        "width": 510,
         "height": 515,
-        "zIndex": 19,
+        "zIndex": 23,
         "isVisible": true
       },
       "savedHeight": null
@@ -108,7 +108,7 @@
               "editable": false,
               "guid": 1041,
               "precision": 1,
-              "unit": ""
+              "unit": "° C"
             },
             {
               "name": "Final_Avg_Temp",
@@ -120,7 +120,7 @@
               "editable": false,
               "guid": 1042,
               "precision": 1,
-              "unit": null
+              "unit": "° C"
             },
             {
               "name": "CO2_Level",
@@ -132,7 +132,7 @@
               "editable": false,
               "guid": 1043,
               "precision": 0,
-              "unit": null
+              "unit": "ppm"
             },
             {
               "name": "Sun_Brightness",
@@ -144,7 +144,7 @@
               "editable": false,
               "guid": 1044,
               "precision": 0,
-              "unit": null
+              "unit": "%"
             },
             {
               "name": "Albedo",
@@ -156,7 +156,7 @@
               "editable": false,
               "guid": 1045,
               "precision": 2,
-              "unit": null
+              "unit": "%"
             },
             {
               "name": "Cloud_Amount",
@@ -168,7 +168,7 @@
               "editable": false,
               "guid": 1046,
               "precision": 0,
-              "unit": null
+              "unit": "Clouds"
             }
           ],
           "cases": [
@@ -968,6 +968,6 @@
   "appVersion": "2.0",
   "appBuildNum": "0347",
   "metadata": {
-    "changeCount": 19
+    "changeCount": 12
   }
 }
