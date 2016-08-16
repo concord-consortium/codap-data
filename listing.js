@@ -91,13 +91,13 @@ var map = {
         ready: false,
         categories: ['education']
     },
-    Education_School_Enrollments: {
-        title: "State Public School Enrollments",
-        description: "Enrollment in public elementary and secondary schools, by state or jurisdiction: Fall 1988 to Fall 2010.",
-        path: 'FathomDocs/Education/State_Public_School_Enrollments/Public_School_Enrollments.json',
-        ready: false,
-        categories: ['education']
-    },
+    // Education_School_Enrollments: {
+    //     title: "State Public School Enrollments",
+    //     description: "Enrollment in public elementary and secondary schools, by state or jurisdiction: Fall 1988 to Fall 2010.",
+    //     path: 'FathomDocs/Education/State_Public_School_Enrollments/Public_School_Enrollments.json',
+    //     ready: false,
+    //     categories: ['education']
+    // },
     // Education_Education_Spending: {
     //  title: "Education Spending by State",
     // description: "How much money each state spent on education from 1969 to 2000?",
