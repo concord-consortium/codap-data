@@ -1,5 +1,5 @@
 {
-  "name": "Climate-Change-A",
+  "name": "Climate-Change-A.json",
   "guid": 19,
   "components": [
     {
@@ -72,16 +72,17 @@
             "url": "http://concord-consortium.github.io/codap-data/Climate_Change/Climate_Change.html"
           }
         ],
-        "currentURL": "http://concord-consortium.github.io/codap-data/Climate_Change/Climate_Change.html",
-        "currentItemTitle": "Getting Started ",
+        "currentURL": "https://inquiryspace-resources.concord.org/guides/how-to-guide/1.html",
+        "currentItemTitle": "Vocabulary",
         "isVisible": true
       },
       "layout": {
-        "left": 793,
-        "top": 2,
+        "left": 810,
+        "top": 5,
         "width": 395,
         "height": 483,
-        "isVisible": true
+        "isVisible": true,
+        "zIndex": 3
       },
       "savedHeight": null
     }
@@ -966,8 +967,7 @@
   "appName": "DG",
   "appVersion": "2.0",
   "appBuildNum": "0347",
-  "_permissions": 1,
   "metadata": {
-    "changeCount": 2
+    "changeCount": 5
   }
 }
