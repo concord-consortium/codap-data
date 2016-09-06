@@ -1168,7 +1168,7 @@ function invokeSampleDoc(name) {
     if (docserverURL) {
         return (codapURL + '?documentServer=' + encodeURI(docserverURL) + '&url=' + encodeURI(url));
     } else {
-        return (codapURL + '?url=' + encodeURI(url));
+        return (codapURL + '#file=' + encodeURI(url));
     }
 }
 
@@ -1281,8 +1281,8 @@ $(document).ready(function () {
             docURL = invokeSampleDoc(val),
                 launchLink = $('<a target = "_blank" href="javascript:launchSampleDoc(invokeSampleDoc(\'' + val + '\'))">Launch</a>'),
                 linkLink = $('<a href=' + url + path + '>Link</a>'),
-                //launchLink.appendTo(tdLaunch);
-                //tdLaunch.appendTo(row);
+                launchLink.appendTo(tdLaunch);
+                tdLaunch.appendTo(row);
                 linkLink.appendTo(tdLink);
             tdLink.appendTo(row);
             row.appendTo(table);
