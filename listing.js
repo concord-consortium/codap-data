@@ -13,12 +13,19 @@ var map = {
     ready: true,
     categories: ['model']
   },
+fast_plantss: {
+  title: 'Fast Plants',
+      description:'An example document for CODAP beginners. Make graphs and use selection to look for patterns in fast plant growth.',
+      path: 'fast_plants/fast_plants.json',
+      ready: true,
+      categories: ['model']
+},
   Four_Seals: {
     title: 'Four Seals',
     description:'Display the tracks of four elephant seals in the Pacific on a map. Make graphs and use selection to help determine what is going on.',
     path: 'four-seals/four-seals.json',
     ready: true,
-    categories: ['map']
+    categories: ['model']
   },
   Mammals: {
     title:'Mammal',
@@ -40,15 +47,15 @@ var map = {
     description: "These are data gathered from the Minnesota Population Center. It provides aggregate information for the United States. What do you notice about the education levels within each state?",
     path: 'statesnpeople/States_and_Education.json',
     ready: true,
-    categories: ['map']
+    categories: ['model']
   },
-  Education_API: {
-    title: '1999 API for all California High Schools',
-    description:"Has 1999 APIs for all California High Schools.",
-    path: 'FathomDocs/Education/API_All_CA_HS_1999/API_All_CA_HS_1999.json',
-    ready: true,
-    categories: ['education']
-  },
+  // Education_API: {
+  //   title: '1999 API for all California High Schools',
+  //   description:"Has 1999 APIs for all California High Schools.",
+  //   path: 'FathomDocs/Education/API_All_CA_HS_1999/API_All_CA_HS_1999.json',
+  //   ready: true,
+  //   categories: ['education']
+  // },
   // Education_Calc_Grades: {
   //   title:'Calculus Grades',
   //   description: "Grades recorded during several years for a Calculus 2 course at the Instituto Tecnológico de Costa Rica.",
@@ -58,18 +65,18 @@ var map = {
   // },
   Education_Faculty_Salaries: {
     title: "Faculty Salaries",
-    description: "Salaries of college faculty, in the 2002-2003 academic year.",
+    description: "This data includes salaries of College faculty, in the 2002-2003 academic year.",
     path: 'FathomDocs/Education/Faculty_Salaries/Faculty_Salaries.json',
     ready: false,
     categories: ['education']
   },
-  Education_ITCR_Students: {
-    title: 'ITCR Students Info',
-    description: "Results from polls taken in 1993, 1994, 2000 and 2003 among students of the Instituto Tecnológico de Costa Rica.",
-    path: 'FathomDocs/Education/ITCR_Students.json',
-    ready: false,
-    categories: ['education']
-  },
+  // Education_ITCR_Students: {
+  //   title: 'ITCR Students Info',
+  //   description: "Results from polls taken in 1993, 1994, 2000 and 2003 among students of the Instituto Tecnológico de Costa Rica.",
+  //   path: 'FathomDocs/Education/ITCR_Students.json',
+  //   ready: false,
+  //   categories: ['education']
+  // },
   Education_School_Children: {
     title: "School Children Info",
     description:"Age (months), height (inches), and weight (pounds) were recorded for a group of school children.",
@@ -91,55 +98,55 @@ var map = {
     ready: false,
     categories: ['education']
   },
-  Education_Education_Spending: {
-    title: "Education Spending by State",
-    description: "How much money each state spent on education from 1969 to 2000?",
-    path: 'FathomDocs/Education/States_EdSpending/States_EdSpending.json',
-    ready: false,
-    categories: ['education']
-  },
-  Education_Stats_Grades: {
-    title: "Stats Grades",
-    description: "Grades recorded during several years for a Statistics course at the Instituto Tecnológico de Costa Rica, with one case per student.",
-    path: 'FathomDocs/Education/Stats_Grades/Stats_Grades.json',
-    ready: false,
-    categories: ['education']
-  },
-  Education_Students_Grades: {
-    title: "Students' Grades",
-    description:"Grades obtained by students in the author's classes at the Instituto Tecnológico de Costa Rica.",
-    path: "FathomDocs/Education/Students'_Grades/Students'_Grades.json",
-    ready: false,
-    categories: ['education']
-  },
-  Education_TAMU_Business: {
-    title: "Texas A and M Univ Business Students' Grades",
-    description: "Grades obtained by Business students at Texas A and M University during the years 1989-1992.",
-    path: 'FathomDocs/Education/TAMU_Business/TAMU_Business.json',
-    ready: false,
-    categories: ['education']
-  },
-  Education_Visits: {
-    title: "Visits",
-    description: "Visits of students to author's office hours.",
-    path: 'FathomDocs/Education/Visits/Visits.json',
-    ready: false,
-    categories: ['education']
-  },
-  LA_2000_Words: {
-    title: "2000 Words",
-    description: "2000 words randomly chosen from the YAWL (yet another word list) that comes with the Unix operating system.",
-    path: 'FathomDocs/LanguageArts/2000_Words/2000_Words.json',
-    ready: false,
-    categories: ['langarts']
-  },
-  LA_Art_Paintings: {
-    title: "Art Paintings",
-    description: "This catalog of paintings is supplied by the National Gallery of Art.",
-    path: 'FathomDocs/LanguageArts/Art_Paintings/Art_Paintings.json',
-    ready: true,
-    categories: ['langarts']
-  },
+ // Education_Education_Spending: {
+  //  title: "Education Spending by State",
+   // description: "How much money each state spent on education from 1969 to 2000?",
+   // path: 'FathomDocs/Education/States_EdSpending/States_EdSpending.json',
+   // ready: false,
+   // categories: ['education']
+ // },
+  //Education_Stats_Grades: {
+    //title: "Stats Grades",
+    //description: "Grades recorded during several years for a Statistics course at the Instituto Tecnológico de Costa Rica, with one case per student.",
+    //path: 'FathomDocs/Education/Stats_Grades/Stats_Grades.json',
+    //ready: false,
+    //categories: ['education']
+  //},
+ // Education_Students_Grades: {
+   // title: "Students' Grades",
+   // description:"Grades obtained by students in the author's classes at the Instituto Tecnológico de Costa Rica.",
+   // path: "FathomDocs/Education/Students'_Grades/Students'_Grades.json",
+   // ready: false,
+   // categories: ['education']
+ // },
+  //Education_TAMU_Business: {
+   // title: "Texas A and M Univ Business Students' Grades",
+    //description: "Grades obtained by Business students at Texas A and M University during the years 1989-1992.",
+    //path: 'FathomDocs/Education/TAMU_Business/TAMU_Business.json',
+    //ready: false,
+    //categories: ['education']
+ // },
+  //Education_Visits: {
+    //title: "Visits",
+    //description: "Visits of students to author's office hours.",
+   // path: 'FathomDocs/Education/Visits/Visits.json',
+    //ready: false,
+    //categories: ['education']
+ // },
+ // LA_2000_Words: {
+   // title: "2000 Words",
+   // description: "2000 words randomly chosen from the YAWL (yet another word list) that comes with the Unix operating system.",
+   // path: 'FathomDocs/LanguageArts/2000_Words/2000_Words.json',
+   // ready: false,
+   // categories: ['langarts']
+ // },
+ // LA_Art_Paintings: {
+  //  title: "Art Paintings",
+   // description: "This catalog of paintings is supplied by the National Gallery of Art.",
+   // path: 'FathomDocs/LanguageArts/Art_Paintings/Art_Paintings.json',
+   // ready: true,
+   // categories: ['langarts']
+ // },
   LA_Artists: {
     title: "Artists",
     description: "List of art by artists.",
@@ -154,48 +161,48 @@ var map = {
     ready: false,
     categories: ['langarts']
   },
-  LA_TextPass_Bush89: {
-    title: "Bush 1989 Inaugural Speech",
-    description: "Analyze the letter count of five paragraphs of George H. W. Bush's Inaugural Address, January 20, 1989.",
-    path: 'FathomDocs/LanguageArts/TextPassages/Bush89/Bush89.json',
-    ready: true,
-    categories: ['langarts']
-  },
-  LA_TextPass_Declaration: {
-    title: "Declaration of Independence",
-    description: "Analyze the letter count of the first two paragraphs of the United States Declaration of Independence.",
-    path: 'FathomDocs/LanguageArts/TextPassages/Declaration/Declaration.json',
-    ready: true,
-    categories: ['langarts']
-  },
-  LA_TextPass_Don: {
-    title: "Don Juan",
-    description: "Analyze the letter count of of the first two paragraphs of Don Quixote de la Mancha.",
-    path: 'FathomDocs/LanguageArts/TextPassages/Don/Don.json',
-    ready: true,
-    categories: ['langarts']
-  },
-  LA_TextPass_Faust: {
-    title: "Faust",
-    description: "Analyze the letter count of Goethe's Faust.",
-    path: 'FathomDocs/LanguageArts/TextPassages/Faust/Faust.json',
-    ready: true,
-    categories: ['langarts']
-  },
-  LA_TextPass_Gettysburg: {
-    title: "Gettysburg Address",
-    description:"Analyze the letter count in three paragraphs of the Gettysburg Address.",
-    path: 'FathomDocs/LanguageArts/TextPassages/Gettysburg/Gettysburg.json',
-    ready: true,
-    categories: ['langarts']
-  },
-  LA_TextPass_OldMan: {
-    title: "The Old Man and The Sea",
-    description : "Analyze the letter count in a passage from The Old Man and The Sea.",
-    path: 'FathomDocs/LanguageArts/TextPassages/OldMan/OldMan.json',
-    ready: true,
-    categories: ['langarts']
-  },
+  // LA_TextPass_Bush89: {
+  //   title: "Bush 1989 Inaugural Speech",
+  //   description: "Analyze the letter count of five paragraphs of George H. W. Bush's Inaugural Address, January 20, 1989.",
+  //   path: 'FathomDocs/LanguageArts/TextPassages/Bush89/Bush89.json',
+  //   ready: true,
+  //   categories: ['langarts']
+  // },
+  // LA_TextPass_Declaration: {
+  //   title: "Declaration of Independence",
+  //   description: "Analyze the letter count of the first two paragraphs of the United States Declaration of Independence.",
+  //   path: 'FathomDocs/LanguageArts/TextPassages/Declaration/Declaration.json',
+  //   ready: true,
+  //   categories: ['langarts']
+  // },
+  // LA_TextPass_Don: {
+  //   title: "Don Juan",
+  //   description: "Analyze the letter count of of the first two paragraphs of Don Quixote de la Mancha.",
+  //   path: 'FathomDocs/LanguageArts/TextPassages/Don/Don.json',
+  //   ready: true,
+  //   categories: ['langarts']
+  // },
+  // LA_TextPass_Faust: {
+  //   title: "Faust",
+  //   description: "Analyze the letter count of Goethe's Faust.",
+  //   path: 'FathomDocs/LanguageArts/TextPassages/Faust/Faust.json',
+  //   ready: true,
+  //   categories: ['langarts']
+  // },
+  // LA_TextPass_Gettysburg: {
+  //   title: "Gettysburg Address",
+  //   description:"Analyze the letter count in three paragraphs of the Gettysburg Address.",
+  //   path: 'FathomDocs/LanguageArts/TextPassages/Gettysburg/Gettysburg.json',
+  //   ready: true,
+  //   categories: ['langarts']
+  // },
+  // LA_TextPass_OldMan: {
+  //   title: "The Old Man and The Sea",
+  //   description : "Analyze the letter count in a passage from The Old Man and The Sea.",
+  //   path: 'FathomDocs/LanguageArts/TextPassages/OldMan/OldMan.json',
+  //   ready: true,
+  //   categories: ['langarts']
+  // },
   Math_Algebra_Buildings: {
     title: "Building Heights",
     description: "How is the height of a building related to the number of stories it has?",
@@ -210,13 +217,13 @@ var map = {
     ready: true,
     categories: ['algebra']
   },
-  Math_Algebra_Cost: {
-    title: "Cost Adjustment by Year",
-    description: "How much is your money worth based on the consumer price index.",
-    path: 'FathomDocs/Mathematics/Algebra/Cost/Cost.json',
-    ready: false,
-    categories: ['algebra']
-  },
+  // Math_Algebra_Cost: {
+  //   title: "Cost Adjustment by Year",
+  //   description: "How much is your money worth based on the consumer price index.",
+  //   path: 'FathomDocs/Mathematics/Algebra/Cost/Cost.json',
+  //   ready: false,
+  //   categories: ['algebra']
+ // },
   Math_Algebra_Font_Size: {
     title: "Font Size",
     description: "Measurements of the length of a column and notice how that changes with the number of words and the font size.",
@@ -231,20 +238,20 @@ var map = {
     ready: true,
     categories: ['algebra']
   },
-  Math_Algebra_Pi: {
-    title: "Pi Scale",
-    description: "A scale marked in units of pi",
-    path: 'FathomDocs/Mathematics/Algebra/Pi/Pi.json',
-    ready: true,
-    categories: ['algebra']
-  },
-  Math_Algebra_Quad: {
-    title: "Quadratic Relationship",
-    description: "Figure out a method to find the best curve through the points.",
-    path: 'FathomDocs/Mathematics/Algebra/Quad/Quad.json',
-    ready: true,
-    categories: ['algebra']
-  },
+  // Math_Algebra_Pi: {
+  //   title: "Pi Scale",
+  //   description: "A scale marked in units of pi",
+  //   path: 'FathomDocs/Mathematics/Calculus/Pi/Pi.json',
+  //   ready: true,
+  //   categories: ['calculus']
+  // },
+  // Math_Algebra_Quad: {
+  //   title: "Quadratic Relationship",
+  //   description: "Figure out a method to find the best curve through the points.",
+  //   path: 'FathomDocs/Mathematics/Algebra/Quad/Quad.json',
+  //   ready: false,
+  //   categories: ['algebra']
+  // },
   Math_Calculus_Integral: {
     title: 'Integrals and Derivatives',
     description: 'Demonstrates the visualization or integrals and derivatives.',
@@ -256,14 +263,14 @@ var map = {
     title: 'Integration',
     description: 'This document illustrates how to do numerical integration of an arbitrary function.',
     path: 'FathomDocs/Mathematics/Calculus/Integration/Integration.json',
-    ready: true,
+    ready: false,
     categories: ['calculus']
   },
   Math_Calculus_Logistics: {
     title: 'Logistics',
     description: 'Investigate the effect of changing x and k in the logistics function f(x)=kx(1-x).',
     path: 'FathomDocs/Mathematics/Calculus/Logistics/Logistics.json',
-    ready: true,
+    ready: false,
     categories: ['calculus']
   },
   Math_Calculus_Minimization: {
@@ -273,13 +280,13 @@ var map = {
     ready: false,
     categories: ['calculus']
   },
-//  Math_Calculus_Pi: {
-//    title: 'Unit Pi',
-//    description: 'Plotting a graph that uses pi as a unit.',
-//    path: 'FathomDocs/Mathematics/Calculus/Pi/Pi.json',
-//    ready: false,
-//    categories: ['calculus']
-//  },
+  // Math_Calculus_Pi: {
+  //   title: 'Unit Pi',
+  //   description: 'Plotting a graph that uses pi as a unit.',
+  //   path: 'FathomDocs/Mathematics/Calculus/Pi/Pi.json',
+  //   ready: false,
+  //   categories: ['calculus']
+  // },
   Math_Geometry_Solids: {
     title: 'Johnson Solids',
     description: 'Explore the Johnson solids.',
@@ -290,9 +297,9 @@ var map = {
   Math_NTheory_Pi: {
     title: 'Digits of Pi',
     description: 'Explore the digits of pi.',
-    path: 'FathomDocs/Mathematics/Number_Theory/Digits_of_Pi/Digits_of_Pi.json',
+    path: 'FathomDocs/Mathematics/Calculus/Digits_of_Pi/Digits_of_Pi.json',
     ready: true,
-    categories: ['num_theory','other_math']
+    categories: ['calculus']
   },
   Math_NTheory_IntRing: {
     title: 'Integer Ring',
@@ -315,14 +322,14 @@ var map = {
     ready: false,
     categories:['num_theory']
   },
-  Math_OMath_NumTheory_Pi: {
-    title: 'Number Theory Pi',
-    description: 'Similar to Digits of Pi in Number Theory.',
-    path: 'FathomDocs/Mathematics/Other_Mathematics/Number_Theory/Digits_of_Pi/Digits_of_Pi.json',
-    ready: true,
-    categories: ['num_theory','other_math']
-  },
-  Math_OMath_Series: {
+  // Math_OMath_NumTheory_Pi: {
+  //   title: 'Number Theory Pi',
+  //   description: 'Similar to Digits of Pi in Number Theory.',
+  //   path: 'FathomDocs/Mathematics/Other_Mathematics/Number_Theory/Digits_of_Pi/Digits_of_Pi.json',
+  //   ready: true,
+  //   categories: ['num_theory','other_math']
+  // },
+   Math_OMath_Series: {
     title: 'Fourier Series',
     description: 'Explore the Fourier Series.',
     path: 'FathomDocs/Mathematics/Other_Mathematics/Series/Series.json',
@@ -1202,7 +1209,7 @@ $(document).ready(function (){
       switch (map[val].categories[0])  {
         case "probability": table=$('#probability-table'); break;
         case "model": table=$('#models-table'); break;
-        case "map": table=$('#maps-table'); break;
+       // case "map": table=$('#maps-table'); break;
         case "education": table=$('#education-table'); break;
         case "langarts": table=$('#language-arts-table'); break;
         case "algebra": table=$('#algebra-table'); break;
