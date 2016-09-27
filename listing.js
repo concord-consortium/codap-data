@@ -329,13 +329,13 @@ var map = {
     //   ready: true,
     //   categories: ['num_theory','other_math']
     // },
-    Math_OMath_Series: {
-        title: 'Fourier Series',
-        description: 'Explore the Fourier Series.',
-        path: 'FathomDocs/Mathematics/Other_Mathematics/Series/Series.json',
-        ready: false,
-        categories: ['num_theory']
-    },
+    // Math_OMath_Series: {
+    //     title: 'Fourier Series',
+    //     description: 'Explore the Fourier Series.',
+    //     path: 'FathomDocs/Mathematics/Other_Mathematics/Series/Series.json',
+    //     ready: false,
+    //     categories: ['num_theory']
+    // },
     Math_Prob_Birthdays: {
         title: 'Birthdays',
         description: 'Explore the distribution of birthdays in the US in 1978.',
@@ -357,20 +357,20 @@ var map = {
         ready: false,
         categories: ['probability']
     },
-    Math_Prob_Est_Pi: {
-        title: 'Estimating Pi',
-        description: 'How to use the graph to estimate pi.',
-        path: 'FathomDocs/Mathematics/Probability/Estimating_Pi/Estimating_Pi.json',
-        ready: true,
-        categories: ['probability']
-    },
-    Math_Prob_Geo_Cards: {
-        title: 'Geometric Cards',
-        description: 'How many cards do you have to draw until you get a club?',
-        path: 'FathomDocs/Mathematics/Probability/Geometric_Cards/Geometric_Cards.json',
-        ready: true,
-        categories: ['probability']
-    },
+    // Math_Prob_Est_Pi: {
+    //     title: 'Estimating Pi',
+    //     description: 'How to use the graph to estimate pi.',
+    //     path: 'FathomDocs/Mathematics/Probability/Estimating_Pi/Estimating_Pi.json',
+    //     ready: true,
+    //     categories: ['probability']
+    // },
+    // Math_Prob_Geo_Cards: {
+    //     title: 'Geometric Cards',
+    //     description: 'How many cards do you have to draw until you get a club?',
+    //     path: 'FathomDocs/Mathematics/Probability/Geometric_Cards/Geometric_Cards.json',
+    //     ready: true,
+    //     categories: ['probability']
+    // },
     Math_Prob_Life_Expect: {
         title: 'Life Expectancy Probability',
         description: "What's the chance you're going to die in the next year?",
@@ -378,20 +378,20 @@ var map = {
         ready: true,
         categories: ['probability']
     },
-    Math_Prob_Lotto: {
-        title: 'Lotto',
-        description: 'Does Lotto pay?',
-        path: 'FathomDocs/Mathematics/Probability/Lotto/Lotto.json',
-        ready: false,
-        categories: ['probability']
-    },
-    Math_Prob_Motion: {
-        title: 'Brownian Motion',
-        description: 'Explore the motion of a molecule.',
-        path: 'FathomDocs/Mathematics/Probability/Motion/Motion.json',
-        ready: true,
-        categories: ['probability']
-    },
+    // Math_Prob_Lotto: {
+    //     title: 'Lotto',
+    //     description: 'Does Lotto pay?',
+    //     path: 'FathomDocs/Mathematics/Probability/Lotto/Lotto.json',
+    //     ready: false,
+    //     categories: ['probability']
+    // },
+    // Math_Prob_Motion: {
+    //     title: 'Brownian Motion',
+    //     description: 'Explore the motion of a molecule.',
+    //     path: 'FathomDocs/Mathematics/Probability/Motion/Motion.json',
+    //     ready: true,
+    //     categories: ['probability']
+    // },
     Math_Prob_Shoot_Match: {
         title: 'Shooting Match',
         description: 'Which strategy is best when each person has different shooting abilities?',
