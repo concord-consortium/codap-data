@@ -14,7 +14,7 @@ $(document).ready(function () {
             ready: true,
             categories: ['model']
         },
-        fast_plantss: {
+        fast_plants: {
             title: 'Fast Plants',
             description: 'An example document for CODAP beginners. Make graphs and use selection to look for patterns in fast plant growth.',
             path: 'fast_plants/fast_plants.json',
@@ -1130,58 +1130,57 @@ $(document).ready(function () {
         }
     };
 
-
-    function launchSampleDoc(url) {
-        window.open(url, '_blank');
-    }
-
-    function invokeSampleDoc(name) {
-        console.log("In invokeSampleDoc" + name);
-        var codapURL = document.getElementById('codap-url').value,
-            docserverURL = document.getElementById('doc-server-url').value,
-            oldLocation = location.href,
-            newLocation = oldLocation.replace(/index.html.*/, ''),
-            path = map[name].path,
-            newLocSSL = "",
-            url = ""
-
-        //if codapURL is SSL, then newLoc should be SSL and url should use newLocSSL. Because codapURL will already be https if github.io/codap-data-interactive is SSL, not need to check if location.href is SSL. This check is only if the user changes the codapURL to SSL manually.  Also changes the docserver URL to SSL
-        if (codapURL.indexOf("https") > -1) {
-            //check if location.href is already https. If it not then replace http with https, else do nothing.
-            if (newLocation.indexOf("https") > -1) {
-                newLocSSL = newLocation;
-            } else {
-                newLocSSL = newLocation.replace("http", "https");
-            }
-            //url = newLocSSL + '/' + path;
-            if (docserverURL) {
-                if (docserverURL.indexOf("https") === -1) {
-                    oldDocServerURL = docserverURL;
-                    docserverURL = oldDocServerURL.replace("http", "https");
-                }
-            }
-            url = newLocSSL + '/' + path;
-        } else {
-            url = newLocation + '/' + path;
-        }
-        //  url = 'http://concord-consortium.github.io/codap-data/' + path;
-
-        if (docserverURL) {
-            return (codapURL + '?documentServer=' + encodeURI(docserverURL) + '&url=' + encodeURI(url));
-        } else {
-            return (codapURL + '#file=' + encodeURI(url));
-        }
-    }
-
-
-    /* map attribute definitions:
-     title = name of document as it appears in github.io/codap-data website
-     description = gives a brief description of document
-     path = path to document json file in github
-     ready = checkbox to indicate whether a document needs more work. Check mark indicates document needs more work.
-     categories = an array of categories that document can fall under in github.io/codap-data website */
-
     function buildPage() {
+        function launchSampleDoc(url) {
+            window.open(url, '_blank');
+        }
+        function invokeSampleDoc(name) {
+            console.log("In invokeSampleDoc" + name);
+            var codapURL = document.getElementById('codap-url').value,
+                docserverURL = document.getElementById('doc-server-url').value,
+                oldLocation = location.href,
+                newLocation = oldLocation.replace(/index.html.*/, ''),
+                path = map[name].path,
+                newLocSSL = "",
+                url = ""
+
+            //if codapURL is SSL, then newLoc should be SSL and url should use newLocSSL. Because codapURL will already be https if github.io/codap-data-interactive is SSL, not need to check if location.href is SSL. This check is only if the user changes the codapURL to SSL manually.  Also changes the docserver URL to SSL
+            if (codapURL.indexOf("https") > -1) {
+                //check if location.href is already https. If it not then replace http with https, else do nothing.
+                if (newLocation.indexOf("https") > -1) {
+                    newLocSSL = newLocation;
+                } else {
+                    newLocSSL = newLocation.replace("http", "https");
+                }
+                //url = newLocSSL + '/' + path;
+                if (docserverURL) {
+                    if (docserverURL.indexOf("https") === -1) {
+                        oldDocServerURL = docserverURL;
+                        docserverURL = oldDocServerURL.replace("http", "https");
+                    }
+                }
+                url = newLocSSL + '/' + path;
+            } else {
+                url = newLocation + '/' + path;
+            }
+            //  url = 'http://concord-consortium.github.io/codap-data/' + path;
+
+            if (docserverURL) {
+                return (codapURL + '?documentServer=' + encodeURI(docserverURL) + '&url=' + encodeURI(url));
+            } else {
+                return (codapURL + '#file=' + encodeURI(url));
+            }
+        }
+
+
+        /* map attribute definitions:
+         title = name of document as it appears in github.io/codap-data website
+         description = gives a brief description of document
+         path = path to document json file in github
+         ready = checkbox to indicate whether a document needs more work. Check mark indicates document needs more work.
+         categories = an array of categories that document can fall under in github.io/codap-data website */
+
+        // function buildPage() {
         console.log("in buildPage");
 
         var html = '',
@@ -1280,10 +1279,10 @@ $(document).ready(function () {
             $('<td>').addClass('document-title').text(title).appendTo(row);
             $('<td>').addClass('document-description').text(description).appendTo(row);
             docURL = invokeSampleDoc(val),
-                launchLink = $('<a target = "_blank" href="javascript:launchSampleDoc(invokeSampleDoc(\'' + val + '\'))">Launch</a>'),
+                // launchLink = $('<a target = "_blank" href="javascript:launchSampleDoc(invokeSampleDoc(\'' + val + '\'));">Launch</a>'),
                 linkLink = $('<a href=' + url + path + '>Link</a>'),
-                launchLink.appendTo(tdLaunch);
-            tdLaunch.appendTo(row);
+                // launchLink.appendTo(tdLaunch);
+            // tdLaunch.appendTo(row);
             linkLink.appendTo(tdLink);
             tdLink.appendTo(row);
             row.appendTo(table);
