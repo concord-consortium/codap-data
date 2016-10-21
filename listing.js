@@ -10,7 +10,7 @@ $(document).ready(function () {
         Climate_Change: {
             title: 'Climate Change',
             description: "This is a simulation model of Climate Changes.",
-            path: 'Climate_Change/Climate-Change-A.json',
+            path: 'Climate_Change/Climate-Change-A.codap',
             ready: true,
             categories: ['model']
         },
