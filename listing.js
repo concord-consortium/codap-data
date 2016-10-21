@@ -1096,7 +1096,7 @@ $(document).ready(function () {
         Sports_Summer_Olympics: {
             title: "Summer Olympics",
             description: 'Compare the number of medals each country has won in the Summer Olympics.',
-            path: 'FathomDocs/Sports/Summer_Olympics/Summer_Olympics.json',
+            path: 'FathomDocs/Sports/Summer_Olympics/Summer_Olympics.codap',
             ready: false,
             categories: ['sports']
         },
