@@ -41,11 +41,12 @@ body {
 
 .listing-title {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 16px;
     -webkit-margin-before:.1em;
     -webkit-margin-after:.1em;
     width:150px;
     max-width:150px;
+    background-color:#EEE;
 }
 
 .listing-desc {
@@ -53,6 +54,12 @@ body {
     -webkit-margin-after:.1em;
     /*width:620px;*/
     font-size: 12px;
+}
+
+.listing-link {
+    font-size: 14px;
+    position: absolute;
+    bottom:10px;
 }
 
 .sample-table {
@@ -151,12 +158,23 @@ a:hover {
     padding-right:5px;
 }
 
-.listing li {
-    display: inline-block;
+li {
+    /*display: inline-block;*/
     text-align: -webkit-match-parent;
-    border: 2px solid #7EB563;
+    border-bottom: 1px solid #7EB563;
 }
 
-
 ul {
+    list-style: none;
+}
+#listing_container li {
+    box-shadow: 1px 1px 5px rgba(51, 51, 51, .3);
+    float: left;
+    height: auto;
+    list-style: none;
+    margin: 1%;
+    min-height: 140px;
+    padding: 1%;
+    position: relative;
+    width: 29%;
 }
