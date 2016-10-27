@@ -1,23 +1,70 @@
 /*Style sheet for concord-consortium.github.io/codap-data site*/
 
 body {
-    font-family: "Lucida Sans", "Lucida Grande", Verdana, Arial, sans-serif;
-    color: #555;
+    background-color: #fff;
+    font: 100% lato,verdana,arial,sans-serif;
+    margin: 0;
+    padding: 1em;
 }
 
-#header {
-    background: #7EB563;
-    background: -moz-linear-gradient(top,  #7EB563 1%, #a4cb91 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#7EB563), color-stop(100%,#a4cb91));
-    background: -webkit-linear-gradient(top,  #7EB563 1%,#a4cb91 100%);
-    background: -o-linear-gradient(top,  #7EB563 1%,#a4cb91 100%);
-    background: -ms-linear-gradient(top,  #7EB563 1%,#a4cb91 100%);
-    background: linear-gradient(to bottom,  #7EB563 1%,#a4cb91 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7EB563', endColorstr='#a4cb91',GradientType=0 );
-    color: white;
-    padding: 0.5em 1em;
-    font-size: 1em;
-    font-weight: 600;
+header {
+    background: #fee9aa;
+    display:block;
+}
+
+header div {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 800px;
+}
+
+header img {
+    float: left;
+    margin: .75em 0;
+    width: 185px;
+    height: auto;
+}
+
+header #cc {
+    color: rgb(0, 147, 176);
+    float: right;
+    font-size: .5em;
+    margin-top: 20px;
+    text-align: right;
+    width: 121px;
+}
+
+header #cc img {
+    clear: both;
+    display: block;
+    height: auto;
+    margin: 0;
+    width: 121px;
+}
+
+#home-content {
+    margin: 0 auto;
+    max-width: 800px;
+    overflow: hidden;
+    padding-bottom: 2em;
+    width: 100%;
+}
+
+h1 {
+    color: #e16a3e;
+    font: 300 2em museo-sans,verdana,arial,helvetica,sans-serif;
+}
+
+footer {
+    background: #72bfca;
+    color: #fff;
+    height: 180px;
+    padding-top: 20px;
+}
+
+footer p {
+    margin: 0 auto;
+    width: 800px;
 }
 
 #credits {
