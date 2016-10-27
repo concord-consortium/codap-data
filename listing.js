@@ -110,7 +110,7 @@ $(document).ready(function () {
             listing = $('<li>').addClass('listing');
              launchLink = $('<a class = "listing-title" target = "_blank" href='+url+query_param+path+'> '+title+' </a>'),
                  listing_desc = $('<p>').addClass('listing-desc').text(description),
-                 linkLink = $('<a class = "listing-link" href=' + url + query_param + path + '> Link </a>'),
+                 linkLink = $('<a class = "listing-link" href=' + path + '> Link </a>'),
              launchLink.appendTo(listing);
             listing_desc.appendTo(listing);
              linkLink.appendTo(listing);
