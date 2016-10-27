@@ -159,9 +159,7 @@ a:hover {
 }
 
 li {
-    /*display: inline-block;*/
     text-align: -webkit-match-parent;
-    border-bottom: 1px solid #7EB563;
 }
 
 ul {
