@@ -528,7 +528,7 @@
     "path": "FathomDocs/Science/Astronomy/Extra_Solar/Extra_Solar.json",
     "visible": true,
     "categories": [
-      "Science/astronomy"
+      "Science/Astronomy"
     ]
   },
   {
@@ -537,7 +537,7 @@
     "path": "FathomDocs/Science/Astronomy/Jupiter_Moons/Jupiter_Moons.json",
     "visible": true,
     "categories": [
-      "Science/astronomy"
+      "Science/Astronomy"
     ]
   },
    {
@@ -546,7 +546,7 @@
     "path": "FathomDocs/Science/Astronomy/Jupiter_Radius/Jupiter_Radius.json",
     "visible": true,
     "categories": [
-      "Science/astronomy"
+      "Science/Astronomy"
     ]
   },
   {
@@ -555,7 +555,7 @@
     "path": "FathomDocs/Science/Astronomy/Space_Data/Space_Data.json",
     "visible": true,
     "categories": [
-      "Science/astronomy"
+      "Science/Astronomy"
     ]
   },
   {
@@ -564,7 +564,7 @@
     "path": "FathomDocs/Science/Astronomy/Sunspots/Sunspots.json",
     "visible": true,
     "categories": [
-      "Science/astronomy"
+      "Science/Astronomy"
     ]
   },
   {

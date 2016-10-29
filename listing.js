@@ -78,9 +78,8 @@ $(document).ready(function () {
                     cat_sub_header=menu_item[1];
                 }
 
-                console.log("Cat_main_header is: "+cat_main_header+" Cat_sub_header is: "+cat_sub_header);
                 if (!category_headers.includes(menu_item[0])) {
-                    listing_container.append("<h2>"+menu_item[0]+"</h2>");
+                    listing_container.append("<h2 id='"+cat_main_header+"'>"+menu_item[0]+"</h2>");
                     listing_container.append("<div id='" + cat_main_header + "_list'>");
                     listing_container.append("<h3>" + menu_item[1] + "</h3><ul id='" + cat_sub_header + "_list'>");
                     listing_container.append("</ul>");
