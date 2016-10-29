@@ -51,7 +51,6 @@ $(document).ready(function () {
                 top_menu_items.push(categories[i])
             }
         }
-        console.log (sub_menu_items);
         nav_bar.append(nav_bar_list);
         for (var j=0; j<top_menu_items.length; j++) {
             $('.menu-h').append("<li><a href='#" + top_menu_items[j] + "_list'>" + top_menu_items[j] + "</a></li>");
@@ -61,25 +60,51 @@ $(document).ready(function () {
 
     function buildListingDivs(categories) {
         console.log("In buildListingDivs");
+        var category_headers=[];
+        var cat_head='', cat_main_header='';
+        var sub_cat='', cat_sub_header='';
         var listing_container = $("#listing_container");
 
         for (var i=0; i < categories.length; i++) {
+
             if (categories[i].includes("/")) {
                 var menu_item = categories[i].split("/");
-                listing_container.append("<div id='" + menu_item[0] + "_list'>");
-                listing_container.append("<p>In " + menu_item[1]+ " div</p><ul id='" + menu_item[1] + "_list'>");
-                listing_container.append("</ul>");
-                listing_container.append("</div>");
+
+                if ((menu_item[0].match(' ')) || (menu_item[1].match(' '))){
+                    cat_main_header = menu_item[0].replace(/ /g, '_');
+                    cat_sub_header = menu_item[1].replace(/ /g, '_');
+                } else {
+                    cat_main_header=menu_item[0];
+                    cat_sub_header=menu_item[1];
+                }
+
+                console.log("Cat_main_header is: "+cat_main_header+" Cat_sub_header is: "+cat_sub_header);
+                if (!category_headers.includes(menu_item[0])) {
+                    listing_container.append("<h2>"+menu_item[0]+"</h2>");
+                    listing_container.append("<div id='" + cat_main_header + "_list'>");
+                    listing_container.append("<h3>" + menu_item[1] + "</h3><ul id='" + cat_sub_header + "_list'>");
+                    listing_container.append("</ul>");
+                    listing_container.append("</div>");
+                    category_headers.push(menu_item[0]);
+                }
+                else {
+                    cat_head = $('#'+cat_main_header+'_list');
+                    console.log("cat_head is: "+cat_head);
+                    sub_cat =$("<h3>" + menu_item[1] + "</h3><ul id='" + cat_sub_header + "_list'></ul>");
+                    sub_cat.appendTo(cat_head);
+                }
             }
             else {
-                listing_container.append("<p>In " + categories[i] + " div</p>");
+                if (/ /g.test(categories[i])){
+                    categories[i] = categories[i].replace(/ /g, '_');
+                }
+                listing_container.append("<h2>" + categories[i] + "</h2>");
                 listing_container.append("<ul id='" + categories[i] + "_list'>");
                 listing_container.append("</ul>");
             }
         }
 
         buildNavBar(categories);
-
 
     }
 
@@ -101,10 +126,17 @@ $(document).ready(function () {
         for (var i=0; i<category.length;i++) {
             if (category[i].includes('/')) {
                 console.log("In category split");
+
                 var category_split = category[i].split("/");
+                if (/ /g.test(category_split[1])){
+                    category_split[1] = category_split[1].replace(/ /g, '_');
+                }
                 category_bin = '#' + category_split[1]+'_list';
             }
             else {
+                if (/ /g.test(category[i])){
+                    category[i] = category[i].replace(/ /g, '_');
+                }
                 category_bin = '#' + category[i] + '_list';
             }
             listing = $('<li>').addClass('listing');
