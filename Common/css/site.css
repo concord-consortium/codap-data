@@ -77,13 +77,11 @@ footer p {
     margin-bottom: -0.5em;
 }
 
-.sample-documents div {
-    background-color:#EEE;
-    border-radius: 10px;
-    border: #CCC 1px solid;
-    width: 1030px;
-    margin: 7px;
-    padding-left:10px;
+p {
+    color: #777;
+    font: 300 1em museo-sans, lato, verdana, helvetica, sans-serif;
+    line-height: 150%;
+    margin-bottom: .5em;
 }
 
 .listing-title {
@@ -98,7 +96,6 @@ footer p {
 .listing-desc {
     -webkit-margin-before:.1em;
     -webkit-margin-after:.1em;
-    /*width:620px;*/
     font-size: 12px;
 }
 
@@ -106,21 +103,6 @@ footer p {
     font-size: 14px;
     position: absolute;
     bottom:10px;
-}
-
-.sample-table {
-    background-color:#EEE;
-    border-radius: 10px;
-    border: #CCC 1px solid;
-    margin: 7px;
-    padding-left:10px;
-    padding-right:10px;
-    width:100%;
-}
-
-.sample-table tr:nth-child(odd) {
-    color:#000000;
-    background-color:#b1d2a1;
 }
 
 #top-nav-bar a {
@@ -145,13 +127,13 @@ footer p {
     background-color: #0797A8;
 }
 
-.nav-bar ul li {
+.menu-h li {
     padding: 3px;
     display: inline-block;
     position:relative;
 }
 
-.nav-bar ul li a:hover {
+.menu-h li a:hover {
     background: #7fb2be;
     text-decoration: none;
     white-space: nowrap;
@@ -168,6 +150,10 @@ footer p {
     top: 100%;
     left: 0;
     display: none;
+    z-index:999;
+}
+.menu-h-dropdown li {
+    padding:0px;
 }
 
 .menu-h-dropdown a{
@@ -175,7 +161,7 @@ footer p {
     background: #7fb2be;
     text-decoration: none;
     white-space: nowrap;
-    color: white;
+    /*color: white;*/
 }
 
 a {
@@ -196,14 +182,6 @@ a:hover {
     width: 20px;
 }
 
-.sample-div {
-    border-style: dotted;
-    border-width: thin;
-    border-radius: 20px;
-    padding-left:5px;
-    padding-right:5px;
-}
-
 li {
     text-align: -webkit-match-parent;
 }
@@ -213,14 +191,15 @@ ul {
     flex-wrap: wrap;
 }
 
-#listing_container li {
+
+.listing {
     box-shadow: 1px 1px 5px rgba(51, 51, 51, .3);
     height: auto;
     list-style: none;
-    margin: 1%;
+    margin: 5px;
     min-height: 140px;
     padding: 1%;
     position: relative;
-    width: 29%;
+    width: 25%;
     background-color:white;
 }
