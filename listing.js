@@ -48,14 +48,9 @@ $(document).ready(function () {
         var nav_bar = $(".nav-bar");
         var nav_bar_list = $("<ul>").addClass('menu-h');
         var cat_main_header, cat_sub_header;
-        var menu_item = {};
-        var j=0;
 
-        console.log("Categories is:" + JSON.stringify(categories));
-        console.log(categories);
         nav_bar_list.appendTo(nav_bar);
         for (var key in categories) {
-            console.log(key);
             if (key.match(' ')){
                 cat_main_header = key.replace(/ /g, '_');
             } else {
@@ -65,7 +60,6 @@ $(document).ready(function () {
             nav_bar_list.append($('<li>').addClass('main_cat_'+cat_main_header).append($('<a>').attr('href', '#'+cat_main_header+'_list').text(key)));
 
             var sub_headers = categories[key];
-            console.log(sub_headers);
             if(!(sub_headers===undefined)) {
                 $('.main_cat_'+cat_main_header).append($('<ul>').addClass('menu-h-dropdown sub_cat_'+cat_main_header));
                 sub_headers.forEach(function (el) {
@@ -87,23 +81,19 @@ $(document).ready(function () {
         console.log("In buildListingDivs");
         var cat_list='';
         var cat_main_header='';
-        var cat_sub='', cat_sub_header='';
+        var cat_sub_header='';
         var listing_container = $("#listing_container");
-         var cat_listing_container = '';
         var home_button = $('<a>').attr('href','#top-nav-bar').addClass('nav-to-top').text('Back to top').append('<img src="./Common/images/home.png" class="home-icon">');
 
-        console.log("Categories is:" + JSON.stringify(categories));
-        console.log(categories);
 
         for (var key in categories) {
-            console.log(key);
             if (key.match(' ')){
                 cat_main_header = key.replace(/ /g, '_');
             } else {
                 cat_main_header=key;
             }
 
-            cat_listing_container = $('<div>').addClass('cat_listing_container').addClass(cat_main_header+'_div');
+            var cat_listing_container = $('<div>').addClass('cat_listing_container').addClass(cat_main_header+'_div');
             listing_container.append(cat_listing_container);
             $('.'+cat_main_header+'_div').append($('<h2>').text(key));
             $('.'+cat_main_header+'_div').append($('<ul>').prop('id',cat_main_header+'_list'));
@@ -139,9 +129,7 @@ $(document).ready(function () {
             listing_desc ='',
             query_param = '?url=',
             launchLink = '',
-            linkLink = '',
-            tdLaunch = $('<li>').addClass('launch-button').attr({'id': title + "-launch"}),
-            tdLink = $('<li>').addClass('link-button').attr({'id': title + "-link"});
+            linkLink = '';
 
         for (var i=0; i<category.length;i++) {
             if (category[i].includes('/')) {
