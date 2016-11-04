@@ -189,6 +189,8 @@ li {
 ul {
     display: flex;
     flex-wrap: wrap;
+    width:100%;
+    padding-left: 0;
 }
 
 
