@@ -57,7 +57,7 @@ $(document).ready(function () {
                 cat_main_header=key;
             }
 
-            nav_bar_list.append($('<li>').addClass('main_cat_'+cat_main_header).append($('<a>').attr('href', '#'+cat_main_header+'_list').text(key)));
+            nav_bar_list.append($('<li>').addClass('main_cat_'+cat_main_header).append($('<a>').attr('href', '#'+cat_main_header+'_header').text(key)));
 
             var sub_headers = categories[key];
             if(!(sub_headers===undefined)) {
@@ -69,7 +69,7 @@ $(document).ready(function () {
                         } else {
                             cat_sub_header = el;
                         }
-                        $('.sub_cat_'+cat_main_header).append($('<li>').append($('<a>').attr('href', '#'+cat_sub_header + '_list').text(el)));
+                        $('.sub_cat_'+cat_main_header).append($('<li>').append($('<a>').attr('href', '#'+cat_sub_header + '_header').text(el)));
                     }
                 })
             }
@@ -83,7 +83,7 @@ $(document).ready(function () {
         var cat_main_header='';
         var cat_sub_header='';
         var listing_container = $("#listing_container");
-        var home_button = $('<a>').attr('href','#top-nav-bar').addClass('nav-to-top').text('Back to top').append('<img src="./Common/images/home.png" class="home-icon">');
+        var home_button = $('<a>').attr('href','#header').addClass('nav-to-top').text('Back to top').append('<img src="./Common/images/home.png" class="home-icon">');
 
 
         for (var key in categories) {
@@ -95,7 +95,7 @@ $(document).ready(function () {
 
             var cat_listing_container = $('<div>').addClass('cat_listing_container').addClass(cat_main_header+'_div');
             listing_container.append(cat_listing_container);
-            $('.'+cat_main_header+'_div').append($('<h2>').text(key));
+            $('.'+cat_main_header+'_div').append($('<h2>').text(key).prop('id',cat_main_header+'_header'));
             $('.'+cat_main_header+'_div').append($('<ul>').prop('id',cat_main_header+'_list'));
             cat_list = $('#'+cat_main_header+'_list');
 
@@ -108,7 +108,7 @@ $(document).ready(function () {
                     } else {
                         cat_sub_header = el;
                     }
-                    cat_list.append($('<h3>').text(el));
+                    cat_list.append($('<h3>').text(el).prop('id',cat_sub_header+'_header'));
                     cat_list.append($('<ul>').prop('id', cat_sub_header + '_list'));
                 }
                 });
