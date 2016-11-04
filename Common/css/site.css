@@ -58,7 +58,7 @@ h1 {
 footer {
     background: #72bfca;
     color: #fff;
-    height: 180px;
+    height: 170px;
     padding-top: 20px;
 }
 
@@ -67,14 +67,18 @@ footer p {
     width: 800px;
 }
 
-#credits {
+.form_container {
+    margin-top: 1em;
+}
+
+.credits {
     font-size: 0.8em;
     color: #777;
 }
 
-#credits p {
+.credits p {
     padding-left: 2em;
-    margin-bottom: -0.5em;
+    margin-bottom: 0.01em;
 }
 
 p {
