@@ -1,7 +1,7 @@
 { "sample_docs": [
   {
     "title": "Markov",
-    "description": "Play Roshambo against the evil Dr. Markov. If you win, you can save Madeline the dog. Improve you odds by analyzing Markov's moves in a graph.",
+    "description": "Save Madeline the dog by playing Roshambo against the evil Dr. Markov. Improve you odds by analyzing Markov's moves. ",
     "path": "markov/Markov_Sample.json",
     "visible": true,
     "categories": [
@@ -37,7 +37,7 @@
   },
   {
     "title": "Mammal",
-    "description": "There are 27 mammals, each with eight attributes. Which of the mammals has the longest life span? Sleeps the most? What relationships can you find?",
+    "description": "There are 27 mammals, each with eight attributes.  What relationships can you find?",
     "path": "mammals/Mammals_Sample.json",
     "visible": true,
     "categories": [
@@ -55,7 +55,7 @@
   },
   {
     "title": "States and Education",
-    "description": "These are data gathered from the Minnesota Population Center. It provides aggregate information for the United States. What do you notice about the education levels within each state?",
+    "description": "Explore this data gathered from the Minnesota Population Center about the United States. What do you notice about the education levels within each state?",
     "path": "statesnpeople/States_and_Education.json",
     "visible": true,
     "categories": [
@@ -1073,7 +1073,7 @@
   },
   {
     "title": "Russian City Populations",
-    "description": "A case table with information about the population of capitol cities and cities of 100,000 and more inhabitants in the Russian Federation in 1999.",
+    "description": "Explore the population of capitol cities and cities of 100,000 and more inhabitants in the Russian Federation in 1999.",
     "path": "FathomDocs/Social_Science/Europe/Russian_Cities/Russian_Cities.json",
     "visible": true,
     "categories": [
