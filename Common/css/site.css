@@ -2,7 +2,7 @@
 
 body {
     background-color: #FFFAE6;
-    font: 100% lato,verdana,arial,sans-serif;
+    font: 100% museo-sans, lato,verdana,arial,sans-serif;
     margin: 0;
     padding: 1em;
 }
@@ -106,10 +106,10 @@ p {
 }
 
 #top-nav-bar a {
-    width:150px;
+    width:165px;
     background-color: #7fb2be;
     color: white;
-    font-size: 14px;
+    font-size: 13px;
     padding: 0.2em 0.5em;
     border-right: 1px solid white;
 }
@@ -190,7 +190,6 @@ ul {
     display: flex;
     flex-wrap: wrap;
     width:100%;
-    padding-left: 0;
 }
 
 
