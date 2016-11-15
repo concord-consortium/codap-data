@@ -454,7 +454,7 @@
     "title": "Chaos Game Simulation",
     "description": "Explore the Chaos Game!",
     "path": "FathomDocs/Mathematics/Probability/Chaos_Game/Chaos_Game.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Math/Probability"
     ]
