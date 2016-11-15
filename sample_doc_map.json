@@ -508,7 +508,7 @@
     "title": "Shooting Match",
     "description": "Which strategy is best when each person has different shooting abilities?",
     "path": "FathomDocs/Mathematics/Probability/Shooting_Match/Shooting_Match.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Math/Probability"
     ]
