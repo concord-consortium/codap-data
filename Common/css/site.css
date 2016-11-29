@@ -1,80 +1,119 @@
 /*Style sheet for concord-consortium.github.io/codap-data site*/
 
 body {
-    font-family: "Lucida Sans", "Lucida Grande", Verdana, Arial, sans-serif;
-    color: #555;
+    background-color: #FFFAE6;
+    font: 100% museo-sans, lato,verdana,arial,sans-serif;
+    margin: 0;
+    padding: 1em;
 }
 
-#header {
-    background: #7EB563;
-    background: -moz-linear-gradient(top,  #7EB563 1%, #a4cb91 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#7EB563), color-stop(100%,#a4cb91));
-    background: -webkit-linear-gradient(top,  #7EB563 1%,#a4cb91 100%);
-    background: -o-linear-gradient(top,  #7EB563 1%,#a4cb91 100%);
-    background: -ms-linear-gradient(top,  #7EB563 1%,#a4cb91 100%);
-    background: linear-gradient(to bottom,  #7EB563 1%,#a4cb91 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7EB563', endColorstr='#a4cb91',GradientType=0 );
-    color: white;
-    padding: 0.5em 1em;
-    font-size: 1em;
-    font-weight: 600;
+header {
+    background: #fee9aa;
+    display:block;
 }
 
-#credits {
+header div {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 800px;
+}
+
+header img {
+    float: left;
+    margin: .75em 0;
+    width: 185px;
+    height: auto;
+}
+
+header #cc {
+    color: rgb(0, 147, 176);
+    float: right;
+    font-size: .5em;
+    margin-top: 20px;
+    text-align: right;
+    width: 121px;
+}
+
+header #cc img {
+    clear: both;
+    display: block;
+    height: auto;
+    margin: 0;
+    width: 121px;
+}
+
+#home-content {
+    margin: 0 auto;
+    max-width: 800px;
+    overflow: hidden;
+    padding-bottom: 2em;
+    width: 100%;
+}
+
+h1 {
+    color: #e16a3e;
+    font: 300 2em museo-sans,verdana,arial,helvetica,sans-serif;
+}
+
+footer {
+    background: #72bfca;
+    color: #fff;
+    height: 170px;
+    padding-top: 20px;
+}
+
+footer p {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.form_container {
+    margin-top: 1em;
+}
+
+.credits {
     font-size: 0.8em;
     color: #777;
 }
 
-#credits p {
+.credits p {
     padding-left: 2em;
-    margin-bottom: -0.5em;
+    margin-bottom: 0.01em;
 }
 
-.sample-documents div {
-    background-color:#EEE;
-    border-radius: 10px;
-    border: #CCC 1px solid;
-    width: 1030px;
-    margin: 7px;
-    padding-left:10px;
+p {
+    color: #777;
+    font: 100 1em museo-sans, lato, verdana, helvetica, sans-serif;
+    line-height: 125%;
+    margin-bottom: .5em;
 }
 
-.document-title {
+.listing-title {
     font-weight: bold;
-    font-size: 12px;
+    font-size: 16px;
     -webkit-margin-before:.1em;
     -webkit-margin-after:.1em;
     width:150px;
     max-width:150px;
 }
 
-.document-description {
+.listing-desc {
     -webkit-margin-before:.1em;
     -webkit-margin-after:.1em;
-    width:620px;
     font-size: 12px;
 }
 
-.sample-table {
-    background-color:#EEE;
-    border-radius: 10px;
-    border: #CCC 1px solid;
-    margin: 7px;
-    padding-left:10px;
-    padding-right:10px;
-    width:100%;
-}
-
-.sample-table tr:nth-child(odd) {
-    color:#000000;
-    background-color:#b1d2a1;
+.listing-link {
+    font-size: 10px;
+    position: absolute;
+    bottom:10px;
 }
 
 #top-nav-bar a {
-    width:150px;
+    width:165px;
     background-color: #7fb2be;
     color: white;
-    font-size: 14px;
+    font-size: 13px;
     padding: 0.2em 0.5em;
     border-right: 1px solid white;
 }
@@ -82,8 +121,9 @@ body {
 #top-nav-bar a:hover {
     background-color: #0797A8;
 }
+
 .nav-bar {
-    width:1000px;
+    width:100%;
     margin: 0;
 }
 
@@ -91,13 +131,13 @@ body {
     background-color: #0797A8;
 }
 
-.nav-bar ul li {
-    padding: 0;
+.menu-h li {
+    padding: 3px;
     display: inline-block;
     position:relative;
 }
 
-.nav-bar ul li a:hover {
+.menu-h li a:hover {
     background: #7fb2be;
     text-decoration: none;
     white-space: nowrap;
@@ -114,6 +154,10 @@ body {
     top: 100%;
     left: 0;
     display: none;
+    z-index:999;
+}
+.menu-h-dropdown li {
+    padding:0px;
 }
 
 .menu-h-dropdown a{
@@ -121,7 +165,7 @@ body {
     background: #7fb2be;
     text-decoration: none;
     white-space: nowrap;
-    color: white;
+    /*color: white;*/
 }
 
 a {
@@ -142,10 +186,25 @@ a:hover {
     width: 20px;
 }
 
-.sample-div {
-    border-style: dotted;
-    border-width: thin;
-    border-radius: 20px;
-    padding-left:5px;
-    padding-right:5px;
+li {
+    text-align: -webkit-match-parent;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+}
+
+
+.listing {
+    box-shadow: 1px 1px 5px rgba(51, 51, 51, .3);
+    height: auto;
+    list-style: none;
+    margin: 5px;
+    min-height: 140px;
+    padding: 1%;
+    position: relative;
+    width: 25%;
+    background-color:white;
 }

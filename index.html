@@ -5,18 +5,27 @@
     <link rel="stylesheet" type="text/css" href ="./Common/css/site.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="./listing.js" language="javascript"></script>
-<!--    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>-->
 </head>
 <body>
-<div id="header">
-    <h1 id = "project_title">CODAP Sample Documents</h1>
-</div>
-<br>
+<header id="header">
+    <div>
+        <img src="http://codap.concord.org/_assets/img/codap-logo@2x.png" alt="Common Online Data Analysis Program">
+        <div id="cc">
+            a product of
+            <a href="https://concord.org/" title="The Concord Consortium - Revolutionary digital learning for science, math, and engineering"><img src="http://codap.concord.org/_assets/img/cc-logo.png" alt="The Concord Consortium">
+            </a>
+        </div>
+    </div>
+</header>
+<div id="home-content">
+    <h1> CODAP Sample Documents</h1>
 <p>This site has a list of CODAP sample documents.</p>
-<!--<p>Checkboxes with a check mark have limited guides for exploration.</p>>
-<!--<p> Click on a subject heading to see a list of sample documents of that subject.<p>-->
-<p><b>Instructions:</b> To open a CODAP Example document, drag the "Link" into CODAP in a different browser window.</p>
+<p><b>Instructions:</b> To open a CODAP Example document, click on the title or drag the "Embeddable Link" into CODAP.</p>
+<div id = 'top-nav-bar'>
+    <nav class='nav-bar'></nav>
+</div>
+<div id = "listing_container"></div>
+<div class = "form_container"></div>
     <label>CODAP:
         <input id="codap-url" size="75" type="text" value="" />
     </label>
@@ -33,138 +42,18 @@
               //  $("#doc-server-url").val("http://document-store.concord.org");
             }
         </script>
+</div>
 
-<div id="top-nav-bar">
-    <nav class="nav-bar">
-        <ul class="menu-h">
-            <li><a href="#models-samples">Models</a></li>
-            <!-- <li><a href="#maps-samples">Maps</a></li>-->
-            <li><a href="#education-samples">Education</a></li>
-            <li><a href="#language-arts-samples">Language Arts</a></li>
-            <li><a href="#math-samples">Math</a>
-                <ul class="menu-h-dropdown">
-                    <li> <a href="#math-algebra">Algebra</a></li>
-                    <li><a href="#math-calculus">Calculus</a></li>
-                    <li><a href="#math-geometry">Geometry</a></li>
-                    <li><a href="#math-numtheory">Number Theory</a></li>
-                    <li><a href="#math-probability">Probability</a></li>
-                    <li><a href="#math-other">Other Mathematics</a></li>
-                </ul>
-            </li>
-            <li><a href="#science-samples">Science</a>
-                <ul class="menu-h-dropdown">
-                    <li><a href="#science-astronomy">Astronomy</a></li>
-                    <li><a href="#science-biology">Biology</a></li>
-                    <li><a href="#science-earthscience">Earth Science</a></li>
-                    <li><a href="#science-physics-chemistry">Physics & Chemistry</a></li>
-                    <li><a href="#science-technology">Technology</a></li>
-                </ul>
-            </li>
-            <li><a href="#social-science-samples">Social Science</a></li>
-            <li><a href="#sports-samples">Sports</a></li>
-        </ul>
-    </nav>
-</div>
-<div id="sample-document-list">
-    <div id="models-samples">
-        <h2>Models</h2>
-        <table class="sample-table" id="models-table"></table>
-    </div>
-    <a href="#header" class="nav-to-top"><img class="home-icon" src="./Common/images/home.png">Back to top</a>
-    <!-- <div id="maps-samples">
-        <h2>Maps</h2>
-        <table class="sample-table" id="maps-table"></table>
-    </div>
-    <a href="#header" class="nav-to-top"><img class="home-icon" src="./Common/images/home.png">Back to top</a>-->
-    <div id="education-samples">
-        <h2>Education</h2>
-        <table class="sample-table" id="education-table"></table>
-    </div>
-    <a href="#header" class="nav-to-top"><img class="home-icon" src="./Common/images/home.png">Back to top</a>
-    <div id="language-arts-samples">
-        <h2>Language Arts</h2>
-        <table class="sample-table" id="language-arts-table"></table>
-    </div>
-    <a href="#header" class="nav-to-top"><img class="home-icon" src="./Common/images/home.png">Back to top</a>
-    <div id="math-samples">
-        <h2>Math</h2>
-        <div id="math-algebra">
-            <h3>Algebra</h3>
-            <table class="sample-table" id="algebra-table"></table>
-        </div>
-        <a href="#header" class="nav-to-top"><img class="home-icon" src="./Common/images/home.png">Back to top</a>
-        <div id="math-calculus">
-            <h3>Calculus</h3>
-            <table class="sample-table" id="calculus-table"></table>
-        </div>
-        <a href="#header" class="nav-to-top"><img class="home-icon" src="./Common/images/home.png">Back to top</a>
-        <div id="math-geometry">
-            <h3>Geometry</h3>
-            <table class="sample-table" id="geometry-table"></table>
-        </div>
-        <a href="#header" class="nav-to-top"><img class="home-icon" src="./Common/images/home.png">Back to top</a>
-        <div id="math-numtheory">
-            <h3>Number Theory</h3>
-            <table class="sample-table" id="numtheory-table"></table>
-        </div>
-        <a href="#header" class="nav-to-top"><img class="home-icon" src="./Common/images/home.png">Back to top</a>
-        <div id="math-probability">
-            <h3>Probability</h3>
-            <table class="sample-table" id="probability-table"></table>
-        </div>
-        <a href="#header" class="nav-to-top"><img class="home-icon" src="./Common/images/home.png">Back to top</a>
-        <div id="math-other">
-            <h3>Other Mathematics</h3>
-            <table class="sample-table" id="math-other-table"></table>
-        </div>
-        <a href="#header" class="nav-to-top"><img class="home-icon" src="./Common/images/home.png">Back to top</a>
-    </div>
-    <div id="science-samples">
-        <h2>Science</h2>
-        <div id="science-astronomy">
-            <h3>Astronomy</h3>
-            <table class="sample-table" id="astronomy-table"></table>
-        </div>
-        <a href="#header" class="nav-to-top"><img class="home-icon" src="./Common/images/home.png">Back to top</a>
-        <div id="science-biology">
-            <h3>Biology</h3>
-            <table class="sample-table" id="biology-table"></table>
-        </div>
-        <a href="#header" class="nav-to-top"><img class="home-icon" src="./Common/images/home.png">Back to top</a>
-        <div id="science-earthscience">
-            <h3>Earth Science</h3>
-            <table class="sample-table" id="earthscience-table"></table>
-        </div>
-        <a href="#header" class="nav-to-top"><img class="home-icon" src="./Common/images/home.png">Back to top</a>
-        <div id="science-physics-chemistry">
-            <h3>Physics and Chemistry</h3>
-            <table class="sample-table" id="physics-table"></table>
-        </div>
-        <a href="#header" class="nav-to-top"><img class="home-icon" src="./Common/images/home.png">Back to top</a>
-        <div id="science-technology">
-            <h3>Technology</h3>
-            <table class="sample-table" id="technology-table"></table>
-        </div>
-        <a href="#header" class="nav-to-top"><img class="home-icon" src="./Common/images/home.png">Back to top</a>
-    </div>
-    <div id="social-science-samples">
-        <h2>Social Science</h2>
-        <table class="sample-table" id="socsci-table"></table>
-    </div>
-    <a href="#header" class="nav-to-top"><img class="home-icon" src="./Common/images/home.png">Back to top</a>
-    <div id="sports-samples">
-        <h2>Sports</h2>
-        <table class="sample-table" id="sports-table"></table>
-    </div>
-    <a href="#header" class="nav-to-top"><img class="home-icon" src="./Common/images/home.png">Back to top</a>
-</div>
-<div id="credits">
-    <!--<p>Data Interactives repository: <a href="https://github.com/backspaces/agentscript">github.com/backspaces/agentscript</a></p>-->
+<div class="credits">
     <p>Concord Consortium's CODAP sample documents repository: <a target = "blank" href="https://github.com/concord-consortium/codap-data">https://github.com/concord-consortium/codap-data</a></p>
     <p>Concord Consortium's CODAP data interactives repository: <a target="blank" href="https://github.com/concord-consortium/codap-data-interactives">github.com/concord-consortium/codap-data-interactives</a></p>
     <p>Concord Consortium's CODAP project repository: <a target="blank" href="https://github.com/concord-consortium/codap">github.com/concord-consortium/codap</a></p>
     <p>To find out more about the CODAP project: <a target="blank" href="https://concord.org/projects/codap">About CODAP</a></p>
 </div>
+
+<footer>
+    <p>© Copyright 2016 <a href="https://concord.org/" title="The Concord Consortium - Revolutionary digital learning for science, amth, and engineering">The Concord Consortium</a>. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
