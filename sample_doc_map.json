@@ -442,15 +442,6 @@
     ]
   },
   {
-    "title": "Blackjack",
-    "description": "How many of the card pairs make a blackjack hand?",
-    "path": "FathomDocs/Mathematics/Probability/Blackjack/Blackjack.json",
-    "visible": true,
-    "categories": [
-      "Math/Probability"
-    ]
-  },
-  {
     "title": "Chaos Game Simulation",
     "description": "Explore the Chaos Game!",
     "path": "FathomDocs/Mathematics/Probability/Chaos_Game/Chaos_Game.json",
