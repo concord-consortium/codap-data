@@ -432,15 +432,15 @@
       "Math/Other Math"
     ]
   },
-  {
-    "title": "Birthdays",
-    "description": "Explore the distribution of birthdays in the US in 1978.",
-    "path": "FathomDocs/Mathematics/Probability/Birthdays/Birthdays.json",
-    "visible": true,
-    "categories": [
-      "Math/Probability"
-    ]
-  },
+//  {
+//    "title": "Birthdays",
+//    "description": "Explore the distribution of birthdays in the US in 1978.",
+//    "path": "FathomDocs/Mathematics/Probability/Birthdays/Birthdays.json",
+//    "visible": true,
+//    "categories": [
+//      "Math/Probability"
+//    ]
+//  },
   {
     "title": "Chaos Game Simulation",
     "description": "Explore the Chaos Game!",
