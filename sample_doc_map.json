@@ -9,6 +9,15 @@
     ]
   },
   {
+    "title": "Birthdays",
+    "description": "How popular is your birthday? Is the distribution of birthdays uniform?",
+    "path": "FathomDocs/Mathematics/Probability/Birthdays/Birthdays.json",
+    "visible": true,
+    "categories": [
+      "Math/Probability"
+    ]
+  },
+  {
     "title": "Climate Change",
     "description": "This is a simulation model of Climate Changes.",
     "path": "Climate_Change/Climate-Change-A.codap",
