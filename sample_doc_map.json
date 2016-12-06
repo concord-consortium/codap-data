@@ -470,7 +470,7 @@
   },
   {
     "title": "Life Expectancy Probability",
-    "description": "What's the chance you're going to die in the next year?",
+    "description": "What is the average life expectancy today?",
     "path": "FathomDocs/Mathematics/Probability/Life_Expectancy/Life_Expectancy.json",
     "visible": true,
     "categories": [
