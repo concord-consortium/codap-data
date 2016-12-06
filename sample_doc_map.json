@@ -345,7 +345,7 @@
     "title": "Integration",
     "description": "This document illustrates how to do numerical integration of an arbitrary function.",
     "path": "FathomDocs/Mathematics/Calculus/Integration/Integration.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Math/Calculus"
     ]
@@ -354,7 +354,7 @@
     "title": "Logistics",
     "description": "Investigate the effect of changing x and k in the logistics function f(x)=kx(1-x).",
     "path": "FathomDocs/Mathematics/Calculus/Logistics/Logistics.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Math/Calculus"
     ]
@@ -363,7 +363,7 @@
     "title": "Minimization",
     "description": "Find the minimum of a plotted function.",
     "path": "FathomDocs/Mathematics/Calculus/Minimization/Minimization.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Math/Calculus"
     ]
@@ -417,7 +417,7 @@
     "title": "Growth",
     "description": "Investigate the theory of chaotic growth.",
     "path": "FathomDocs/Mathematics/Other_Mathematics/Growth/Growth.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Math/Other Math"
     ]
@@ -517,7 +517,7 @@
     "title": "Extra Solar",
     "description": "Explore 111 extrasolar masses and orbital characteristics of known extrasolar planets.",
     "path": "FathomDocs/Science/Astronomy/Extra_Solar/Extra_Solar.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Science/Astronomy"
     ]
@@ -526,7 +526,7 @@
     "title": "Jupiter Moons",
     "description": "A case table about four moons of Jupiter: Io, Europa, Ganymede, and Callisto.",
     "path": "FathomDocs/Science/Astronomy/Jupiter_Moons/Jupiter_Moons.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Science/Astronomy"
     ]
@@ -535,7 +535,7 @@
     "title": "Jupiter Radius",
     "description": "Explain the plot of radius versus mean Julian date.",
     "path": "FathomDocs/Science/Astronomy/Jupiter_Radius/Jupiter_Radius.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Science/Astronomy"
     ]
@@ -544,7 +544,7 @@
     "title": "Space Data",
     "description": "Explore a study about how to grow plants in space.",
     "path": "FathomDocs/Science/Astronomy/Space_Data/Space_Data.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Science/Astronomy"
     ]
@@ -553,7 +553,7 @@
     "title": "Sunspots",
     "description": "A case table gives the sunspot number for a random sample of 2000 days since 1951.",
     "path": "FathomDocs/Science/Astronomy/Sunspots/Sunspots.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Science/Astronomy"
     ]
@@ -562,7 +562,7 @@
     "title": "Bears",
     "description": "How can you use other measurements to measure the weight of a bear?",
     "path": "FathomDocs/Science/Biology/Bears/Bears.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Science/Biology"
     ]
@@ -571,7 +571,7 @@
     "title": "Bird Observations",
     "description": "Explore raw data about what bird species were seen and when, per year.",
     "path": "FathomDocs/Science/Biology/Bird_Observations/Bird_Observations.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Science/Biology"
     ]
@@ -580,7 +580,7 @@
     "title": "Heights",
     "description": "What is the difference in heights at different times of the day?",
     "path": "FathomDocs/Science/Biology/Height/Height.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Science/Biology"
     ]
@@ -598,7 +598,7 @@
     "title": "Midges",
     "description": "What are the differences between two varieties of midges?",
     "path": "FathomDocs/Science/Biology/Midges/Midges.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Science/Biology"
     ]
@@ -607,7 +607,7 @@
     "title": "Prey Predator Population",
     "description": "Explore data of a simulated ecosystem containing predators and their prey.",
     "path": "FathomDocs/Science/Biology/Prey-Pred-Pop/Prey-Pred-Pop.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Science/Biology"
     ]
@@ -616,7 +616,7 @@
     "title": "Alabama Average Temperatures",
     "description": "A collection of data from multiple stations around Alabama over a period of about 100 years.",
     "path": "FathomDocs/Science/E_Sciences/AVG_Temps/AL_Avg_Temps/AL_Avg_Temps.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Science/Earth Sciences"
     ]
@@ -625,7 +625,7 @@
     "title": "Arkansas Average Temperatures",
     "description": "A collection of data from multiple stations around Arkansas over a period of about 100 years.",
     "path": "FathomDocs/Science/E_Sciences/AVG_Temps/AR_Avg_Temps/AR_Avg_Temps.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Science/Earth Sciences"
     ]
@@ -634,7 +634,7 @@
     "title": "Arizona Average Temperatures",
     "description": "A collection of data from multiple stations around Arizona over a period of about 100 years.",
     "path": "FathomDocs/Science/E_Sciences/AVG_Temps/AZ_Avg_Temps/AZ_Avg_Temps.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Science/Earth Sciences"
     ]
@@ -643,7 +643,7 @@
     "title": "California Average Temperatures",
     "description": "A collection of data from multiple stations around California over a period of about 100 years.",
     "path": "FathomDocs/Science/E_Sciences/AVG_Temps/CA_Avg_Temps/CA_Avg_Temps.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Science/Earth Sciences"
     ]
@@ -652,7 +652,7 @@
     "title": "Colorado Average Temperatures",
     "description": "A collection of data from multiple stations around Colorado over a period of about 100 years.",
     "path": "FathomDocs/Science/E_Sciences/AVG_Temps/CO_Avg_Temps/CO_Avg_Temps.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Science/Earth Sciences"
     ]
@@ -661,7 +661,7 @@
     "title": "Florida Average Temperatures",
     "description": "A collection of data from multiple stations around Florida over a period of about 100 years.",
     "path": "FathomDocs/Science/E_Sciences/AVG_Temps/FL_Avg_Temps/FL_Avg_Temps.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Science/Earth Sciences"
     ]
@@ -670,7 +670,7 @@
     "title": "Maine Average Temperatures",
     "description": "A collection of data from multiple stations around Maine over a period of about 100 years.",
     "path": "FathomDocs/Science/E_Sciences/AVG_Temps/ME_Avg_Temps/ME_Avg_Temps.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Science/Earth Sciences"
     ]
@@ -679,7 +679,7 @@
     "title": "North Dakota Average Temperatures",
     "description": "A collection of data from multiple stations around North Dakota over a period of about 100 years.",
     "path": "FathomDocs/Science/E_Sciences/AVG_Temps/ND_Avg_Temps/ND_Avg_Temps.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Science/Earth Sciences"
     ]
@@ -688,7 +688,7 @@
     "title": "New York Average Temperatures",
     "description": "A collection of data from multiple stations around New York over a period of about 100 years.",
     "path": "FathomDocs/Science/E_Sciences/AVG_Temps/NY_Avg_Temps/NY_Avg_Temps.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Science/Earth Sciences"
     ]
@@ -697,7 +697,7 @@
     "title": "Washington Average Temperatures",
     "description": "A collection of data from multiple stations around Washington over a period of about 100 years.",
     "path": "FathomDocs/Science/E_Sciences/AVG_Temps/WA_Avg_Temps/WA_Avg_Temps.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Science/Earth Sciences"
     ]
@@ -706,7 +706,7 @@
     "title": "Concord Weather",
     "description": "Explore information about the weather in Concord.",
     "path": "FathomDocs/Science/E_Sciences/Concord_Weather/Concord_Weather.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Science/Earth Sciences"
     ]
@@ -715,7 +715,7 @@
     "title": "Earthquakes",
     "description": "Explore earthquakes across California and western Nevada.",
     "path": "FathomDocs/Science/E_Sciences/Earthquakes/Earthquakes.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Science/Earth Sciences"
     ]
@@ -724,7 +724,7 @@
     "title": "Global Carbon",
     "description": "A case table containing yearly carbon dioxide emissions from various sources around the world.",
     "path": "FathomDocs/Science/E_Sciences/Global_Carbon/Global_Carbon.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Science/Earth Sciences"
     ]
@@ -733,7 +733,7 @@
     "title": "Iowa Weather",
     "description": "Explore weather information about Marion, Iowa.",
     "path": "FathomDocs/Science/E_Sciences/Iowa/Iowa.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Science/Earth Sciences"
     ]
@@ -742,7 +742,7 @@
     "title": "Kobe Earthquake",
     "description": "Explore the seismograph recording of the Kobe earthquake on January 16, 1995, in Australia.",
     "path": "FathomDocs/Science/E_Sciences/Kobe/Kobe.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Science/Earth Sciences"
     ]
@@ -751,7 +751,7 @@
     "title": "Mauna Loa Carbon Levels",
     "description": "A case table of the levels of CO2 from 1958 to 2010 on Mauna Loa.",
     "path": "FathomDocs/Science/E_Sciences/Mauna_Loa/Mauna_Loa.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Science/Earth Sciences"
     ]
@@ -760,7 +760,7 @@
     "title": "North American Earthquakes",
     "description": "A compilation of North American earthquakes from 1920 to 1989 of the magnitude 4.5 and higher.",
     "path": "FathomDocs/Science/E_Sciences/North_American/North_American.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Science/Earth Sciences"
     ]
@@ -769,7 +769,7 @@
     "title": "Regional Carbon Levels",
     "description": "A collection of regional CO2 emissions from the burnin gof fossil-fuels, manufacturing cement, and gas flaring from 1751-2009.",
     "path": "FathomDocs/Science/E_Sciences/R_Carbon/R_Carbon.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Science/Earth Sciences"
     ]
@@ -778,7 +778,7 @@
     "title": "South Pole Temperatures",
     "description": "A case table showing the temperatures recorded at the South Pole every month from the year 1957 to the year 1988.",
     "path": "FathomDocs/Science/E_Sciences/South_Pole/South_Pole.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Science/Earth Sciences"
     ]
@@ -787,7 +787,7 @@
     "title": "Tides",
     "description": "Explore data of the tide patterns of Alcatraz Island, in California, and Birch Island, in Maine.",
     "path": "FathomDocs/Science/E_Sciences/Tides/Tides.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Science/Earth Sciences"
     ]
@@ -796,7 +796,7 @@
     "title": "Tree_Rings",
     "description": "Are there any relationships between the growth of the tree and historical weather?",
     "path": "FathomDocs/Science/E_Sciences/Tree_Rings/Tree_Rings.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Science/Earth Sciences"
     ]
@@ -805,7 +805,7 @@
     "title": "Weather Model",
     "description": "A model of a weather pattern generated by a weather machine.",
     "path": "FathomDocs/Science/E_Sciences/Weather_Machine/Weather_Maching.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Science/Earth Sciences"
     ]
@@ -814,7 +814,7 @@
     "title": "Boyle's Law",
     "description": "A case table of the data of the Boyle Pressure vs. Volume Experiment in 1662.",
     "path": "FathomDocs/Science/PhysChem/Boyle/Boyle.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Science/Physics and Chemistry"
     ]
@@ -832,7 +832,7 @@
     "title": "Heating",
     "description": "How is the temperature of water affected by the length of time it is heated?",
     "path": "FathomDocs/Science/PhysChem/Heating/Heating.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Science/Physics and Chemistry"
     ]
@@ -841,7 +841,7 @@
     "title": "Solar Panel",
     "description": "Explore information gathered from a project done with a solar panel.",
     "path": "FathomDocs/Science/PhysChem/Panel/Panel.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Science/Physics and Chemistry"
     ]
@@ -850,7 +850,7 @@
     "title": "Weather Balloon",
     "description": "Find relationships in data were gathered during a weather balloon ascent.",
     "path": "FathomDocs/Science/PhysChem/Radiosonde/Radiosonde.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Science/Physics and Chemistry"
     ]
@@ -859,7 +859,7 @@
     "title": "Rubber Band Ball",
     "description": "Explore an experiment about the size and bounce height of a rubber band ball.",
     "path": "FathomDocs/Science/PhysChem/RB_Ball/RB_Ball.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Science/Physics and Chemistry"
     ]
@@ -868,7 +868,7 @@
     "title": "Airplanes",
     "description": "A case table about the operation statistics of various airplane models in 1999.",
     "path": "FathomDocs/Science/Technology/Airplanes/Airplanes.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Science/Technology"
     ]
@@ -877,7 +877,7 @@
     "title": "Cars",
     "description": "Explore information about car models from 1993.",
     "path": "FathomDocs/Science/Technology/Cars/Cars.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Science/Technology"
     ]
@@ -886,7 +886,7 @@
     "title": "Moore's Law",
     "description": "Explore the trend in the evolution of transistors that was discovered by Gordan Moore.",
     "path": "FathomDocs/Science/Technology/Moore_Law/Moore_Law.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Science/Technology"
     ]
@@ -895,7 +895,7 @@
     "title": "Nails",
     "description": "How does the measurement of a nail relate to the penny size of the nail?",
     "path": "FathomDocs/Science/Technology/Nails/Nails.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Science/Technology"
     ]
@@ -904,7 +904,7 @@
     "title": "Receipts from Alberta 2024",
     "description": "Explore data about purchases made by people 20-24 years old in Alberta, Canada.",
     "path": "FathomDocs/Social_Science/Canada/Alberta2024/Alberta2024.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/Canada"
     ]
@@ -913,7 +913,7 @@
     "title": "Canadian Metro Areas",
     "description": "What are the relationships between each of the Metro Areas in Canada?",
     "path": "FathomDocs/Social_Science/Canada/Canada_Metro/Canada_Metro.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/Canada"
     ]
@@ -922,7 +922,7 @@
     "title": "Government Debt",
     "description": "Explore information about debt in the Canadian government.",
     "path": "FathomDocs/Social_Science/Canada/Gov_Debt/Gov_Debt.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/Canada"
     ]
@@ -931,7 +931,7 @@
     "title": "International Exports",
     "description": "Compare the amounts of each item exported in Canada.",
     "path": "FathomDocs/Social_Science/Canada/Int_Exports/Int_Exports.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/Canada"
     ]
@@ -940,7 +940,7 @@
     "title": "International Imports",
     "description": "Compare the amounts of each item imported in Canada.",
     "path": "FathomDocs/Social_Science/Canada/Int_Imports/Int_Imports.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/Canada"
     ]
@@ -949,7 +949,7 @@
     "title": "Military Personnel",
     "description": "Find relationships between the number of military personnel per year and historical events.",
     "path": "FathomDocs/Social_Science/Canada/Military_69/Military_69.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/Canada"
     ]
@@ -958,7 +958,7 @@
     "title": "CPI Canada",
     "description": "Explore information about the CPI for Canada annually, from 1914 to 2006.",
     "path": "FathomDocs/Social_Science/Canada/CPI_Canada/CPI_Canada.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/Canada"
     ]
@@ -967,7 +967,7 @@
     "title": "Crime Canada",
     "description": "Find relationships among rates of different types of crime from 1977.",
     "path": "FathomDocs/Social_Science/Canada/Crime_Canada/Crime_Canada.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/Canada"
     ]
@@ -976,7 +976,7 @@
     "title": "Ontario Census",
     "description": "Explore data about the population of Ontario, Canada in 2001.",
     "path": "FathomDocs/Social_Science/Canada/Ontario_Census/Ontario_Census.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/Canada"
     ]
@@ -985,7 +985,7 @@
     "title": "Languages of Ontario",
     "description": "Explore data about the languages spoken in Ontario.",
     "path": "FathomDocs/Social_Science/Canada/Ontario_Lang/Ontario_Lang.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/Canada"
     ]
@@ -994,7 +994,7 @@
     "title": "Smoking and Education",
     "description": "Find relationships between the smokers and their education levels in Canada.",
     "path": "FathomDocs/Social_Science/Canada/SmokingEd/SmokingEd.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/Canada"
     ]
@@ -1003,7 +1003,7 @@
     "title": "Technology Use in Canada",
     "description": "A case table about the Canadian science/technology use in 2001.",
     "path": "FathomDocs/Social_Science/Canada/Tech_Use/Tech_Use.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/Canada"
     ]
@@ -1012,7 +1012,7 @@
     "title": "Wheat Production Since 1908",
     "description": "A case table about wheat production in provinces around Canada since 1908.",
     "path": "FathomDocs/Social_Science/Canada/Wheat1908/Wheat1908",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/Canada"
     ]
@@ -1021,7 +1021,7 @@
     "title": "Youth Crimes",
     "description": "A case table contains information about the number of youth crimes in Canada from 1983 to 1999.",
     "path": "FathomDocs/Social_Science/Canada/Youth_Crimes/Youth_Crimes.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/Canada"
     ]
@@ -1030,7 +1030,7 @@
     "title": "Youth Survey",
     "description": "A case table with data from the Ontario Youth survey conducted between 1994 and 1999.",
     "path": "FathomDocs/Social_Science/Canada/YouthSurvey/YouthSurvey",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/Canada"
     ]
@@ -1039,7 +1039,7 @@
     "title": "French Franc Over Time",
     "description": "Explore the fluctuation of the value of the French Franc over time.",
     "path": "FathomDocs/Social_Science/Europe/French_Franc/French_Franc.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/Europe"
     ]
@@ -1048,7 +1048,7 @@
     "title": "German Foreign Trade",
     "description": "A case table about German foreign trade over time.",
     "path": "FathomDocs/Social_Science/Europe/German_Trade/German_Trade.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/Europe"
     ]
@@ -1057,7 +1057,7 @@
     "title": "Migration During the Potato Famine",
     "description": "Data on migration from Great Britain and Ireland to the US from the years 1820 to 1870.",
     "path": "FathomDocs/Social_Science/Europe/Potato_Migration/Potato_Migration.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/Europe"
     ]
@@ -1066,7 +1066,7 @@
     "title": "Russian City Populations",
     "description": "Explore the population of capitol cities and cities of 100,000 and more inhabitants in the Russian Federation in 1999.",
     "path": "FathomDocs/Social_Science/Europe/Russian_Cities/Russian_Cities.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/Europe"
     ]
@@ -1075,7 +1075,7 @@
     "title": "Trans Siberian Railroad",
     "description": "The train schedule of the Trans-Siberian Railway from approximately the early 1980.",
     "path": "FathomDocs/Social_Science/Europe/TransSiberia/TransSiberia.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/Europe"
     ]
@@ -1084,7 +1084,7 @@
     "title": "UK Smoking",
     "description": "A case table about the smoking habits of people in the United Kingdom.",
     "path": "FathomDocs/Social_Science/Europe/UK_Smoking/UK_Smoking.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/Europe"
     ]
@@ -1102,7 +1102,7 @@
     "title": "Costa Rica Exchange Rates",
     "description": "A case table about the exchange rates for the Costa rican Colón with respect to US Dollar.",
     "path": "FathomDocs/Social_Science/Latin_America/CR_Exchange/CR_Exchange.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/Latin America"
     ]
@@ -1111,7 +1111,7 @@
     "title": "Costa Rica Population",
     "description": "A case table about the population of Costa Rica since 1522.",
     "path": "FathomDocs/Social_Science/Latin_America/CRPop/CRPop.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/Latin America"
     ]
@@ -1120,7 +1120,7 @@
     "title": "Peru Population",
     "description": "A case table about the population of Peru.",
     "path": "FathomDocs/Social_Science/Latin_America/PeruPop/PeruPop",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/Latin America"
     ]
@@ -1129,7 +1129,7 @@
     "title": "CA Counties",
     "description": "The 2000 school year projections for each county in California",
     "path": "FathomDocs/Social_Science/United_States/CA_Counties/CA_Counties.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/United States"
     ]
@@ -1147,7 +1147,7 @@
     "title": "St. Augustine's Cemetery",
     "description": "A collection of data about the St. Augustine Catholic Cemetery.",
     "path": "FathomDocs/Social_Science/United_States/Cemetery/Cemetery.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/United States"
     ]
@@ -1156,7 +1156,7 @@
     "title": "Coast Starlight",
     "description": "The Coast Starlight Amtrak train schedule.",
     "path": "FathomDocs/Social_Science/United_States/Starlight/Starlight.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/United States"
     ]
@@ -1165,7 +1165,7 @@
     "title": "Continental US Counties",
     "description": "Explore data from the 2004 presidential election.",
     "path": "FathomDocs/Social_Science/United_States/Counties/Counties.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/United States"
     ]
@@ -1174,7 +1174,7 @@
     "title": "CPI By Month",
     "description": "Data on the CPI for each month from 1913 to 2004 in the United States.",
     "path": "FathomDocs/Social_Science/United_States/CPI_By_Month/CPI_By_Month.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/United States"
     ]
@@ -1183,7 +1183,7 @@
     "title": "CPI By Year",
     "description": "Data on the CPI for each year from 1913 to 2011 in the United States.",
     "path": "FathomDocs/Social_Science/United_States/CPI_By_Year/CPI_By_Year.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/United States"
     ]
@@ -1192,7 +1192,7 @@
     "title": "States - Accidents",
     "description": "Data about the number of fatal accidents per state.",
     "path": "FathomDocs/Social_Science/United_States/States/Accidents/Accidents.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/United States",
       "Social Studies/States"
@@ -1202,7 +1202,7 @@
     "title": "States - Apportionment",
     "description": "A case table about the proportion of state representatives to the population of each state.",
     "path": "FathomDocs/Social_Science/United_States/States/Apportionment/Apportionment.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/United States",
       "Social Studies/States"
@@ -1212,7 +1212,7 @@
     "title": "States - Cars and Drivers",
     "description": "A case table about the number of cars, drivers, and roads in the United States.",
     "path": "FathomDocs/Social_Science/United_States/States/CarsNDrivers/CarsNDrivers.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/United States",
       "Social Studies/States"
@@ -1222,7 +1222,7 @@
     "title": "States - Ethnicity",
     "description": "A case table about ethnicity in each of the United States.",
     "path": "FathomDocs/Social_Science/United_States/States/Ethnicity/Ethnicity.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/United States",
       "Social Studies/States"
@@ -1232,7 +1232,7 @@
     "title": "States - Getting To Work",
     "description": "A case about the way people got to work in 1989 in the United States.",
     "path": "FathomDocs/Social_Science/United_States/States/GetToWork/GetToWork.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/United States",
       "Social Studies/States"
@@ -1242,7 +1242,7 @@
     "title": "States - Map",
     "description": "A case table about the population of the United States.",
     "path": "FathomDocs/Social_Science/United_States/States/Map/Map.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/United States",
       "Social Studies/States"
@@ -1252,7 +1252,7 @@
     "title": "States - Phones and Rentals",
     "description": "A case table about the number of occupied housing units from the 1990 United States Census.",
     "path": "FathomDocs/Social_Science/United_States/States/PhonesNRentals/PhonesNRentals.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/United States",
       "Social Studies/States"
@@ -1262,7 +1262,7 @@
     "title": "States - SAT",
     "description": "A case table about the SAT score averages by state from 1987-88 to 2001-02.",
     "path": "FathomDocs/Social_Science/United_States/States/SAT/SAT.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/United States",
       "Social Studies/States"
@@ -1272,7 +1272,7 @@
     "title": "States - Seat Belts",
     "description": "A case table about seat belt usage in the United States.",
     "path": "FathomDocs/Social_Science/United_States/States/SeatBelts/SeatBelts.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/United States",
       "Social Studies/States"
@@ -1282,7 +1282,7 @@
     "title": "States - Sewers",
     "description": "A case table about sewer systems used by houses in the United States.",
     "path": "FathomDocs/Social_Science/United_States/States/Sewers/Sewers.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/United States",
       "Social Studies/States"
@@ -1292,7 +1292,7 @@
     "title": "States - Taxes",
     "description": "A case table about the amounts of taxes collected in each of the United States.",
     "path": "FathomDocs/Social_Science/United_States/States/Taxes/Taxes.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/United States",
       "Social Studies/States"
@@ -1302,7 +1302,7 @@
     "title": "States - Traffic",
     "description": "A case table about traffic statistics in each of the United States.",
     "path": "FathomDocs/Social_Science/United_States/States/Traffic/Traffic.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/United States",
       "Social Studies/States"
@@ -1312,7 +1312,7 @@
     "title": "States - Urban and Rural Population",
     "description": "A case table about the urban and rural populations of the United States",
     "path": "FathomDocs/Social_Science/United_States/States/UrbanNRuralPop/UrbanNRuralPop.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/United States",
       "Social Studies/States"
@@ -1322,7 +1322,7 @@
     "title": "States - Women",
     "description": "A case table about women around the United States in 1998",
     "path": "FathomDocs/Social_Science/United_States/States/Women/Women.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/United States",
       "Social Studies/States"
@@ -1332,7 +1332,7 @@
     "title": "CA Census 1880-1990",
     "description": "Data from the United States Census from 1880 to 1990",
     "path": "FathomDocs/Social_Science/United_States/US_Census/CA_2000/CA_2000.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/United States",
       "Social Studies/Census"
@@ -1342,7 +1342,7 @@
     "title": "CA Census 2000, including Berkeley",
     "description": "Data from the United States Census from 2000, including Berkeley",
     "path": "FathomDocs/Social_Science/United_States/US_Census/CA_2000/CA_2000.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/United States",
       "Social Studies/Census"
@@ -1352,7 +1352,7 @@
     "title": "US Census - DC",
     "description": "Data from the District of Columbia Census.",
     "path": "FathomDocs/Social_Science/United_States/US_Census/DC/DC.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/United States",
       "Social Studies/Census"
@@ -1362,7 +1362,7 @@
     "title": "US Census - Massachusetts 1910 and 1990",
     "description": "Data from the censuses of 1910 and 1990 in Massachusetts.",
     "path": "FathomDocs/Social_Science/United_States/US_Census/MA_1990/MA_1990",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/United States",
       "Social Studies/Census"
@@ -1372,7 +1372,7 @@
     "title": "US Census - Miami,Florida",
     "description": "Data from the PUMA Census, part 3901.",
     "path": "FathomDocs/Social_Science/United_States/US_Census/Miami/Miami.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/United States",
       "Social Studies/Census"
@@ -1382,7 +1382,7 @@
     "title": "US Census - NY City 5206",
     "description": "Data from an IPUMS Census from the University of Minnesota.",
     "path": "FathomDocs/Social_Science/United_States/US_Census/NYC_5206/NYC_5206.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/United States",
       "Social Studies/Census"
@@ -1392,7 +1392,7 @@
     "title": "US Census - NY City 5507",
     "description": "Data from an IPUMS Census from the University of Minnesota.",
     "path": "FathomDocs/Social_Science/United_States/US_Census/NYC_5507/NYC_5507.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/United States",
       "Social Studies/Census"
@@ -1402,7 +1402,7 @@
     "title": "US Census - Ohio South",
     "description": "Data from an IPUMS Census from the University of Minnesota.",
     "path": "FathomDocs/Social_Science/United_States/US_Census/Ohio/Ohio.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/United States",
       "Social Studies/Census"
@@ -1412,7 +1412,7 @@
     "title": "US Census - VA Arlington County",
     "description": "Data from an IPUMS Census from the University of Minnesota.",
     "path": "FathomDocs/Social_Science/United_States/Census/VA-Arlington/VA-Arlington.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/United States",
       "Social Studies/Census"
@@ -1422,7 +1422,7 @@
     "title": "Summer Olympics",
     "description": "Compare the number of medals each country has won in the Summer Olympics.",
     "path": "FathomDocs/Sports/Summer_Olympics/Summer_Olympics.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Sports"
     ]
@@ -1431,7 +1431,7 @@
     "title": "Atlanta 1996 Olympics Track Times",
     "description": "This document contains information about the gold medal track times from the 1996 Atlanta Olympics.",
     "path": "FathomDocs/Sports/Atlanta96/Atlanta96.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Sports"
     ]
@@ -1440,7 +1440,7 @@
     "title": "Baseball Stats 2009",
     "description": "This document contains information about baseball players in 2009.",
     "path": "FathomDocs/Sports/Baseball09/Baseball09.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Sports"
     ]
@@ -1449,7 +1449,7 @@
     "title": "Best of Seven",
     "description": "Statistics on the best of seven games from NHL, NBA and MLB",
     "path": "FathomDocs/Sports/BestOfSeven/BestOfSeven.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Sports"
     ]
@@ -1458,7 +1458,7 @@
     "title": "Bicycling",
     "description": "This document contains information about bycicle trips on mountainous terrain",
     "path": "FathomDocs/Sports/Bicycling/Bicycling.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Sports"
     ]
