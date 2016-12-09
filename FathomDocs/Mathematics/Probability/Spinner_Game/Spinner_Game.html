@@ -5,20 +5,28 @@
     <title>Spinner Game</title>
     <link type="text/css" rel="stylesheet" href="../../../../Common/css/guide.css">
 </head>
-<h3>Introduction</h3>
 <body>
-<p>The following problem is loosely based on Showcase Showdown from "The Price is Right." Two contestants play a game using a fair spinner that generates an integer n, 1  n  20, with each value of n having the same probability: p = 1/20. Each player gets to spin either once or twice and ends up with a score -- the sum of the n's from his spin(s). The first player completes his turn before the second player begins. A score greater than 20 automatically loses but otherwise the larger score wins. In the event of a tie, the first player wins.</p>
+<p>The following problem is loosely based on Showcase Showdown from "The Price is Right." The game is played on "the Big
+    Wheel", which is a fair spinner filled with integers 1 through 20. The goal is to get as close to 20
+    without going over.</p>
 
-<p>In the above simplified form of the Showcase Showdown, there is only one real choice to be made by the players: After the first spin, player one has to decide whether to spin again. Whatever his resulting score, player two has an obvious strategy Ð if his first spin would result in a loss, he should spin again no matter what his score.</p>
+<p> Each player will take up to two spins of the wheel. After the first spin, the players can choose to either stay with
+    the integer they landed on or spin again; on the second spin, whatever the contestant gets will be added to the
+    first score. As mentioned, if a player goes over 20, that contestant is eliminated from the game; otherwise the player
+    stands under the scoreboard and waits it out. In the event of a tie, the first player wins.</p>
 
-<p>The Problem: Find the largest result of the first spin for which the first player should spin the wheel a second time. (Equivalently, find the smallest value for which the first player should "stand" and not spin a second time.) We'll say that a strategy "should" be followed if the probability of winning with the strategy exceeds that of winning with the complementary strategy.  Assuming that the first player uses the optimal strategy, is the game fair? More precisely, what is the probability that the first player will win with this strategy?</p>
+<p>In this simplified form of the Showcase Showdown, there is only one real choice to be made by the players: After
+    the first spin, the first player has to decide whether to spin again. Whatever the resulting score, the second
+    player has an obvious strategy: if the first spin would result in a loss, then spin again no matter what the
+    score.</p>
 
-<p>The Games collection contains 1000 games. If player 1 gets a number larger than the slider Largest on the first spin, it stops. Otherwise it spins again. The bar chart shows the number each player won out of the 1000 games.</p>
-
-<p>Double-click the formulas below each column name to learn how the simulation is constructed.</p>
-
-<p><strong>What is the value of <em>Largest</em> that is best for player 1?</strong></p>
-
+<p><b>The Problem:</b></p>
+<p>Find the largest result of the first spin for which the first player should spin the wheel a second
+    time. (Equivalently, find the smallest value for which the first player should "stand" and not spin a second time.)
+    We'll say that a strategy "should" be followed if the probability of winning with the strategy exceeds that of
+    winning with the complementary strategy.</p>
+<p>Assuming that the first player uses the optimal strategy, is the game fair? More precisely, what is the probability
+    that the first player will win with this strategy?</p>
 
 </body>
 </html>
