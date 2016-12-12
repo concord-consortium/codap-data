@@ -272,7 +272,7 @@
   {
     "title": "Building Heights",
     "description": "How is the height of a building related to the number of stories it has?",
-    "path": "FathomDocs/Mathematics/Algebra/Buildings/Buildings.json",
+    "path": "FathomDocs/Mathematics/Algebra/Buildings/Buildings.codap",
     "visible": true,
     "categories": [
       "Math/Algebra"
