@@ -271,7 +271,7 @@
   },
   {
     "title": "Building Heights",
-    "description": "How is the height of a building related to the number of stories it has?",
+    "description": "Explore the 300 tallest buildings in the world.",
     "path": "FathomDocs/Mathematics/Algebra/Buildings/Buildings.codap",
     "visible": true,
     "categories": [
@@ -300,7 +300,7 @@
     "title": "Font Size",
     "description": "Measurements of the length of a column and notice how that changes with the number of words and the font size.",
     "path": "FathomDocs/Mathematics/Algebra/Font_Size/Font_Size.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Math/Algebra"
     ]
@@ -308,7 +308,7 @@
   {
     "title": "Guess and Check",
     "description": "A 'guess and check' method for finding the correct answer to an Algebra problem.",
-    "path": "FathomDocs/Mathematics/Algebra/Guess/Guess.json",
+    "path": "FathomDocs/Mathematics/Algebra/Guess/Guess.codap",
     "visible": true,
     "categories": [
       "Math/Algebra"
