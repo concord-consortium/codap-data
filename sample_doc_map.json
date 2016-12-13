@@ -1093,7 +1093,7 @@
     "title": "Cities of Brazil",
     "description": "Explore the populations of capitol cities and cities of 100,000 and more inhabitants in Brazil in the year 2000.",
     "path": "FathomDocs/Social_Science/Latin_America/Brazil/Brazil.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Social Studies/Latin America"
     ]
