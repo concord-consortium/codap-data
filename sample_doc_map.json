@@ -11,7 +11,7 @@
   {
     "title": "Birthdays",
     "description": "How popular is your birthday? Is the distribution of birthdays uniform?",
-    "path": "FathomDocs/Mathematics/Probability/Birthdays/Birthdays.json",
+    "path": "FathomDocs/Mathematics/Probability/Birthdays/Birthdays.codap",
     "visible": true,
     "categories": [
       "Math/Probability"
