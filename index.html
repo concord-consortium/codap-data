@@ -25,23 +25,20 @@
     <nav class='nav-bar'></nav>
 </div>
 <div id = "listing_container"></div>
-<div class = "form_container"></div>
-    <label>CODAP:
-        <input id="codap-url" size="75" type="text" value="" />
-    </label>
-    <br>
-    <label>Document Server:</label>
-        <input id="doc-server-url" size="75" type="text" value="" />
-        <script type="text/javascript">
-            var pageLoc = location.href;
-            if (pageLoc.indexOf("https") > -1) {
-                $("#codap-url").val("https://codap.concord.org/releases/latest/static/dg/en/cert/index.html");
-               // $("#doc-server-url").val("https://document-store.concord.org");
-            } else {
-                $("#codap-url").val("http://codap.concord.org/releases/latest/static/dg/en/cert/index.html");
-              //  $("#doc-server-url").val("http://document-store.concord.org");
-            }
-        </script>
+    <div class = "form_container">
+        <form action="">
+            <label>CODAP: </label>
+            <input id="codap-url" size="75" type="text" value="" />
+            <script type="text/javascript">
+                var pageLoc = location.href;
+                if (pageLoc.indexOf("https") > -1) {
+                    $("#codap-url").val("https://codap.concord.org/releases/latest/static/dg/en/cert/index.html");
+                } else {
+                    $("#codap-url").val("http://codap.concord.org/releases/latest/static/dg/en/cert/index.html");
+                }
+            </script>
+        </form>
+    </div>
 </div>
 
 <div class="credits">
