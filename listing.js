@@ -121,7 +121,7 @@ $(document).ready(function () {
     function AddListingObj(obj) {
         var title = obj.title,
             description = obj.description,
-            path = "https://concord-consortium.github.io/codap-data/"+obj.path,
+            path = '',
             category = obj.categories,
             url = $("#codap-url").val(),
             category_bin ='',
@@ -129,7 +129,16 @@ $(document).ready(function () {
             listing_desc ='',
             query_param = '?url=',
             launchLink = '',
-            linkLink = '';
+            linkLink = '',
+            url_root = window.location.origin+window.location.pathname;
+
+        if (obj.path.match('^http','i')) {
+            path = obj.path;
+        }
+        else {
+            url_root=url_root.replace(/index.html$/, '');
+            path = url_root+obj.path;
+        }
 
         for (var i=0; i<category.length;i++) {
             if (category[i].includes('/')) {
@@ -161,6 +170,7 @@ $(document).ready(function () {
 
     function buildListing(listing){
         //check if item is visible
+        $('.listing').remove();
         for (var i=0; i<listing.length; i++) {
             if (listing[i].visible) {
                 AddListingObj(listing[i]);
@@ -173,6 +183,9 @@ $(document).ready(function () {
         var sample_doc_list = response.sample_docs;
         buildListingDivs(categories_obj);
         buildListing(sample_doc_list);
+
+        $('form').submit(function(){buildListing(sample_doc_list); return false;});
+
     }
 
     fetchObjList();
