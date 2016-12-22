@@ -140,6 +140,10 @@ $(document).ready(function () {
             path = url_root+obj.path;
         }
 
+        if (url.match(/^https/i) && !path.match(/^https/i)) {
+            path=path.replace(/http/i,'https');
+        }
+
         for (var i=0; i<category.length;i++) {
             if (category[i].includes('/')) {
                 console.log("In category split");
