@@ -2,27 +2,29 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>Integration</title>
+    <title>Integral</title>
     <link type="text/css" rel="stylesheet" href="../../../../Common/css/guide.css">
 </head>
-<h3>Introduction</h3>
 <body>
-<p>This document illustrates how to do numerical integration of an arbitrary function. The sliders control the bounds, the granularity, and the constant of integration.</p>
-<p>The graphs to the left show the function and its integral as a function of <strong>x</strong>.</p>
-<p>The integral of <strong>f(x)</strong> from <strong>x_lower</strong> to <strong>x_upper</strong> is given in the summary table above.</p>
-<p>It is the last value of the attribute <strong>cum</strong>.</p>
-<h4>Questions</h4>
-<ol>
-    <li>Describe what happens when <strong>x_lower</strong> and <strong>x_upper</strong> are dragged. Explain the effect on the value for the integral.</li>
-    <li>Describe what happens when <strong>const_of_integration</strong> is dragged.</li>
-    <li>What is the correspondence between the data points at the top of the <strong>cumulative</strong> curve and the points on the <strong>f_x plot</strong>?</li>
-</ol>
+<p>In the Data collection, only the <em>y</em> attribute represents the function <em>y = x^2</em>. To change the function, click on the attribute, then click on "Edit formula."
 
-<h4>To Do</h4>
-<ul>
-    <li>Choose a different function to integrate.</li>
-    <li>Do an integration both symbolically and numerically and study the "error;" that is, the difference between the two values.</li>
+    Computed from <em>x</em> and <em>y</em> are two quantities:</p>
+    <ul>
+    <li><em>Deriv</em> is the change in <em>y</em> from the previous value to the current one divided by the corresponding change in <em>x</em>.</li>
+    <li>Integral is the total area under the plot of <em>y</em> versus <em>x</em> from <em>x</em>=1 to the current value of <em>x</em>, plus a constant of integration, <em>c</em>.</li>
 </ul>
+
+<p>Drag the points in the graph at left.</p>
+<h5>Things to do:</h5>
+<ul>
+    <li>Change the values of <em>y</em> so that the values for Deriv are constant and positive.</li>
+    <li>Change the values of <em>y</em> so that the values for Deriv are constant and negative.</li>
+    <li>Under what conditions do the points on the Integral versus <em>x</em> plot fall on a straight line?</li>
+    <li>Arrange values of <em>y</em> so that <em>y</em> vs <em>x</em> shows a zigzag pattern. Explain the results.</li>
+    <li>Write a formula for <em>y</em> (e.g. (<em>x</em>^2)) and explain the effect on the other two graphs.</li>
+</ul>
+
 
 </body>
 </html>
+
