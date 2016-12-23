@@ -344,8 +344,8 @@
   {
     "title": "Integration",
     "description": "This document illustrates how to do numerical integration of an arbitrary function.",
-    "path": "FathomDocs/Mathematics/Calculus/Integration/Integration.json",
-    "visible": false,
+    "path": "FathomDocs/Mathematics/Calculus/Integration/Integration.codap",
+    "visible": true,
     "categories": [
       "Math/Calculus"
     ]
