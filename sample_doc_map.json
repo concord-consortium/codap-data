@@ -335,7 +335,7 @@
   {
     "title": "Integrals and Derivatives",
     "description": "Demonstrates the visualization or integrals and derivatives.",
-    "path": "FathomDocs/Mathematics/Calculus/Integral/Integral.json",
+    "path": "FathomDocs/Mathematics/Calculus/Integral/Integral.codap",
     "visible": true,
     "categories": [
       "Math/Calculus"
