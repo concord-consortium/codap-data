@@ -589,7 +589,7 @@
     "title": "Mammals",
     "description": "Explore the sleeping habits of 62 different species of mammals.",
     "path": "FathomDocs/Science/Biology/Mammals/Mammals.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Science/Biology"
     ]
