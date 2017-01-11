@@ -399,7 +399,7 @@
     "title": "Integer Ring",
     "description": "Explore the patterns of addition and multiplication of integers.",
     "path": "FathomDocs/Mathematics/Number_Theory/Integer_Ring/Integer_Ring.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Math/Number Theory"
     ]
@@ -408,7 +408,7 @@
     "title": "Prime Density",
     "description": "Investigate the spacing between prime numbers.",
     "path": "FathomDocs/Mathematics/Number_Theory/Prime_Density/Prime_Density.json",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Math/Number Theory"
     ]
