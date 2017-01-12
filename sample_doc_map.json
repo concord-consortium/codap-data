@@ -371,8 +371,8 @@
   {
     "title": "Unit Pi",
     "description": "Plotting a graph that uses pi as a unit.",
-    "path": "FathomDocs/Mathematics/Calculus/Pi/Pi.json",
-    "visible": false,
+    "path": "FathomDocs/Mathematics/Calculus/Pi/Pi.codap",
+    "visible": true,
     "categories": [
       "Math/Calculus"
     ]
