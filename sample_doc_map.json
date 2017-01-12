@@ -389,7 +389,7 @@
   {
     "title": "Digits of Pi",
     "description": "Explore the digits of pi.",
-    "path": "FathomDocs/Mathematics/Calculus/Digits_of_Pi/Digits_of_Pi.codap",
+    "path": "FathomDocs/Mathematics/Number_Theory/Digits_of_Pi/Digits_of_Pi.codap",
     "visible": true,
     "categories": [
       "Math/Calculus"
