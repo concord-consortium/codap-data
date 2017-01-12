@@ -362,7 +362,7 @@
   {
     "title": "Minimization",
     "description": "Find the minimum of a plotted function.",
-    "path": "FathomDocs/Mathematics/Calculus/Minimization/Minimization.json",
+    "path": "FathomDocs/Mathematics/Calculus/Minimization/Minimization.codap",
     "visible": true,
     "categories": [
       "Math/Calculus"
