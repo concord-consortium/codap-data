@@ -353,8 +353,8 @@
   {
     "title": "Logistics",
     "description": "Investigate the effect of changing x and k in the logistics function f(x)=kx(1-x).",
-    "path": "FathomDocs/Mathematics/Calculus/Logistics/Logistics.json",
-    "visible": false,
+    "path": "FathomDocs/Mathematics/Calculus/Logistics/Logistics.codap",
+    "visible": true,
     "categories": [
       "Math/Calculus"
     ]
