@@ -380,7 +380,7 @@
   {
     "title": "Johnson Solids",
     "description": "Explore the Johnson solids.",
-    "path": "FathomDocs/Mathematics/Geometry/Solids/Solids.json",
+    "path": "FathomDocs/Mathematics/Geometry/Solids/Solids.codap",
     "visible": true,
     "categories": [
       "Math/Geometry"
