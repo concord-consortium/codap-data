@@ -416,7 +416,7 @@
   {
     "title": "Growth",
     "description": "Investigate the theory of chaotic growth.",
-    "path": "FathomDocs/Mathematics/Other_Mathematics/Growth/Growth.json",
+    "path": "FathomDocs/Mathematics/Other_Mathematics/Growth/Growth.codap",
     "visible": true,
     "categories": [
       "Math/Other Math"
