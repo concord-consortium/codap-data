@@ -33,46 +33,46 @@
         "items": [
           {
             "itemTitle": "Vocabulary",
-            "url": "http://concord-consortium.github.io/codap-data/SampleDocs/Science/E_Sciences/Climate_Change/vocabulary.html"
+            "url": "https://concord-consortium.github.io/codap-data/SampleDocs/Science/E_Sciences/Climate_Change/vocabulary.html"
           },
           {
             "itemTitle": "How do I use the data table?",
-            "url": "http://concord-consortium.github.io/codap-data/SampleDocs/Science/E_Sciences/Climate_Change/data-table.html"
+            "url": "https://concord-consortium.github.io/codap-data/SampleDocs/Science/E_Sciences/Climate_Change/data-table.html"
           },
           {
             "itemTitle": "Saving documents",
-            "url": "http://concord-consortium.github.io/codap-data/SampleDocs/Science/E_Sciences/Climate_Change/save.html"
+            "url": "https://concord-consortium.github.io/codap-data/SampleDocs/Science/E_Sciences/Climate_Change/save.html"
           },
           {
             "itemTitle": "How do I make a graph?",
-            "url": "http://concord-consortium.github.io/codap-data/SampleDocs/Science/E_Sciences/Climate_Change/graph.html"
+            "url": "https://concord-consortium.github.io/codap-data/SampleDocs/Science/E_Sciences/Climate_Change/graph.html"
           },
           {
             "itemTitle": "How do I read the values of a point? ",
-            "url": "http://concord-consortium.github.io/codap-data/SampleDocs/Science/E_Sciences/Climate_Change/read-values.html"
+            "url": "https://concord-consortium.github.io/codap-data/SampleDocs/Science/E_Sciences/Climate_Change/read-values.html"
           },
           {
             "itemTitle": "How can I look at only part of my data?",
-            "url": "http://concord-consortium.github.io/codap-data/SampleDocs/Science/E_Sciences/Climate_Change/part-of-data.html"
+            "url": "https://concord-consortium.github.io/codap-data/SampleDocs/Science/E_Sciences/Climate_Change/part-of-data.html"
           },
           {
             "itemTitle": "How can I remove bad data?",
-            "url": "http://concord-consortium.github.io/codap-data/SampleDocs/Science/E_Sciences/Climate_Change/remove-bad-data.html"
+            "url": "https://concord-consortium.github.io/codap-data/SampleDocs/Science/E_Sciences/Climate_Change/remove-bad-data.html"
           },
           {
             "itemTitle": "How can I look for patterns?",
-            "url": "http://concord-consortium.github.io/codap-data/SampleDocs/Science/E_Sciences/Climate_Change/look-for-patterns.html"
+            "url": "https://concord-consortium.github.io/codap-data/SampleDocs/Science/E_Sciences/Climate_Change/look-for-patterns.html"
           },
           {
             "itemTitle": "How do I write formulas?",
-            "url": "http://concord-consortium.github.io/codap-data/SampleDocs/Science/E_Sciences/Climate_Change/write-formulas.html"
+            "url": "https://concord-consortium.github.io/codap-data/SampleDocs/Science/E_Sciences/Climate_Change/write-formulas.html"
           },
           {
             "itemTitle": "Getting Started ",
             "url": "http://concord-consortium.github.io/codap-data/SampleDocs/Science/E_Sciences/Climate_Change/Climate_Change.html"
           }
         ],
-        "currentURL": "http://concord-consortium.github.io/codap-data/SampleDocs/Science/E_Sciences/Climate_Change/vocabulary.html",
+        "currentURL": "https://concord-consortium.github.io/codap-data/SampleDocs/Science/E_Sciences/Climate_Change/vocabulary.html",
         "currentItemTitle": "Vocabulary",
         "isVisible": true
       },
