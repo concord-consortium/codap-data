@@ -31,10 +31,11 @@
   {
     "title": "Climate Change",
     "description": "This is a simulation model of Climate Changes.",
-    "path": "Climate_Change/Climate-Change-A.codap",
+    "path": "SampleDocs/Science/E_Sciences/Climate_Change/Climate-Change-A.codap",
     "visible": true,
     "categories": [
-      "Model"
+      "Model",
+      "Science/Earth Science"
     ]
   },
   {
@@ -596,16 +597,6 @@
     "path": "SampleDocs/Science/Biology/Height/Height.json",
     "visible": false,
     "categories": [
-      "Science/Biology"
-    ]
-  },
-  {
-    "title": "Mammals",
-    "description": "Explore the sleeping habits of 62 different species of mammals.",
-    "path": "SampleDocs/Science/Biology/Mammals/Mammals_Sample.codap",
-    "visible": false,
-    "categories": [
-      "Model",
       "Science/Biology"
     ]
   },
