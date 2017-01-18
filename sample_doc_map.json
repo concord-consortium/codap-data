@@ -560,8 +560,8 @@
   {
     "title": "Bears",
     "description": "How can you use other measurements to measure the weight of a bear?",
-    "path": "FathomDocs/Science/Biology/Bears/Bears.json",
-    "visible": false,
+    "path": "FathomDocs/Science/Biology/Bears/Bears.codap",
+    "visible": true,
     "categories": [
       "Science/Biology"
     ]
