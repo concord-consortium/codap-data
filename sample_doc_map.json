@@ -11,10 +11,11 @@
   {
     "title": "BART Pressure",
     "description": "Miguel and Bill took a PocketLab sensor onto BART to SF and back. They began recording pressure just before the train went into the tunnel under the bay.",
-    "path": "BART_Pressure/BART_Pressure.codap",
+    "path": "SampleDocs/PhysChem/BART_Pressure/BART_Pressure.codap",
     "visible": true,
     "categories": [
-      "Model"
+      "Model",
+      "Science/Physics and Chemistry"
     ]
   },
   {
@@ -48,10 +49,11 @@
   {
     "title": "Four Seals",
     "description": "Display the tracks of four elephant seals in the Pacific on a map. Make graphs and use selection to help determine what is going on.",
-    "path": "four-seals/four-seals.json",
+    "path": "SampleDocs/Science/Biology/four-seals/four-seals.json",
     "visible": true,
     "categories": [
-      "Model"
+      "Model",
+      "Science/Biology"
     ]
   },
   {
@@ -599,9 +601,10 @@
   {
     "title": "Mammals",
     "description": "Explore the sleeping habits of 62 different species of mammals.",
-    "path": "SampleDocs/Science/Biology/Mammals/Mammals.json",
+    "path": "SampleDocs/Science/Biology/Mammals/Mammals_Sample.codap",
     "visible": false,
     "categories": [
+      "Model",
       "Science/Biology"
     ]
   },
