@@ -32,7 +32,7 @@
     "title": "Climate Change",
     "description": "This is a simulation model of Climate Changes.",
     "path": "SampleDocs/Science/E_Sciences/Climate_Change/Climate-Change-A.codap",
-    "visible": false,
+    "visible": true,
     "categories": [
       "Model",
       "Science/Earth Sciences"
