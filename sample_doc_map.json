@@ -2,10 +2,11 @@
   {
     "title": "Markov",
     "description": "Save Madeline the dog by playing Roshambo against the evil Dr. Markov. Improve you odds by analyzing Markov's moves. ",
-    "path": "markov/Markov_Sample.json",
+    "path": "SampleDocs/Mathematics/Probability/markov/Markov_Sample.json",
     "visible": true,
     "categories": [
-      "Math/Probability"
+      "Math/Probability",
+      "Model"
     ]
   },
   {
@@ -39,7 +40,7 @@
   {
     "title": "Fast Plants",
     "description": "An example document for CODAP beginners. Make graphs and use selection to look for patterns in fast plant growth.",
-    "path": "fast_plants/fast_plants.json",
+    "path": "SampleDocs/Science/Biology/fast_plants/fast_plants.json",
     "visible": true,
     "categories": [
       "Model",
@@ -59,7 +60,7 @@
   {
     "title": "Mammal",
     "description": "There are 27 mammals, each with eight attributes.  What relationships can you find?",
-    "path": "mammals/Mammals_Sample.json",
+    "path": "SampleDocs/Science/Biology/27mammals/Mammals_Sample.codap",
     "visible": true,
     "categories": [
       "Science/Biology"
