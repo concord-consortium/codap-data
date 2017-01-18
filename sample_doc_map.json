@@ -9,6 +9,15 @@
     ]
   },
   {
+    "title": "BART Pressure",
+    "description": "Miguel and Bill took a PocketLab sensor onto BART to SF and back. They began recording pressure just before the train went into the tunnel under the bay.",
+    "path": "BART_Pressure/BART_Pressure.codap",
+    "visible": true,
+    "categories": [
+      "Model"
+    ]
+  },
+  {
     "title": "Birthdays",
     "description": "How popular is your birthday? Is the distribution of birthdays uniform?",
     "path": "FathomDocs/Mathematics/Probability/Birthdays/Birthdays.codap",
@@ -32,7 +41,8 @@
     "path": "fast_plants/fast_plants.json",
     "visible": true,
     "categories": [
-      "Model"
+      "Model",
+      "Science/Biology"
     ]
   },
   {
