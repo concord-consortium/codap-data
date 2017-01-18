@@ -70,7 +70,7 @@
   {
     "title": "Parachute Model",
     "description": "Experiment dropping a parachute to see how changing the parachute's size and mass of its cargo changes the terminal velocity of the drop.",
-    "path": "SampleDocs/Science/PhysChem/parachute/Parachute_Model_Sample.json",
+    "path": "SampleDocs/Science/PhysChem/parachute/Parachute_Model_Sample.codap",
     "visible": true,
     "categories": [
       "Model",
