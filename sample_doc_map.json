@@ -28,13 +28,13 @@
       "Math/Probability"
     ]
   },
+
   {
-    "title": "Climate Change",
-    "description": "This is a simulation model of Climate Changes.",
-    "path": "SampleDocs/Science/E_Sciences/Climate_Change/Climate-Change-A.codap",
+    "title": "California Earthquakes",
+    "description": "This dataset explores 491 earthquakes that took place in California in 2012.",
+    "path": "SampleDocs/Science/E_Sciences/CA_earthquakes/CA_earthquakes.codap",
     "visible": true,
     "categories": [
-      "Model",
       "Science/Earth Sciences"
     ]
   },
