@@ -12,7 +12,7 @@
   {
     "title": "BART Pressure",
     "description": "Miguel and Bill took a PocketLab sensor onto BART to SF and back. They began recording pressure just before the train went into the tunnel under the bay.",
-    "path": "SampleDocs/PhysChem/BART_Pressure/BART_pressure.codap",
+    "path": "SampleDocs/Science/PhysChem/BART_Pressure/BART_pressure.codap",
     "visible": true,
     "categories": [
       "Model",
