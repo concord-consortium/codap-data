@@ -66,19 +66,21 @@
   {
     "title": "Parachute Model",
     "description": "Experiment dropping a parachute to see how changing the parachute's size and mass of its cargo changes the terminal velocity of the drop.",
-    "path": "parachute/Parachute_Model_Sample.json",
+    "path": "SampleDocs/Science/PhysChem/parachute/Parachute_Model_Sample.json",
     "visible": true,
     "categories": [
-      "Model"
+      "Model",
+      "Science/Physics and Chemistry"
     ]
   },
   {
     "title": "States and Education",
     "description": "Explore this data gathered from the Minnesota Population Center about the United States. What do you notice about the education levels within each state?",
-    "path": "statesnpeople/States_and_Education.json",
+    "path": "SampleDocs/Social_Science/United_States/statesnpeople/States_and_Education.json",
     "visible": true,
     "categories": [
-      "Model"
+      "Model",
+      "Social Studies/United States"
     ]
   },
   {
