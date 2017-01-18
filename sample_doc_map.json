@@ -49,6 +49,15 @@
     ]
   },
   {
+    "title": "Birgit the Giant Tortoise",
+    "description": "This data set looks at the activity of Birgit the Giant Tortoise, located in the Galapagos Islands. ",
+    "path": "SampleDocs/Science/Biology/Birgit_the_Giant_Tortoise/Birgit_the_Giant_Tortoise.codap",
+    "visible": true,
+    "categories": [
+      "Science/Biology"
+    ]
+  },
+  {
     "title": "Four Seals",
     "description": "Display the tracks of four elephant seals in the Pacific on a map. Make graphs and use selection to help determine what is going on.",
     "path": "SampleDocs/Science/Biology/four-seals/four-seals.json",
