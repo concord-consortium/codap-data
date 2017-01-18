@@ -28,7 +28,15 @@
       "Math/Probability"
     ]
   },
-
+  {
+    "title": "Climate Change",
+    "description": "Explore models of climate change over time.",
+    "path": "SampleDocs/Science/E_Sciences/Climate_Change/Climate-Change-A.codap",
+    "visible": true,
+    "categories": [
+      "Science/Earth Sciences"
+    ]
+  },
   {
     "title": "California Earthquakes",
     "description": "This dataset explores 491 earthquakes that took place in California in 2012.",
