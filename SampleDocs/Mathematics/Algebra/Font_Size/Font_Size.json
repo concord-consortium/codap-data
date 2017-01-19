@@ -1,1 +1,320 @@
-{"name":"Font_Size.json","guid":1,"components":[{"type":"DG.TableView","guid":20,"componentStorage":{"_links_":{"context":{"type":"DG.DataContextRecord","id":2}},"attributeWidths":[{"_links_":{"attr":{"type":"DG.Attribute","id":4}},"width":87},{"_links_":{"attr":{"type":"DG.Attribute","id":5}},"width":106},{"_links_":{"attr":{"type":"DG.Attribute","id":6}},"width":95}],"title":"Font Size"},"layout":{"width":319,"height":320,"left":5,"top":5,"zIndex":257,"isVisible":true},"savedHeight":null},{"type":"DG.GuideView","guid":21,"componentStorage":{"title":"Guide","items":[{"itemTitle":"Guide","url":"https://concord-consortium.github.io/codap-data/FathomDocs/Mathematics/Algebra/Font_Size/Font_Size.html"}],"currentURL":"https://concord-consortium.github.io/codap-data/FathomDocs/Mathematics/Algebra/Font_Size/Font_Size.html","currentItemTitle":"Guide","isVisible":true},"layout":{"left":670,"top":0,"width":360,"height":405,"zIndex":264,"isVisible":true},"savedHeight":null},{"type":"DG.GraphView","guid":22,"componentStorage":{"_links_":{"context":{"type":"DG.DataContextRecord","id":2},"hiddenCases":[],"xColl":{"type":"DG.Collection","id":3},"xAttr":{"type":"DG.Attribute","id":5},"yColl":{"type":"DG.Collection","id":3},"yAttr":{"type":"DG.Attribute","id":6}},"legendRole":0,"legendAttributeType":0,"pointColor":"#e6805b","strokeColor":"#144caa","pointSizeMultiplier":0.85,"transparency":0.85,"strokeTransparency":0.4,"isTransparent":false,"xRole":1,"xAttributeType":1,"yRole":4,"yAttributeType":1,"y2Role":0,"y2AttributeType":0,"xAxisClass":"DG.CellLinearAxisModel","xLowerBound":8.5,"xUpperBound":19.5,"yAxisClass":"DG.CellLinearAxisModel","yLowerBound":-0.5,"yUpperBound":10.5,"y2AxisClass":"DG.AxisModel","plotModels":[{"plotModelStorage":{"verticalAxisIsY2":false},"plotClass":"DG.ScatterPlotModel"}],"title":"Font Size"},"layout":{"width":320,"height":310,"left":340,"top":5,"zIndex":266,"isVisible":true},"savedHeight":null}],"contexts":[{"type":"DG.DataContext","document":1,"guid":2,"flexibleGroupingChangeFlag":false,"name":"paragraphs","collections":[{"areParentChildLinksConfigured":false,"attrs":[{"name":"words","type":null,"description":"","colormap":{},"blockDisplayOfEmptyCategories":true,"editable":false,"guid":4,"precision":2,"unit":"words"},{"name":"fontSize","type":null,"description":"","colormap":{},"blockDisplayOfEmptyCategories":true,"editable":false,"guid":5,"precision":2,"unit":"Points"},{"name":"length","type":null,"description":"","colormap":{},"blockDisplayOfEmptyCategories":true,"editable":false,"guid":6,"precision":2,"unit":"Inches"}],"cases":[{"guid":7,"values":{"words":196,"fontSize":18,"length":9}},{"guid":8,"values":{"words":196,"fontSize":14,"length":5.125}},{"guid":9,"values":{"words":196,"fontSize":12,"length":3.625}},{"guid":10,"values":{"words":196,"fontSize":9,"length":2.5}},{"guid":11,"values":{"words":167,"fontSize":12,"length":3.125}},{"guid":12,"values":{"words":167,"fontSize":18,"length":7.625}},{"guid":13,"values":{"words":167,"fontSize":16,"length":5.75}},{"guid":14,"values":{"words":152,"fontSize":14,"length":4.125}},{"guid":15,"values":{"words":152,"fontSize":12,"length":2.75}},{"guid":16,"values":{"words":94,"fontSize":9,"length":1.125}},{"guid":17,"values":{"words":105,"fontSize":12,"length":1.75}},{"guid":18,"values":{"words":105,"fontSize":14,"length":2.625}},{"guid":19,"values":{"words":105,"fontSize":18,"length":4.5}}],"caseName":null,"childAttrName":null,"collapseChildren":null,"guid":3,"name":"Times Font Size","title":null,"type":"DG.Collection"}],"contextStorage":{}}],"globalValues":[],"appName":"DG","appVersion":"2.0","appBuildNum":"0340","metadata":{"changeCount":23}}
+{
+  "name": "Font_Size.json",
+  "guid": 1,
+  "components": [
+    {
+      "type": "DG.TableView",
+      "guid": 20,
+      "componentStorage": {
+        "_links_": {
+          "context": {
+            "type": "DG.DataContextRecord",
+            "id": 2
+          }
+        },
+        "attributeWidths": [
+          {
+            "_links_": {
+              "attr": {
+                "type": "DG.Attribute",
+                "id": 4
+              }
+            },
+            "width": 87
+          },
+          {
+            "_links_": {
+              "attr": {
+                "type": "DG.Attribute",
+                "id": 5
+              }
+            },
+            "width": 106
+          },
+          {
+            "_links_": {
+              "attr": {
+                "type": "DG.Attribute",
+                "id": 6
+              }
+            },
+            "width": 95
+          }
+        ],
+        "title": "Font Size"
+      },
+      "layout": {
+        "width": 319,
+        "height": 320,
+        "left": 5,
+        "top": 5,
+        "zIndex": 257,
+        "isVisible": true
+      },
+      "savedHeight": null
+    },
+    {
+      "type": "DG.GuideView",
+      "guid": 21,
+      "componentStorage": {
+        "title": "Guide",
+        "items": [
+          {
+            "itemTitle": "Guide",
+            "url": "https://concord-consortium.github.io/codap-data/SampleDocs/Mathematics/Algebra/Font_Size/Font_Size.html"
+          }
+        ],
+        "currentURL": "https://concord-consortium.github.io/codap-data/SampleDocs/Mathematics/Algebra/Font_Size/Font_Size.html",
+        "currentItemTitle": "Guide",
+        "isVisible": true
+      },
+      "layout": {
+        "left": 670,
+        "top": 0,
+        "width": 360,
+        "height": 405,
+        "zIndex": 264,
+        "isVisible": true
+      },
+      "savedHeight": null
+    },
+    {
+      "type": "DG.GraphView",
+      "guid": 22,
+      "componentStorage": {
+        "_links_": {
+          "context": {
+            "type": "DG.DataContextRecord",
+            "id": 2
+          },
+          "hiddenCases": [],
+          "xColl": {
+            "type": "DG.Collection",
+            "id": 3
+          },
+          "xAttr": {
+            "type": "DG.Attribute",
+            "id": 5
+          },
+          "yColl": {
+            "type": "DG.Collection",
+            "id": 3
+          },
+          "yAttr": {
+            "type": "DG.Attribute",
+            "id": 6
+          }
+        },
+        "legendRole": 0,
+        "legendAttributeType": 0,
+        "pointColor": "#e6805b",
+        "strokeColor": "#144caa",
+        "pointSizeMultiplier": 0.85,
+        "transparency": 0.85,
+        "strokeTransparency": 0.4,
+        "isTransparent": false,
+        "xRole": 1,
+        "xAttributeType": 1,
+        "yRole": 4,
+        "yAttributeType": 1,
+        "y2Role": 0,
+        "y2AttributeType": 0,
+        "xAxisClass": "DG.CellLinearAxisModel",
+        "xLowerBound": 8.5,
+        "xUpperBound": 19.5,
+        "yAxisClass": "DG.CellLinearAxisModel",
+        "yLowerBound": -0.5,
+        "yUpperBound": 10.5,
+        "y2AxisClass": "DG.AxisModel",
+        "plotModels": [
+          {
+            "plotModelStorage": {
+              "verticalAxisIsY2": false
+            },
+            "plotClass": "DG.ScatterPlotModel"
+          }
+        ],
+        "title": "Font Size"
+      },
+      "layout": {
+        "width": 320,
+        "height": 310,
+        "left": 340,
+        "top": 5,
+        "zIndex": 266,
+        "isVisible": true
+      },
+      "savedHeight": null
+    }
+  ],
+  "contexts": [
+    {
+      "type": "DG.DataContext",
+      "document": 1,
+      "guid": 2,
+      "flexibleGroupingChangeFlag": false,
+      "name": "paragraphs",
+      "collections": [
+        {
+          "areParentChildLinksConfigured": false,
+          "attrs": [
+            {
+              "name": "words",
+              "type": null,
+              "description": "",
+              "colormap": {},
+              "blockDisplayOfEmptyCategories": true,
+              "editable": false,
+              "guid": 4,
+              "precision": 2,
+              "unit": "words"
+            },
+            {
+              "name": "fontSize",
+              "type": null,
+              "description": "",
+              "colormap": {},
+              "blockDisplayOfEmptyCategories": true,
+              "editable": false,
+              "guid": 5,
+              "precision": 2,
+              "unit": "Points"
+            },
+            {
+              "name": "length",
+              "type": null,
+              "description": "",
+              "colormap": {},
+              "blockDisplayOfEmptyCategories": true,
+              "editable": false,
+              "guid": 6,
+              "precision": 2,
+              "unit": "Inches"
+            }
+          ],
+          "cases": [
+            {
+              "guid": 7,
+              "values": {
+                "words": 196,
+                "fontSize": 18,
+                "length": 9
+              }
+            },
+            {
+              "guid": 8,
+              "values": {
+                "words": 196,
+                "fontSize": 14,
+                "length": 5.125
+              }
+            },
+            {
+              "guid": 9,
+              "values": {
+                "words": 196,
+                "fontSize": 12,
+                "length": 3.625
+              }
+            },
+            {
+              "guid": 10,
+              "values": {
+                "words": 196,
+                "fontSize": 9,
+                "length": 2.5
+              }
+            },
+            {
+              "guid": 11,
+              "values": {
+                "words": 167,
+                "fontSize": 12,
+                "length": 3.125
+              }
+            },
+            {
+              "guid": 12,
+              "values": {
+                "words": 167,
+                "fontSize": 18,
+                "length": 7.625
+              }
+            },
+            {
+              "guid": 13,
+              "values": {
+                "words": 167,
+                "fontSize": 16,
+                "length": 5.75
+              }
+            },
+            {
+              "guid": 14,
+              "values": {
+                "words": 152,
+                "fontSize": 14,
+                "length": 4.125
+              }
+            },
+            {
+              "guid": 15,
+              "values": {
+                "words": 152,
+                "fontSize": 12,
+                "length": 2.75
+              }
+            },
+            {
+              "guid": 16,
+              "values": {
+                "words": 94,
+                "fontSize": 9,
+                "length": 1.125
+              }
+            },
+            {
+              "guid": 17,
+              "values": {
+                "words": 105,
+                "fontSize": 12,
+                "length": 1.75
+              }
+            },
+            {
+              "guid": 18,
+              "values": {
+                "words": 105,
+                "fontSize": 14,
+                "length": 2.625
+              }
+            },
+            {
+              "guid": 19,
+              "values": {
+                "words": 105,
+                "fontSize": 18,
+                "length": 4.5
+              }
+            }
+          ],
+          "caseName": null,
+          "childAttrName": null,
+          "collapseChildren": null,
+          "guid": 3,
+          "name": "Times Font Size",
+          "title": null,
+          "type": "DG.Collection"
+        }
+      ],
+      "contextStorage": {}
+    }
+  ],
+  "globalValues": [],
+  "appName": "DG",
+  "appVersion": "2.0",
+  "appBuildNum": "0340",
+  "metadata": {
+    "changeCount": 23
+  }
+}
