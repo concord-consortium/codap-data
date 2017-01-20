@@ -1469,6 +1469,16 @@
     ]
   },
   {
+    "title": "US Census 20000 - US PUMAs data",
+    "description": "US Data from an IPUMS Census from the University of Minnesota.",
+    "path": "SampleDocs/Social_Science/United_States/Census/US_PUMAS_2000/US_PUMAS_2000.codap",
+    "visible": true,
+    "categories": [
+      "Social Studies/United States",
+      "Social Studies/Census"
+    ]
+  },
+  {
     "title": "Summer Olympics",
     "description": "Compare the number of medals each country has won in the Summer Olympics.",
     "path": "SampleDocs/Sports/Summer_Olympics/Summer_Olympics.json",
