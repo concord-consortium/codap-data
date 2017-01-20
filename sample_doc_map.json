@@ -1450,6 +1450,15 @@
     ]
   },
   {
+    "title": "Political Regimes",
+    "description": "This dataset looks at political regimes over the past 200 years. Be careful when loading this data set, since it contains nearly 30,000 cases.",
+    "path": "SampleDocs/Social_Science/World/Political_Regimes/Political_Regimes.codap",
+    "visible": true,
+    "categories": [
+      "Social Studies/World"
+    ]
+  },
+  {
     "title": "US Census - VA Arlington County",
     "description": "Data from an IPUMS Census from the University of Minnesota.",
     "path": "SampleDocs/Social_Science/United_States/Census/VA-Arlington/VA-Arlington.json",
