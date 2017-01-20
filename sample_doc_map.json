@@ -222,6 +222,15 @@
     ]
   },
   {
+    "title": "Movie Characters",
+    "description": "A collection of movies from the Internet Movie Database",
+    "path": "SampleDocs/LanguageArts/Movie_Characters/Movie_Characters.codap",
+    "visible": true,
+    "categories": [
+      "Language Arts"
+    ]
+  },
+  {
     "title": "Art Paintings",
     "description": "This catalog of paintings is supplied by the National Gallery of Art.",
     "path": "SampleDocs/LanguageArts/Art_Paintings/Art_Paintings.json",
