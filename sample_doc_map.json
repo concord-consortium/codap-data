@@ -917,8 +917,8 @@
   {
     "title": "Cars",
     "description": "Explore information about car models from 1993.",
-    "path": "SampleDocs/Science/Technology/Cars/Cars.json",
-    "visible": false,
+    "path": "SampleDocs/Science/Technology/Cars/Cars.codap",
+    "visible": true,
     "categories": [
       "Science/Technology"
     ]
