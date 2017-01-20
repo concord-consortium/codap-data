@@ -97,7 +97,7 @@
   {
     "title": "States and Education",
     "description": "Explore this data gathered from the Minnesota Population Center about the United States. What do you notice about the education levels within each state?",
-    "path": "SampleDocs/Social_Science/United_States/statesnpeople/States_and_Education.json",
+    "path": "SampleDocs/Social_Science/United_States/statesnpeople/States_and_Education.codap",
     "visible": true,
     "categories": [
       "Model",
