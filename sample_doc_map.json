@@ -546,7 +546,7 @@
     ]
   },
   {
-    "title": "Yale Bright Star Catalog",
+    "title": "Bright Star Catalog",
     "description": "Explore 400 stars from a rectangular area of the sky.",
     "path": "SampleDocs/Science/Astronomy/Yale_Bright/yale_bright.codap",
     "visible": true,
