@@ -1440,6 +1440,15 @@
     ]
   },
   {
+    "title": "Cereal Production",
+    "description": "This data set, from the World Bank, explores the total annual cereal production from 1991 to 2014.",
+    "path": "SampleDocs/Social_Science/World/Cereal_Production/Cereal_Production.codap",
+    "visible": true,
+    "categories": [
+      "Social Studies/World"
+    ]
+  },
+  {
     "title": "Political Regimes",
     "description": "This dataset looks at political regimes over the past 200 years. Be careful when loading this data set, since it contains nearly 30,000 cases.",
     "path": "SampleDocs/Social_Science/World/Political_Regimes/Political_Regimes.codap",
