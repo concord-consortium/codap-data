@@ -47,7 +47,7 @@
     ]
   },
   {
-    "title": "Domestic Cats",
+    "title": "Fast Plants",
     "description": "An example document for CODAP beginners. Make graphs and use selection to look for patterns in fast plant growth.",
     "path": "SampleDocs/Science/Biology/fast_plants/fast_plants.json",
     "visible": true,
@@ -57,12 +57,11 @@
     ]
   },
   {
-    "title": "Fast Plants",
+    "title": "Domestic Cats",
     "description": "This data set explores 24 domestic house cats.",
     "path": "SampleDocs/Science/Biology/24cats/24cats.codap",
     "visible": true,
     "categories": [
-      "Model",
       "Science/Biology"
     ]
   },
