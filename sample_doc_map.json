@@ -4,6 +4,9 @@
     "description": "Save Madeline the dog by playing Roshambo against the evil Dr. Markov. Improve you odds by analyzing Markov's moves. ",
     "path": "SampleDocs/Mathematics/Probability/markov/Markov_Sample.json",
     "visible": true,
+    "tag": [
+        "markov chains", "makov", "chain", "games", "data science games", "conditional probability", "probability"
+    ],
     "categories": [
       "Math/Probability",
       "Model"
@@ -14,6 +17,9 @@
     "description": "Miguel and Bill took a PocketLab sensor onto BART to SF and back. They began recording pressure just before the train went into the tunnel under the bay.",
     "path": "SampleDocs/Science/PhysChem/BART_Pressure/BART_pressure.codap",
     "visible": true,
+    "tag": [
+      "physics", "san francisco", "Pocketlab", "pressure changes"
+    ],
     "categories": [
       "Model",
       "Science/Physics and Chemistry"
@@ -24,6 +30,9 @@
     "description": "How popular is your birthday? Is the distribution of birthdays uniform?",
     "path": "SampleDocs/Mathematics/Probability/Birthdays/Birthdays.codap",
     "visible": true,
+    "tag": [
+      "birthdays", "birth", "birth rates"
+    ],
     "categories": [
       "Math/Probability"
     ]
@@ -33,6 +42,9 @@
     "description": "Explore models of climate change over time.",
     "path": "SampleDocs/Science/E_Sciences/Climate_Change/Climate-Change-A.codap",
     "visible": true,
+    "tag": [
+      "climate", "change", "simulation", "games"
+    ],
     "categories": [
       "Science/Earth Sciences"
     ]
@@ -42,6 +54,9 @@
     "description": "This dataset explores 491 earthquakes that took place in California in 2012.",
     "path": "SampleDocs/Science/E_Sciences/CA_earthquakes/CA_earthquakes.codap",
     "visible": true,
+    "tag": [
+      "earthquakes", "california"
+    ],
     "categories": [
       "Science/Earth Sciences"
     ]
@@ -51,6 +66,9 @@
     "description": "An example document for CODAP beginners. Make graphs and use selection to look for patterns in fast plant growth.",
     "path": "SampleDocs/Science/Biology/fast_plants/fast_plants.json",
     "visible": true,
+    "tag": [
+      "fast plants", "plants", "beginner"
+    ],
     "categories": [
       "Model",
       "Science/Biology"
@@ -61,6 +79,9 @@
     "description": "This data set explores 24 domestic house cats.",
     "path": "SampleDocs/Science/Biology/24cats/24cats.codap",
     "visible": true,
+    "tag": [
+      "cats", "biology", "animals"
+    ],
     "categories": [
       "Science/Biology"
     ]
@@ -70,6 +91,9 @@
     "description": "This data set looks at the activity of Birgit the Giant Tortoise, located in the Galapagos Islands. ",
     "path": "SampleDocs/Science/Biology/Birgit_the_Giant_Tortoise/Birgit_the_Giant_Tortoise.codap",
     "visible": true,
+    "tag": [
+      "tortoise", "biology", "animals"
+    ],
     "categories": [
       "Science/Biology"
     ]
@@ -79,6 +103,9 @@
     "description": "Display the tracks of four elephant seals in the Pacific on a map. Make graphs and use selection to help determine what is going on.",
     "path": "SampleDocs/Science/Biology/four-seals/four-seals.json",
     "visible": true,
+    "tag": [
+      "seals", "biology", "animals"
+    ],
     "categories": [
       "Model",
       "Science/Biology"
@@ -89,6 +116,9 @@
     "description": "There are 27 mammals, each with eight attributes.  What relationships can you find?",
     "path": "SampleDocs/Science/Biology/27mammals/Mammals_Sample.codap",
     "visible": true,
+    "tag": [
+      "mammals", "biology", "animals"
+    ],
     "categories": [
       "Science/Biology"
     ]
@@ -98,6 +128,9 @@
     "description": "Experiment dropping a parachute to see how changing the parachute's size and mass of its cargo changes the terminal velocity of the drop.",
     "path": "SampleDocs/Science/PhysChem/parachute/Parachute_Model_Sample.codap",
     "visible": true,
+    "tag": [
+      "parachute", "physics", "mass", "size", "velocity", "freefall", "gravity"
+    ],
     "categories": [
       "Model",
       "Science/Physics and Chemistry"
@@ -108,6 +141,9 @@
     "description": "Explore this data gathered from the Minnesota Population Center about the United States. What do you notice about the education levels within each state?",
     "path": "SampleDocs/Social_Science/United_States/statesnpeople/States_and_Education.codap",
     "visible": true,
+    "tag": [
+      "education", "states", "maps"
+    ],
     "categories": [
       "Model",
       "Social Studies/United States"
@@ -118,6 +154,9 @@
     "description": "Has 1999 APIs for all California High Schools.",
     "path": "SampleDocs/Education/API_All_CA_HS_1999/API_All_CA_HS_1999.json",
     "visible": false,
+    "tag": [
+      "education", "states", "maps"
+    ],
     "categories": [
       "Education"
     ]
@@ -154,6 +193,9 @@
     "description": "Age (months), height (inches), and weight (pounds) were recorded for a group of school children.",
     "path": "SampleDocs/Education/School_Children/School_Children.json",
     "visible": true,
+    "tag": [
+      "children", "growth", "grow", "age", "height", "weight"
+    ],
     "categories": [
       "Education"
     ]
@@ -163,6 +205,9 @@
     "description": "Do students who take standardized tests multiple times have an advantage over those who just take them once or twice?",
     "path": "SampleDocs/Education/Six_Tests/Six_Tests.json",
     "visible": true,
+    "tag": [
+      "children", "growth", "grow", "age", "height", "weight"
+    ],
     "categories": [
       "Education"
     ]
@@ -1480,10 +1525,25 @@
     ]
   },
   {
+    "title": "US Crops",
+    "description": "Explore data on crops grown around the United States.",
+    "path": "SampleDocs/Social_Science/United_States/US_Crops/US_Crops.codap",
+    "visible": true,
+    "tag": [
+      "crops", "social studies", "agriculture", "united states", "corn", "cotton", "maize", "almonds"
+    ],
+    "categories": [
+      "Social Studies/United States"
+    ]
+  },
+  {
     "title": "US Census 2000 - US PUMAs data",
     "description": "US Data from an IPUMS Census from the University of Minnesota.",
     "path": "SampleDocs/Social_Science/United_States/Census/US_PUMAS_2000/US_PUMAS_2000.codap",
     "visible": true,
+    "tag": [
+      "census", "social studies", "United States", "united states"
+    ],
     "categories": [
       "Social Studies/United States",
       "Social Studies/Census"
