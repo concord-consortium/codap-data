@@ -1462,7 +1462,10 @@
     "description": "This dataset looks at 3215 cities around the world.",
     "path": "SampleDocs/Social_Science/World/World_Cities/World_Cities.codap",
     "visible": true,
-    "categories": [
+    "tag": [
+      "populations", "social studies", "world", "cities"
+    ],
+      "categories": [
       "Social Studies/World"
     ]
   },
@@ -1477,7 +1480,7 @@
     ]
   },
   {
-    "title": "US Census 20000 - US PUMAs data",
+    "title": "US Census 2000 - US PUMAs data",
     "description": "US Data from an IPUMS Census from the University of Minnesota.",
     "path": "SampleDocs/Social_Science/United_States/Census/US_PUMAS_2000/US_PUMAS_2000.codap",
     "visible": true,
