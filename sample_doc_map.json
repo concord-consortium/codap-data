@@ -1458,6 +1458,15 @@
     ]
   },
   {
+    "title": "World Cities",
+    "description": "This dataset looks at 3215 cities around the world.",
+    "path": "SampleDocs/Social_Science/World/World_Cities/World_Cities.codap",
+    "visible": true,
+    "categories": [
+      "Social Studies/World"
+    ]
+  },
+  {
     "title": "US Census - VA Arlington County",
     "description": "Data from an IPUMS Census from the University of Minnesota.",
     "path": "SampleDocs/Social_Science/United_States/Census/VA-Arlington/VA-Arlington.json",
