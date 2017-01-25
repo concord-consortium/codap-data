@@ -122,76 +122,63 @@ $(document).ready(function () {
     //
     // }
     //
-    // function AddListingObj(obj) {
-    //     var title = obj.title,
-    //         description = obj.description,
-    //         path = '',
-    //         category = obj.categories,
-    //         url = $("#codap-url").val(),
-    //         category_bin ='',
-    //         listing = '',
-    //         listing_desc ='',
-    //         query_param = '?url=',
-    //         launchLink = '',
-    //         linkLink = '',
-    //         url_root = window.location.origin+window.location.pathname;
-    //
-    //     if (obj.path.match('^http','i')) {
-    //         path = obj.path;
-    //     }
-    //     else {
-    //         url_root=url_root.replace(/index.html$/, '');
-    //         path = url_root+obj.path;
-    //     }
-    //
-    //     if (url.match(/^https/i) && !path.match(/^https/i)) {
-    //         path=path.replace(/http/i,'https');
-    //     }
-    //
-    //     for (var i=0; i<category.length;i++) {
-    //         if (category[i].includes('/')) {
-    //             console.log("In category split");
-    //
-    //             var category_split = category[i].split("/");
-    //             if (/ /g.test(category_split[1])){
-    //                 category_split[1] = category_split[1].replace(/ /g, '_');
-    //             }
-    //             category_bin = '#' + category_split[1]+'_list';
-    //         }
-    //         else {
-    //             if (/ /g.test(category[i])){
-    //                 category[i] = category[i].replace(/ /g, '_');
-    //             }
-    //             category_bin = '#' + category[i] + '_list';
-    //         }
-    //         listing = $('<li>').addClass('listing');
-    //          launchLink = $('<a class = "listing-title" target = "_blank" href='+url+query_param+path+'> '+title+' </a>'),
-    //              listing_desc = $('<p>').addClass('listing-desc').text(description),
-    //              linkLink = $('<a class = "listing-link" href=' + path + '> Embeddable Link </a>'),
-    //          launchLink.appendTo(listing);
-    //         listing_desc.appendTo(listing);
-    //          linkLink.appendTo(listing);
-    //          listing.appendTo(category_bin);
-    //     }
-    // }
-    //
-    //
-    // function buildListing(listing){
-    //     //check if item is visible
-    //     $('.listing').remove();
-    //     for (var i=0; i<listing.length; i++) {
-    //         if (listing[i].visible) {
-    //             AddListingObj(listing[i]);
-    //         }
-    //     }
-    // }
-    //
+    function AddListingObj(obj) {
+        var title = obj.title,
+            description = obj.description,
+            path = '',
+            category = obj.categories,
+            url = $("#codap-url").val(),
+            category_bin ='',
+            listing = '',
+            listing_desc ='',
+            query_param = '?url=',
+            launchLink = '',
+            linkLink = '',
+            url_root = window.location.origin+window.location.pathname,
+            listing_container = "#listing_container";
+
+        console.log("in AddListingObj");
+        if (obj.path.match('^http','i')) {
+            path = obj.path;
+        }
+        else {
+            url_root=url_root.replace(/index.html$/, '');
+            path = url_root+obj.path;
+        }
+
+        if (url.match(/^https/i) && !path.match(/^https/i)) {
+            path=path.replace(/http/i,'https');
+        }
+
+        listing = $('<li>').addClass('listing');
+        launchLink = $('<a class = "listing-title" target = "_blank" href='+url+query_param+path+'> '+title+' </a>'),
+            listing_desc = $('<p>').addClass('listing-desc').text(description),
+            linkLink = $('<a class = "listing-link" href=' + path + '> Embeddable Link </a>'),
+            launchLink.appendTo(listing);
+        listing_desc.appendTo(listing);
+        linkLink.appendTo(listing);
+        listing.appendTo(listing_container);
+
+    }
+
+
+    function buildListing(listing){
+        console.log("in buildListing");
+        //check if item is visible
+        $('.listing').remove();
+        for (var i=0; i<listing.length; i++) {
+            if (listing[i].visible) {
+                AddListingObj(listing[i]);
+            }
+        }
+    }
+
     function buildPage(response) {
         console.log("in buildPage");
-        // var categories_obj = getCategories(response);
-        // var sample_doc_list = response.sample_docs;
+        var categories_obj = getCategories(response);
+        var sample_doc_list = response.sample_docs;
         // buildListingDivs(categories_obj);
-        // buildListing(sample_doc_list);
+        buildListing(sample_doc_list);
 
         // $('form').submit(function(){buildListing(sample_doc_list); return false;});
 
