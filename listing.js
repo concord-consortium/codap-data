@@ -186,15 +186,16 @@ $(document).ready(function () {
     //     }
     // }
     //
-    // function buildPage(response) {
-    //     var categories_obj = getCategories(response);
-    //     var sample_doc_list = response.sample_docs;
-    //     buildListingDivs(categories_obj);
-    //     buildListing(sample_doc_list);
-    //
-    //     $('form').submit(function(){buildListing(sample_doc_list); return false;});
-    //
-    // }
+    function buildPage(response) {
+        console.log("in buildPage");
+        // var categories_obj = getCategories(response);
+        // var sample_doc_list = response.sample_docs;
+        // buildListingDivs(categories_obj);
+        // buildListing(sample_doc_list);
+
+        // $('form').submit(function(){buildListing(sample_doc_list); return false;});
+
+    }
 
     fetchObjList();
 });

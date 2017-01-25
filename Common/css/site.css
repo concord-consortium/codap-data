@@ -137,20 +137,18 @@ h1 {
     width: 15%
 }
 
-footer {
-    background: #72bfca;
-    color: #fff;
-    height: 170px;
-    padding-top: 20px;
-}
-
-footer p {
-    margin: 0 auto;
-    width: 800px;
-}
-
 .form_container {
     margin-top: 1em;
+    padding-left: 2em;
+}
+
+.form_container input[type=text] {
+    border: 1px solid #aaa;
+    border-radius: .375em;
+    color: black;
+    font-size: 0.85em;
+    font-weight: 200;
+    width: 40.2121%
 }
 
 .credits {
@@ -168,6 +166,18 @@ p {
     font: 100 1em "MuseoSans-500", lato, verdana, helvetica, sans-serif;
     line-height: 125%;
     margin-bottom: .5em;
+}
+
+footer {
+    background: #72bfca;
+    color: #fff;
+    height: 170px;
+    padding-top: 20px;
+}
+
+footer p {
+    margin: 0 auto;
+    width: 800px;
 }
 
 .listing-title {
