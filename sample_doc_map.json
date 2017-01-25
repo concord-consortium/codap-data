@@ -699,6 +699,15 @@
     ]
   },
   {
+    "title": "First Bloom",
+    "description": "This data covers information about North American first leaf and first bloom lilac phenology, from 1956 to 2003.",
+    "path": "SampleDocs/Science/Biology/First_Bloom/First_Bloom.codap",
+    "visible": true,
+    "categories": [
+      "Science/Biology"
+    ]
+  },
+  {
     "title": "Prey Predator Population",
     "description": "Explore data of a simulated ecosystem containing predators and their prey.",
     "path": "SampleDocs/Science/Biology/Prey-Pred-Pop/Prey-Pred-Pop.json",
