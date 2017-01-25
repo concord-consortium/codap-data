@@ -1005,6 +1005,18 @@
     ]
   },
   {
+    "title": "Children per Women",
+    "description": "The data set, from Gapminder, looks at the income of women and the number of children per women, 1950-2012.",
+    "path": "SampleDocs/Social_Science/World/Children_per_Women/Children_per_Women.codap",
+    "visible": true,
+    "tag": [
+      "children", "income", "women", "global", "female", "fertility"
+    ],
+    "categories": [
+      "Social Studies/World"
+    ]
+  },
+  {
     "title": "Receipts from Alberta 2024",
     "description": "Explore data about purchases made by people 20-24 years old in Alberta, Canada.",
     "path": "SampleDocs/Social_Science/Canada/Alberta2024/Alberta2024.json",
