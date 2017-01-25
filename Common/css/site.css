@@ -1,8 +1,28 @@
 /*Style sheet for concord-consortium.github.io/codap-data site*/
+@font-face {font-family: 'MuseoSans-500';src: static_url('webfonts/MuseoSans_500.otf') format('otf');}
+@font-face {font-family: 'MuseoSans-500';src: static_url('webfonts/MuseoSans_500.ttf') format('truetype');}
+@font-face {font-family: 'MuseoSans-500';src: static_url('webfonts/MuseoSans_500.eot') format('embedded-opentype');}
+@font-face {font-family: 'MuseoSans-500';src: static_url('webfonts/MuseoSans_500.woff') format('woff');}
+@font-face {font-family: 'MuseoSans-500';src: static_url('webfonts/MuseoSans_500.svg') format('svg');}
+@font-face {font-family: 'MuseoSans-500-Italic';src: static_url('webfonts/MuseoSans_500_Italic.otf') format('otf');}
+@font-face {font-family: 'MuseoSans-500-Italic';src: static_url('webfonts/MuseoSans_500_Italic.ttf') format('truetype');}
+@font-face {font-family: 'MuseoSans-500-Italic';src: static_url('webfonts/MuseoSans_500_Italic.eot') format('embedded-opentype');}
+@font-face {font-family: 'MuseoSans-500-Italic';src: static_url('webfonts/MuseoSans_500_Italic.woff') format('woff');}
+@font-face {font-family: 'MuseoSans-500-Italic';src: static_url('webfonts/MuseoSans_500_Italic.svg') format('svg');}
+@font-face {font-family: 'Montserrat-Regular';src: static_url('webfonts/Montserrat-Regular.otf') format('otf');}
+@font-face {font-family: 'Montserrat-Regular';src: static_url('webfonts/Montserrat-Regular.ttf') format('truetype');}
+@font-face {font-family: 'Montserrat-Regular';src: static_url('webfonts/Montserrat-Regular.eot') format('embedded-opentype');}
+@font-face {font-family: 'Montserrat-Regular';src: static_url('webfonts/Montserrat-Regular.woff') format('woff');}
+@font-face {font-family: 'Montserrat-Regular';src: static_url('webfonts/Montserrat-Regular.svg') format('svg');}
+@font-face {font-family: 'Montserrat-Bold';src: static_url('webfonts/Montserrat-Bold.otf') format('otf');}
+@font-face {font-family: 'Montserrat-Bold';src: static_url('webfonts/Montserrat-Bold.ttf') format('truetype');}
+@font-face {font-family: 'Montserrat-Bold';src: static_url('webfonts/Montserrat-Bold.eot') format('embedded-opentype');}
+@font-face {font-family: 'Montserrat-Bold';src: static_url('webfonts/Montserrat-Bold.woff') format('woff');}
+@font-face {font-family: 'Montserrat-Bold';src: static_url('webfonts/Montserrat-Bold.svg') format('svg');}
 
 body {
     background-color: #FFFAE6;
-    font: 100% museo-sans, lato,verdana,arial,sans-serif;
+    font: 100% "MuseoSans-500", lato,verdana,arial,sans-serif;
     margin: 0;
     padding: 1em;
 }
@@ -15,13 +35,13 @@ header {
 header div {
     margin: 0 auto;
     overflow: hidden;
-    width: 800px;
+    width: 960px;
 }
 
 header img {
     float: left;
     margin: .75em 0;
-    width: 185px;
+    width: 200px;
     height: auto;
 }
 
@@ -46,13 +66,75 @@ header #cc img {
     margin: 0 auto;
     max-width: 800px;
     overflow: hidden;
-    padding-bottom: 2em;
     width: 100%;
+    height: 100px;
 }
 
 h1 {
     color: #e16a3e;
-    font: 300 2em museo-sans,verdana,arial,helvetica,sans-serif;
+    font:2.5em "MuseoSans-500",verdana,arial,helvetica,sans-serif;
+    text-align: center;
+}
+
+#intro p {
+    color: #777;
+    font: 300 1.25em "MuseoSans-500", lato, verdana, helvetica, sans-serif;
+    line-height: 100%;
+    margin-bottom: .5em;
+    text-align: center;
+}
+
+#intro ol {
+    margin-left: 40px
+}
+
+#search {
+    margin: auto;
+    width: 960px;
+    position:relative;
+}
+
+.button {
+    text-align: center;
+    background: #eb8723 !important;
+    border: none;
+    border-bottom: 3px solid #e16a3e !important;
+    color: #fff;
+    cursor: pointer !important;
+    font-size: 1.2em !important;
+    font-weight: 500 !important;
+    font-family: "MuseoSans-500", georgia, times, 'times new roman', serif !important;
+    margin-bottom: 1em !important;
+    margin-right: .6em !important;
+    padding: 5px 15px !important;
+    -khtml-border-radius: 4px !important;
+    -moz-border-radius: 4px !important;
+    -webkit-border-radius: 4px !important;
+    border-radius: 4px !important;
+    -moz-appearance: none;
+    -webkit-appearance: none
+}
+#search input[type=text] {
+    border: 1px solid #ccc;
+    border-radius: .375em;
+    color: #aaa;
+    float: left;
+    font-size: 1.2em;
+    font-weight: 400;
+    clear: left;
+    margin-left: 10%;
+    padding: 1%;
+    width: 60.2121%
+}
+
+#search input[type=submit] {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    font-size: 1.2em;
+    margin-left: 1%;
+    padding: 11px 0 !important;
+    width: 15%
 }
 
 footer {
@@ -83,7 +165,7 @@ footer p {
 
 p {
     color: #777;
-    font: 100 1em museo-sans, lato, verdana, helvetica, sans-serif;
+    font: 100 1em "MuseoSans-500", lato, verdana, helvetica, sans-serif;
     line-height: 125%;
     margin-bottom: .5em;
 }

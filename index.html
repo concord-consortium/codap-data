@@ -17,13 +17,17 @@
         </div>
     </div>
 </header>
-<div id="home-content">
+<section id="home-content">
     <h1> CODAP Sample Documents</h1>
-<p>This site has a list of CODAP sample documents.</p>
-<p><b>Instructions:</b> To open a CODAP Example document, click on the title or drag the "Embeddable Link" into CODAP.</p>
-<div id = 'top-nav-bar'>
-    <nav class='nav-bar'></nav>
-</div>
+</section>
+<section id="intro">
+    <p>To open a CODAP Example document, click on the title or drag the "Embeddable Link" into CODAP.</p>
+</section>
+<section id="search">
+    <form action="#" onsubmit="searchResources(); return false;"><input type="text" id="keyword" name="keyword" value=""
+                                                                        placeholder="Search by keyword..."/> <input
+            class="button" type="submit" value="Search"/></form>
+</section><!-- /#search -->
 <div id = "listing_container"></div>
     <div class = "form_container">
         <form action="">
@@ -39,7 +43,7 @@
             </script>
         </form>
     </div>
-</div>
+</section>
 
 <div class="credits">
     <p>Concord Consortium's CODAP sample documents repository: <a target = "blank" href="https://github.com/concord-consortium/codap-data">https://github.com/concord-consortium/codap-data</a></p>
