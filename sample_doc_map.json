@@ -666,7 +666,7 @@
     "title": "Bears",
     "description": "How can you use other measurements to measure the weight of a bear?",
     "path": "SampleDocs/Science/Biology/Bears/Bears.codap",
-    "visible": true,
+    "visible": false,
     "categories": [
       "Science/Biology"
     ]
