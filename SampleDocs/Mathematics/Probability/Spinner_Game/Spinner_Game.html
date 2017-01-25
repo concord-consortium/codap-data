@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Spinner Game</title>
+    <link type="text/css" rel="stylesheet" href="../../../../Common/css/guide.css">
+</head>
+<body>
+<p>The following problem is loosely based on Showcase Showdown from "The Price is Right." The game is played on "the Big
+    Wheel", which is a fair spinner filled with integers 1 through 20. The goal is to get as close to 20
+    without going over.</p>
+
+<p> Each player will take up to two spins of the wheel. After the first spin, the players can choose to either stay with
+    the integer they landed on or spin again; on the second spin, whatever the contestant gets will be added to the
+    first score. As mentioned, if a player goes over 20, that contestant is eliminated from the game; otherwise the player
+    stands under the scoreboard and waits it out. In the event of a tie, the first player wins.</p>
+
+<p>In this simplified form of the Showcase Showdown, there is only one real choice to be made by the players: After
+    the first spin, the first player has to decide whether to spin again. Whatever the resulting score, the second
+    player has an obvious strategy: if the first spin would result in a loss, then spin again no matter what the
+    score.</p>
+
+<p><b>The Problem:</b></p>
+<p>Find the largest result of the first spin for which the first player should spin the wheel a second
+    time. (Equivalently, find the smallest value for which the first player should "stand" and not spin a second time.)
+    We'll say that a strategy "should" be followed if the probability of winning with the strategy exceeds that of
+    winning with the complementary strategy.</p>
+<p>Assuming that the first player uses the optimal strategy, is the game fair? More precisely, what is the probability
+    that the first player will win with this strategy?</p>
+
+</body>
+</html>
+

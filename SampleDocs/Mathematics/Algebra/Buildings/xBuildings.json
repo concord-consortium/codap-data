@@ -1,0 +1,629 @@
+{
+  "name": "Buildings",
+  "guid": 1,
+  "components": [
+    {
+      "type": "DG.TableView",
+      "guid": 56,
+      "componentStorage": {
+        "_links_": {
+          "context": {
+            "type": "DG.DataContextRecord",
+            "id": 2
+          }
+        }
+      },
+      "layout": {
+        "width": 518,
+        "height": 232,
+        "left": 5,
+        "top": 5
+      }
+    },
+    {
+      "type": "DG.GuideView",
+      "guid": 57,
+      "componentStorage": {
+        "title": "Guide",
+        "items": [
+          {
+            "itemTitle": "",
+            "url": "https://concord-consortium.github.io/codap-data/FathomDocs/Mathematics/Algebra/Buildings/Buildings.html"
+          }
+        ],
+        "currentURL": "https://concord-consortium.github.io/codap-data/FathomDocs/Mathematics/Algebra/Buildings/Buildings.html",
+        "currentItemTitle": "",
+        "isVisible": true
+      },
+      "layout": {
+        "left": 550,
+        "top": 5,
+        "width": 416,
+        "height": 232
+      }
+    }
+  ],
+  "contexts": [
+    {
+      "type": "DG.DataContext",
+      "document": 1,
+      "guid": 2,
+      "collections": [
+        {
+          "areParentChildLinksConfigured": false,
+          "attrs": [
+            {
+              "name": "height",
+              "type": null,
+              "description": "",
+              "editable": false,
+              "formula": "",
+              "guid": 4,
+              "precision": 2
+            },
+            {
+              "name": "stories",
+              "type": null,
+              "description": "",
+              "editable": false,
+              "formula": "",
+              "guid": 5,
+              "precision": 2
+            },
+            {
+              "name": "bldgID",
+              "type": null,
+              "description": "",
+              "editable": false,
+              "formula": "",
+              "guid": 6,
+              "precision": 2
+            },
+            {
+              "name": "year_built",
+              "type": null,
+              "description": "",
+              "editable": false,
+              "formula": "",
+              "guid": 7,
+              "precision": 2
+            },
+            {
+              "name": "city",
+              "type": null,
+              "description": "",
+              "editable": false,
+              "formula": "",
+              "guid": 8,
+              "precision": 2
+            },
+            {
+              "name": "state",
+              "type": null,
+              "description": "",
+              "editable": false,
+              "formula": "",
+              "guid": 9,
+              "precision": 2
+            }
+          ],
+          "cases": [
+            {
+              "guid": 10,
+              "values": {
+                "height": "787 ft",
+                "stories": "51 stories",
+                "bldgID": "IDS Center",
+                "year_built": 1973,
+                "city": "Minneapolis",
+                "state": "MN"
+              }
+            },
+            {
+              "guid": 11,
+              "values": {
+                "height": "777 ft",
+                "stories": "57 stories",
+                "bldgID": "Norwest",
+                "year_built": 1988,
+                "city": "Minneapolis",
+                "state": "MN"
+              }
+            },
+            {
+              "guid": 12,
+              "values": {
+                "height": "774 ft",
+                "stories": "53 stories",
+                "bldgID": "First Bank Place",
+                "year_built": "",
+                "city": "Minneapolis",
+                "state": "MN"
+              }
+            },
+            {
+              "guid": 13,
+              "values": {
+                "height": "764 ft",
+                "stories": "55 stories",
+                "bldgID": "Southeast Financial Center",
+                "year_built": 1983,
+                "city": "Miami",
+                "state": "FL"
+              }
+            },
+            {
+              "guid": 14,
+              "values": {
+                "height": "651 ft",
+                "stories": "52 stories",
+                "bldgID": "Multifoods Tower",
+                "year_built": 1983,
+                "city": "Minneapolis",
+                "state": "MN"
+              }
+            },
+            {
+              "guid": 15,
+              "values": {
+                "height": "631 ft",
+                "stories": "43 stories",
+                "bldgID": "Barnett Tower",
+                "year_built": 1990,
+                "city": "Jacksonville",
+                "state": "FL"
+              }
+            },
+            {
+              "guid": 16,
+              "values": {
+                "height": "627 ft",
+                "stories": "42 stories",
+                "bldgID": "Piper Jaffray Tower",
+                "year_built": 1984,
+                "city": "Minneapolis",
+                "state": "MN"
+              }
+            },
+            {
+              "guid": 17,
+              "values": {
+                "height": "577 ft",
+                "stories": "42 stories",
+                "bldgID": "Barnett Plaza",
+                "year_built": 1986,
+                "city": "Tampa",
+                "state": "FL"
+              }
+            },
+            {
+              "guid": 18,
+              "values": {
+                "height": "562 ft",
+                "stories": "35 stories",
+                "bldgID": "Centrust Tower",
+                "year_built": 1987,
+                "city": "Miami",
+                "state": "FL"
+              }
+            },
+            {
+              "guid": 19,
+              "values": {
+                "height": "550 ft",
+                "stories": "40 stories",
+                "bldgID": "Dain Bosworth Plaza",
+                "year_built": "",
+                "city": "Minneapolis",
+                "state": "MN"
+              }
+            },
+            {
+              "guid": 20,
+              "values": {
+                "height": "545 ft",
+                "stories": "40 stories",
+                "bldgID": "Pillsbury Center",
+                "year_built": 1981,
+                "city": "Minneapolis",
+                "state": "MN"
+              }
+            },
+            {
+              "guid": 21,
+              "values": {
+                "height": "537 ft",
+                "stories": "39 stories",
+                "bldgID": "Tampa City Center",
+                "year_built": 1981,
+                "city": "Tampa",
+                "state": "FL"
+              }
+            },
+            {
+              "guid": 22,
+              "values": {
+                "height": "535 ft",
+                "stories": "37 stories",
+                "bldgID": "Independent Square",
+                "year_built": 1975,
+                "city": "Jacksonville",
+                "state": "FL"
+              }
+            },
+            {
+              "guid": 23,
+              "values": {
+                "height": "517 ft",
+                "stories": "32 stories",
+                "bldgID": "First Natl. Bank Bldg",
+                "year_built": "",
+                "city": "St. Paul",
+                "state": "MN"
+              }
+            },
+            {
+              "guid": 24,
+              "values": {
+                "height": "510 ft",
+                "stories": "30 stories",
+                "bldgID": "Metro-Dade Administration Bldg",
+                "year_built": "",
+                "city": "Miami",
+                "state": "FL"
+              }
+            },
+            {
+              "guid": 25,
+              "values": {
+                "height": "496 ft",
+                "stories": "31 stories",
+                "bldgID": "Lincoln Centre",
+                "year_built": 1987,
+                "city": "Minneapolis",
+                "state": "MN"
+              }
+            },
+            {
+              "guid": 26,
+              "values": {
+                "height": "496 ft",
+                "stories": "32 stories",
+                "bldgID": "Foshay Tower",
+                "year_built": 1929,
+                "city": "Minneapolis",
+                "state": "MN"
+              }
+            },
+            {
+              "guid": 27,
+              "values": {
+                "height": "494 ft",
+                "stories": "36 stories",
+                "bldgID": "Plaza VII",
+                "year_built": 1987,
+                "city": "Minneapolis",
+                "state": "MN"
+              }
+            },
+            {
+              "guid": 28,
+              "values": {
+                "height": "490 ft",
+                "stories": "36 stories",
+                "bldgID": "100 South Fifth",
+                "year_built": 1987,
+                "city": "Minneapolis",
+                "state": "MN"
+              }
+            },
+            {
+              "guid": 29,
+              "values": {
+                "height": "484 ft",
+                "stories": "35 stories",
+                "bldgID": "Florida National Tower",
+                "year_built": 1986,
+                "city": "Miami",
+                "state": "FL"
+              }
+            },
+            {
+              "guid": 30,
+              "values": {
+                "height": "471 ft",
+                "stories": "36 stories",
+                "bldgID": "Minn. World Trade Center",
+                "year_built": "",
+                "city": "St. Paul",
+                "state": "MN"
+              }
+            },
+            {
+              "guid": 31,
+              "values": {
+                "height": "458 ft",
+                "stories": "36 stories",
+                "bldgID": "First Financial Tower",
+                "year_built": 1973,
+                "city": "Tampa",
+                "state": "FL"
+              }
+            },
+            {
+              "guid": 32,
+              "values": {
+                "height": "456 ft",
+                "stories": "40 stories",
+                "bldgID": "One Biscayne Corp",
+                "year_built": "",
+                "city": "Miami",
+                "state": "FL"
+              }
+            },
+            {
+              "guid": 33,
+              "values": {
+                "height": "454 ft",
+                "stories": "33 stories",
+                "bldgID": "NCNB Plaza",
+                "year_built": 1988,
+                "city": "Tampa",
+                "state": "FL"
+              }
+            },
+            {
+              "guid": 34,
+              "values": {
+                "height": "447 ft",
+                "stories": "30 stories",
+                "bldgID": "Southern Bell",
+                "year_built": 1983,
+                "city": "Jacksonville",
+                "state": "FL"
+              }
+            },
+            {
+              "guid": 35,
+              "values": {
+                "height": "441 ft",
+                "stories": "31 stories",
+                "bldgID": "Sun Bank Center Tower",
+                "year_built": 1988,
+                "city": "Orlando",
+                "state": "FL"
+              }
+            },
+            {
+              "guid": 36,
+              "values": {
+                "height": "440 ft",
+                "stories": "46 stories",
+                "bldgID": "Galtier Plaza's Jackson Tower",
+                "year_built": "",
+                "city": "St. Paul",
+                "state": "MN"
+              }
+            },
+            {
+              "guid": 37,
+              "values": {
+                "height": "435 ft",
+                "stories": "27 stories",
+                "bldgID": "Gulf Life Tower",
+                "year_built": 1967,
+                "city": "Jacksonville",
+                "state": "FL"
+              }
+            },
+            {
+              "guid": 38,
+              "values": {
+                "height": "423 ft",
+                "stories": "27 stories",
+                "bldgID": "Telephone Bldg",
+                "year_built": 1931,
+                "city": "Minneapolis",
+                "state": "MN"
+              }
+            },
+            {
+              "guid": 39,
+              "values": {
+                "height": "413 ft",
+                "stories": "24 stories",
+                "bldgID": "Hennepin Co. Govt. Center",
+                "year_built": 1974,
+                "city": "Minneapolis",
+                "state": "MN"
+              }
+            },
+            {
+              "guid": 40,
+              "values": {
+                "height": "409 ft",
+                "stories": "28 stories",
+                "bldgID": "DuPont Center Bldg",
+                "year_built": 1988,
+                "city": "Orlando",
+                "state": "FL"
+              }
+            },
+            {
+              "guid": 41,
+              "values": {
+                "height": "386 ft",
+                "stories": "26 stories",
+                "bldgID": "First Bank Place West",
+                "year_built": 1960,
+                "city": "Minneapolis",
+                "state": "MN"
+              }
+            },
+            {
+              "guid": 42,
+              "values": {
+                "height": "379 ft",
+                "stories": "31 stories",
+                "bldgID": "Marriott Hotel",
+                "year_built": 1983,
+                "city": "Minneapolis",
+                "state": "MN"
+              }
+            },
+            {
+              "guid": 43,
+              "values": {
+                "height": "375 ft",
+                "stories": "23 stories",
+                "bldgID": "American Heritage Life",
+                "year_built": 1989,
+                "city": "Jacksonville",
+                "state": "FL"
+              }
+            },
+            {
+              "guid": 44,
+              "values": {
+                "height": "375 ft",
+                "stories": "32 stories",
+                "bldgID": "Amerifirst Bldg",
+                "year_built": 1973,
+                "city": "Miami",
+                "state": "FL"
+              }
+            },
+            {
+              "guid": 45,
+              "values": {
+                "height": "368 ft",
+                "stories": "20 stories",
+                "bldgID": "Osborn Bldg",
+                "year_built": "",
+                "city": "St. Paul",
+                "state": "MN"
+              }
+            },
+            {
+              "guid": 46,
+              "values": {
+                "height": "366 ft",
+                "stories": "32 stories",
+                "bldgID": "Kellogg Square Apts",
+                "year_built": "",
+                "city": "St. Paul",
+                "state": "MN"
+              }
+            },
+            {
+              "guid": 47,
+              "values": {
+                "height": "366 ft",
+                "stories": "35 stories",
+                "bldgID": "Hotel Inter-Continental Miami",
+                "year_built": "",
+                "city": "Miami",
+                "state": "FL"
+              }
+            },
+            {
+              "guid": 48,
+              "values": {
+                "height": "365 ft",
+                "stories": "42 stories",
+                "bldgID": "Venitia",
+                "year_built": "",
+                "city": "Miami",
+                "state": "FL"
+              }
+            },
+            {
+              "guid": 49,
+              "values": {
+                "height": "357 ft",
+                "stories": "28 stories",
+                "bldgID": "Dade County Court House",
+                "year_built": "",
+                "city": "Miami",
+                "state": "FL"
+              }
+            },
+            {
+              "guid": 50,
+              "values": {
+                "height": "350 ft",
+                "stories": "22 stories",
+                "bldgID": "Blue Cross-Blue Shield",
+                "year_built": 1973,
+                "city": "Jacksonville",
+                "state": "FL"
+              }
+            },
+            {
+              "guid": 51,
+              "values": {
+                "height": "340 ft",
+                "stories": "16 stories",
+                "bldgID": "Northwestern Bell Telephone",
+                "year_built": "",
+                "city": "St. Paul",
+                "state": "MN"
+              }
+            },
+            {
+              "guid": 52,
+              "values": {
+                "height": "340 ft",
+                "stories": "34 stories",
+                "bldgID": "Pointe of St. Paul",
+                "year_built": "",
+                "city": "St. Paul",
+                "state": "MN"
+              }
+            },
+            {
+              "guid": 53,
+              "values": {
+                "height": "335 ft",
+                "stories": "25 stories",
+                "bldgID": "American National Bank Bldg",
+                "year_built": "",
+                "city": "St. Paul",
+                "state": "MN"
+              }
+            },
+            {
+              "guid": 54,
+              "values": {
+                "height": "328 ft",
+                "stories": "27 stories",
+                "bldgID": "North Central Tower",
+                "year_built": "",
+                "city": "St. Paul",
+                "state": "MN"
+              }
+            },
+            {
+              "guid": 55,
+              "values": {
+                "height": "324 ft",
+                "stories": "26 stories",
+                "bldgID": "Amhoist/Park Tower",
+                "year_built": "",
+                "city": "St. Paul",
+                "state": "MN"
+              }
+            }
+          ],
+          "guid": 3,
+          "name": "cases"
+        }
+      ],
+      "contextStorage": {}
+    }
+  ],
+  "globalValues": [],
+  "appName": "",
+  "appVersion": "",
+  "appBuildNum": ""
+}
