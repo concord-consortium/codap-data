@@ -250,10 +250,10 @@
         "items": [
           {
             "itemTitle": "Getting Started",
-            "url": "https://concord-consortium.github.io/codap-data/FathomDocs/Science/PhysChem/Elements/Elements.html"
+            "url": "https://concord-consortium.github.io/codap-data/SampleDocs/Science/PhysChem/Elements/Elements.html"
           }
         ],
-        "currentURL": "https://concord-consortium.github.io/codap-data/FathomDocs/Science/PhysChem/Elements/Elements.html",
+        "currentURL": "https://concord-consortium.github.io/codap-data/SampleDocs/Science/PhysChem/Elements/Elements.html",
         "currentItemTitle": "Getting Started",
         "isVisible": true
       },
