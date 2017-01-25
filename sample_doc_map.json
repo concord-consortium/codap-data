@@ -76,7 +76,7 @@
   },
   {
     "title": "Domestic Cats",
-    "description": "This data set explores 24 domestic house cats.",
+    "description": "This data set explores 24 domestic house cats. This is the same data set from the TinkerPlots example data set.",
     "path": "SampleDocs/Science/Biology/24cats/24cats.codap",
     "visible": true,
     "tag": [
