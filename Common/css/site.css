@@ -151,11 +151,12 @@ h1 {
     width: 20px;
     height: 20px;
     cursor: pointer;
-    /*position: relative;*/
     margin: 20px auto;
-
 }
 
+#filter-category text {
+    color: #666;
+}
 /*#filter-category label {*/
     /*width: 20px;*/
     /*height: 20px;*/
