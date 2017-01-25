@@ -146,13 +146,13 @@ h1 {
     border: 1px solid #aaa;
     border-radius: .375em;
     color: black;
-    font-size: 0.85em;
+    font-size: 1em;
     font-weight: 200;
     width: 40.2121%
 }
 
 .credits {
-    font-size: 0.8em;
+    font-size: 1em;
     color: #777;
 }
 
@@ -171,13 +171,16 @@ p {
 footer {
     background: #72bfca;
     color: #fff;
-    height: 170px;
-    padding-top: 20px;
+    height: auto;
+
 }
 
 footer p {
+    /*padding-top:40px;*/
     margin: 0 auto;
-    width: 800px;
+    padding: 15px;
+    width: 960px;
+    text-align: center;
 }
 
 .listing-title {
