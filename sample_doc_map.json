@@ -1019,7 +1019,7 @@
   {
     "title": "Hospital Infection Rates",
     "description": "This dataset provides information about Hospital Central Line Infection Rates, circa 2012.",
-    "path": "SampleDocs/Social_Science/United_States/Hospital_Infection_Rates/Hospital_Infection_Rates.codap",
+    "path": "SampleDocs/Social_Science/United_States/Hospital_Infection_Rates/Hospital_infection_rates.codap",
     "visible": true,
     "tag": [
       "hospital", "medical", "health care", "united states", "health", "infection"
