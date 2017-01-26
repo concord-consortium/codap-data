@@ -64,7 +64,6 @@ header #cc img {
 
 #home-content {
     margin: 0 auto;
-    max-width: 800px;
     overflow: hidden;
     width: 100%;
     height: 100px;
@@ -136,6 +135,12 @@ h1 {
     margin-left: 1%;
     padding: 11px 0 !important;
     width: 15%
+}
+
+#content_area {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #filter-category {
@@ -282,7 +287,7 @@ a:hover {
     min-height: 140px;
     padding: 1%;
     position: relative;
-    width: 25%;
+    width: 200px;
     background-color:white;
 }
 
