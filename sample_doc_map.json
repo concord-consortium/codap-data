@@ -1017,6 +1017,19 @@
     ]
   },
   {
+    "title": "Hospital Infection Rates",
+    "description": "This dataset provides information about Hospital Central Line Infection Rates, circa 2012.",
+    "path": "SampleDocs/Social_Science/United_States/Hospital_Infection_Rates/Hospital_Infection_Rates.codap",
+    "visible": true,
+    "tag": [
+      "hospital", "medical", "health care", "united states", "health", "infection"
+    ],
+    "categories": [
+      "Social Studies/United States",
+      "Science/Biology"
+    ]
+  },
+  {
     "title": "Receipts from Alberta 2024",
     "description": "Explore data about purchases made by people 20-24 years old in Alberta, Canada.",
     "path": "SampleDocs/Social_Science/Canada/Alberta2024/Alberta2024.json",
