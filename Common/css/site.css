@@ -148,8 +148,12 @@ h1 {
     font-size: 1.1em;
     line-height: 35px;
     display: block;
-    width: 20%;
+    width: 175px;
     position:absolute;
+    border-radius: 5px;
+    background-color:#dff2f1;
+    border: 1px solid #cdebe9;
+
 }
 
 #filter-category input[type=checkbox] {
