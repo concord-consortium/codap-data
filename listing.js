@@ -23,11 +23,7 @@ $(document).ready(function () {
 
         console.log("Search_word is "+ search_word);
 
-
         for (var i=0; i<obj.length-1;i++) {
-            // console.log("Obj is: "+ obj[i]);
-           // console.log("Title is: "+ obj[i].title);
-            // console.log("Description is: "+obj[i].description);
             title = (obj[i].title).toLowerCase();
             description = (obj[i].description).toLowerCase();
             tags = obj[i].tag;
@@ -44,7 +40,7 @@ $(document).ready(function () {
                 }
             }
         }
-        console.log("Display_list is "+display_list);
+
         buildListing(display_list);
     }
 
