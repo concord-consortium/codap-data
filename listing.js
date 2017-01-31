@@ -32,14 +32,16 @@ $(document).ready(function () {
             description = (obj[i].description).toLowerCase();
             tags = obj[i].tag;
 
-            // for (j=0; j<tags.length-1;j++) {
+            if (typeof tags != "undefined" && tags != null && tags.length > 0){
                 if (tags.includes(search_word)){
                     display_list.push(obj[i]);
                 }
-            // }
+             }
             if ((title.includes(search_word)) || (description.includes(search_word))) {
                 console.log(obj[i].title + " should be displayed");
-                display_list.push(obj[i]);
+                if (!(display_list.includes(obj[i]))) {
+                    display_list.push(obj[i]);
+                }
             }
         }
         console.log("Display_list is "+display_list);
