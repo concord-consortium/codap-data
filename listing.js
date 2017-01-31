@@ -24,14 +24,19 @@ $(document).ready(function () {
         console.log("Search_word is "+ search_word);
 
 
-        for (var i=0; i<obj.length;i++) {
+        for (var i=0; i<obj.length-1;i++) {
             // console.log("Obj is: "+ obj[i]);
-    3        // console.log("Title is: "+ obj[i].title);
+           // console.log("Title is: "+ obj[i].title);
             // console.log("Description is: "+obj[i].description);
             title = (obj[i].title).toLowerCase();
             description = (obj[i].description).toLowerCase();
             tags = obj[i].tag;
 
+            // for (j=0; j<tags.length-1;j++) {
+                if (tags.includes(search_word)){
+                    display_list.push(obj[i]);
+                }
+            // }
             if ((title.includes(search_word)) || (description.includes(search_word))) {
                 console.log(obj[i].title + " should be displayed");
                 display_list.push(obj[i]);
