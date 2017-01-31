@@ -391,7 +391,7 @@
     "path": "SampleDocs/Mathematics/Algebra/Compound/Compound.json",
     "visible": true,
     "categories":
-      "Math/Algebra"
+      "Math"
 
   },
   {
@@ -461,7 +461,7 @@
     "visible": true,
     "tag":["calculus", "integral", "integraton"],
     "categories":
-      "Math/Calculus"
+      "Math"
 
   },
   {
@@ -565,7 +565,7 @@
     "path": "SampleDocs/Mathematics/Probability/Chaos_Game/Chaos_Game.json",
     "visible": false,
     "categories":
-      "Math/Probability"
+      "Math"
 
   },
   {
@@ -574,7 +574,7 @@
     "path": "SampleDocs/Mathematics/Probability/Estimating_Pi/Estimating_Pi.json",
     "visible": false,
     "categories":
-      "Math/Probability"
+      "Math"
 
   },
   {
@@ -583,7 +583,7 @@
     "path": "SampleDocs/Mathematics/Probability/Geometric_Cards/Geometric_Cards.json",
     "visible": false,
     "categories":
-      "Math/Probability"
+      "Math"
 
   },
   {
@@ -592,7 +592,7 @@
     "path": "SampleDocs/Mathematics/Probability/Life_Expectancy/Life_Expectancy.json",
     "visible": true,
     "categories":
-      "Math/Probability"
+      "Math"
 
   },
   {
@@ -601,7 +601,7 @@
     "path": "SampleDocs/Mathematics/Probability/Lotto/Lotto.json",
     "visible": false,
     "categories":
-      "Math/Probability"
+      "Math"
 
   },
   {
@@ -610,7 +610,7 @@
     "path": "SampleDocs/Mathematics/Probability/Motion/Motion.json",
     "visible": false,
     "categories":
-      "Math/Probability"
+      "Math"
 
   },
   {
@@ -619,7 +619,7 @@
     "path": "SampleDocs/Mathematics/Probability/Shooting_Match/Shooting_Match.json",
     "visible": false,
     "categories":
-      "Math/Probability"
+      "Math"
 
   },
   {
@@ -628,7 +628,7 @@
     "path": "SampleDocs/Mathematics/Probability/Spinner_Game/Spinner_Game.json",
     "visible": true,
     "categories":
-      "Math/Probability"
+      "Math"
 
   },
   {
@@ -637,7 +637,7 @@
     "path": "SampleDocs/Science/Astronomy/yale_bright/yale_bright.codap",
     "visible": true,
     "categories":
-      "Science/Astronomy"
+      "Science"
 
   },
   {
@@ -646,7 +646,7 @@
     "path": "SampleDocs/Science/Astronomy/Extra_Solar/Extra_Solar.json",
     "visible": false,
     "categories":
-      "Science/Astronomy"
+      "Science"
 
   },
   {
@@ -655,7 +655,7 @@
     "path": "SampleDocs/Science/Astronomy/Jupiter_Moons/Jupiter_Moons.json",
     "visible": false,
     "categories":
-      "Science/Astronomy"
+      "Science"
 
   },
    {
@@ -664,7 +664,7 @@
     "path": "SampleDocs/Science/Astronomy/Jupiter_Radius/Jupiter_Radius.json",
     "visible": false,
     "categories":
-      "Science/Astronomy"
+      "Science"
 
   },
   {
@@ -673,7 +673,7 @@
     "path": "SampleDocs/Science/Astronomy/Space_Data/Space_Data.json",
     "visible": false,
     "categories":
-      "Science/Astronomy"
+      "Science"
 
   },
   {
@@ -682,7 +682,7 @@
     "path": "SampleDocs/Science/Astronomy/Sunspots/Sunspots.json",
     "visible": false,
     "categories":
-      "Science/Astronomy"
+      "Science"
 
   },
   {
@@ -691,7 +691,7 @@
     "path": "SampleDocs/Science/Biology/Bears/Bears.codap",
     "visible": false,
     "categories":
-      "Science/Biology"
+      "Science"
 
   },
   {
@@ -700,7 +700,7 @@
     "path": "SampleDocs/Science/Biology/Bird_Observations/Bird_Observations.json",
     "visible": false,
     "categories":
-      "Science/Biology"
+      "Science"
 
   },
   {
@@ -709,7 +709,7 @@
     "path": "SampleDocs/Science/Biology/Height/Height.json",
     "visible": false,
     "categories":
-      "Science/Biology"
+      "Science"
 
   },
   {
@@ -718,7 +718,7 @@
     "path": "SampleDocs/Science/Biology/Midges/Midges.json",
     "visible": false,
     "categories":
-      "Science/Biology"
+      "Science"
 
   },
   {
@@ -727,7 +727,7 @@
     "path": "SampleDocs/Science/Biology/First_Bloom/First_Bloom.codap",
     "visible": true,
     "categories":
-      "Science/Biology"
+      "Science"
 
   },
   {
@@ -736,7 +736,7 @@
     "path": "SampleDocs/Science/Biology/Prey-Pred-Pop/Prey-Pred-Pop.json",
     "visible": false,
     "categories":
-      "Science/Biology"
+      "Science"
 
   },
   {
@@ -943,7 +943,7 @@
     "path": "SampleDocs/Science/PhysChem/Boyle/Boyle.json",
     "visible": false,
     "categories":
-      "Science/Physics and Chemistry"
+      "Science"
 
   },
   {
@@ -952,7 +952,7 @@
     "path": "SampleDocs/Science/PhysChem/Elements/Elements.json",
     "visible": true,
     "categories":
-      "Science/Physics and Chemistry"
+      "Science"
 
   },
   {
@@ -961,7 +961,7 @@
     "path": "SampleDocs/Science/PhysChem/Heating/Heating.json",
     "visible": false,
     "categories":
-      "Science/Physics and Chemistry"
+      "Science"
 
   },
   {
@@ -970,7 +970,7 @@
     "path": "SampleDocs/Science/PhysChem/Panel/Panel.json",
     "visible": false,
     "categories":
-      "Science/Physics and Chemistry"
+      "Science"
 
   },
   {
@@ -979,7 +979,7 @@
     "path": "SampleDocs/Science/PhysChem/Radiosonde/Radiosonde.json",
     "visible": false,
     "categories":
-      "Science/Physics and Chemistry"
+      "Science"
 
   },
   {
@@ -988,7 +988,7 @@
     "path": "SampleDocs/Science/PhysChem/RB_Ball/RB_Ball.json",
     "visible": false,
     "categories":
-      "Science/Physics and Chemistry"
+      "Science"
 
   },
   {
@@ -997,7 +997,7 @@
     "path": "SampleDocs/Science/Technology/Airplanes/Airplanes.json",
     "visible": false,
     "categories":
-      "Science/Technology"
+      "Science"
 
   },
   {
@@ -1006,7 +1006,7 @@
     "path": "SampleDocs/Science/Technology/Cars/Cars.codap",
     "visible": true,
     "categories":
-      "Science/Technology"
+      "Science"
 
   },
   {
@@ -1015,7 +1015,7 @@
     "path": "SampleDocs/Science/Technology/Moore_Law/Moore_Law.json",
     "visible": false,
     "categories":
-      "Science/Technology"
+      "Science"
 
   },
   {
@@ -1024,7 +1024,7 @@
     "path": "SampleDocs/Science/Technology/Nails/Nails.json",
     "visible": false,
     "categories":
-      "Science/Technology"
+      "Science"
 
   },
   {
@@ -1033,7 +1033,7 @@
     "path": "SampleDocs/Social_Science/Canada/Alberta2024/Alberta2024.json",
     "visible": false,
     "categories":
-      "Social Studies/Canada"
+      "Social Studies"
 
   },
    {
@@ -1042,7 +1042,7 @@
     "path": "SampleDocs/Social_Science/Canada/Canada_Metro/Canada_Metro.json",
     "visible": false,
     "categories":
-      "Social Studies/Canada"
+      "Social Studies"
 
   },
    {
@@ -1051,7 +1051,7 @@
     "path": "SampleDocs/Social_Science/Canada/Gov_Debt/Gov_Debt.json",
     "visible": false,
     "categories":
-      "Social Studies/Canada"
+      "Social Studies"
 
   },
   {
@@ -1060,7 +1060,7 @@
     "path": "SampleDocs/Social_Science/Canada/Int_Exports/Int_Exports.json",
     "visible": false,
     "categories":
-      "Social Studies/Canada"
+      "Social Studies"
 
   },
    {
@@ -1069,7 +1069,7 @@
     "path": "SampleDocs/Social_Science/Canada/Int_Imports/Int_Imports.json",
     "visible": false,
     "categories":
-      "Social Studies/Canada"
+      "Social Studies"
 
   },
    {
@@ -1078,7 +1078,7 @@
     "path": "SampleDocs/Social_Science/Canada/Military_69/Military_69.json",
     "visible": false,
     "categories":
-      "Social Studies/Canada"
+      "Social Studies"
 
   },
    {
@@ -1087,7 +1087,7 @@
     "path": "SampleDocs/Social_Science/Canada/CPI_Canada/CPI_Canada.json",
     "visible": false,
     "categories":
-      "Social Studies/Canada"
+      "Social Studies"
 
   },
    {
@@ -1096,7 +1096,7 @@
     "path": "SampleDocs/Social_Science/Canada/Crime_Canada/Crime_Canada.json",
     "visible": false,
     "categories":
-      "Social Studies/Canada"
+      "Social Studies"
 
   },
    {
@@ -1105,7 +1105,7 @@
     "path": "SampleDocs/Social_Science/Canada/Ontario_Census/Ontario_Census.json",
     "visible": false,
     "categories":
-      "Social Studies/Canada"
+      "Social Studies"
 
   },
    {
@@ -1114,7 +1114,7 @@
     "path": "SampleDocs/Social_Science/Canada/Ontario_Lang/Ontario_Lang.json",
     "visible": false,
     "categories":
-      "Social Studies/Canada"
+      "Social Studies"
 
   },
    {
@@ -1123,7 +1123,7 @@
     "path": "SampleDocs/Social_Science/Canada/SmokingEd/SmokingEd.json",
     "visible": false,
     "categories":
-      "Social Studies/Canada"
+      "Social Studies"
 
   },
   {
@@ -1132,7 +1132,7 @@
     "path": "SampleDocs/Social_Science/Canada/Tech_Use/Tech_Use.json",
     "visible": false,
     "categories":
-      "Social Studies/Canada"
+      "Social Studies"
 
   },
    {
@@ -1141,7 +1141,7 @@
     "path": "SampleDocs/Social_Science/Canada/Wheat1908/Wheat1908",
     "visible": false,
     "categories":
-      "Social Studies/Canada"
+      "Social Studies"
 
   },
    {
@@ -1150,7 +1150,7 @@
     "path": "SampleDocs/Social_Science/Canada/Youth_Crimes/Youth_Crimes.json",
     "visible": false,
     "categories":
-      "Social Studies/Canada"
+      "Social Studies"
 
   },
   {
@@ -1159,7 +1159,7 @@
     "path": "SampleDocs/Social_Science/Canada/YouthSurvey/YouthSurvey",
     "visible": false,
     "categories":
-      "Social Studies/Canada"
+      "Social Studies"
 
   },
    {
@@ -1258,7 +1258,7 @@
     "path": "SampleDocs/Social_Science/United_States/CA_Counties/CA_Counties.json",
     "visible": false,
     "categories":
-      "Social Studies/United States"
+      "Social Studies"
 
   },
   {
@@ -1267,7 +1267,7 @@
     "path": "SampleDocs/Social_Science/United_States/Cars07/Cars07.json",
     "visible": true,
     "categories":
-      "Social Studies/United States"
+      "Social Studies"
 
   },
   {
@@ -1276,7 +1276,7 @@
     "path": "SampleDocs/Social_Science/United_States/Cemetery/Cemetery.json",
     "visible": false,
     "categories":
-      "Social Studies/United States"
+      "Social Studies"
 
   },
   {
@@ -1285,7 +1285,7 @@
     "path": "SampleDocs/Social_Science/United_States/Starlight/Starlight.json",
     "visible": false,
     "categories":
-      "Social Studies/United States"
+      "Social Studies"
 
   },
    {
@@ -1294,7 +1294,7 @@
     "path": "SampleDocs/Social_Science/United_States/Counties/Counties.json",
     "visible": false,
     "categories":
-      "Social Studies/United States"
+      "Social Studies"
 
   },
    {
@@ -1303,7 +1303,7 @@
     "path": "SampleDocs/Social_Science/United_States/CPI_By_Month/CPI_By_Month.json",
     "visible": false,
     "categories":
-      "Social Studies/United States"
+      "Social Studies"
 
   },
   {
@@ -1312,7 +1312,7 @@
     "path": "SampleDocs/Social_Science/United_States/CPI_By_Year/CPI_By_Year.json",
     "visible": false,
     "categories":
-      "Social Studies/United States"
+      "Social Studies"
 
   },
   {
@@ -1321,7 +1321,7 @@
     "path": "SampleDocs/Social_Science/United_States/States/Accidents/Accidents.json",
     "visible": false,
     "categories":
-      "Social Studies/United States"
+      "Social Studies"
 
   },
   {
@@ -1330,7 +1330,7 @@
     "path": "SampleDocs/Social_Science/United_States/States/Apportionment/Apportionment.json",
     "visible": false,
     "categories":
-      "Social Studies/United States"
+      "Social Studies"
 
   },
   {
@@ -1339,7 +1339,7 @@
     "path": "SampleDocs/Social_Science/United_States/States/CarsNDrivers/CarsNDrivers.json",
     "visible": false,
     "categories":
-      "Social Studies/United States"
+      "Social Studies"
 
   },
   {
@@ -1348,7 +1348,7 @@
     "path": "SampleDocs/Social_Science/United_States/States/Ethnicity/Ethnicity.json",
     "visible": false,
     "categories":
-      "Social Studies/United States"
+      "Social Studies"
 
   },
   {
@@ -1357,7 +1357,7 @@
     "path": "SampleDocs/Social_Science/United_States/States/GetToWork/GetToWork.json",
     "visible": false,
     "categories":
-      "Social Studies/United States"
+      "Social Studies"
 
   },
   {
@@ -1366,7 +1366,7 @@
     "path": "SampleDocs/Social_Science/United_States/States/Map/Map.json",
     "visible": false,
     "categories":
-      "Social Studies/United States"
+      "Social Studies"
 
   },
   {
@@ -1375,7 +1375,7 @@
     "path": "SampleDocs/Social_Science/United_States/States/PhonesNRentals/PhonesNRentals.json",
     "visible": false,
     "categories":
-      "Social Studies/United States"
+      "Social Studies"
 
   },
   {
@@ -1384,7 +1384,7 @@
     "path": "SampleDocs/Social_Science/United_States/States/SAT/SAT.json",
     "visible": false,
     "categories":
-      "Social Studies/United States"
+      "Social Studies"
 
   },
   {
@@ -1393,7 +1393,7 @@
     "path": "SampleDocs/Social_Science/United_States/States/SeatBelts/SeatBelts.json",
     "visible": false,
     "categories":
-      "Social Studies/United States"
+      "Social Studies"
 
   },
    {
@@ -1402,7 +1402,7 @@
     "path": "SampleDocs/Social_Science/United_States/States/Sewers/Sewers.json",
     "visible": false,
     "categories":
-      "Social Studies/United States"
+      "Social Studies"
 
   },
   {
@@ -1411,7 +1411,7 @@
     "path": "SampleDocs/Social_Science/United_States/States/Taxes/Taxes.json",
     "visible": false,
     "categories":
-      "Social Studies/United States"
+      "Social Studies"
 
   },
   {
@@ -1420,7 +1420,7 @@
     "path": "SampleDocs/Social_Science/United_States/States/Traffic/Traffic.json",
     "visible": false,
     "categories":
-      "Social Studies/United States"
+      "Social Studies"
 
   },
   {
@@ -1429,7 +1429,7 @@
     "path": "SampleDocs/Social_Science/United_States/States/UrbanNRuralPop/UrbanNRuralPop.json",
     "visible": false,
     "categories":
-      "Social Studies/United States"
+      "Social Studies"
 
   },
   {
@@ -1438,7 +1438,7 @@
     "path": "SampleDocs/Social_Science/United_States/States/Women/Women.json",
     "visible": false,
     "categories":
-      "Social Studies/United States"
+      "Social Studies"
 
   },
   {
@@ -1447,7 +1447,7 @@
     "path": "SampleDocs/Social_Science/United_States/US_Census/CA_2000/CA_2000.json",
     "visible": false,
     "categories":
-      "Social Studies/United States"
+      "Social Studies"
 
   },
   {
@@ -1456,7 +1456,7 @@
     "path": "SampleDocs/Social_Science/United_States/US_Census/CA_2000/CA_2000.json",
     "visible": false,
     "categories":
-      "Social Studies/United States"
+      "Social Studies"
 
   },
   {
@@ -1465,7 +1465,7 @@
     "path": "SampleDocs/Social_Science/United_States/US_Census/DC/DC.json",
     "visible": false,
     "categories":
-      "Social Studies/United States"
+      "Social Studies"
 
   },
   {
@@ -1474,7 +1474,7 @@
     "path": "SampleDocs/Social_Science/United_States/US_Census/MA_1990/MA_1990",
     "visible": false,
     "categories":
-      "Social Studies/United States"
+      "Social Studies"
 
   },
   {
@@ -1483,7 +1483,7 @@
     "path": "SampleDocs/Social_Science/United_States/US_Census/Miami/Miami.json",
     "visible": false,
     "categories":
-      "Social Studies/United States"
+      "Social Studies"
 
   },
   {
@@ -1520,7 +1520,7 @@
     "path": "SampleDocs/Social_Science/World/Cereal_Production/Cereal_Production.codap",
     "visible": true,
     "categories":
-      "Social Studies/World"
+      "Social Studies"
 
   },
   {
@@ -1529,7 +1529,7 @@
     "path": "SampleDocs/Social_Science/World/Political_Regimes/Political_Regimes.codap",
     "visible": true,
     "categories":
-      "Social Studies/World"
+      "Social Studies"
 
   },
   {
@@ -1540,7 +1540,7 @@
     "tag":
       ["populations", "social studies", "world", "cities"],
       "categories":
-      "Social Studies/World"
+      "Social Studies"
 
   },
   {
@@ -1562,7 +1562,7 @@
       ["crops", "social studies", "agriculture", "united states", "corn", "cotton", "maize", "almonds"]
     ,
     "categories":
-      "Social Studies/United States"
+      "Social Studies"
 
   },
   {
