@@ -8,7 +8,7 @@
         "markov chains", "makov", "chain", "games", "data science games", "conditional probability", "probability"
     ],
     "categories": [
-      "Math/Probability",
+      "Math",
       "Model"
     ]
   },
@@ -22,7 +22,7 @@
     ],
     "categories": [
       "Model",
-      "Science/Physics and Chemistry"
+      "Science"
     ]
   },
   {
@@ -31,10 +31,10 @@
     "path": "SampleDocs/Mathematics/Probability/Birthdays/Birthdays.codap",
     "visible": true,
     "tag": [
-      "birthdays", "birth", "birth rates"
+      "birthdays", "birth", "birth rates", "probability"
     ],
     "categories": [
-      "Math/Probability"
+      "Math"
     ]
   },
   {
@@ -43,10 +43,10 @@
     "path": "SampleDocs/Science/E_Sciences/Climate_Change/Climate-Change-A.codap",
     "visible": true,
     "tag": [
-      "climate", "change", "simulation", "games"
+      "climate", "change", "simulation", "games", "earth science", "earth"
     ],
     "categories": [
-      "Science/Earth Sciences"
+      "Science"
     ]
   },
   {
@@ -55,10 +55,10 @@
     "path": "SampleDocs/Science/E_Sciences/CA_earthquakes/CA_earthquakes.codap",
     "visible": true,
     "tag": [
-      "earthquakes", "california"
+      "earthquakes", "california", "earth science", "earth"
     ],
     "categories": [
-      "Science/Earth Sciences"
+      "Science"
     ]
   },
   {
@@ -67,11 +67,11 @@
     "path": "SampleDocs/Science/Biology/fast_plants/fast_plants.json",
     "visible": true,
     "tag": [
-      "fast plants", "plants", "beginner"
+      "fast plants", "plants", "beginner", "biology"
     ],
     "categories": [
       "Model",
-      "Science/Biology"
+      "Science"
     ]
   },
   {
@@ -83,7 +83,7 @@
       "cats", "biology", "animals"
     ],
     "categories": [
-      "Science/Biology"
+      "Science"
     ]
   },
   {
@@ -95,7 +95,7 @@
       "tortoise", "biology", "animals"
     ],
     "categories": [
-      "Science/Biology"
+      "Science"
     ]
   },
   {
@@ -108,7 +108,7 @@
     ],
     "categories": [
       "Model",
-      "Science/Biology"
+      "Science"
     ]
   },
   {
@@ -120,7 +120,7 @@
       "mammals", "biology", "animals"
     ],
     "categories": [
-      "Science/Biology"
+      "Science"
     ]
   },
   {
@@ -129,11 +129,11 @@
     "path": "SampleDocs/Science/PhysChem/parachute/Parachute_Model_Sample.codap",
     "visible": true,
     "tag": [
-      "parachute", "physics", "mass", "size", "velocity", "freefall", "gravity"
+      "parachute", "physics", "mass", "size", "velocity", "freefall", "gravity", "model"
     ],
     "categories": [
-      "Model",
-      "Science/Physics and Chemistry"
+      "Miscellaneous",
+      "Science"
     ]
   },
   {
@@ -142,11 +142,11 @@
     "path": "SampleDocs/Social_Science/United_States/statesnpeople/States_and_Education.codap",
     "visible": true,
     "tag": [
-      "education", "states", "maps"
+      "education", "states", "maps", "USA", "model"
     ],
     "categories": [
-      "Model",
-      "Social Studies/United States"
+      "Miscellaneous",
+      "Social Studies"
     ]
   },
   {
@@ -158,7 +158,7 @@
       "education", "states", "maps"
     ],
     "categories": [
-      "Education"
+      "Miscellaneous"
     ]
   },
   {
@@ -167,7 +167,7 @@
     "path": "SampleDocs/Education/Calc_Grades/Grades_Calc.json",
     "visible": false,
     "categories": [
-      "Education"
+      "Miscellaneous"
     ]
   },
   {
@@ -175,8 +175,9 @@
     "description": "This data includes salaries of College faculty, in the 2002-2003 academic year.",
     "path": "SampleDocs/Education/Faculty_Salaries/Faculty_Salaries.json",
     "visible": true,
+    "tag":["educaton"],
     "categories": [
-      "Education"
+      "Miscellaneous"
     ]
   },
   {
@@ -185,7 +186,7 @@
     "path": "SampleDocs/Education/ITCR_Students.json",
     "visible": false,
     "categories": [
-      "Education"
+      "Miscellaneous"
     ]
   },
   {
@@ -197,7 +198,7 @@
       "children", "growth", "grow", "age", "height", "weight"
     ],
     "categories": [
-      "Education"
+      "Social Studies", "Math"
     ]
   },
   {
@@ -209,7 +210,7 @@
       "children", "growth", "grow", "age", "height", "weight"
     ],
     "categories": [
-      "Education"
+      "Miscellaneous"
     ]
   },
   {
@@ -217,8 +218,9 @@
     "description": "Enrollment in public elementary and secondary schools, by state or jurisdiction: Fall 1988 to Fall 2010.",
     "path": "SampleDocs/Education/State_Public_School_Enrollments/Public_School_Enrollments.json",
     "visible": false,
+    "tag":[],
     "categories": [
-      "Education"
+      "Miscellaneous"
     ]
   },
   {
@@ -226,8 +228,9 @@
     "description": "How much money each state spent on education from 1969 to 2000?",
     "path": "SampleDocs/Education/States_EdSpending/States_EdSpending.json",
     "visible": false,
+    "tag":[],
     "categories": [
-      "Education"
+      "Miscellaneous"
     ]
   },
   {
@@ -235,8 +238,9 @@
     "description": "Grades recorded during several years for a Statistics course at the Instituto Tecnológico de Costa Rica, with one case per student.",
     "path": "SampleDocs/Education/Stats_Grades/Stats_Grades.json",
     "visible": false,
+    "tag":[],
     "categories": [
-      "Education"
+      "Miscellaneous"
     ]
   },
   {
@@ -244,6 +248,7 @@
     "description": "Grades obtained by students in the author's classes at the Instituto Tecnológico de Costa Rica.",
     "path": "SampleDocs/Education/Students_Grades/Students_Grades.json",
     "visible": false,
+    "tag":[],
     "categories": [
       "Education"
     ]
@@ -253,6 +258,7 @@
     "description": "Grades obtained by Business students at Texas A and M University during the years 1989-1992.",
     "path": "SampleDocs/Education/TAMU_Business/TAMU_Business.json",
     "visible": false,
+    "tag":[],
     "categories": [
       "Education"
     ]
@@ -262,6 +268,7 @@
     "description": "Visits of students to author's office hours.",
     "path": "SampleDocs/Education/Visits/Visits.json",
     "visible": false,
+    "tag":[],
     "categories": [
       "Education"
     ]
@@ -271,6 +278,7 @@
     "description": "2000 words randomly chosen from the YAWL (yet another word list) that comes with the Unix operating system.",
     "path": "SampleDocs/LanguageArts/2000_Words/2000_Words.json",
     "visible": false,
+    "tag":[],
     "categories": [
       "Language Arts"
     ]
@@ -280,8 +288,9 @@
     "description": "A collection of movies from the Internet Movie Database",
     "path": "SampleDocs/LanguageArts/Movie_Characters/Movie_Characters.codap",
     "visible": true,
+    "tag":["movie","character", "imdb"],
     "categories": [
-      "Language Arts"
+      "Miscellaneous"
     ]
   },
   {
@@ -289,8 +298,9 @@
     "description": "This catalog of paintings is supplied by the National Gallery of Art.",
     "path": "SampleDocs/LanguageArts/Art_Paintings/Art_Paintings.json",
     "visible": false,
+    "tag":[],
     "categories": [
-      "Language Arts"
+      "Miscellaneous"
     ]
   },
   {
@@ -298,8 +308,9 @@
     "description": "List of art by artists.",
     "path": "SampleDocs/LanguageArts/Artists/Artists.json",
     "visible": true,
+    "tag":[],
     "categories": [
-      "Language Arts"
+      "Miscellaneous"
     ]
   },
   {
@@ -307,6 +318,7 @@
     "description": "The collection at left contains the most recent 500 of the more than 450,000 Googlewhacks that were listed on November 11, 2004.",
     "path": "SampleDocs/LanguageArts/Googlewhacks/Googlewhacks.json",
     "visible": true,
+    "tag":[],
     "categories": [
       "Language Arts"
     ]
@@ -316,6 +328,7 @@
     "description": "Analyze the letter count of five paragraphs of George H. W. Bush's Inaugural Address, January 20, 1989.",
     "path": "SampleDocs/LanguageArts/TextPassages/Bush89/Bush89.json",
     "visible": false,
+    "tag":["speech"],
     "categories": [
       "Language Arts"
     ]
@@ -325,6 +338,7 @@
     "description": "Analyze the letter count of the first two paragraphs of the United States Declaration of Independence.",
     "path": "SampleDocs/LanguageArts/TextPassages/Declaration/Declaration.json",
     "visible": false,
+    "tag":["indpendence"],
     "categories": [
       "Language Arts"
     ]
@@ -334,6 +348,7 @@
     "description": "Analyze the letter count of of the first two paragraphs of Don Quixote de la Mancha.",
     "path": "SampleDocs/LanguageArts/TextPassages/Don/Don.json",
     "visible": false,
+    "tag":[],
     "categories": [
       "Language Arts"
     ]
@@ -343,6 +358,7 @@
     "description": "Analyze the letter count of Goethe's Faust.",
     "path": "SampleDocs/LanguageArts/TextPassages/Faust/Faust.json",
     "visible": false,
+    "tag":[],
     "categories": [
       "Language Arts"
     ]
@@ -352,6 +368,7 @@
     "description": "Analyze the letter count in three paragraphs of the Gettysburg Address.",
     "path": "SampleDocs/LanguageArts/TextPassages/Gettysburg/Gettysburg.json",
     "visible": false,
+    "tag":[],
     "categories": [
       "Language Arts"
     ]
