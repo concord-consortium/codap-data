@@ -13,10 +13,32 @@ $(document).ready(function () {
         })
     }
 
-
-
-    function searchResources() {
+    function searchResources(obj) {
         console.log("in searchResources");
+        var title='',
+            description='',
+            tags = [],
+            display_list=[],
+            search_word = ($('#keyword').val()).toLowerCase();
+
+        console.log("Search_word is "+ search_word);
+
+
+        for (var i=0; i<obj.length;i++) {
+            // console.log("Obj is: "+ obj[i]);
+    3        // console.log("Title is: "+ obj[i].title);
+            // console.log("Description is: "+obj[i].description);
+            title = (obj[i].title).toLowerCase();
+            description = (obj[i].description).toLowerCase();
+            tags = obj[i].tag;
+
+            if ((title.includes(search_word)) || (description.includes(search_word))) {
+                console.log(obj[i].title + " should be displayed");
+                display_list.push(obj[i]);
+            }
+        }
+        console.log("Display_list is "+display_list);
+        buildListing(display_list);
     }
 
     function filterCategory() {
@@ -25,11 +47,12 @@ $(document).ready(function () {
             var filters=[];
             //if no boxes are checked, show all, break
             //else hide all listings
-            // $('.listing').hide();
+            $('.listing').hide();
             //check which checkboxes are checked
         console.log("id is "+id);
-            // $('"#'+id+'"').toggle(this.checked);
-            //else add checked ones to array
+        $('#'+id).toggle(this.checked);
+        console.log($("input:checked").val()+" is checked");
+         //else add checked ones to array
             //show classes in array
             $('.Math').show();
     }
@@ -50,8 +73,8 @@ $(document).ready(function () {
             url_root = window.location.origin+window.location.pathname,
             listing_container = "#listing_container";
 
-        console.log("in AddListingObj");
-        console.log(categories);
+        // console.log("in AddListingObj");
+        // console.log(categories);
         if (obj.path.match('^http','i')) {
             path = obj.path;
         }
@@ -95,11 +118,14 @@ $(document).ready(function () {
         var sample_doc_list = response.sample_docs;
         buildListing(sample_doc_list);
 
-        $("input[type=checkbox]").on("click",filterCategory());
-        // $('form').submit(function(){buildListing(sample_doc_list); return false;});
+        $("#search").submit(function() {searchResources(sample_doc_list); return false;});
+        $("input[type=checkbox]").on("click",filterCategory);
+        $('#codap-url').submit(function(){buildListing(sample_doc_list); return false;});
 
     }
 
     fetchObjList();
+
+
 });
 
