@@ -150,8 +150,7 @@ input[type=search]::-webkit-search-cancel-button {
 
 #filter-category {
     padding-left: 20px;
-    font-size: 1.1em;
-    line-height: 35px;
+    line-height: 20px;
     display: block;
     width: 175px;
     position:absolute;
@@ -162,14 +161,22 @@ input[type=search]::-webkit-search-cancel-button {
 }
 
 #filter-category input[type=checkbox] {
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     cursor: pointer;
-    margin: 20px auto;
+    margin: 10px;
+    vertical-align: middle;
 }
 
-#filter-category text {
+#filter-category form {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#filter-category label {
     color: #666;
+    font-size: 1.1em;
+    display: inline-block;
 }
 /*#filter-category label {*/
     /*width: 20px;*/
