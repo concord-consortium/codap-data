@@ -18,15 +18,12 @@ $(document).ready(function () {
             ignore_words = ["the", "it", "is", "we", "all", "a", "an", "by", "to", "you", "at", "she", "they", "we", "how", "it", "i", "are", "to", "for", "of", "in", "that", "and"];
 
         console.log("In removeCommonWords");
-        console.log("Words are: "+words);
 
         for (var k=0;k<words.length;k++) {
-            console.log("Word[k] is: "+words[k]);
             if (!(ignore_words.includes(words[k]))) {
                 word_list.push(words[k]);
             }
         }
-        console.log("Word list is: " + word_list);
         return word_list;
     }
 
@@ -39,32 +36,36 @@ $(document).ready(function () {
             keywords = ($('#keyword').val()).toLowerCase(),
             space=" ";
 
-        search_words = keywords.split(space);
-        console.log("Search_word is "+ search_words);
+        if (keywords=='') {
+            display_list = obj;
+        }
+        else {
+            search_words = (keywords.split(space));
 
-        for (var i=0; i<obj.length-1;i++) {
-            tags = obj[i].tag;
-            words = obj[i].word_list;
+            console.log("Search_words is " + search_words);
 
-            for (var j=0;j<search_words.length-1;j++) {
-                if (typeof tags != "undefined" && tags != null && tags.length > 0) {
+            for (var i = 0; i < obj.length - 1; i++) {
+                tags = obj[i].tag;
+                words = obj[i].word_list;
 
-                    if (tags.includes(search_words[j])) {
-                        display_list.push(obj[i]);
-                    }
-
-                }
-                if (typeof words != "undefined" && words != null && words.length > 0) {
-                    if (words.includes(search_words[j])) {
-                        console.log(obj[i].title + " should be displayed");
-                        if (!(display_list.includes(obj[i]))) {
+                for (var j = 0; j < search_words.length; j++) {
+                    if (typeof tags != "undefined" && tags != null && tags.length > 0) {
+                        if (tags.includes(search_words[j])) {
                             display_list.push(obj[i]);
+                        }
+
+                    }
+                    if (typeof words != "undefined" && words != null && words.length > 0) {
+                        if (words.includes(search_words[j])) {
+                            console.log(obj[i].title + " should be displayed");
+                            if (!(display_list.includes(obj[i]))) {
+                                display_list.push(obj[i]);
+                            }
                         }
                     }
                 }
             }
         }
-
         buildListing(display_list);
 
     }
