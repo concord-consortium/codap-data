@@ -26,18 +26,18 @@
         <p>To open a CODAP Example document, click on the title or drag the "Embeddable Link" into CODAP.</p>
     </section>
     <section id="search_area">
-        <form id="search" action="#" ><input type="text" id="keyword" name="keyword" value=""
+        <form id="search" action="#" ><input type="search" id="keyword" name="keyword" value=""
                                                                         placeholder="Search by keyword..."/> <input
             class="button" type="submit" value="Search"/></form>
     </section><!-- /#search -->
     <section id="content_area" >
         <div id="filter-category">
-            <form>
-                <input id="Math" class="check" type="checkbox" name="category_math" value="math"><label for="category_math"></label>Math<br>
-                <input id="Science" class="check" type="checkbox" name="category_science" value="science"><label for="category_science"></label>Science<br>
-                <input id="Socsci" class="check" type="checkbox" name="category_socsci" value="socsci"><label for="category_socsci"></label>Social Studies<br>
-                <input id="Language_arts" class="check" type="checkbox" name="category_language_arts" value="language_arts"><label for="category_language_arts"></label>Language Arts<br>
-                <input id="Miscellaneous" class="check" type="checkbox" name="category_misc" value="miscellaneous"><label for="category_misc"></label>Miscellaneous<br>
+            <form id="categories">
+                <input id="Math" class="category-checkbox" type="checkbox" name="category"  value="math"><label for="category_math"></label>Math<br>
+                <input id="Science" class="category-checkbox" type="checkbox" name="category" value="science"><label for="category_science"></label>Science<br>
+                <input id="Socsci" class="category-checkbox" type="checkbox" name="category" value="socsci"><label for="category_socsci"></label>Social Studies<br>
+                <input id="Language_arts" class="category-checkbox" type="checkbox" name="category" value="language_arts"><label for="category_language_arts"></label>Language Arts<br>
+                <input id="Miscellaneous" class="category-checkbox" type="checkbox" name="category" value="miscellaneous"><label for="category_misc"></label>Miscellaneous<br>
             </form>
         </div>
         <div id = "listing_container"></div>

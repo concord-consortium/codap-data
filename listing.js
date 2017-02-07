@@ -42,8 +42,6 @@ $(document).ready(function () {
         else {
             search_words = (keywords.split(space));
 
-            console.log("Search_words is " + search_words);
-
             for (var i = 0; i < obj.length - 1; i++) {
                 tags = obj[i].tag;
                 words = obj[i].word_list;
@@ -57,7 +55,6 @@ $(document).ready(function () {
                     }
                     if (typeof words != "undefined" && words != null && words.length > 0) {
                         if (words.includes(search_words[j])) {
-                            console.log(obj[i].title + " should be displayed");
                             if (!(display_list.includes(obj[i]))) {
                                 display_list.push(obj[i]);
                             }
@@ -66,24 +63,59 @@ $(document).ready(function () {
                 }
             }
         }
+
         buildListing(display_list);
 
     }
 
-    function filterCategory() {
+    function filterCategory(obj) {
         console.log("in filterCategory");
-            var id=this.id;
-            var filters=[];
-            //if no boxes are checked, show all, break
-            //else hide all listings
-            $('.listing').hide();
-            //check which checkboxes are checked
-        console.log("id is "+id);
-        $('#'+id).toggle(this.checked);
-        console.log($("input:checked").val()+" is checked");
-         //else add checked ones to array
-            //show classes in array
-            $('.Math').show();
+        var display_list=[],
+            category_form = document.getElementById('categories'),
+            categories = "",
+            checked_category=[],
+            // math = document.getElementById('Math'),
+            // science = document.getElementById('Science'),
+            // socsci = document.getElementById('Socsci'),
+            // langarts = document.getElementById('Language_arts'),
+            // misc = document.getElementById('Miscellaneous'),
+            categoryCheckboxes = category_form.getElementsByTagName('input'),
+            checked_num = categoryCheckboxes.length;
+            console.log("categoryCheckboxes is: "+categoryCheckboxes);
+            console.log("checked_num is: "+checked_num);
+
+        for (var k=0;k<checked_num;k++) {
+            console.log("categoryCheckbox["+k+"] is: " + categoryCheckboxes[k]);
+            console.log("categoryCheckbox["+k+"] id is: " + categoryCheckboxes[k].id);
+            console.log("categoryCheckbox["+k+"] check is: " + categoryCheckboxes[k].checked);
+
+            if (categoryCheckboxes[k].checked) {
+                checked_category.push(categoryCheckboxes[k].id);
+            }
+        }
+
+        $('.listing').remove();
+
+        if (checked_category.length<=0) {
+            display_list = obj;
+        }
+        else {
+            for (var k = 0; k < obj.length - 1; k++) {
+                categories = obj[k].categories;
+
+                for (var j = 0; j < checked_category.length; j++) {
+                    if (categories.includes(checked_category[j])) {
+                        if (!(display_list.includes(obj[k]))) {
+                            display_list.push(obj[k])
+                        }
+                    }
+
+                }
+            }
+        }
+
+        buildListing(display_list);
+
     }
 
     function AddListingObj(obj) {
@@ -127,9 +159,7 @@ $(document).ready(function () {
         listing_desc.appendTo(listing);
         linkLink.appendTo(listing);
         listing.appendTo(listing_container);
-
     }
-
 
     function buildListing(listing){
         console.log("in buildListing");
@@ -142,7 +172,7 @@ $(document).ready(function () {
             $('#listing_container').append('<p class="error">Sorry, no document matches your search.</p>');
         }
         else {
-            $('.error').remove();
+            // $('.error').remove();
             for (var i = 0; i < listing.length; i++) {
                 if (listing[i].visible) {
                     AddListingObj(listing[i]);
@@ -168,14 +198,13 @@ $(document).ready(function () {
 
             word_list = removeCommonWords(words);
 
-            console.log("Word list is: " + word_list);
             sample_doc_list[i].word_list = word_list;
         }
 
         buildListing(sample_doc_list);
 
         $("#search").submit(function() {searchResources(sample_doc_list); return false;});
-        $("input[type=checkbox]").on("click",filterCategory);
+        $("#categories .category-checkbox").change(function() {filterCategory(sample_doc_list); return false;});
         $('#codap-url').submit(function(){buildListing(sample_doc_list); return false;});
 
     }
