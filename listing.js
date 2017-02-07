@@ -31,6 +31,7 @@ $(document).ready(function () {
         console.log("in searchResources");
         var tags = [],
             words=[],
+            categories=[],
             display_list=[],
             search_words=[],
             keywords = ($('#keyword').val()).toLowerCase(),
@@ -45,6 +46,11 @@ $(document).ready(function () {
             for (var i = 0; i < obj.length - 1; i++) {
                 tags = obj[i].tag;
                 words = obj[i].word_list;
+                categories=(obj[i].categories).split(space);
+
+                for (k=0; k<categories.length;k++) {
+                    categories[k] =categories[k].toLowerCase();
+                }
 
                 for (var j = 0; j < search_words.length; j++) {
                     if (typeof tags != "undefined" && tags != null && tags.length > 0) {
@@ -55,6 +61,13 @@ $(document).ready(function () {
                     }
                     if (typeof words != "undefined" && words != null && words.length > 0) {
                         if (words.includes(search_words[j])) {
+                            if (!(display_list.includes(obj[i]))) {
+                                display_list.push(obj[i]);
+                            }
+                        }
+                    }
+                    if (typeof categories != "undefined" && categories != null && categories.length > 0) {
+                        if (categories.includes(search_words[j])) {
                             if (!(display_list.includes(obj[i]))) {
                                 display_list.push(obj[i]);
                             }
@@ -74,20 +87,13 @@ $(document).ready(function () {
             category_form = document.getElementById('categories'),
             categories = "",
             checked_category=[],
-            // math = document.getElementById('Math'),
-            // science = document.getElementById('Science'),
-            // socsci = document.getElementById('Socsci'),
-            // langarts = document.getElementById('Language_arts'),
-            // misc = document.getElementById('Miscellaneous'),
             categoryCheckboxes = category_form.getElementsByTagName('input'),
             checked_num = categoryCheckboxes.length;
             console.log("categoryCheckboxes is: "+categoryCheckboxes);
             console.log("checked_num is: "+checked_num);
 
         for (var k=0;k<checked_num;k++) {
-            console.log("categoryCheckbox["+k+"] is: " + categoryCheckboxes[k]);
-            console.log("categoryCheckbox["+k+"] id is: " + categoryCheckboxes[k].id);
-            console.log("categoryCheckbox["+k+"] check is: " + categoryCheckboxes[k].checked);
+
 
             if (categoryCheckboxes[k].checked) {
                 checked_category.push(categoryCheckboxes[k].id);
