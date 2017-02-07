@@ -17,17 +17,34 @@
         </div>
     </div>
 </header>
-<div id="home-content">
-    <h1> CODAP Sample Documents</h1>
-<p>This site has a list of CODAP sample documents.</p>
-<p><b>Instructions:</b> To open a CODAP Example document, click on the title or drag the "Embeddable Link" into CODAP.</p>
-<div id = 'top-nav-bar'>
-    <nav class='nav-bar'></nav>
-</div>
-<div id = "listing_container"></div>
+<section id="home-content">
+    <section id="title">
+        <h1> CODAP Sample Documents</h1>
+    </section>
+</section>
+    <section id="intro">
+        <p>To open a CODAP Example document, click on the title or drag the "Embeddable Link" into CODAP.</p>
+    </section>
+    <section id="search_area">
+        <form id="search" action="#" ><input type="search" id="keyword" name="keyword" value=""
+                                                                        placeholder="Search by keyword..."/> <input
+            class="button" type="submit" value="Search"/></form>
+    </section><!-- /#search -->
+    <section id="content_area" >
+        <div id="filter-category">
+            <form id="categories">
+                <input id="Math" class="category-checkbox" type="checkbox" name="category"  value="math"><label for="category_math"></label>Math<br>
+                <input id="Science" class="category-checkbox" type="checkbox" name="category" value="science"><label for="category_science"></label>Science<br>
+                <input id="Socsci" class="category-checkbox" type="checkbox" name="category" value="socsci"><label for="category_socsci"></label>Social Studies<br>
+                <input id="Language_arts" class="category-checkbox" type="checkbox" name="category" value="language_arts"><label for="category_language_arts"></label>Language Arts<br>
+                <input id="Miscellaneous" class="category-checkbox" type="checkbox" name="category" value="miscellaneous"><label for="category_misc"></label>Miscellaneous<br>
+            </form>
+        </div>
+        <div id = "listing_container"></div>
+    </section>
     <div class = "form_container">
         <form action="">
-            <label>CODAP: </label>
+            <label>Enter CODAP build to use: </label>
             <input id="codap-url" size="75" type="text" value="" />
             <script type="text/javascript">
                 var pageLoc = location.href;
@@ -39,7 +56,6 @@
             </script>
         </form>
     </div>
-</div>
 
 <div class="credits">
     <p>Concord Consortium's CODAP sample documents repository: <a target = "blank" href="https://github.com/concord-consortium/codap-data">https://github.com/concord-consortium/codap-data</a></p>
