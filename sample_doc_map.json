@@ -8,7 +8,7 @@
         "markov chains", "markov", "chain", "game", "data science games", "conditional probability", "probability"
     ],
     "categories":
-      "Math Miscellaneous"
+      ["Math", "Miscellaneous"]
 
   },
   {
@@ -20,7 +20,7 @@
       "physics", "san francisco", "Pocketlab", "pressure changes"
     ],
     "categories":
-      "Miscellaneous Science"
+      ["Miscellaneous", "Science"]
 
   },
   {
@@ -32,7 +32,7 @@
       "birthdays", "birth", "birth rates", "probability"
     ],
     "categories":
-      "Math"
+      ["Math"]
 
   },
   {
@@ -44,7 +44,7 @@
       "climate", "change", "simulation", "games", "earth science", "earth"
     ],
     "categories":
-      "Science"
+      ["Science"]
 
   },
   {
@@ -56,7 +56,7 @@
       "earthquakes", "california", "earth science", "earth"
     ],
     "categories":
-      "Science"
+      ["Science"]
 
   },
   {
@@ -68,7 +68,7 @@
       "fast plants", "plants", "beginner", "biology"
     ],
     "categories":
-      "Miscellaneous Science"
+      ["Miscellaneous", "Science"]
 
   },
   {
@@ -80,7 +80,7 @@
       "cats", "biology", "animals"
     ],
     "categories":
-      "Science"
+      ["Science"]
 
   },
   {
@@ -92,7 +92,7 @@
       "tortoise", "biology", "animals"
     ],
     "categories":
-      "Science"
+      ["Science"]
 
   },
   {
@@ -104,7 +104,7 @@
       "seals", "biology", "animals"
     ],
     "categories":
-      "Miscellaneous Science"
+      ["Miscellaneous", "Science"]
 
   },
   {
@@ -116,7 +116,7 @@
       "mammals", "biology", "animals"
     ],
     "categories":
-      "Science"
+    ["Science"]
 
   },
   {
@@ -128,7 +128,7 @@
       "parachute", "physics", "mass", "size", "velocity", "freefall", "gravity", "model"
     ],
     "categories":
-      "Miscellaneous Science"
+      ["Miscellaneous", "Science"]
 
   },
   {
@@ -140,7 +140,7 @@
       "education", "states", "maps", "USA", "model"
     ],
     "categories":
-      "Miscellaneous Socsci"
+      ["Miscellaneous", "Socsci"]
 
   },
   {
@@ -152,7 +152,7 @@
       "education", "states", "maps"
     ],
     "categories":
-      "Miscellaneous"
+      ["Miscellaneous"]
 
   },
   {
@@ -162,7 +162,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Miscellaneous"
+    ["Miscellaneous"]
 
   },
   {
@@ -172,7 +172,7 @@
     "visible": true,
     "tag":["educaton"],
     "categories":
-      "Miscellaneous"
+    ["Miscellaneous"]
 
   },
   {
@@ -182,7 +182,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Miscellaneous"
+    ["Miscellaneous"]
 
   },
   {
@@ -194,7 +194,7 @@
       "children", "growth", "grow", "age", "height", "weight"
     ],
     "categories":
-      "Socsci Math"
+      ["Socsci", "Math"]
   },
   {
     "title": "Six Tests",
@@ -205,7 +205,7 @@
       "children", "growth", "grow", "age", "height", "weight"
     ],
     "categories":
-      "Miscellaneous"
+    ["Miscellaneous"]
 
   },
   {
@@ -215,7 +215,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Miscellaneous"
+    ["Miscellaneous"]
 
   },
   {
@@ -225,7 +225,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Miscellaneous"
+    ["Miscellaneous"]
 
   },
   {
@@ -235,7 +235,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Miscellaneous"
+    ["Miscellaneous"]
 
   },
   {
@@ -245,7 +245,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Education"
+    ["Miscellaneous"]
 
   },
   {
@@ -255,7 +255,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Miscellaneous"
+    ["Miscellaneous"]
 
   },
   {
@@ -265,7 +265,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Miscellaneous"
+    ["Miscellaneous"]
 
   },
   {
@@ -275,7 +275,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Language Arts"
+      ["Language Arts"]
 
   },
   {
@@ -285,7 +285,7 @@
     "visible": true,
     "tag":["movie","character", "imdb"],
     "categories":
-      "Miscellaneous"
+    ["Miscellaneous"]
 
   },
   {
@@ -295,7 +295,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Miscellaneous"
+    ["Miscellaneous"]
 
   },
   {
@@ -305,7 +305,7 @@
     "visible": true,
     "tag":[],
     "categories":
-      "Miscellaneous"
+    ["Miscellaneous"]
 
   },
   {
@@ -315,7 +315,7 @@
     "visible": true,
     "tag":[],
     "categories":
-      "Language Arts"
+    ["Language Arts"]
 
   },
   {
@@ -325,7 +325,7 @@
     "visible": false,
     "tag":["speech"],
     "categories":
-      "Language Arts"
+    ["Language Arts"]
 
   },
   {
@@ -335,7 +335,7 @@
     "visible": false,
     "tag":["indpendence"],
     "categories":
-      "Language Arts"
+    ["Language Arts"]
 
   },
   {
@@ -345,7 +345,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Language Arts"
+    ["Language Arts"]
 
   },
   {
@@ -355,7 +355,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Language Arts"
+    ["Language Arts"]
 
   },
   {
@@ -365,7 +365,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Language Arts"
+    ["Language Arts"]
 
   },
   {
@@ -375,7 +375,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Language Arts"
+    ["Language Arts"]
 
   },
   {
@@ -385,7 +385,7 @@
     "visible": true,
     "tag":["building", "algebra"],
     "categories":
-      "Math"
+      ["Math"]
 
   },
   {
@@ -395,7 +395,7 @@
     "visible": true,
     "tag":[],
     "categories":
-      "Math"
+    ["Math"]
 
   },
   {
@@ -405,7 +405,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Math"
+    ["Math"]
 
   },
   {
@@ -415,7 +415,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Math"
+    ["Math"]
 
   },
   {
@@ -425,7 +425,7 @@
     "visible": true,
     "tag":["algebra","guess"],
     "categories":
-      "Math"
+    ["Math"]
 
   },
   {
@@ -435,7 +435,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Math"
+    ["Math"]
 
   },
   {
@@ -445,7 +445,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Math"
+    ["Math"]
 
   },
   {
@@ -455,7 +455,7 @@
     "visible": true,
     "tag":["calculus","integral","derivative"],
     "categories":
-      "Math"
+    ["Math"]
 
   },
   {
@@ -465,7 +465,7 @@
     "visible": true,
     "tag":["calculus", "integral", "integraton"],
     "categories":
-      "Math"
+    ["Math"]
 
   },
   {
@@ -475,7 +475,7 @@
     "visible": true,
     "tag":["calculus", "logistics"],
     "categories":
-      "Math"
+    ["Math"]
 
   },
   {
@@ -485,7 +485,7 @@
     "visible": true,
     "tag": ["calculus", "minimize"],
     "categories":
-      "Math"
+    ["Math"]
 
   },
   {
@@ -495,7 +495,7 @@
     "visible": true,
     "tag":["calculus"],
     "categories":
-      "Math"
+    ["Math"]
 
   },
   {
@@ -505,7 +505,7 @@
     "visible": true,
     "tag":["geometry"],
     "categories":
-      "Math"
+    ["Math"]
 
   },
   {
@@ -515,7 +515,7 @@
     "visible": true,
     "tag":["number theory"],
     "categories":
-      "Math"
+    ["Math"]
 
   },
   {
@@ -525,7 +525,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Math/Number Theory"
+    ["Math"]
 
   },
   {
@@ -535,7 +535,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Math/Number Theory"
+    ["Math"]
 
   },
   {
@@ -545,7 +545,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Math/Other Math"
+    ["Math"]
 
   },
   {
@@ -555,7 +555,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Math/Geometry"
+    ["Math"]
 
   },
   {
@@ -565,7 +565,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Math/Other Math"
+    ["Math"]
 
   },
   {
@@ -575,7 +575,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Math"
+    ["Math"]
 
   },
   {
@@ -585,7 +585,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Math"
+    ["Math"]
 
   },
   {
@@ -595,7 +595,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Math"
+    ["Math"]
 
   },
   {
@@ -605,7 +605,7 @@
     "visible": true,
     "tag":[],
     "categories":
-      "Math"
+    ["Math"]
 
   },
   {
@@ -615,7 +615,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Math"
+    ["Math"]
 
   },
   {
@@ -625,7 +625,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Math"
+    ["Math"]
 
   },
   {
@@ -635,7 +635,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Math"
+    ["Math"]
 
   },
   {
@@ -645,7 +645,7 @@
     "visible": true,
     "tag":[],
     "categories":
-      "Math"
+    ["Math"]
 
   },
   {
@@ -655,7 +655,7 @@
     "visible": true,
     "tag":[],
     "categories":
-      "Science"
+      ["Science"]
 
   },
   {
@@ -665,8 +665,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Science"
-
+    ["Science"]
   },
   {
     "title": "Jupiter Moons",
@@ -675,7 +674,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Science"
+    ["Science"]
 
   },
    {
@@ -685,7 +684,7 @@
     "visible": false,
      "tag":[],
      "categories":
-      "Science"
+     ["Science"]
 
   },
   {
@@ -695,7 +694,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Science"
+    ["Science"]
 
   },
   {
@@ -705,7 +704,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Science"
+    ["Science"]
 
   },
   {
@@ -715,7 +714,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Science"
+    ["Science"]
 
   },
   {
@@ -725,7 +724,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Science"
+    ["Science"]
 
   },
   {
@@ -735,7 +734,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Science"
+    ["Science"]
 
   },
   {
@@ -745,7 +744,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Science"
+    ["Science"]
 
   },
   {
@@ -755,7 +754,7 @@
     "visible": true,
     "tag":[],
     "categories":
-      "Science"
+    ["Science"]
 
   },
   {
@@ -765,7 +764,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Science"
+    ["Science"]
 
   },
   {
@@ -775,7 +774,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Science/Earth Sciences"
+    ["Science"]
 
   },
   {
@@ -785,7 +784,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Science/Earth Sciences"
+    ["Science"]
 
   },
   {
@@ -795,7 +794,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Science/Earth Sciences"
+    ["Science"]
 
   },
   {
@@ -805,7 +804,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Science/Earth Sciences"
+    ["Science"]
 
   },
   {
@@ -813,8 +812,9 @@
     "description": "A collection of data from multiple stations around Colorado over a period of about 100 years.",
     "path": "SampleDocs/Science/E_Sciences/AVG_Temps/CO_Avg_Temps/CO_Avg_Temps.json",
     "visible": false,
+    "tag":[],
     "categories":
-      "Science/Earth Sciences"
+    ["Science"]
 
   },
   {
@@ -824,7 +824,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Science/Earth Sciences"
+    ["Science"]
 
   },
   {
@@ -834,7 +834,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Science/Earth Sciences"
+    ["Science"]
 
   },
   {
@@ -844,7 +844,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Science/Earth Sciences"
+    ["Science"]
 
   },
   {
@@ -854,7 +854,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Science/Earth Sciences"
+    ["Science"]
 
   },
   {
@@ -864,8 +864,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Science/Earth Sciences"
-
+    ["Science"]
   },
   {
     "title": "Concord Weather",
@@ -874,8 +873,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Science/Earth Sciences"
-
+    ["Science"]
   },
   {
     "title": "Earthquakes",
@@ -884,8 +882,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Science/Earth Sciences"
-
+    ["Science"]
   },
   {
     "title": "Global Carbon",
@@ -894,7 +891,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Science/Earth Sciences"
+    ["Science"]
 
   },
   {
@@ -904,7 +901,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Science/Earth Sciences"
+    ["Science"]
 
   },
   {
@@ -914,7 +911,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Science/Earth Sciences"
+    ["Science"]
 
   },
   {
@@ -924,7 +921,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Science/Earth Sciences"
+    ["Science"]
 
   },
   {
@@ -934,7 +931,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Science/Earth Sciences"
+    ["Science"]
 
   },
   {
@@ -944,7 +941,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Science/Earth Sciences"
+    ["Science"]
 
   },
   {
@@ -954,7 +951,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Science/Earth Sciences"
+    ["Science"]
 
   },
   {
@@ -964,7 +961,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Science/Earth Sciences"
+    ["Science"]
 
   },
   {
@@ -974,7 +971,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Science/Earth Sciences"
+    ["Science"]
 
   },
   {
@@ -984,7 +981,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Science/Earth Sciences"
+    ["Science"]
 
   },
   {
@@ -994,7 +991,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Science"
+    ["Science"]
 
   },
   {
@@ -1004,7 +1001,7 @@
     "visible": true,
     "tag":[],
     "categories":
-      "Science"
+    ["Science"]
 
   },
   {
@@ -1014,7 +1011,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Science"
+    ["Science"]
 
   },
   {
@@ -1024,7 +1021,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Science"
+    ["Science"]
 
   },
   {
@@ -1034,7 +1031,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Science"
+    ["Science"]
 
   },
   {
@@ -1044,7 +1041,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Science"
+    ["Science"]
 
   },
   {
@@ -1054,7 +1051,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Science"
+    ["Science"]
 
   },
   {
@@ -1064,7 +1061,7 @@
     "visible": true,
     "tag":[],
     "categories":
-      "Science"
+    ["Science"]
 
   },
   {
@@ -1074,7 +1071,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Science"
+    ["Science"]
 
   },
   {
@@ -1084,7 +1081,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Science"
+    ["Science"]
 
   },
   {
@@ -1096,7 +1093,7 @@
       "children", "income", "women", "global", "female", "fertility"
     ],
     "categories": [
-      "Social Studies/World"
+      "Socsci"
     ]
   },
   {
@@ -1108,8 +1105,8 @@
       "hospital", "medical", "health care", "united states", "health", "infection"
     ],
     "categories": [
-      "Social Studies/United States",
-      "Science/Biology"
+      "Socsci",
+      "Science"
     ]
   },
   {
@@ -1139,7 +1136,9 @@
     "visible": false,
      "tag":[],
      "categories":
-      "Socsci"
+     [
+       "Socsci"
+     ]
 
   },
   {
@@ -1149,7 +1148,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Socsci"
+      ["Socsci"]
 
   },
    {
@@ -1159,9 +1158,9 @@
     "visible": false,
      "tag":[],
      "categories":
-      "Socsci"
+     ["Socsci"]
 
-  },
+   },
    {
     "title": "Military Personnel",
     "description": "Find relationships between the number of military personnel per year and historical events.",
@@ -1169,9 +1168,9 @@
     "visible": false,
      "tag":[],
      "categories":
-      "Socsci"
+     ["Socsci"]
 
-  },
+   },
    {
     "title": "CPI Canada",
     "description": "Explore information about the CPI for Canada annually, from 1914 to 2006.",
@@ -1179,7 +1178,7 @@
     "visible": false,
      "tag":[],
      "categories":
-      "Socsci"
+     ["Socsci"]
 
   },
    {
@@ -1189,9 +1188,9 @@
     "visible": false,
      "tag":[],
      "categories":
-      "Socsci"
+     ["Socsci"]
 
-  },
+   },
    {
     "title": "Ontario Census",
     "description": "Explore data about the population of Ontario, Canada in 2001.",
@@ -1199,9 +1198,8 @@
     "visible": false,
      "tag":[],
      "categories":
-      "Socsci"
-
-  },
+     ["Socsci"]
+   },
    {
     "title": "Languages of Ontario",
     "description": "Explore data about the languages spoken in Ontario.",
@@ -1209,9 +1207,8 @@
     "visible": false,
      "tag":[],
      "categories":
-      "Socsci"
-
-  },
+     ["Socsci"]
+   },
    {
     "title": "Smoking and Education",
     "description": "Find relationships between the smokers and their education levels in Canada.",
@@ -1219,9 +1216,8 @@
     "visible": false,
      "tag":[],
      "categories":
-      "Socsci"
-
-  },
+     ["Socsci"]
+   },
   {
     "title": "Technology Use in Canada",
     "description": "A case table about the Canadian science/technology use in 2001.",
@@ -1229,8 +1225,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Socsci"
-
+    ["Socsci"]
   },
    {
     "title": "Wheat Production Since 1908",
@@ -1239,9 +1234,10 @@
     "visible": false,
      "tag":[],
      "categories":
-      "Socsci"
+     ["Socsci"]
 
-  },
+
+   },
    {
     "title": "Youth Crimes",
     "description": "A case table contains information about the number of youth crimes in Canada from 1983 to 1999.",
@@ -1249,9 +1245,10 @@
     "visible": false,
      "tag":[],
      "categories":
-      "Socsci"
+     ["Socsci"]
 
-  },
+
+   },
   {
     "title": "Youth Survey",
     "description": "A case table with data from the Ontario Youth survey conducted between 1994 and 1999.",
@@ -1259,7 +1256,8 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Socsci"
+    ["Socsci"]
+
 
   },
    {
@@ -1269,9 +1267,10 @@
     "visible": false,
      "tag":[],
      "categories":
-      "Socsci/Europe"
+     ["Socsci"]
 
-  },
+
+   },
   {
     "title": "German Foreign Trade",
     "description": "A case table about German foreign trade over time.",
@@ -1279,7 +1278,8 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Socsci/Europe"
+    ["Socsci"]
+
 
   },
   {
@@ -1289,7 +1289,8 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Socsci/Europe"
+    ["Socsci"]
+
 
   },
   {
@@ -1299,7 +1300,8 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Socsci/Europe"
+    ["Socsci"]
+
 
   },
    {
@@ -1309,9 +1311,8 @@
     "visible": false,
      "tag":[],
      "categories":
-      "Socsci/Europe"
-
-  },
+     ["Socsci"]
+   },
    {
     "title": "UK Smoking",
     "description": "A case table about the smoking habits of people in the United Kingdom.",
@@ -1319,9 +1320,8 @@
     "visible": false,
      "tag":[],
      "categories":
-      "Socsci/Europe"
-
-  },
+     ["Socsci"]
+   },
   {
     "title": "Cities of Brazil",
     "description": "Explore the populations of capitol cities and cities of 100,000 and more inhabitants in Brazil in the year 2000.",
@@ -1329,7 +1329,8 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Socsci/Latin America"
+    ["Socsci"]
+
 
   },
   {
@@ -1339,7 +1340,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Socsci/Latin America"
+    ["Socsci"]
 
   },
   {
@@ -1349,7 +1350,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Socsci/Latin America"
+    ["Socsci"]
 
   },
    {
@@ -1359,9 +1360,9 @@
     "visible": false,
      "tag":[],
      "categories":
-      "Socsci/Latin America"
+     ["Socsci"]
 
-  },
+   },
    {
     "title": "CA Counties",
     "description": "The 2000 school year projections for each county in California",
@@ -1369,9 +1370,9 @@
     "visible": false,
      "tag":[],
      "categories":
-      "Socsci"
+     ["Socsci"]
 
-  },
+   },
   {
     "title": "Cars",
     "description": "A case table about random passenger car models from 1993",
@@ -1379,7 +1380,7 @@
     "visible": true,
     "tag":[],
     "categories":
-      "Socsci"
+    ["Socsci"]
 
   },
   {
@@ -1389,7 +1390,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Socsci"
+    ["Socsci"]
 
   },
   {
@@ -1399,7 +1400,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Socsci"
+    ["Socsci"]
 
   },
    {
@@ -1409,9 +1410,9 @@
     "visible": false,
      "tag":[],
      "categories":
-      "Socsci"
+     ["Socsci"]
 
-  },
+   },
    {
     "title": "CPI By Month",
     "description": "Data on the CPI for each month from 1913 to 2004 in the United States.",
@@ -1419,9 +1420,9 @@
     "visible": false,
      "tag":[],
      "categories":
-      "Socsci"
+     ["Socsci"]
 
-  },
+   },
   {
     "title": "CPI By Year",
     "description": "Data on the CPI for each year from 1913 to 2011 in the United States.",
@@ -1429,7 +1430,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Socsci"
+    ["Socsci"]
 
   },
   {
@@ -1439,7 +1440,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Socsci"
+    ["Socsci"]
 
   },
   {
@@ -1449,7 +1450,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Socsci"
+    ["Socsci"]
 
   },
   {
@@ -1459,7 +1460,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Socsci"
+    ["Socsci"]
 
   },
   {
@@ -1469,7 +1470,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Socsci"
+    ["Socsci"]
 
   },
   {
@@ -1479,7 +1480,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Socsci"
+    ["Socsci"]
 
   },
   {
@@ -1489,7 +1490,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Socsci"
+    ["Socsci"]
 
   },
   {
@@ -1499,7 +1500,8 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Socsci"
+    ["Socsci"]
+
 
   },
   {
@@ -1509,7 +1511,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Socsci"
+    ["Socsci"]
 
   },
   {
@@ -1519,7 +1521,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Socsci"
+    ["Socsci"]
 
   },
    {
@@ -1529,9 +1531,9 @@
     "visible": false,
      "tag":[],
      "categories":
-      "Socsci"
+     ["Socsci"]
 
-  },
+   },
   {
     "title": "States - Taxes",
     "description": "A case table about the amounts of taxes collected in each of the United States.",
@@ -1539,7 +1541,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Socsci"
+    ["Socsci"]
 
   },
   {
@@ -1549,7 +1551,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Socsci"
+    ["Socsci"]
 
   },
   {
@@ -1559,7 +1561,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Socsci"
+    ["Socsci"]
 
   },
   {
@@ -1569,7 +1571,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Socsci"
+    ["Socsci"]
 
   },
   {
@@ -1579,7 +1581,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Socsci"
+    ["Socsci"]
 
   },
   {
@@ -1589,7 +1591,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Socsci"
+    ["Socsci"]
 
   },
   {
@@ -1599,7 +1601,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Socsci"
+    ["Socsci"]
 
   },
   {
@@ -1609,7 +1611,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Socsci"
+    ["Socsci"]
 
   },
   {
@@ -1619,7 +1621,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Socsci"
+    ["Socsci"]
 
   },
   {
@@ -1629,7 +1631,8 @@
     "visible": false,
     "tag": ["USA", "census"],
     "categories":
-      "Socsci"
+    ["Socsci"]
+
   },
   {
     "title": "US Census - NY City 5507",
@@ -1638,7 +1641,8 @@
     "visible": false,
     "tag":["USA", "census"],
     "categories":
-      "Socsci"
+    ["Socsci"]
+
   },
   {
     "title": "US Census - Ohio South",
@@ -1647,7 +1651,8 @@
     "visible": false,
     "tag": ["USA", "census"],
     "categories":
-      "Socsci"
+    ["Socsci"]
+
 
   },
   {
@@ -1657,7 +1662,8 @@
     "visible": true,
     "tag":[],
     "categories":
-      "Socsci"
+    ["Socsci"]
+
 
   },
   {
@@ -1667,7 +1673,7 @@
     "visible": true,
     "tag":[],
     "categories":
-      "Socsci"
+    ["Socsci"]
 
   },
   {
@@ -1678,7 +1684,7 @@
     "tag":
       ["populations", "social studies", "world", "cities"],
       "categories":
-      "Socsci"
+
 
   },
   {
@@ -1688,7 +1694,8 @@
     "visible": false,
     "tag": ["USA", "census"],
     "categories":
-      "Socsci"
+    ["Socsci"]
+
 
   },
   {
@@ -1700,7 +1707,8 @@
       ["crops", "social studies", "agriculture", "united states", "corn", "cotton", "maize", "almonds"]
     ,
     "categories":
-      "Socsci"
+    ["Socsci"]
+
 
   },
   {
@@ -1712,7 +1720,8 @@
       ["census", "social studies", "United States"]
     ,
     "categories":
-      "Socsci"
+    ["Socsci"]
+
 
   },
   {
@@ -1722,7 +1731,8 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Sports"
+    ["Miscellaneous"]
+
 
   },
   {
@@ -1742,7 +1752,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Sports"
+    ["Miscellaneous"]
 
   },
   {
@@ -1752,7 +1762,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Sports"
+    ["Miscellaneous"]
 
   },
   {
@@ -1762,7 +1772,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Sports"
+    ["Miscellaneous"]
 
   }
 ]}
