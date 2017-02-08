@@ -8,7 +8,7 @@
         "markov chains", "markov", "chain", "game", "data science games", "conditional probability", "probability"
     ],
     "categories":
-      ["Math", "Miscellaneous"]
+      ["math", "miscellaneous"]
 
   },
   {
@@ -20,7 +20,7 @@
       "physics", "san francisco", "Pocketlab", "pressure changes"
     ],
     "categories":
-      ["Miscellaneous", "Science"]
+      ["miscellaneous", "Science"]
 
   },
   {
@@ -32,7 +32,7 @@
       "birthdays", "birth", "birth rates", "probability"
     ],
     "categories":
-      ["Math"]
+      ["math"]
 
   },
   {
@@ -68,7 +68,7 @@
       "fast plants", "plants", "beginner", "biology"
     ],
     "categories":
-      ["Miscellaneous", "Science"]
+      ["miscellaneous", "Science"]
 
   },
   {
@@ -104,7 +104,7 @@
       "seals", "biology", "animals"
     ],
     "categories":
-      ["Miscellaneous", "Science"]
+      ["miscellaneous", "Science"]
 
   },
   {
@@ -128,7 +128,7 @@
       "parachute", "physics", "mass", "size", "velocity", "freefall", "gravity", "model"
     ],
     "categories":
-      ["Miscellaneous", "Science"]
+      ["miscellaneous", "Science"]
 
   },
   {
@@ -140,7 +140,7 @@
       "education", "states", "maps", "USA", "model"
     ],
     "categories":
-      ["Miscellaneous", "Socsci"]
+      ["miscellaneous", "socsci"]
 
   },
   {
@@ -152,7 +152,7 @@
       "education", "states", "maps"
     ],
     "categories":
-      ["Miscellaneous"]
+      ["miscellaneous"]
 
   },
   {
@@ -162,7 +162,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Miscellaneous"]
+    ["miscellaneous"]
 
   },
   {
@@ -172,7 +172,7 @@
     "visible": true,
     "tag":["educaton"],
     "categories":
-    ["Miscellaneous"]
+    ["miscellaneous"]
 
   },
   {
@@ -182,7 +182,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Miscellaneous"]
+    ["miscellaneous"]
 
   },
   {
@@ -194,7 +194,7 @@
       "children", "growth", "grow", "age", "height", "weight"
     ],
     "categories":
-      ["Socsci", "Math"]
+      ["socsci", "math"]
   },
   {
     "title": "Six Tests",
@@ -205,7 +205,7 @@
       "children", "growth", "grow", "age", "height", "weight"
     ],
     "categories":
-    ["Miscellaneous"]
+    ["miscellaneous"]
 
   },
   {
@@ -215,7 +215,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Miscellaneous"]
+    ["miscellaneous"]
 
   },
   {
@@ -225,7 +225,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Miscellaneous"]
+    ["miscellaneous"]
 
   },
   {
@@ -235,7 +235,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Miscellaneous"]
+    ["miscellaneous"]
 
   },
   {
@@ -245,7 +245,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Miscellaneous"]
+    ["miscellaneous"]
 
   },
   {
@@ -255,7 +255,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Miscellaneous"]
+    ["miscellaneous"]
 
   },
   {
@@ -265,7 +265,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Miscellaneous"]
+    ["miscellaneous"]
 
   },
   {
@@ -275,7 +275,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      ["Language Arts"]
+      ["language"]
 
   },
   {
@@ -285,7 +285,7 @@
     "visible": true,
     "tag":["movie","character", "imdb"],
     "categories":
-    ["Miscellaneous"]
+    ["miscellaneous"]
 
   },
   {
@@ -295,7 +295,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Miscellaneous"]
+    ["miscellaneous"]
 
   },
   {
@@ -305,7 +305,7 @@
     "visible": true,
     "tag":[],
     "categories":
-    ["Miscellaneous"]
+    ["miscellaneous"]
 
   },
   {
@@ -315,7 +315,7 @@
     "visible": true,
     "tag":[],
     "categories":
-    ["Language Arts"]
+    ["language"]
 
   },
   {
@@ -325,7 +325,7 @@
     "visible": false,
     "tag":["speech"],
     "categories":
-    ["Language Arts"]
+    ["language"]
 
   },
   {
@@ -335,7 +335,7 @@
     "visible": false,
     "tag":["indpendence"],
     "categories":
-    ["Language Arts"]
+    ["language"]
 
   },
   {
@@ -345,7 +345,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Language Arts"]
+    ["language"]
 
   },
   {
@@ -355,7 +355,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Language Arts"]
+    ["language"]
 
   },
   {
@@ -365,7 +365,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Language Arts"]
+    ["language"]
 
   },
   {
@@ -375,7 +375,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Language Arts"]
+    ["language"]
 
   },
   {
@@ -385,7 +385,7 @@
     "visible": true,
     "tag":["building", "algebra"],
     "categories":
-      ["Math"]
+      ["math"]
 
   },
   {
@@ -395,7 +395,7 @@
     "visible": true,
     "tag":[],
     "categories":
-    ["Math"]
+    ["math"]
 
   },
   {
@@ -405,7 +405,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Math"]
+    ["math"]
 
   },
   {
@@ -415,7 +415,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Math"]
+    ["math"]
 
   },
   {
@@ -425,7 +425,7 @@
     "visible": true,
     "tag":["algebra","guess"],
     "categories":
-    ["Math"]
+    ["math"]
 
   },
   {
@@ -435,7 +435,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Math"]
+    ["math"]
 
   },
   {
@@ -445,7 +445,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Math"]
+    ["math"]
 
   },
   {
@@ -455,7 +455,7 @@
     "visible": true,
     "tag":["calculus","integral","derivative"],
     "categories":
-    ["Math"]
+    ["math"]
 
   },
   {
@@ -465,7 +465,7 @@
     "visible": true,
     "tag":["calculus", "integral", "integraton"],
     "categories":
-    ["Math"]
+    ["math"]
 
   },
   {
@@ -475,7 +475,7 @@
     "visible": true,
     "tag":["calculus", "logistics"],
     "categories":
-    ["Math"]
+    ["math"]
 
   },
   {
@@ -485,7 +485,7 @@
     "visible": true,
     "tag": ["calculus", "minimize"],
     "categories":
-    ["Math"]
+    ["math"]
 
   },
   {
@@ -495,7 +495,7 @@
     "visible": true,
     "tag":["calculus"],
     "categories":
-    ["Math"]
+    ["math"]
 
   },
   {
@@ -505,7 +505,7 @@
     "visible": true,
     "tag":["geometry"],
     "categories":
-    ["Math"]
+    ["math"]
 
   },
   {
@@ -515,7 +515,7 @@
     "visible": true,
     "tag":["number theory"],
     "categories":
-    ["Math"]
+    ["math"]
 
   },
   {
@@ -525,7 +525,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Math"]
+    ["math"]
 
   },
   {
@@ -535,7 +535,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Math"]
+    ["math"]
 
   },
   {
@@ -545,7 +545,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Math"]
+    ["math"]
 
   },
   {
@@ -555,7 +555,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Math"]
+    ["math"]
 
   },
   {
@@ -565,7 +565,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Math"]
+    ["math"]
 
   },
   {
@@ -575,7 +575,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Math"]
+    ["math"]
 
   },
   {
@@ -585,7 +585,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Math"]
+    ["math"]
 
   },
   {
@@ -595,7 +595,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Math"]
+    ["math"]
 
   },
   {
@@ -605,7 +605,7 @@
     "visible": true,
     "tag":[],
     "categories":
-    ["Math"]
+    ["math"]
 
   },
   {
@@ -615,7 +615,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Math"]
+    ["math"]
 
   },
   {
@@ -625,7 +625,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Math"]
+    ["math"]
 
   },
   {
@@ -635,7 +635,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Math"]
+    ["math"]
 
   },
   {
@@ -645,7 +645,7 @@
     "visible": true,
     "tag":[],
     "categories":
-    ["Math"]
+    ["math"]
 
   },
   {
@@ -655,7 +655,7 @@
     "visible": true,
     "tag":[],
     "categories":
-      ["Science"]
+      ["science"]
 
   },
   {
@@ -665,7 +665,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Science"]
+    ["science"]
   },
   {
     "title": "Jupiter Moons",
@@ -674,7 +674,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Science"]
+    ["science"]
 
   },
    {
@@ -684,7 +684,7 @@
     "visible": false,
      "tag":[],
      "categories":
-     ["Science"]
+     ["science"]
 
   },
   {
@@ -694,7 +694,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Science"]
+    ["science"]
 
   },
   {
@@ -704,7 +704,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Science"]
+    ["science"]
 
   },
   {
@@ -714,7 +714,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Science"]
+    ["science"]
 
   },
   {
@@ -724,7 +724,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Science"]
+    ["science"]
 
   },
   {
@@ -734,7 +734,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Science"]
+    ["science"]
 
   },
   {
@@ -744,7 +744,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Science"]
+    ["science"]
 
   },
   {
@@ -754,7 +754,7 @@
     "visible": true,
     "tag":[],
     "categories":
-    ["Science"]
+    ["science"]
 
   },
   {
@@ -764,7 +764,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Science"]
+    ["science"]
 
   },
   {
@@ -774,7 +774,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Science"]
+    ["science"]
 
   },
   {
@@ -784,7 +784,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Science"]
+    ["science"]
 
   },
   {
@@ -794,7 +794,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Science"]
+    ["science"]
 
   },
   {
@@ -804,7 +804,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Science"]
+    ["science"]
 
   },
   {
@@ -814,7 +814,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Science"]
+    ["science"]
 
   },
   {
@@ -824,7 +824,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Science"]
+    ["science"]
 
   },
   {
@@ -834,7 +834,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Science"]
+    ["science"]
 
   },
   {
@@ -844,7 +844,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Science"]
+    ["science"]
 
   },
   {
@@ -854,7 +854,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Science"]
+    ["science"]
 
   },
   {
@@ -864,7 +864,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Science"]
+    ["science"]
   },
   {
     "title": "Concord Weather",
@@ -873,7 +873,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Science"]
+    ["science"]
   },
   {
     "title": "Earthquakes",
@@ -882,7 +882,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Science"]
+    ["science"]
   },
   {
     "title": "Global Carbon",
@@ -891,7 +891,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Science"]
+    ["science"]
 
   },
   {
@@ -901,7 +901,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Science"]
+    ["science"]
 
   },
   {
@@ -911,7 +911,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Science"]
+    ["science"]
 
   },
   {
@@ -921,7 +921,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Science"]
+    ["science"]
 
   },
   {
@@ -931,7 +931,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Science"]
+    ["science"]
 
   },
   {
@@ -941,7 +941,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Science"]
+    ["science"]
 
   },
   {
@@ -951,7 +951,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Science"]
+    ["science"]
 
   },
   {
@@ -961,7 +961,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Science"]
+    ["science"]
 
   },
   {
@@ -971,7 +971,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Science"]
+    ["science"]
 
   },
   {
@@ -981,7 +981,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Science"]
+    ["science"]
 
   },
   {
@@ -991,7 +991,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Science"]
+    ["science"]
 
   },
   {
@@ -1001,7 +1001,7 @@
     "visible": true,
     "tag":[],
     "categories":
-    ["Science"]
+    ["science"]
 
   },
   {
@@ -1011,7 +1011,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Science"]
+    ["science"]
 
   },
   {
@@ -1021,7 +1021,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Science"]
+    ["science"]
 
   },
   {
@@ -1031,7 +1031,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Science"]
+    ["science"]
 
   },
   {
@@ -1041,7 +1041,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Science"]
+    ["science"]
 
   },
   {
@@ -1051,7 +1051,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Science"]
+    ["science"]
 
   },
   {
@@ -1061,7 +1061,7 @@
     "visible": true,
     "tag":[],
     "categories":
-    ["Science"]
+    ["science"]
 
   },
   {
@@ -1071,7 +1071,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Science"]
+    ["science"]
 
   },
   {
@@ -1081,7 +1081,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Science"]
+    ["science"]
 
   },
   {
@@ -1093,7 +1093,7 @@
       "children", "income", "women", "global", "female", "fertility"
     ],
     "categories": [
-      "Socsci"
+      "socsci"
     ]
   },
   {
@@ -1105,8 +1105,8 @@
       "hospital", "medical", "health care", "united states", "health", "infection"
     ],
     "categories": [
-      "Socsci",
-      "Science"
+      "socsci",
+      "science"
     ]
   },
   {
@@ -1116,7 +1116,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      "Socsci"
+      "socsci"
 
   },
    {
@@ -1126,7 +1126,7 @@
     "visible": false,
      "tag":[],
      "categories":
-      "Socsci"
+      "socsci"
 
   },
    {
@@ -1137,7 +1137,7 @@
      "tag":[],
      "categories":
      [
-       "Socsci"
+       "socsci"
      ]
 
   },
@@ -1148,7 +1148,7 @@
     "visible": false,
     "tag":[],
     "categories":
-      ["Socsci"]
+      ["socsci"]
 
   },
    {
@@ -1158,7 +1158,7 @@
     "visible": false,
      "tag":[],
      "categories":
-     ["Socsci"]
+     ["socsci"]
 
    },
    {
@@ -1168,7 +1168,7 @@
     "visible": false,
      "tag":[],
      "categories":
-     ["Socsci"]
+     ["socsci"]
 
    },
    {
@@ -1178,7 +1178,7 @@
     "visible": false,
      "tag":[],
      "categories":
-     ["Socsci"]
+     ["socsci"]
 
   },
    {
@@ -1188,7 +1188,7 @@
     "visible": false,
      "tag":[],
      "categories":
-     ["Socsci"]
+     ["socsci"]
 
    },
    {
@@ -1198,7 +1198,7 @@
     "visible": false,
      "tag":[],
      "categories":
-     ["Socsci"]
+     ["socsci"]
    },
    {
     "title": "Languages of Ontario",
@@ -1207,7 +1207,7 @@
     "visible": false,
      "tag":[],
      "categories":
-     ["Socsci"]
+     ["socsci"]
    },
    {
     "title": "Smoking and Education",
@@ -1216,7 +1216,7 @@
     "visible": false,
      "tag":[],
      "categories":
-     ["Socsci"]
+     ["socsci"]
    },
   {
     "title": "Technology Use in Canada",
@@ -1225,7 +1225,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Socsci"]
+    ["socsci"]
   },
    {
     "title": "Wheat Production Since 1908",
@@ -1234,7 +1234,7 @@
     "visible": false,
      "tag":[],
      "categories":
-     ["Socsci"]
+     ["socsci"]
 
 
    },
@@ -1245,7 +1245,7 @@
     "visible": false,
      "tag":[],
      "categories":
-     ["Socsci"]
+     ["socsci"]
 
 
    },
@@ -1256,7 +1256,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Socsci"]
+    ["socsci"]
 
 
   },
@@ -1267,7 +1267,7 @@
     "visible": false,
      "tag":[],
      "categories":
-     ["Socsci"]
+     ["socsci"]
 
 
    },
@@ -1278,7 +1278,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Socsci"]
+    ["socsci"]
 
 
   },
@@ -1289,7 +1289,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Socsci"]
+    ["socsci"]
 
 
   },
@@ -1300,7 +1300,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Socsci"]
+    ["socsci"]
 
 
   },
@@ -1311,7 +1311,7 @@
     "visible": false,
      "tag":[],
      "categories":
-     ["Socsci"]
+     ["socsci"]
    },
    {
     "title": "UK Smoking",
@@ -1320,7 +1320,7 @@
     "visible": false,
      "tag":[],
      "categories":
-     ["Socsci"]
+     ["socsci"]
    },
   {
     "title": "Cities of Brazil",
@@ -1329,7 +1329,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Socsci"]
+    ["socsci"]
 
 
   },
@@ -1340,7 +1340,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Socsci"]
+    ["socsci"]
 
   },
   {
@@ -1350,7 +1350,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Socsci"]
+    ["socsci"]
 
   },
    {
@@ -1360,7 +1360,7 @@
     "visible": false,
      "tag":[],
      "categories":
-     ["Socsci"]
+     ["socsci"]
 
    },
    {
@@ -1370,7 +1370,7 @@
     "visible": false,
      "tag":[],
      "categories":
-     ["Socsci"]
+     ["socsci"]
 
    },
   {
@@ -1380,7 +1380,7 @@
     "visible": true,
     "tag":[],
     "categories":
-    ["Socsci"]
+    ["socsci"]
 
   },
   {
@@ -1390,7 +1390,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Socsci"]
+    ["socsci"]
 
   },
   {
@@ -1400,7 +1400,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Socsci"]
+    ["socsci"]
 
   },
    {
@@ -1410,7 +1410,7 @@
     "visible": false,
      "tag":[],
      "categories":
-     ["Socsci"]
+     ["socsci"]
 
    },
    {
@@ -1420,7 +1420,7 @@
     "visible": false,
      "tag":[],
      "categories":
-     ["Socsci"]
+     ["socsci"]
 
    },
   {
@@ -1430,7 +1430,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Socsci"]
+    ["socsci"]
 
   },
   {
@@ -1440,7 +1440,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Socsci"]
+    ["socsci"]
 
   },
   {
@@ -1450,7 +1450,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Socsci"]
+    ["socsci"]
 
   },
   {
@@ -1460,7 +1460,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Socsci"]
+    ["socsci"]
 
   },
   {
@@ -1470,7 +1470,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Socsci"]
+    ["socsci"]
 
   },
   {
@@ -1480,7 +1480,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Socsci"]
+    ["socsci"]
 
   },
   {
@@ -1490,7 +1490,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Socsci"]
+    ["socsci"]
 
   },
   {
@@ -1500,7 +1500,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Socsci"]
+    ["socsci"]
 
 
   },
@@ -1511,7 +1511,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Socsci"]
+    ["socsci"]
 
   },
   {
@@ -1521,7 +1521,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Socsci"]
+    ["socsci"]
 
   },
    {
@@ -1531,7 +1531,7 @@
     "visible": false,
      "tag":[],
      "categories":
-     ["Socsci"]
+     ["socsci"]
 
    },
   {
@@ -1541,7 +1541,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Socsci"]
+    ["socsci"]
 
   },
   {
@@ -1551,7 +1551,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Socsci"]
+    ["socsci"]
 
   },
   {
@@ -1561,7 +1561,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Socsci"]
+    ["socsci"]
 
   },
   {
@@ -1571,7 +1571,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Socsci"]
+    ["socsci"]
 
   },
   {
@@ -1581,7 +1581,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Socsci"]
+    ["socsci"]
 
   },
   {
@@ -1591,7 +1591,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Socsci"]
+    ["socsci"]
 
   },
   {
@@ -1601,7 +1601,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Socsci"]
+    ["socsci"]
 
   },
   {
@@ -1611,7 +1611,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Socsci"]
+    ["socsci"]
 
   },
   {
@@ -1621,7 +1621,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Socsci"]
+    ["socsci"]
 
   },
   {
@@ -1631,7 +1631,7 @@
     "visible": false,
     "tag": ["USA", "census"],
     "categories":
-    ["Socsci"]
+    ["socsci"]
 
   },
   {
@@ -1641,7 +1641,7 @@
     "visible": false,
     "tag":["USA", "census"],
     "categories":
-    ["Socsci"]
+    ["socsci"]
 
   },
   {
@@ -1651,7 +1651,7 @@
     "visible": false,
     "tag": ["USA", "census"],
     "categories":
-    ["Socsci"]
+    ["socsci"]
 
 
   },
@@ -1662,7 +1662,7 @@
     "visible": true,
     "tag":[],
     "categories":
-    ["Socsci"]
+    ["socsci"]
 
 
   },
@@ -1673,7 +1673,7 @@
     "visible": true,
     "tag":[],
     "categories":
-    ["Socsci"]
+    ["socsci"]
 
   },
   {
@@ -1694,7 +1694,7 @@
     "visible": false,
     "tag": ["USA", "census"],
     "categories":
-    ["Socsci"]
+    ["socsci"]
 
 
   },
@@ -1707,7 +1707,7 @@
       ["crops", "social studies", "agriculture", "united states", "corn", "cotton", "maize", "almonds"]
     ,
     "categories":
-    ["Socsci"]
+    ["socsci"]
 
 
   },
@@ -1720,7 +1720,7 @@
       ["census", "social studies", "United States"]
     ,
     "categories":
-    ["Socsci"]
+    ["socsci"]
 
 
   },
@@ -1731,7 +1731,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Miscellaneous"]
+    ["miscellaneous"]
 
 
   },
@@ -1752,7 +1752,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Miscellaneous"]
+    ["miscellaneous"]
 
   },
   {
@@ -1762,7 +1762,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Miscellaneous"]
+    ["miscellaneous"]
 
   },
   {
@@ -1772,7 +1772,7 @@
     "visible": false,
     "tag":[],
     "categories":
-    ["Miscellaneous"]
+    ["miscellaneous"]
 
   }
 ]}
