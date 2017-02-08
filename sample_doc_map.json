@@ -1,1778 +1,1898 @@
-{ "sample_docs": [
-  {
-    "title": "Markov",
-    "description": "Save Madeline the dog by playing Roshambo against the evil Dr. Markov. Improve you odds by analyzing Markov's moves. ",
-    "path": "SampleDocs/Mathematics/Probability/markov/Markov_Sample.json",
-    "visible": true,
-    "tag": [
-        "markov chains", "markov", "chain", "game", "data science games", "conditional probability", "probability"
-    ],
-    "categories":
-      ["math", "miscellaneous"]
-
-  },
-  {
-    "title": "BART Pressure",
-    "description": "Miguel and Bill took a PocketLab sensor onto BART to SF and back. They began recording pressure just before the train went into the tunnel under the bay.",
-    "path": "SampleDocs/Science/PhysChem/BART_Pressure/BART_pressure.codap",
-    "visible": true,
-    "tag": [
-      "physics", "san francisco", "Pocketlab", "pressure changes"
-    ],
-    "categories":
-      ["miscellaneous", "Science"]
-
-  },
-  {
-    "title": "Birthdays",
-    "description": "How popular is your birthday? Is the distribution of birthdays uniform?",
-    "path": "SampleDocs/Mathematics/Probability/Birthdays/Birthdays.codap",
-    "visible": true,
-    "tag": [
-      "birthdays", "birth", "birth rates", "probability"
-    ],
-    "categories":
-      ["math"]
-
-  },
-  {
-    "title": "Climate Change",
-    "description": "Explore models of climate change over time.",
-    "path": "SampleDocs/Science/E_Sciences/Climate_Change/Climate-Change-A.codap",
-    "visible": true,
-    "tag": [
-      "climate", "change", "simulation", "games", "earth science", "earth"
-    ],
-    "categories":
-      ["Science"]
-
-  },
-  {
-    "title": "California Earthquakes",
-    "description": "This dataset explores 491 earthquakes that took place in California in 2012.",
-    "path": "SampleDocs/Science/E_Sciences/CA_earthquakes/CA_earthquakes.codap",
-    "visible": true,
-    "tag": [
-      "earthquakes", "california", "earth science", "earth"
-    ],
-    "categories":
-      ["Science"]
-
-  },
-  {
-    "title": "Fast Plants",
-    "description": "An example document for CODAP beginners. Make graphs and use selection to look for patterns in fast plant growth.",
-    "path": "SampleDocs/Science/Biology/fast_plants/fast_plants.json",
-    "visible": true,
-    "tag": [
-      "fast plants", "plants", "beginner", "biology"
-    ],
-    "categories":
-      ["miscellaneous", "Science"]
-
-  },
-  {
-    "title": "Domestic Cats",
-    "description": "This data set explores 24 domestic house cats. This is the same data set from the TinkerPlots example data set.",
-    "path": "SampleDocs/Science/Biology/24cats/24cats.codap",
-    "visible": true,
-    "tag": [
-      "cats", "biology", "animals"
-    ],
-    "categories":
-      ["Science"]
-
-  },
-  {
-    "title": "Birgit the Giant Tortoise",
-    "description": "This data set looks at the activity of Birgit the Giant Tortoise, located in the Galapagos Islands. ",
-    "path": "SampleDocs/Science/Biology/Birgit_the_Giant_Tortoise/Birgit_the_Giant_Tortoise.codap",
-    "visible": true,
-    "tag": [
-      "tortoise", "biology", "animals"
-    ],
-    "categories":
-      ["Science"]
-
-  },
-  {
-    "title": "Four Seals",
-    "description": "Display the tracks of four elephant seals in the Pacific on a map. Make graphs and use selection to help determine what is going on.",
-    "path": "SampleDocs/Science/Biology/four-seals/four-seals.json",
-    "visible": true,
-    "tag": [
-      "seals", "biology", "animals"
-    ],
-    "categories":
-      ["miscellaneous", "Science"]
-
-  },
-  {
-    "title": "Mammal",
-    "description": "There are 27 mammals, each with eight attributes.  What relationships can you find?",
-    "path": "SampleDocs/Science/Biology/27mammals/Mammals_Sample.codap",
-    "visible": true,
-    "tag": [
-      "mammals", "biology", "animals"
-    ],
-    "categories":
-    ["Science"]
-
-  },
-  {
-    "title": "Parachute Model",
-    "description": "Experiment dropping a parachute to see how changing the parachute's size and mass of its cargo changes the terminal velocity of the drop.",
-    "path": "SampleDocs/Science/PhysChem/parachute/Parachute_Model_Sample.codap",
-    "visible": true,
-    "tag": [
-      "parachute", "physics", "mass", "size", "velocity", "freefall", "gravity", "model"
-    ],
-    "categories":
-      ["miscellaneous", "Science"]
-
-  },
-  {
-    "title": "States and Education",
-    "description": "Explore this data gathered from the Minnesota Population Center about the United States. What do you notice about the education levels within each state?",
-    "path": "SampleDocs/Social_Science/United_States/statesnpeople/States_and_Education.codap",
-    "visible": true,
-    "tag": [
-      "education", "states", "maps", "USA", "model"
-    ],
-    "categories":
-      ["miscellaneous", "socsci"]
-
-  },
-  {
-    "title": "1999 API for all California High Schools",
-    "description": "Has 1999 APIs for all California High Schools.",
-    "path": "SampleDocs/Education/API_All_CA_HS_1999/API_All_CA_HS_1999.json",
-    "visible": false,
-    "tag": [
-      "education", "states", "maps"
-    ],
-    "categories":
-      ["miscellaneous"]
-
-  },
-  {
-    "title": "Calculus Grades",
-    "description": "Grades recorded during several years for a Calculus 2 course at the Instituto Tecnológico de Costa Rica.",
-    "path": "SampleDocs/Education/Calc_Grades/Grades_Calc.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["miscellaneous"]
-
-  },
-  {
-    "title": "Faculty Salaries",
-    "description": "This data includes salaries of College faculty, in the 2002-2003 academic year.",
-    "path": "SampleDocs/Education/Faculty_Salaries/Faculty_Salaries.json",
-    "visible": true,
-    "tag":["educaton"],
-    "categories":
-    ["miscellaneous"]
-
-  },
-  {
-    "title": "ITCR Students Info",
-    "description": "Results from polls taken in 1993, 1994, 2000 and 2003 among students of the Instituto Tecnológico de Costa Rica.",
-    "path": "SampleDocs/Education/ITCR_Students.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["miscellaneous"]
-
-  },
-  {
-    "title": "School Children Info",
-    "description": "Age (months), height (inches), and weight (pounds) were recorded for a group of school children.",
-    "path": "SampleDocs/Education/School_Children/School_Children.json",
-    "visible": true,
-    "tag": [
-      "children", "growth", "grow", "age", "height", "weight"
-    ],
-    "categories":
-      ["socsci", "math"]
-  },
-  {
-    "title": "Six Tests",
-    "description": "Do students who take standardized tests multiple times have an advantage over those who just take them once or twice?",
-    "path": "SampleDocs/Education/Six_Tests/Six_Tests.json",
-    "visible": true,
-    "tag": [
-      "children", "growth", "grow", "age", "height", "weight"
-    ],
-    "categories":
-    ["miscellaneous"]
-
-  },
-  {
-    "title": "State Public School Enrollments",
-    "description": "Enrollment in public elementary and secondary schools, by state or jurisdiction: Fall 1988 to Fall 2010.",
-    "path": "SampleDocs/Education/State_Public_School_Enrollments/Public_School_Enrollments.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["miscellaneous"]
-
-  },
-  {
-    "title": "Education Spending by State",
-    "description": "How much money each state spent on education from 1969 to 2000?",
-    "path": "SampleDocs/Education/States_EdSpending/States_EdSpending.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["miscellaneous"]
-
-  },
-  {
-    "title": "Stats Grades",
-    "description": "Grades recorded during several years for a Statistics course at the Instituto Tecnológico de Costa Rica, with one case per student.",
-    "path": "SampleDocs/Education/Stats_Grades/Stats_Grades.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["miscellaneous"]
-
-  },
-  {
-    "title": "Students' Grades",
-    "description": "Grades obtained by students in the author's classes at the Instituto Tecnológico de Costa Rica.",
-    "path": "SampleDocs/Education/Students_Grades/Students_Grades.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["miscellaneous"]
-
-  },
-  {
-    "title": "Texas A and M Univ Business Students' Grades",
-    "description": "Grades obtained by Business students at Texas A and M University during the years 1989-1992.",
-    "path": "SampleDocs/Education/TAMU_Business/TAMU_Business.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["miscellaneous"]
-
-  },
-  {
-    "title": "Visits",
-    "description": "Visits of students to author's office hours.",
-    "path": "SampleDocs/Education/Visits/Visits.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["miscellaneous"]
-
-  },
-  {
-    "title": "2000 Words",
-    "description": "2000 words randomly chosen from the YAWL (yet another word list) that comes with the Unix operating system.",
-    "path": "SampleDocs/LanguageArts/2000_Words/2000_Words.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-      ["language"]
-
-  },
-  {
-    "title": "Movie Characters",
-    "description": "A collection of movies from the Internet Movie Database",
-    "path": "SampleDocs/LanguageArts/Movie_Characters/Movie_Characters.codap",
-    "visible": true,
-    "tag":["movie","character", "imdb"],
-    "categories":
-    ["miscellaneous"]
-
-  },
-  {
-    "title": "Art Paintings",
-    "description": "This catalog of paintings is supplied by the National Gallery of Art.",
-    "path": "SampleDocs/LanguageArts/Art_Paintings/Art_Paintings.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["miscellaneous"]
-
-  },
-  {
-    "title": "Artists",
-    "description": "List of art by artists.",
-    "path": "SampleDocs/LanguageArts/Artists/Artists.json",
-    "visible": true,
-    "tag":[],
-    "categories":
-    ["miscellaneous"]
-
-  },
-  {
-    "title": "Googlewhacks",
-    "description": "The collection at left contains the most recent 500 of the more than 450,000 Googlewhacks that were listed on November 11, 2004.",
-    "path": "SampleDocs/LanguageArts/Googlewhacks/Googlewhacks.json",
-    "visible": true,
-    "tag":[],
-    "categories":
-    ["language"]
-
-  },
-  {
-    "title": "Bush 1989 Inaugural Speech",
-    "description": "Analyze the letter count of five paragraphs of George H. W. Bush's Inaugural Address, January 20, 1989.",
-    "path": "SampleDocs/LanguageArts/TextPassages/Bush89/Bush89.json",
-    "visible": false,
-    "tag":["speech"],
-    "categories":
-    ["language"]
-
-  },
-  {
-    "title": "Declaration of Independence",
-    "description": "Analyze the letter count of the first two paragraphs of the United States Declaration of Independence.",
-    "path": "SampleDocs/LanguageArts/TextPassages/Declaration/Declaration.json",
-    "visible": false,
-    "tag":["indpendence"],
-    "categories":
-    ["language"]
-
-  },
-  {
-    "title": "Don Juan",
-    "description": "Analyze the letter count of of the first two paragraphs of Don Quixote de la Mancha.",
-    "path": "SampleDocs/LanguageArts/TextPassages/Don/Don.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["language"]
-
-  },
-  {
-    "title": "Faust",
-    "description": "Analyze the letter count of Goethe's Faust.",
-    "path": "SampleDocs/LanguageArts/TextPassages/Faust/Faust.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["language"]
-
-  },
-  {
-    "title": "Gettysburg Address",
-    "description": "Analyze the letter count in three paragraphs of the Gettysburg Address.",
-    "path": "SampleDocs/LanguageArts/TextPassages/Gettysburg/Gettysburg.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["language"]
-
-  },
-  {
-    "title": "The Old Man and The Sea",
-    "description": "Analyze the letter count in a passage from The Old Man and The Sea.",
-    "path": "SampleDocs/LanguageArts/TextPassages/OldMan/OldMan.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["language"]
-
-  },
-  {
-    "title": "Building Heights",
-    "description": "Explore the 300 tallest buildings in the world.",
-    "path": "SampleDocs/Mathematics/Algebra/Buildings/Buildings.codap",
-    "visible": true,
-    "tag":["building", "algebra"],
-    "categories":
-      ["math"]
-
-  },
-  {
-    "title": "Compound Interest",
-    "description": "Case table shows a model of a savings account.",
-    "path": "SampleDocs/Mathematics/Algebra/Compound/Compound.json",
-    "visible": true,
-    "tag":[],
-    "categories":
-    ["math"]
-
-  },
-  {
-    "title": "Cost Adjustment by Year",
-    "description": "How much is your money worth based on the consumer price index.",
-    "path": "SampleDocs/Mathematics/Algebra/Cost/Cost.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["math"]
-
-  },
-  {
-    "title": "Font Size",
-    "description": "Measurements of the length of a column and notice how that changes with the number of words and the font size.",
-    "path": "SampleDocs/Mathematics/Algebra/Font_Size/Font_Size.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["math"]
-
-  },
-  {
-    "title": "Guess and Check",
-    "description": "A 'guess and check' method for finding the correct answer to an Algebra problem.",
-    "path": "SampleDocs/Mathematics/Algebra/Guess/Guess.codap",
-    "visible": true,
-    "tag":["algebra","guess"],
-    "categories":
-    ["math"]
-
-  },
-  {
-    "title": "Pi Scale",
-    "description": "A scale marked in units of pi",
-    "path": "SampleDocs/Mathematics/Calculus/Pi/Pi.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["math"]
-
-  },
-  {
-    "title": "Quadratic Relationship",
-    "description": "Figure out a method to find the best curve through the points.",
-    "path": "SampleDocs/Mathematics/Algebra/Quad/Quad.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["math"]
-
-  },
-  {
-    "title": "Integrals and Derivatives",
-    "description": "Demonstrates the visualization or integrals and derivatives.",
-    "path": "SampleDocs/Mathematics/Calculus/Integral/Integral.codap",
-    "visible": true,
-    "tag":["calculus","integral","derivative"],
-    "categories":
-    ["math"]
-
-  },
-  {
-    "title": "Integration",
-    "description": "This document illustrates how to do numerical integration of an arbitrary function.",
-    "path": "SampleDocs/Mathematics/Calculus/Integration/Integration.codap",
-    "visible": true,
-    "tag":["calculus", "integral", "integraton"],
-    "categories":
-    ["math"]
-
-  },
-  {
-    "title": "Logistics",
-    "description": "Investigate the effect of changing x and k in the logistics function f(x)=kx(1-x).",
-    "path": "SampleDocs/Mathematics/Calculus/Logistics/Logistics.codap",
-    "visible": true,
-    "tag":["calculus", "logistics"],
-    "categories":
-    ["math"]
-
-  },
-  {
-    "title": "Minimization",
-    "description": "Find the minimum of a plotted function.",
-    "path": "SampleDocs/Mathematics/Calculus/Minimization/Minimization.codap",
-    "visible": true,
-    "tag": ["calculus", "minimize"],
-    "categories":
-    ["math"]
-
-  },
-  {
-    "title": "Unit Pi",
-    "description": "Plotting a graph that uses pi as a unit.",
-    "path": "SampleDocs/Mathematics/Calculus/Pi/Pi.codap",
-    "visible": true,
-    "tag":["calculus"],
-    "categories":
-    ["math"]
-
-  },
-  {
-    "title": "Johnson Solids",
-    "description": "Explore the Johnson solids.",
-    "path": "SampleDocs/Mathematics/Geometry/Solids/Solids.codap",
-    "visible": true,
-    "tag":["geometry"],
-    "categories":
-    ["math"]
-
-  },
-  {
-    "title": "Digits of Pi",
-    "description": "Explore the digits of pi.",
-    "path": "SampleDocs/Mathematics/Number_Theory/Digits_of_Pi/Digits_of_Pi.codap",
-    "visible": true,
-    "tag":["number theory"],
-    "categories":
-    ["math"]
-
-  },
-  {
-    "title": "Integer Ring",
-    "description": "Explore the patterns of addition and multiplication of integers.",
-    "path": "SampleDocs/Mathematics/Number_Theory/Integer_Ring/Integer_Ring.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["math"]
-
-  },
-  {
-    "title": "Prime Density",
-    "description": "Investigate the spacing between prime numbers.",
-    "path": "SampleDocs/Mathematics/Number_Theory/Prime_Density/Prime_Density.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["math"]
-
-  },
-  {
-    "title": "Growth",
-    "description": "Investigate the theory of chaotic growth.",
-    "path": "SampleDocs/Mathematics/Other_Mathematics/Growth/Growth.codap",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["math"]
-
-  },
-  {
-    "title": "Number Theory Pi",
-    "description": "Similar to Digits of Pi in Number Theory.",
-    "path": "SampleDocs/Mathematics/Other_Mathematics/Number_Theory/Digits_of_Pi/Digits_of_Pi.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["math"]
-
-  },
-  {
-    "title": "Fourier Series",
-    "description": "Explore the Fourier Series.",
-    "path": "SampleDocs/Mathematics/Other_Mathematics/Series/Series.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["math"]
-
-  },
-  {
-    "title": "Chaos Game Simulation",
-    "description": "Explore the Chaos Game!",
-    "path": "SampleDocs/Mathematics/Probability/Chaos_Game/Chaos_Game.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["math"]
-
-  },
-  {
-    "title": "Estimating Pi",
-    "description": "How to use the graph to estimate pi.",
-    "path": "SampleDocs/Mathematics/Probability/Estimating_Pi/Estimating_Pi.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["math"]
-
-  },
-  {
-    "title": "Geometric Cards",
-    "description": "How many cards do you have to draw until you get a club?",
-    "path": "SampleDocs/Mathematics/Probability/Geometric_Cards/Geometric_Cards.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["math"]
-
-  },
-  {
-    "title": "Life Expectancy Probability",
-    "description": "What is the average life expectancy today?",
-    "path": "SampleDocs/Mathematics/Probability/Life_Expectancy/Life_Expectancy.json",
-    "visible": true,
-    "tag":[],
-    "categories":
-    ["math"]
-
-  },
-  {
-    "title": "Lotto",
-    "description": "Does Lotto pay?",
-    "path": "SampleDocs/Mathematics/Probability/Lotto/Lotto.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["math"]
-
-  },
-  {
-    "title": "Brownian Motion",
-    "description": "Explore the motion of a molecule.",
-    "path": "SampleDocs/Mathematics/Probability/Motion/Motion.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["math"]
-
-  },
-  {
-    "title": "Shooting Match",
-    "description": "Which strategy is best when each person has different shooting abilities?",
-    "path": "SampleDocs/Mathematics/Probability/Shooting_Match/Shooting_Match.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["math"]
-
-  },
-  {
-    "title": "Spinner Game",
-    "description": "What is the best largest value for Player 1 in the Showcase Showdown?",
-    "path": "SampleDocs/Mathematics/Probability/Spinner_Game/Spinner_Game.json",
-    "visible": true,
-    "tag":[],
-    "categories":
-    ["math"]
-
-  },
-  {
-    "title": "Bright Star Catalog",
-    "description": "Explore 400 stars from a rectangular area of the sky.",
-    "path": "SampleDocs/Science/Astronomy/yale_bright/yale_bright.codap",
-    "visible": true,
-    "tag":[],
-    "categories":
-      ["science"]
-
-  },
-  {
-    "title": "Extra Solar",
-    "description": "Explore 111 extrasolar masses and orbital characteristics of known extrasolar planets.",
-    "path": "SampleDocs/Science/Astronomy/Extra_Solar/Extra_Solar.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["science"]
-  },
-  {
-    "title": "Jupiter Moons",
-    "description": "A case table about four moons of Jupiter: Io, Europa, Ganymede, and Callisto.",
-    "path": "SampleDocs/Science/Astronomy/Jupiter_Moons/Jupiter_Moons.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["science"]
-
-  },
-   {
-    "title": "Jupiter Radius",
-    "description": "Explain the plot of radius versus mean Julian date.",
-    "path": "SampleDocs/Science/Astronomy/Jupiter_Radius/Jupiter_Radius.json",
-    "visible": false,
-     "tag":[],
-     "categories":
-     ["science"]
-
-  },
-  {
-    "title": "Space Data",
-    "description": "Explore a study about how to grow plants in space.",
-    "path": "SampleDocs/Science/Astronomy/Space_Data/Space_Data.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["science"]
-
-  },
-  {
-    "title": "Sunspots",
-    "description": "A case table gives the sunspot number for a random sample of 2000 days since 1951.",
-    "path": "SampleDocs/Science/Astronomy/Sunspots/Sunspots.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["science"]
-
-  },
-  {
-    "title": "Bears",
-    "description": "How can you use other measurements to measure the weight of a bear?",
-    "path": "SampleDocs/Science/Biology/Bears/Bears.codap",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["science"]
-
-  },
-  {
-    "title": "Bird Observations",
-    "description": "Explore raw data about what bird species were seen and when, per year.",
-    "path": "SampleDocs/Science/Biology/Bird_Observations/Bird_Observations.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["science"]
-
-  },
-  {
-    "title": "Heights",
-    "description": "What is the difference in heights at different times of the day?",
-    "path": "SampleDocs/Science/Biology/Height/Height.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["science"]
-
-  },
-  {
-    "title": "Midges",
-    "description": "What are the differences between two varieties of midges?",
-    "path": "SampleDocs/Science/Biology/Midges/Midges.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["science"]
-
-  },
-  {
-    "title": "First Bloom",
-    "description": "This data covers information about North American first leaf and first bloom lilac phenology, from 1956 to 2003.",
-    "path": "SampleDocs/Science/Biology/First_Bloom/First_Bloom.codap",
-    "visible": true,
-    "tag":[],
-    "categories":
-    ["science"]
-
-  },
-  {
-    "title": "Prey Predator Population",
-    "description": "Explore data of a simulated ecosystem containing predators and their prey.",
-    "path": "SampleDocs/Science/Biology/Prey-Pred-Pop/Prey-Pred-Pop.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["science"]
-
-  },
-  {
-    "title": "Alabama Average Temperatures",
-    "description": "A collection of data from multiple stations around Alabama over a period of about 100 years.",
-    "path": "SampleDocs/Science/E_Sciences/AVG_Temps/AL_Avg_Temps/AL_Avg_Temps.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["science"]
-
-  },
-  {
-    "title": "Arkansas Average Temperatures",
-    "description": "A collection of data from multiple stations around Arkansas over a period of about 100 years.",
-    "path": "SampleDocs/Science/E_Sciences/AVG_Temps/AR_Avg_Temps/AR_Avg_Temps.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["science"]
-
-  },
-  {
-    "title": "Arizona Average Temperatures",
-    "description": "A collection of data from multiple stations around Arizona over a period of about 100 years.",
-    "path": "SampleDocs/Science/E_Sciences/AVG_Temps/AZ_Avg_Temps/AZ_Avg_Temps.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["science"]
-
-  },
-  {
-    "title": "California Average Temperatures",
-    "description": "A collection of data from multiple stations around California over a period of about 100 years.",
-    "path": "SampleDocs/Science/E_Sciences/AVG_Temps/CA_Avg_Temps/CA_Avg_Temps.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["science"]
-
-  },
-  {
-    "title": "Colorado Average Temperatures",
-    "description": "A collection of data from multiple stations around Colorado over a period of about 100 years.",
-    "path": "SampleDocs/Science/E_Sciences/AVG_Temps/CO_Avg_Temps/CO_Avg_Temps.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["science"]
-
-  },
-  {
-    "title": "Florida Average Temperatures",
-    "description": "A collection of data from multiple stations around Florida over a period of about 100 years.",
-    "path": "SampleDocs/Science/E_Sciences/AVG_Temps/FL_Avg_Temps/FL_Avg_Temps.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["science"]
-
-  },
-  {
-    "title": "Maine Average Temperatures",
-    "description": "A collection of data from multiple stations around Maine over a period of about 100 years.",
-    "path": "SampleDocs/Science/E_Sciences/AVG_Temps/ME_Avg_Temps/ME_Avg_Temps.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["science"]
-
-  },
-  {
-    "title": "North Dakota Average Temperatures",
-    "description": "A collection of data from multiple stations around North Dakota over a period of about 100 years.",
-    "path": "SampleDocs/Science/E_Sciences/AVG_Temps/ND_Avg_Temps/ND_Avg_Temps.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["science"]
-
-  },
-  {
-    "title": "New York Average Temperatures",
-    "description": "A collection of data from multiple stations around New York over a period of about 100 years.",
-    "path": "SampleDocs/Science/E_Sciences/AVG_Temps/NY_Avg_Temps/NY_Avg_Temps.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["science"]
-
-  },
-  {
-    "title": "Washington Average Temperatures",
-    "description": "A collection of data from multiple stations around Washington over a period of about 100 years.",
-    "path": "SampleDocs/Science/E_Sciences/AVG_Temps/WA_Avg_Temps/WA_Avg_Temps.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["science"]
-  },
-  {
-    "title": "Concord Weather",
-    "description": "Explore information about the weather in Concord.",
-    "path": "SampleDocs/Science/E_Sciences/Concord_Weather/Concord_Weather.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["science"]
-  },
-  {
-    "title": "Earthquakes",
-    "description": "Explore earthquakes across California and western Nevada.",
-    "path": "SampleDocs/Science/E_Sciences/Earthquakes/Earthquakes.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["science"]
-  },
-  {
-    "title": "Global Carbon",
-    "description": "A case table containing yearly carbon dioxide emissions from various sources around the world.",
-    "path": "SampleDocs/Science/E_Sciences/Global_Carbon/Global_Carbon.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["science"]
-
-  },
-  {
-    "title": "Iowa Weather",
-    "description": "Explore weather information about Marion, Iowa.",
-    "path": "SampleDocs/Science/E_Sciences/Iowa/Iowa.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["science"]
-
-  },
-  {
-    "title": "Kobe Earthquake",
-    "description": "Explore the seismograph recording of the Kobe earthquake on January 16, 1995, in Australia.",
-    "path": "SampleDocs/Science/E_Sciences/Kobe/Kobe.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["science"]
-
-  },
-  {
-    "title": "Mauna Loa Carbon Levels",
-    "description": "A case table of the levels of CO2 from 1958 to 2010 on Mauna Loa.",
-    "path": "SampleDocs/Science/E_Sciences/Mauna_Loa/Mauna_Loa.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["science"]
-
-  },
-  {
-    "title": "North American Earthquakes",
-    "description": "A compilation of North American earthquakes from 1920 to 1989 of the magnitude 4.5 and higher.",
-    "path": "SampleDocs/Science/E_Sciences/North_American/North_American.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["science"]
-
-  },
-  {
-    "title": "Regional Carbon Levels",
-    "description": "A collection of regional CO2 emissions from the burnin gof fossil-fuels, manufacturing cement, and gas flaring from 1751-2009.",
-    "path": "SampleDocs/Science/E_Sciences/R_Carbon/R_Carbon.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["science"]
-
-  },
-  {
-    "title": "South Pole Temperatures",
-    "description": "A case table showing the temperatures recorded at the South Pole every month from the year 1957 to the year 1988.",
-    "path": "SampleDocs/Science/E_Sciences/South_Pole/South_Pole.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["science"]
-
-  },
-  {
-    "title": "Tides",
-    "description": "Explore data of the tide patterns of Alcatraz Island, in California, and Birch Island, in Maine.",
-    "path": "SampleDocs/Science/E_Sciences/Tides/Tides.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["science"]
-
-  },
-  {
-    "title": "Tree_Rings",
-    "description": "Are there any relationships between the growth of the tree and historical weather?",
-    "path": "SampleDocs/Science/E_Sciences/Tree_Rings/Tree_Rings.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["science"]
-
-  },
-  {
-    "title": "Weather Model",
-    "description": "A model of a weather pattern generated by a weather machine.",
-    "path": "SampleDocs/Science/E_Sciences/Weather_Machine/Weather_Maching.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["science"]
-
-  },
-  {
-    "title": "Boyle's Law",
-    "description": "A case table of the data of the Boyle Pressure vs. Volume Experiment in 1662.",
-    "path": "SampleDocs/Science/PhysChem/Boyle/Boyle.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["science"]
-
-  },
-  {
-    "title": "Periodic Table",
-    "description": "A case table with information about all of the elements of the periodic table.",
-    "path": "SampleDocs/Science/PhysChem/Elements/Elements.json",
-    "visible": true,
-    "tag":[],
-    "categories":
-    ["science"]
-
-  },
-  {
-    "title": "Heating",
-    "description": "How is the temperature of water affected by the length of time it is heated?",
-    "path": "SampleDocs/Science/PhysChem/Heating/Heating.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["science"]
-
-  },
-  {
-    "title": "Solar Panel",
-    "description": "Explore information gathered from a project done with a solar panel.",
-    "path": "SampleDocs/Science/PhysChem/Panel/Panel.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["science"]
-
-  },
-  {
-    "title": "Weather Balloon",
-    "description": "Find relationships in data were gathered during a weather balloon ascent.",
-    "path": "SampleDocs/Science/PhysChem/Radiosonde/Radiosonde.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["science"]
-
-  },
-  {
-    "title": "Rubber Band Ball",
-    "description": "Explore an experiment about the size and bounce height of a rubber band ball.",
-    "path": "SampleDocs/Science/PhysChem/RB_Ball/RB_Ball.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["science"]
-
-  },
-  {
-    "title": "Airplanes",
-    "description": "A case table about the operation statistics of various airplane models in 1999.",
-    "path": "SampleDocs/Science/Technology/Airplanes/Airplanes.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["science"]
-
-  },
-  {
-    "title": "Cars",
-    "description": "Explore information about car models.",
-    "path": "SampleDocs/Science/Technology/Cars/Cars.codap",
-    "visible": true,
-    "tag":[],
-    "categories":
-    ["science"]
-
-  },
-  {
-    "title": "Moore's Law",
-    "description": "Explore the trend in the evolution of transistors that was discovered by Gordan Moore.",
-    "path": "SampleDocs/Science/Technology/Moore_Law/Moore_Law.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["science"]
-
-  },
-  {
-    "title": "Nails",
-    "description": "How does the measurement of a nail relate to the penny size of the nail?",
-    "path": "SampleDocs/Science/Technology/Nails/Nails.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["science"]
-
-  },
-  {
-    "title": "Children per Women",
-    "description": "The data set, from Gapminder, looks at the income of women and the number of children per women, 1950-2012.",
-    "path": "SampleDocs/Social_Science/World/Children_per_Women/Children_per_Women.codap",
-    "visible": true,
-    "tag": [
-      "children", "income", "women", "global", "female", "fertility"
-    ],
-    "categories": [
-      "socsci"
-    ]
-  },
-  {
-    "title": "Hospital Infection Rates",
-    "description": "This dataset provides information about Hospital Central Line Infection Rates, circa 2012.",
-    "path": "SampleDocs/Social_Science/United_States/Hospital_Infection_Rates/Hospital_infection_rates.codap",
-    "visible": true,
-    "tag": [
-      "hospital", "medical", "health care", "united states", "health", "infection"
-    ],
-    "categories": [
-      "socsci",
-      "science"
-    ]
-  },
-  {
-    "title": "Receipts from Alberta 2024",
-    "description": "Explore data about purchases made by people 20-24 years old in Alberta, Canada.",
-    "path": "SampleDocs/Social_Science/Canada/Alberta2024/Alberta2024.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-      "socsci"
-
-  },
-   {
-    "title": "Canadian Metro Areas",
-    "description": "What are the relationships between each of the Metro Areas in Canada?",
-    "path": "SampleDocs/Social_Science/Canada/Canada_Metro/Canada_Metro.json",
-    "visible": false,
-     "tag":[],
-     "categories":
-      "socsci"
-
-  },
-   {
-    "title": "Government Debt",
-    "description": "Explore information about debt in the Canadian government.",
-    "path": "SampleDocs/Social_Science/Canada/Gov_Debt/Gov_Debt.json",
-    "visible": false,
-     "tag":[],
-     "categories":
-     [
-       "socsci"
-     ]
-
-  },
-  {
-    "title": "International Exports",
-    "description": "Compare the amounts of each item exported in Canada.",
-    "path": "SampleDocs/Social_Science/Canada/Int_Exports/Int_Exports.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-      ["socsci"]
-
-  },
-   {
-    "title": "International Imports",
-    "description": "Compare the amounts of each item imported in Canada.",
-    "path": "SampleDocs/Social_Science/Canada/Int_Imports/Int_Imports.json",
-    "visible": false,
-     "tag":[],
-     "categories":
-     ["socsci"]
-
-   },
-   {
-    "title": "Military Personnel",
-    "description": "Find relationships between the number of military personnel per year and historical events.",
-    "path": "SampleDocs/Social_Science/Canada/Military_69/Military_69.json",
-    "visible": false,
-     "tag":[],
-     "categories":
-     ["socsci"]
-
-   },
-   {
-    "title": "CPI Canada",
-    "description": "Explore information about the CPI for Canada annually, from 1914 to 2006.",
-    "path": "SampleDocs/Social_Science/Canada/CPI_Canada/CPI_Canada.json",
-    "visible": false,
-     "tag":[],
-     "categories":
-     ["socsci"]
-
-  },
-   {
-    "title": "Crime Canada",
-    "description": "Find relationships among rates of different types of crime from 1977.",
-    "path": "SampleDocs/Social_Science/Canada/Crime_Canada/Crime_Canada.json",
-    "visible": false,
-     "tag":[],
-     "categories":
-     ["socsci"]
-
-   },
-   {
-    "title": "Ontario Census",
-    "description": "Explore data about the population of Ontario, Canada in 2001.",
-    "path": "SampleDocs/Social_Science/Canada/Ontario_Census/Ontario_Census.json",
-    "visible": false,
-     "tag":[],
-     "categories":
-     ["socsci"]
-   },
-   {
-    "title": "Languages of Ontario",
-    "description": "Explore data about the languages spoken in Ontario.",
-    "path": "SampleDocs/Social_Science/Canada/Ontario_Lang/Ontario_Lang.json",
-    "visible": false,
-     "tag":[],
-     "categories":
-     ["socsci"]
-   },
-   {
-    "title": "Smoking and Education",
-    "description": "Find relationships between the smokers and their education levels in Canada.",
-    "path": "SampleDocs/Social_Science/Canada/SmokingEd/SmokingEd.json",
-    "visible": false,
-     "tag":[],
-     "categories":
-     ["socsci"]
-   },
-  {
-    "title": "Technology Use in Canada",
-    "description": "A case table about the Canadian science/technology use in 2001.",
-    "path": "SampleDocs/Social_Science/Canada/Tech_Use/Tech_Use.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["socsci"]
-  },
-   {
-    "title": "Wheat Production Since 1908",
-    "description": "A case table about wheat production in provinces around Canada since 1908.",
-    "path": "SampleDocs/Social_Science/Canada/Wheat1908/Wheat1908",
-    "visible": false,
-     "tag":[],
-     "categories":
-     ["socsci"]
-
-
-   },
-   {
-    "title": "Youth Crimes",
-    "description": "A case table contains information about the number of youth crimes in Canada from 1983 to 1999.",
-    "path": "SampleDocs/Social_Science/Canada/Youth_Crimes/Youth_Crimes.json",
-    "visible": false,
-     "tag":[],
-     "categories":
-     ["socsci"]
-
-
-   },
-  {
-    "title": "Youth Survey",
-    "description": "A case table with data from the Ontario Youth survey conducted between 1994 and 1999.",
-    "path": "SampleDocs/Social_Science/Canada/YouthSurvey/YouthSurvey",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["socsci"]
-
-
-  },
-   {
-    "title": "French Franc Over Time",
-    "description": "Explore the fluctuation of the value of the French Franc over time.",
-    "path": "SampleDocs/Social_Science/Europe/French_Franc/French_Franc.json",
-    "visible": false,
-     "tag":[],
-     "categories":
-     ["socsci"]
-
-
-   },
-  {
-    "title": "German Foreign Trade",
-    "description": "A case table about German foreign trade over time.",
-    "path": "SampleDocs/Social_Science/Europe/German_Trade/German_Trade.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["socsci"]
-
-
-  },
-  {
-    "title": "Migration During the Potato Famine",
-    "description": "Data on migration from Great Britain and Ireland to the US from the years 1820 to 1870.",
-    "path": "SampleDocs/Social_Science/Europe/Potato_Migration/Potato_Migration.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["socsci"]
-
-
-  },
-  {
-    "title": "Russian City Populations",
-    "description": "Explore the population of capitol cities and cities of 100,000 and more inhabitants in the Russian Federation in 1999.",
-    "path": "SampleDocs/Social_Science/Europe/Russian_Cities/Russian_Cities.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["socsci"]
-
-
-  },
-   {
-    "title": "Trans Siberian Railroad",
-    "description": "The train schedule of the Trans-Siberian Railway from approximately the early 1980.",
-    "path": "SampleDocs/Social_Science/Europe/TransSiberia/TransSiberia.json",
-    "visible": false,
-     "tag":[],
-     "categories":
-     ["socsci"]
-   },
-   {
-    "title": "UK Smoking",
-    "description": "A case table about the smoking habits of people in the United Kingdom.",
-    "path": "SampleDocs/Social_Science/Europe/UK_Smoking/UK_Smoking.json",
-    "visible": false,
-     "tag":[],
-     "categories":
-     ["socsci"]
-   },
-  {
-    "title": "Cities of Brazil",
-    "description": "Explore the populations of capitol cities and cities of 100,000 and more inhabitants in Brazil in the year 2000.",
-    "path": "SampleDocs/Social_Science/Latin_America/Brazil/Brazil.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["socsci"]
-
-
-  },
-  {
-    "title": "Costa Rica Exchange Rates",
-    "description": "A case table about the exchange rates for the Costa rican Colón with respect to US Dollar.",
-    "path": "SampleDocs/Social_Science/Latin_America/CR_Exchange/CR_Exchange.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["socsci"]
-
-  },
-  {
-    "title": "Costa Rica Population",
-    "description": "A case table about the population of Costa Rica since 1522.",
-    "path": "SampleDocs/Social_Science/Latin_America/CRPop/CRPop.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["socsci"]
-
-  },
-   {
-    "title": "Peru Population",
-    "description": "A case table about the population of Peru.",
-    "path": "SampleDocs/Social_Science/Latin_America/PeruPop/PeruPop",
-    "visible": false,
-     "tag":[],
-     "categories":
-     ["socsci"]
-
-   },
-   {
-    "title": "CA Counties",
-    "description": "The 2000 school year projections for each county in California",
-    "path": "SampleDocs/Social_Science/United_States/CA_Counties/CA_Counties.json",
-    "visible": false,
-     "tag":[],
-     "categories":
-     ["socsci"]
-
-   },
-  {
-    "title": "Cars",
-    "description": "A case table about random passenger car models from 1993",
-    "path": "SampleDocs/Social_Science/United_States/Cars07/Cars07.json",
-    "visible": true,
-    "tag":[],
-    "categories":
-    ["socsci"]
-
-  },
-  {
-    "title": "St. Augustine's Cemetery",
-    "description": "A collection of data about the St. Augustine Catholic Cemetery.",
-    "path": "SampleDocs/Social_Science/United_States/Cemetery/Cemetery.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["socsci"]
-
-  },
-  {
-    "title": "Coast Starlight",
-    "description": "The Coast Starlight Amtrak train schedule.",
-    "path": "SampleDocs/Social_Science/United_States/Starlight/Starlight.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["socsci"]
-
-  },
-   {
-    "title": "Continental US Counties",
-    "description": "Explore data from the 2004 presidential election.",
-    "path": "SampleDocs/Social_Science/United_States/Counties/Counties.json",
-    "visible": false,
-     "tag":[],
-     "categories":
-     ["socsci"]
-
-   },
-   {
-    "title": "CPI By Month",
-    "description": "Data on the CPI for each month from 1913 to 2004 in the United States.",
-    "path": "SampleDocs/Social_Science/United_States/CPI_By_Month/CPI_By_Month.json",
-    "visible": false,
-     "tag":[],
-     "categories":
-     ["socsci"]
-
-   },
-  {
-    "title": "CPI By Year",
-    "description": "Data on the CPI for each year from 1913 to 2011 in the United States.",
-    "path": "SampleDocs/Social_Science/United_States/CPI_By_Year/CPI_By_Year.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["socsci"]
-
-  },
-  {
-    "title": "States - Accidents",
-    "description": "Data about the number of fatal accidents per state.",
-    "path": "SampleDocs/Social_Science/United_States/States/Accidents/Accidents.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["socsci"]
-
-  },
-  {
-    "title": "States - Apportionment",
-    "description": "A case table about the proportion of state representatives to the population of each state.",
-    "path": "SampleDocs/Social_Science/United_States/States/Apportionment/Apportionment.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["socsci"]
-
-  },
-  {
-    "title": "States - Cars and Drivers",
-    "description": "A case table about the number of cars, drivers, and roads in the United States.",
-    "path": "SampleDocs/Social_Science/United_States/States/CarsNDrivers/CarsNDrivers.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["socsci"]
-
-  },
-  {
-    "title": "States - Ethnicity",
-    "description": "A case table about ethnicity in each of the United States.",
-    "path": "SampleDocs/Social_Science/United_States/States/Ethnicity/Ethnicity.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["socsci"]
-
-  },
-  {
-    "title": "States - Getting To Work",
-    "description": "A case about the way people got to work in 1989 in the United States.",
-    "path": "SampleDocs/Social_Science/United_States/States/GetToWork/GetToWork.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["socsci"]
-
-  },
-  {
-    "title": "States - Map",
-    "description": "A case table about the population of the United States.",
-    "path": "SampleDocs/Social_Science/United_States/States/Map/Map.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["socsci"]
-
-  },
-  {
-    "title": "States - Phones and Rentals",
-    "description": "A case table about the number of occupied housing units from the 1990 United States Census.",
-    "path": "SampleDocs/Social_Science/United_States/States/PhonesNRentals/PhonesNRentals.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["socsci"]
-
-
-  },
-  {
-    "title": "States - SAT",
-    "description": "A case table about the SAT score averages by state from 1987-88 to 2001-02.",
-    "path": "SampleDocs/Social_Science/United_States/States/SAT/SAT.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["socsci"]
-
-  },
-  {
-    "title": "States - Seat Belts",
-    "description": "A case table about seat belt usage in the United States.",
-    "path": "SampleDocs/Social_Science/United_States/States/SeatBelts/SeatBelts.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["socsci"]
-
-  },
-   {
-    "title": "States - Sewers",
-    "description": "A case table about sewer systems used by houses in the United States.",
-    "path": "SampleDocs/Social_Science/United_States/States/Sewers/Sewers.json",
-    "visible": false,
-     "tag":[],
-     "categories":
-     ["socsci"]
-
-   },
-  {
-    "title": "States - Taxes",
-    "description": "A case table about the amounts of taxes collected in each of the United States.",
-    "path": "SampleDocs/Social_Science/United_States/States/Taxes/Taxes.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["socsci"]
-
-  },
-  {
-    "title": "States - Traffic",
-    "description": "A case table about traffic statistics in each of the United States.",
-    "path": "SampleDocs/Social_Science/United_States/States/Traffic/Traffic.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["socsci"]
-
-  },
-  {
-    "title": "States - Urban and Rural Population",
-    "description": "A case table about the urban and rural populations of the United States",
-    "path": "SampleDocs/Social_Science/United_States/States/UrbanNRuralPop/UrbanNRuralPop.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["socsci"]
-
-  },
-  {
-    "title": "States - Women",
-    "description": "A case table about women around the United States in 1998",
-    "path": "SampleDocs/Social_Science/United_States/States/Women/Women.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["socsci"]
-
-  },
-  {
-    "title": "CA Census 1880-1990",
-    "description": "Data from the United States Census from 1880 to 1990",
-    "path": "SampleDocs/Social_Science/United_States/US_Census/CA_2000/CA_2000.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["socsci"]
-
-  },
-  {
-    "title": "CA Census 2000, including Berkeley",
-    "description": "Data from the United States Census from 2000, including Berkeley",
-    "path": "SampleDocs/Social_Science/United_States/US_Census/CA_2000/CA_2000.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["socsci"]
-
-  },
-  {
-    "title": "US Census - DC",
-    "description": "Data from the District of Columbia Census.",
-    "path": "SampleDocs/Social_Science/United_States/US_Census/DC/DC.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["socsci"]
-
-  },
-  {
-    "title": "US Census - Massachusetts 1910 and 1990",
-    "description": "Data from the censuses of 1910 and 1990 in Massachusetts.",
-    "path": "SampleDocs/Social_Science/United_States/US_Census/MA_1990/MA_1990",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["socsci"]
-
-  },
-  {
-    "title": "US Census - Miami,Florida",
-    "description": "Data from the PUMA Census, part 3901.",
-    "path": "SampleDocs/Social_Science/United_States/US_Census/Miami/Miami.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["socsci"]
-
-  },
-  {
-    "title": "US Census - NY City 5206",
-    "description": "Data from an IPUMS Census from the University of Minnesota.",
-    "path": "SampleDocs/Social_Science/United_States/US_Census/NYC_5206/NYC_5206.json",
-    "visible": false,
-    "tag": ["USA", "census"],
-    "categories":
-    ["socsci"]
-
-  },
-  {
-    "title": "US Census - NY City 5507",
-    "description": "Data from an IPUMS Census from the University of Minnesota.",
-    "path": "SampleDocs/Social_Science/United_States/US_Census/NYC_5507/NYC_5507.json",
-    "visible": false,
-    "tag":["USA", "census"],
-    "categories":
-    ["socsci"]
-
-  },
-  {
-    "title": "US Census - Ohio South",
-    "description": "Data from an IPUMS Census from the University of Minnesota.",
-    "path": "SampleDocs/Social_Science/United_States/US_Census/Ohio/Ohio.json",
-    "visible": false,
-    "tag": ["USA", "census"],
-    "categories":
-    ["socsci"]
-
-
-  },
-  {
-    "title": "Cereal Production",
-    "description": "This data set, from the World Bank, explores the total annual cereal production from 1991 to 2014.",
-    "path": "SampleDocs/Social_Science/World/Cereal_Production/Cereal_Production.codap",
-    "visible": true,
-    "tag":[],
-    "categories":
-    ["socsci"]
-
-
-  },
-  {
-    "title": "Political Regimes",
-    "description": "This dataset looks at political regimes over the past 200 years. Be careful when loading this data set, since it contains nearly 30,000 cases.",
-    "path": "SampleDocs/Social_Science/World/Political_Regimes/Political_Regimes.codap",
-    "visible": true,
-    "tag":[],
-    "categories":
-    ["socsci"]
-
-  },
-  {
-    "title": "World Cities",
-    "description": "This dataset looks at 3215 cities around the world.",
-    "path": "SampleDocs/Social_Science/World/World_Cities/World_Cities.codap",
-    "visible": true,
-    "tag":
-      ["populations", "social studies", "world", "cities"],
-      "categories":
-
-
-  },
-  {
-    "title": "US Census - VA Arlington County",
-    "description": "Data from an IPUMS Census from the University of Minnesota.",
-    "path": "SampleDocs/Social_Science/United_States/Census/VA-Arlington/VA-Arlington.json",
-    "visible": false,
-    "tag": ["USA", "census"],
-    "categories":
-    ["socsci"]
-
-
-  },
-  {
-    "title": "US Crops",
-    "description": "Explore data on crops grown around the United States.",
-    "path": "SampleDocs/Social_Science/United_States/US_Crops/US_Crops.codap",
-    "visible": true,
-    "tag":
-      ["crops", "social studies", "agriculture", "united states", "corn", "cotton", "maize", "almonds"]
-    ,
-    "categories":
-    ["socsci"]
-
-
-  },
-  {
-    "title": "US Census 2000 - US PUMAs data",
-    "description": "US Data from an IPUMS Census from the University of Minnesota.",
-    "path": "SampleDocs/Social_Science/United_States/US_Census/US_PUMAS_2000/US_PUMAS_2000.codap",
-    "visible": true,
-    "tag":
-      ["census", "social studies", "United States"]
-    ,
-    "categories":
-    ["socsci"]
-
-
-  },
-  {
-    "title": "Summer Olympics",
-    "description": "Compare the number of medals each country has won in the Summer Olympics.",
-    "path": "SampleDocs/Sports/Summer_Olympics/Summer_Olympics.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["miscellaneous"]
-
-
-  },
-  {
-    "title": "Atlanta 1996 Olympics Track Times",
-    "description": "This document contains information about the gold medal track times from the 1996 Atlanta Olympics.",
-    "path": "SampleDocs/Sports/Atlanta96/Atlanta96.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-      "Sports"
-
-  },
-  {
-    "title": "Baseball Stats 2009",
-    "description": "This document contains information about baseball players in 2009.",
-    "path": "SampleDocs/Sports/Baseball09/Baseball09.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["miscellaneous"]
-
-  },
-  {
-    "title": "Best of Seven",
-    "description": "Statistics on the best of seven games from NHL, NBA and MLB",
-    "path": "SampleDocs/Sports/BestOfSeven/BestOfSeven.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["miscellaneous"]
-
-  },
-  {
-    "title": "Bicycling",
-    "description": "This document contains information about bycicle trips on mountainous terrain",
-    "path": "SampleDocs/Sports/Bicycling/Bicycling.json",
-    "visible": false,
-    "tag":[],
-    "categories":
-    ["miscellaneous"]
-
-  }
-]}
+{
+  "sample_docs": [
+    {
+      "title": "Markov",
+      "description": "Save Madeline the dog by playing Roshambo against the evil Dr. Markov. Improve you odds by analyzing Markov's moves. ",
+      "path": "SampleDocs/Mathematics/Probability/markov/Markov_Sample.json",
+      "visible": true,
+      "tag": [
+        "markov chains",
+        "markov",
+        "chain",
+        "game",
+        "data science games",
+        "conditional probability",
+        "probability"
+      ],
+      "categories": [
+        "math",
+        "miscellaneous"
+      ]
+    },
+    {
+      "title": "BART Pressure",
+      "description": "Miguel and Bill took a PocketLab sensor onto BART to SF and back. They began recording pressure just before the train went into the tunnel under the bay.",
+      "path": "SampleDocs/Science/PhysChem/BART_Pressure/BART_pressure.codap",
+      "visible": true,
+      "tag": [
+        "physics",
+        "san francisco",
+        "Pocketlab",
+        "pressure changes"
+      ],
+      "categories": [
+        "miscellaneous",
+        "science"
+      ]
+    },
+    {
+      "title": "Birthdays",
+      "description": "How popular is your birthday? Is the distribution of birthdays uniform?",
+      "path": "SampleDocs/Mathematics/Probability/Birthdays/Birthdays.codap",
+      "visible": true,
+      "tag": [
+        "birthdays",
+        "birth",
+        "birth rates",
+        "probability"
+      ],
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "title": "Climate Change",
+      "description": "Explore models of climate change over time.",
+      "path": "SampleDocs/Science/E_Sciences/Climate_Change/Climate-Change-A.codap",
+      "visible": true,
+      "tag": [
+        "climate",
+        "change",
+        "simulation",
+        "games",
+        "earth science",
+        "earth"
+      ],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "California Earthquakes",
+      "description": "This dataset explores 491 earthquakes that took place in California in 2012.",
+      "path": "SampleDocs/Science/E_Sciences/CA_earthquakes/CA_earthquakes.codap",
+      "visible": true,
+      "tag": [
+        "earthquakes",
+        "california",
+        "earth science",
+        "earth"
+      ],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Fast Plants",
+      "description": "An example document for CODAP beginners. Make graphs and use selection to look for patterns in fast plant growth.",
+      "path": "SampleDocs/Science/Biology/fast_plants/fast_plants.json",
+      "visible": true,
+      "tag": [
+        "fast plants",
+        "plants",
+        "beginner",
+        "biology"
+      ],
+      "categories": [
+        "miscellaneous",
+        "science"
+      ]
+    },
+    {
+      "title": "Domestic Cats",
+      "description": "This data set explores 24 domestic house cats. This is the same data set from the TinkerPlots example data set.",
+      "path": "SampleDocs/Science/Biology/24cats/24cats.codap",
+      "visible": true,
+      "tag": [
+        "cats",
+        "biology",
+        "animals"
+      ],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Birgit the Giant Tortoise",
+      "description": "This data set looks at the activity of Birgit the Giant Tortoise, located in the Galapagos Islands. ",
+      "path": "SampleDocs/Science/Biology/Birgit_the_Giant_Tortoise/Birgit_the_Giant_Tortoise.codap",
+      "visible": true,
+      "tag": [
+        "tortoise",
+        "biology",
+        "animals"
+      ],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Four Seals",
+      "description": "Display the tracks of four elephant seals in the Pacific on a map. Make graphs and use selection to help determine what is going on.",
+      "path": "SampleDocs/Science/Biology/four-seals/four-seals.json",
+      "visible": true,
+      "tag": [
+        "seals",
+        "biology",
+        "animals"
+      ],
+      "categories": [
+        "miscellaneous",
+        "science"
+      ]
+    },
+    {
+      "title": "Mammal",
+      "description": "There are 27 mammals, each with eight attributes.  What relationships can you find?",
+      "path": "SampleDocs/Science/Biology/27mammals/Mammals_Sample.codap",
+      "visible": true,
+      "tag": [
+        "mammals",
+        "biology",
+        "animals"
+      ],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Parachute Model",
+      "description": "Experiment dropping a parachute to see how changing the parachute's size and mass of its cargo changes the terminal velocity of the drop.",
+      "path": "SampleDocs/Science/PhysChem/parachute/Parachute_Model_Sample.codap",
+      "visible": true,
+      "tag": [
+        "parachute",
+        "physics",
+        "mass",
+        "size",
+        "velocity",
+        "freefall",
+        "gravity",
+        "model"
+      ],
+      "categories": [
+        "miscellaneous",
+        "science"
+      ]
+    },
+    {
+      "title": "States and Education",
+      "description": "Explore this data gathered from the Minnesota Population Center about the United States. What do you notice about the education levels within each state?",
+      "path": "SampleDocs/Social_Science/United_States/statesnpeople/States_and_Education.codap",
+      "visible": true,
+      "tag": [
+        "education",
+        "states",
+        "maps",
+        "USA",
+        "model"
+      ],
+      "categories": [
+        "miscellaneous",
+        "socsci"
+      ]
+    },
+    {
+      "title": "1999 API for all California High Schools",
+      "description": "Has 1999 APIs for all California High Schools.",
+      "path": "SampleDocs/Education/API_All_CA_HS_1999/API_All_CA_HS_1999.json",
+      "visible": false,
+      "tag": [
+        "education",
+        "states",
+        "maps"
+      ],
+      "categories": [
+        "miscellaneous"
+      ]
+    },
+    {
+      "title": "Calculus Grades",
+      "description": "Grades recorded during several years for a Calculus 2 course at the Instituto Tecnológico de Costa Rica.",
+      "path": "SampleDocs/Education/Calc_Grades/Grades_Calc.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "miscellaneous"
+      ]
+    },
+    {
+      "title": "Faculty Salaries",
+      "description": "This data includes salaries of College faculty, in the 2002-2003 academic year.",
+      "path": "SampleDocs/Education/Faculty_Salaries/Faculty_Salaries.json",
+      "visible": true,
+      "tag": [
+        "educaton"
+      ],
+      "categories": [
+        "miscellaneous"
+      ]
+    },
+    {
+      "title": "ITCR Students Info",
+      "description": "Results from polls taken in 1993, 1994, 2000 and 2003 among students of the Instituto Tecnológico de Costa Rica.",
+      "path": "SampleDocs/Education/ITCR_Students.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "miscellaneous"
+      ]
+    },
+    {
+      "title": "School Children Info",
+      "description": "Age (months), height (inches), and weight (pounds) were recorded for a group of school children.",
+      "path": "SampleDocs/Education/School_Children/School_Children.json",
+      "visible": true,
+      "tag": [
+        "children",
+        "growth",
+        "grow",
+        "age",
+        "height",
+        "weight"
+      ],
+      "categories": [
+        "socsci",
+        "math"
+      ]
+    },
+    {
+      "title": "Six Tests",
+      "description": "Do students who take standardized tests multiple times have an advantage over those who just take them once or twice?",
+      "path": "SampleDocs/Education/Six_Tests/Six_Tests.json",
+      "visible": true,
+      "tag": [
+        "children",
+        "growth",
+        "grow",
+        "age",
+        "height",
+        "weight"
+      ],
+      "categories": [
+        "miscellaneous"
+      ]
+    },
+    {
+      "title": "State Public School Enrollments",
+      "description": "Enrollment in public elementary and secondary schools, by state or jurisdiction: Fall 1988 to Fall 2010.",
+      "path": "SampleDocs/Education/State_Public_School_Enrollments/Public_School_Enrollments.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "miscellaneous"
+      ]
+    },
+    {
+      "title": "Education Spending by State",
+      "description": "How much money each state spent on education from 1969 to 2000?",
+      "path": "SampleDocs/Education/States_EdSpending/States_EdSpending.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "miscellaneous"
+      ]
+    },
+    {
+      "title": "Stats Grades",
+      "description": "Grades recorded during several years for a Statistics course at the Instituto Tecnológico de Costa Rica, with one case per student.",
+      "path": "SampleDocs/Education/Stats_Grades/Stats_Grades.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "miscellaneous"
+      ]
+    },
+    {
+      "title": "Students' Grades",
+      "description": "Grades obtained by students in the author's classes at the Instituto Tecnológico de Costa Rica.",
+      "path": "SampleDocs/Education/Students_Grades/Students_Grades.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "miscellaneous"
+      ]
+    },
+    {
+      "title": "Texas A and M Univ Business Students' Grades",
+      "description": "Grades obtained by Business students at Texas A and M University during the years 1989-1992.",
+      "path": "SampleDocs/Education/TAMU_Business/TAMU_Business.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "miscellaneous"
+      ]
+    },
+    {
+      "title": "Visits",
+      "description": "Visits of students to author's office hours.",
+      "path": "SampleDocs/Education/Visits/Visits.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "miscellaneous"
+      ]
+    },
+    {
+      "title": "2000 Words",
+      "description": "2000 words randomly chosen from the YAWL (yet another word list) that comes with the Unix operating system.",
+      "path": "SampleDocs/LanguageArts/2000_Words/2000_Words.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "language"
+      ]
+    },
+    {
+      "title": "Movie Characters",
+      "description": "A collection of movies from the Internet Movie Database",
+      "path": "SampleDocs/LanguageArts/Movie_Characters/Movie_Characters.codap",
+      "visible": true,
+      "tag": [
+        "movie",
+        "character",
+        "imdb"
+      ],
+      "categories": [
+        "miscellaneous"
+      ]
+    },
+    {
+      "title": "Art Paintings",
+      "description": "This catalog of paintings is supplied by the National Gallery of Art.",
+      "path": "SampleDocs/LanguageArts/Art_Paintings/Art_Paintings.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "miscellaneous"
+      ]
+    },
+    {
+      "title": "Artists",
+      "description": "List of art by artists.",
+      "path": "SampleDocs/LanguageArts/Artists/Artists.json",
+      "visible": true,
+      "tag": [],
+      "categories": [
+        "miscellaneous"
+      ]
+    },
+    {
+      "title": "Googlewhacks",
+      "description": "The collection at left contains the most recent 500 of the more than 450,000 Googlewhacks that were listed on November 11, 2004.",
+      "path": "SampleDocs/LanguageArts/Googlewhacks/Googlewhacks.json",
+      "visible": true,
+      "tag": [],
+      "categories": [
+        "language"
+      ]
+    },
+    {
+      "title": "Bush 1989 Inaugural Speech",
+      "description": "Analyze the letter count of five paragraphs of George H. W. Bush's Inaugural Address, January 20, 1989.",
+      "path": "SampleDocs/LanguageArts/TextPassages/Bush89/Bush89.json",
+      "visible": false,
+      "tag": [
+        "speech"
+      ],
+      "categories": [
+        "language"
+      ]
+    },
+    {
+      "title": "Declaration of Independence",
+      "description": "Analyze the letter count of the first two paragraphs of the United States Declaration of Independence.",
+      "path": "SampleDocs/LanguageArts/TextPassages/Declaration/Declaration.json",
+      "visible": false,
+      "tag": [
+        "indpendence"
+      ],
+      "categories": [
+        "language"
+      ]
+    },
+    {
+      "title": "Don Juan",
+      "description": "Analyze the letter count of of the first two paragraphs of Don Quixote de la Mancha.",
+      "path": "SampleDocs/LanguageArts/TextPassages/Don/Don.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "language"
+      ]
+    },
+    {
+      "title": "Faust",
+      "description": "Analyze the letter count of Goethe's Faust.",
+      "path": "SampleDocs/LanguageArts/TextPassages/Faust/Faust.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "language"
+      ]
+    },
+    {
+      "title": "Gettysburg Address",
+      "description": "Analyze the letter count in three paragraphs of the Gettysburg Address.",
+      "path": "SampleDocs/LanguageArts/TextPassages/Gettysburg/Gettysburg.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "language"
+      ]
+    },
+    {
+      "title": "The Old Man and The Sea",
+      "description": "Analyze the letter count in a passage from The Old Man and The Sea.",
+      "path": "SampleDocs/LanguageArts/TextPassages/OldMan/OldMan.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "language"
+      ]
+    },
+    {
+      "title": "Building Heights",
+      "description": "Explore the 300 tallest buildings in the world.",
+      "path": "SampleDocs/Mathematics/Algebra/Buildings/Buildings.codap",
+      "visible": true,
+      "tag": [
+        "building",
+        "algebra"
+      ],
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "title": "Compound Interest",
+      "description": "Case table shows a model of a savings account.",
+      "path": "SampleDocs/Mathematics/Algebra/Compound/Compound.json",
+      "visible": true,
+      "tag": [],
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "title": "Cost Adjustment by Year",
+      "description": "How much is your money worth based on the consumer price index.",
+      "path": "SampleDocs/Mathematics/Algebra/Cost/Cost.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "title": "Font Size",
+      "description": "Measurements of the length of a column and notice how that changes with the number of words and the font size.",
+      "path": "SampleDocs/Mathematics/Algebra/Font_Size/Font_Size.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "title": "Guess and Check",
+      "description": "A 'guess and check' method for finding the correct answer to an Algebra problem.",
+      "path": "SampleDocs/Mathematics/Algebra/Guess/Guess.codap",
+      "visible": true,
+      "tag": [
+        "algebra",
+        "guess"
+      ],
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "title": "Pi Scale",
+      "description": "A scale marked in units of pi",
+      "path": "SampleDocs/Mathematics/Calculus/Pi/Pi.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "title": "Quadratic Relationship",
+      "description": "Figure out a method to find the best curve through the points.",
+      "path": "SampleDocs/Mathematics/Algebra/Quad/Quad.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "title": "Integrals and Derivatives",
+      "description": "Demonstrates the visualization or integrals and derivatives.",
+      "path": "SampleDocs/Mathematics/Calculus/Integral/Integral.codap",
+      "visible": true,
+      "tag": [
+        "calculus",
+        "integral",
+        "derivative"
+      ],
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "title": "Integration",
+      "description": "This document illustrates how to do numerical integration of an arbitrary function.",
+      "path": "SampleDocs/Mathematics/Calculus/Integration/Integration.codap",
+      "visible": true,
+      "tag": [
+        "calculus",
+        "integral",
+        "integraton"
+      ],
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "title": "Logistics",
+      "description": "Investigate the effect of changing x and k in the logistics function f(x)=kx(1-x).",
+      "path": "SampleDocs/Mathematics/Calculus/Logistics/Logistics.codap",
+      "visible": true,
+      "tag": [
+        "calculus",
+        "logistics"
+      ],
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "title": "Minimization",
+      "description": "Find the minimum of a plotted function.",
+      "path": "SampleDocs/Mathematics/Calculus/Minimization/Minimization.codap",
+      "visible": true,
+      "tag": [
+        "calculus",
+        "minimize"
+      ],
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "title": "Unit Pi",
+      "description": "Plotting a graph that uses pi as a unit.",
+      "path": "SampleDocs/Mathematics/Calculus/Pi/Pi.codap",
+      "visible": true,
+      "tag": [
+        "calculus"
+      ],
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "title": "Johnson Solids",
+      "description": "Explore the Johnson solids.",
+      "path": "SampleDocs/Mathematics/Geometry/Solids/Solids.codap",
+      "visible": true,
+      "tag": [
+        "geometry"
+      ],
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "title": "Digits of Pi",
+      "description": "Explore the digits of pi.",
+      "path": "SampleDocs/Mathematics/Number_Theory/Digits_of_Pi/Digits_of_Pi.codap",
+      "visible": true,
+      "tag": [
+        "number theory"
+      ],
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "title": "Integer Ring",
+      "description": "Explore the patterns of addition and multiplication of integers.",
+      "path": "SampleDocs/Mathematics/Number_Theory/Integer_Ring/Integer_Ring.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "title": "Prime Density",
+      "description": "Investigate the spacing between prime numbers.",
+      "path": "SampleDocs/Mathematics/Number_Theory/Prime_Density/Prime_Density.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "title": "Growth",
+      "description": "Investigate the theory of chaotic growth.",
+      "path": "SampleDocs/Mathematics/Other_Mathematics/Growth/Growth.codap",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "title": "Number Theory Pi",
+      "description": "Similar to Digits of Pi in Number Theory.",
+      "path": "SampleDocs/Mathematics/Other_Mathematics/Number_Theory/Digits_of_Pi/Digits_of_Pi.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "title": "Fourier Series",
+      "description": "Explore the Fourier Series.",
+      "path": "SampleDocs/Mathematics/Other_Mathematics/Series/Series.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "title": "Chaos Game Simulation",
+      "description": "Explore the Chaos Game!",
+      "path": "SampleDocs/Mathematics/Probability/Chaos_Game/Chaos_Game.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "title": "Estimating Pi",
+      "description": "How to use the graph to estimate pi.",
+      "path": "SampleDocs/Mathematics/Probability/Estimating_Pi/Estimating_Pi.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "title": "Geometric Cards",
+      "description": "How many cards do you have to draw until you get a club?",
+      "path": "SampleDocs/Mathematics/Probability/Geometric_Cards/Geometric_Cards.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "title": "Life Expectancy Probability",
+      "description": "What is the average life expectancy today?",
+      "path": "SampleDocs/Mathematics/Probability/Life_Expectancy/Life_Expectancy.json",
+      "visible": true,
+      "tag": [],
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "title": "Lotto",
+      "description": "Does Lotto pay?",
+      "path": "SampleDocs/Mathematics/Probability/Lotto/Lotto.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "title": "Brownian Motion",
+      "description": "Explore the motion of a molecule.",
+      "path": "SampleDocs/Mathematics/Probability/Motion/Motion.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "title": "Shooting Match",
+      "description": "Which strategy is best when each person has different shooting abilities?",
+      "path": "SampleDocs/Mathematics/Probability/Shooting_Match/Shooting_Match.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "title": "Spinner Game",
+      "description": "What is the best largest value for Player 1 in the Showcase Showdown?",
+      "path": "SampleDocs/Mathematics/Probability/Spinner_Game/Spinner_Game.json",
+      "visible": true,
+      "tag": [],
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "title": "Bright Star Catalog",
+      "description": "Explore 400 stars from a rectangular area of the sky.",
+      "path": "SampleDocs/Science/Astronomy/yale_bright/yale_bright.codap",
+      "visible": true,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Extra Solar",
+      "description": "Explore 111 extrasolar masses and orbital characteristics of known extrasolar planets.",
+      "path": "SampleDocs/Science/Astronomy/Extra_Solar/Extra_Solar.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Jupiter Moons",
+      "description": "A case table about four moons of Jupiter: Io, Europa, Ganymede, and Callisto.",
+      "path": "SampleDocs/Science/Astronomy/Jupiter_Moons/Jupiter_Moons.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Jupiter Radius",
+      "description": "Explain the plot of radius versus mean Julian date.",
+      "path": "SampleDocs/Science/Astronomy/Jupiter_Radius/Jupiter_Radius.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Space Data",
+      "description": "Explore a study about how to grow plants in space.",
+      "path": "SampleDocs/Science/Astronomy/Space_Data/Space_Data.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Sunspots",
+      "description": "A case table gives the sunspot number for a random sample of 2000 days since 1951.",
+      "path": "SampleDocs/Science/Astronomy/Sunspots/Sunspots.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Bears",
+      "description": "How can you use other measurements to measure the weight of a bear?",
+      "path": "SampleDocs/Science/Biology/Bears/Bears.codap",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Bird Observations",
+      "description": "Explore raw data about what bird species were seen and when, per year.",
+      "path": "SampleDocs/Science/Biology/Bird_Observations/Bird_Observations.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Heights",
+      "description": "What is the difference in heights at different times of the day?",
+      "path": "SampleDocs/Science/Biology/Height/Height.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Midges",
+      "description": "What are the differences between two varieties of midges?",
+      "path": "SampleDocs/Science/Biology/Midges/Midges.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "First Bloom",
+      "description": "This data covers information about North American first leaf and first bloom lilac phenology, from 1956 to 2003.",
+      "path": "SampleDocs/Science/Biology/First_Bloom/First_Bloom.codap",
+      "visible": true,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Prey Predator Population",
+      "description": "Explore data of a simulated ecosystem containing predators and their prey.",
+      "path": "SampleDocs/Science/Biology/Prey-Pred-Pop/Prey-Pred-Pop.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Alabama Average Temperatures",
+      "description": "A collection of data from multiple stations around Alabama over a period of about 100 years.",
+      "path": "SampleDocs/Science/E_Sciences/AVG_Temps/AL_Avg_Temps/AL_Avg_Temps.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Arkansas Average Temperatures",
+      "description": "A collection of data from multiple stations around Arkansas over a period of about 100 years.",
+      "path": "SampleDocs/Science/E_Sciences/AVG_Temps/AR_Avg_Temps/AR_Avg_Temps.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Arizona Average Temperatures",
+      "description": "A collection of data from multiple stations around Arizona over a period of about 100 years.",
+      "path": "SampleDocs/Science/E_Sciences/AVG_Temps/AZ_Avg_Temps/AZ_Avg_Temps.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "California Average Temperatures",
+      "description": "A collection of data from multiple stations around California over a period of about 100 years.",
+      "path": "SampleDocs/Science/E_Sciences/AVG_Temps/CA_Avg_Temps/CA_Avg_Temps.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Colorado Average Temperatures",
+      "description": "A collection of data from multiple stations around Colorado over a period of about 100 years.",
+      "path": "SampleDocs/Science/E_Sciences/AVG_Temps/CO_Avg_Temps/CO_Avg_Temps.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Florida Average Temperatures",
+      "description": "A collection of data from multiple stations around Florida over a period of about 100 years.",
+      "path": "SampleDocs/Science/E_Sciences/AVG_Temps/FL_Avg_Temps/FL_Avg_Temps.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Maine Average Temperatures",
+      "description": "A collection of data from multiple stations around Maine over a period of about 100 years.",
+      "path": "SampleDocs/Science/E_Sciences/AVG_Temps/ME_Avg_Temps/ME_Avg_Temps.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "North Dakota Average Temperatures",
+      "description": "A collection of data from multiple stations around North Dakota over a period of about 100 years.",
+      "path": "SampleDocs/Science/E_Sciences/AVG_Temps/ND_Avg_Temps/ND_Avg_Temps.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "New York Average Temperatures",
+      "description": "A collection of data from multiple stations around New York over a period of about 100 years.",
+      "path": "SampleDocs/Science/E_Sciences/AVG_Temps/NY_Avg_Temps/NY_Avg_Temps.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Washington Average Temperatures",
+      "description": "A collection of data from multiple stations around Washington over a period of about 100 years.",
+      "path": "SampleDocs/Science/E_Sciences/AVG_Temps/WA_Avg_Temps/WA_Avg_Temps.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Concord Weather",
+      "description": "Explore information about the weather in Concord.",
+      "path": "SampleDocs/Science/E_Sciences/Concord_Weather/Concord_Weather.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Earthquakes",
+      "description": "Explore earthquakes across California and western Nevada.",
+      "path": "SampleDocs/Science/E_Sciences/Earthquakes/Earthquakes.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Global Carbon",
+      "description": "A case table containing yearly carbon dioxide emissions from various sources around the world.",
+      "path": "SampleDocs/Science/E_Sciences/Global_Carbon/Global_Carbon.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Iowa Weather",
+      "description": "Explore weather information about Marion, Iowa.",
+      "path": "SampleDocs/Science/E_Sciences/Iowa/Iowa.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Kobe Earthquake",
+      "description": "Explore the seismograph recording of the Kobe earthquake on January 16, 1995, in Australia.",
+      "path": "SampleDocs/Science/E_Sciences/Kobe/Kobe.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Mauna Loa Carbon Levels",
+      "description": "A case table of the levels of CO2 from 1958 to 2010 on Mauna Loa.",
+      "path": "SampleDocs/Science/E_Sciences/Mauna_Loa/Mauna_Loa.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "North American Earthquakes",
+      "description": "A compilation of North American earthquakes from 1920 to 1989 of the magnitude 4.5 and higher.",
+      "path": "SampleDocs/Science/E_Sciences/North_American/North_American.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Regional Carbon Levels",
+      "description": "A collection of regional CO2 emissions from the burnin gof fossil-fuels, manufacturing cement, and gas flaring from 1751-2009.",
+      "path": "SampleDocs/Science/E_Sciences/R_Carbon/R_Carbon.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "South Pole Temperatures",
+      "description": "A case table showing the temperatures recorded at the South Pole every month from the year 1957 to the year 1988.",
+      "path": "SampleDocs/Science/E_Sciences/South_Pole/South_Pole.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Tides",
+      "description": "Explore data of the tide patterns of Alcatraz Island, in California, and Birch Island, in Maine.",
+      "path": "SampleDocs/Science/E_Sciences/Tides/Tides.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Tree_Rings",
+      "description": "Are there any relationships between the growth of the tree and historical weather?",
+      "path": "SampleDocs/Science/E_Sciences/Tree_Rings/Tree_Rings.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Weather Model",
+      "description": "A model of a weather pattern generated by a weather machine.",
+      "path": "SampleDocs/Science/E_Sciences/Weather_Machine/Weather_Maching.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Boyle's Law",
+      "description": "A case table of the data of the Boyle Pressure vs. Volume Experiment in 1662.",
+      "path": "SampleDocs/Science/PhysChem/Boyle/Boyle.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Periodic Table",
+      "description": "A case table with information about all of the elements of the periodic table.",
+      "path": "SampleDocs/Science/PhysChem/Elements/Elements.json",
+      "visible": true,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Heating",
+      "description": "How is the temperature of water affected by the length of time it is heated?",
+      "path": "SampleDocs/Science/PhysChem/Heating/Heating.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Solar Panel",
+      "description": "Explore information gathered from a project done with a solar panel.",
+      "path": "SampleDocs/Science/PhysChem/Panel/Panel.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Weather Balloon",
+      "description": "Find relationships in data were gathered during a weather balloon ascent.",
+      "path": "SampleDocs/Science/PhysChem/Radiosonde/Radiosonde.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Rubber Band Ball",
+      "description": "Explore an experiment about the size and bounce height of a rubber band ball.",
+      "path": "SampleDocs/Science/PhysChem/RB_Ball/RB_Ball.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Airplanes",
+      "description": "A case table about the operation statistics of various airplane models in 1999.",
+      "path": "SampleDocs/Science/Technology/Airplanes/Airplanes.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Cars",
+      "description": "Explore information about car models.",
+      "path": "SampleDocs/Science/Technology/Cars/Cars.codap",
+      "visible": true,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Moore's Law",
+      "description": "Explore the trend in the evolution of transistors that was discovered by Gordan Moore.",
+      "path": "SampleDocs/Science/Technology/Moore_Law/Moore_Law.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Nails",
+      "description": "How does the measurement of a nail relate to the penny size of the nail?",
+      "path": "SampleDocs/Science/Technology/Nails/Nails.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Children per Women",
+      "description": "The data set, from Gapminder, looks at the income of women and the number of children per women, 1950-2012.",
+      "path": "SampleDocs/Social_Science/World/Children_per_Women/Children_per_Women.codap",
+      "visible": true,
+      "tag": [
+        "children",
+        "income",
+        "women",
+        "global",
+        "female",
+        "fertility"
+      ],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "Hospital Infection Rates",
+      "description": "This dataset provides information about Hospital Central Line Infection Rates, circa 2012.",
+      "path": "SampleDocs/Social_Science/United_States/Hospital_Infection_Rates/Hospital_infection_rates.codap",
+      "visible": true,
+      "tag": [
+        "hospital",
+        "medical",
+        "health care",
+        "united states",
+        "health",
+        "infection"
+      ],
+      "categories": [
+        "socsci",
+        "science"
+      ]
+    },
+    {
+      "title": "Receipts from Alberta 2024",
+      "description": "Explore data about purchases made by people 20-24 years old in Alberta, Canada.",
+      "path": "SampleDocs/Social_Science/Canada/Alberta2024/Alberta2024.json",
+      "visible": false,
+      "tag": [],
+      "categories": "socsci"
+    },
+    {
+      "title": "Canadian Metro Areas",
+      "description": "What are the relationships between each of the Metro Areas in Canada?",
+      "path": "SampleDocs/Social_Science/Canada/Canada_Metro/Canada_Metro.json",
+      "visible": false,
+      "tag": [],
+      "categories": "socsci"
+    },
+    {
+      "title": "Government Debt",
+      "description": "Explore information about debt in the Canadian government.",
+      "path": "SampleDocs/Social_Science/Canada/Gov_Debt/Gov_Debt.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "International Exports",
+      "description": "Compare the amounts of each item exported in Canada.",
+      "path": "SampleDocs/Social_Science/Canada/Int_Exports/Int_Exports.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "International Imports",
+      "description": "Compare the amounts of each item imported in Canada.",
+      "path": "SampleDocs/Social_Science/Canada/Int_Imports/Int_Imports.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "Military Personnel",
+      "description": "Find relationships between the number of military personnel per year and historical events.",
+      "path": "SampleDocs/Social_Science/Canada/Military_69/Military_69.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "CPI Canada",
+      "description": "Explore information about the CPI for Canada annually, from 1914 to 2006.",
+      "path": "SampleDocs/Social_Science/Canada/CPI_Canada/CPI_Canada.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "Crime Canada",
+      "description": "Find relationships among rates of different types of crime from 1977.",
+      "path": "SampleDocs/Social_Science/Canada/Crime_Canada/Crime_Canada.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "Ontario Census",
+      "description": "Explore data about the population of Ontario, Canada in 2001.",
+      "path": "SampleDocs/Social_Science/Canada/Ontario_Census/Ontario_Census.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "Languages of Ontario",
+      "description": "Explore data about the languages spoken in Ontario.",
+      "path": "SampleDocs/Social_Science/Canada/Ontario_Lang/Ontario_Lang.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "Smoking and Education",
+      "description": "Find relationships between the smokers and their education levels in Canada.",
+      "path": "SampleDocs/Social_Science/Canada/SmokingEd/SmokingEd.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "Technology Use in Canada",
+      "description": "A case table about the Canadian science/technology use in 2001.",
+      "path": "SampleDocs/Social_Science/Canada/Tech_Use/Tech_Use.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "Wheat Production Since 1908",
+      "description": "A case table about wheat production in provinces around Canada since 1908.",
+      "path": "SampleDocs/Social_Science/Canada/Wheat1908/Wheat1908",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "Youth Crimes",
+      "description": "A case table contains information about the number of youth crimes in Canada from 1983 to 1999.",
+      "path": "SampleDocs/Social_Science/Canada/Youth_Crimes/Youth_Crimes.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "Youth Survey",
+      "description": "A case table with data from the Ontario Youth survey conducted between 1994 and 1999.",
+      "path": "SampleDocs/Social_Science/Canada/YouthSurvey/YouthSurvey",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "French Franc Over Time",
+      "description": "Explore the fluctuation of the value of the French Franc over time.",
+      "path": "SampleDocs/Social_Science/Europe/French_Franc/French_Franc.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "German Foreign Trade",
+      "description": "A case table about German foreign trade over time.",
+      "path": "SampleDocs/Social_Science/Europe/German_Trade/German_Trade.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "Migration During the Potato Famine",
+      "description": "Data on migration from Great Britain and Ireland to the US from the years 1820 to 1870.",
+      "path": "SampleDocs/Social_Science/Europe/Potato_Migration/Potato_Migration.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "Russian City Populations",
+      "description": "Explore the population of capitol cities and cities of 100,000 and more inhabitants in the Russian Federation in 1999.",
+      "path": "SampleDocs/Social_Science/Europe/Russian_Cities/Russian_Cities.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "Trans Siberian Railroad",
+      "description": "The train schedule of the Trans-Siberian Railway from approximately the early 1980.",
+      "path": "SampleDocs/Social_Science/Europe/TransSiberia/TransSiberia.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "UK Smoking",
+      "description": "A case table about the smoking habits of people in the United Kingdom.",
+      "path": "SampleDocs/Social_Science/Europe/UK_Smoking/UK_Smoking.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "Cities of Brazil",
+      "description": "Explore the populations of capitol cities and cities of 100,000 and more inhabitants in Brazil in the year 2000.",
+      "path": "SampleDocs/Social_Science/Latin_America/Brazil/Brazil.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "Costa Rica Exchange Rates",
+      "description": "A case table about the exchange rates for the Costa rican Colón with respect to US Dollar.",
+      "path": "SampleDocs/Social_Science/Latin_America/CR_Exchange/CR_Exchange.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "Costa Rica Population",
+      "description": "A case table about the population of Costa Rica since 1522.",
+      "path": "SampleDocs/Social_Science/Latin_America/CRPop/CRPop.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "Peru Population",
+      "description": "A case table about the population of Peru.",
+      "path": "SampleDocs/Social_Science/Latin_America/PeruPop/PeruPop",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "CA Counties",
+      "description": "The 2000 school year projections for each county in California",
+      "path": "SampleDocs/Social_Science/United_States/CA_Counties/CA_Counties.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "Cars",
+      "description": "A case table about random passenger car models from 1993",
+      "path": "SampleDocs/Social_Science/United_States/Cars07/Cars07.json",
+      "visible": true,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "St. Augustine's Cemetery",
+      "description": "A collection of data about the St. Augustine Catholic Cemetery.",
+      "path": "SampleDocs/Social_Science/United_States/Cemetery/Cemetery.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "Coast Starlight",
+      "description": "The Coast Starlight Amtrak train schedule.",
+      "path": "SampleDocs/Social_Science/United_States/Starlight/Starlight.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "Continental US Counties",
+      "description": "Explore data from the 2004 presidential election.",
+      "path": "SampleDocs/Social_Science/United_States/Counties/Counties.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "CPI By Month",
+      "description": "Data on the CPI for each month from 1913 to 2004 in the United States.",
+      "path": "SampleDocs/Social_Science/United_States/CPI_By_Month/CPI_By_Month.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "CPI By Year",
+      "description": "Data on the CPI for each year from 1913 to 2011 in the United States.",
+      "path": "SampleDocs/Social_Science/United_States/CPI_By_Year/CPI_By_Year.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "States - Accidents",
+      "description": "Data about the number of fatal accidents per state.",
+      "path": "SampleDocs/Social_Science/United_States/States/Accidents/Accidents.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "States - Apportionment",
+      "description": "A case table about the proportion of state representatives to the population of each state.",
+      "path": "SampleDocs/Social_Science/United_States/States/Apportionment/Apportionment.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "States - Cars and Drivers",
+      "description": "A case table about the number of cars, drivers, and roads in the United States.",
+      "path": "SampleDocs/Social_Science/United_States/States/CarsNDrivers/CarsNDrivers.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "States - Ethnicity",
+      "description": "A case table about ethnicity in each of the United States.",
+      "path": "SampleDocs/Social_Science/United_States/States/Ethnicity/Ethnicity.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "States - Getting To Work",
+      "description": "A case about the way people got to work in 1989 in the United States.",
+      "path": "SampleDocs/Social_Science/United_States/States/GetToWork/GetToWork.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "States - Map",
+      "description": "A case table about the population of the United States.",
+      "path": "SampleDocs/Social_Science/United_States/States/Map/Map.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "States - Phones and Rentals",
+      "description": "A case table about the number of occupied housing units from the 1990 United States Census.",
+      "path": "SampleDocs/Social_Science/United_States/States/PhonesNRentals/PhonesNRentals.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "States - SAT",
+      "description": "A case table about the SAT score averages by state from 1987-88 to 2001-02.",
+      "path": "SampleDocs/Social_Science/United_States/States/SAT/SAT.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "States - Seat Belts",
+      "description": "A case table about seat belt usage in the United States.",
+      "path": "SampleDocs/Social_Science/United_States/States/SeatBelts/SeatBelts.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "States - Sewers",
+      "description": "A case table about sewer systems used by houses in the United States.",
+      "path": "SampleDocs/Social_Science/United_States/States/Sewers/Sewers.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "States - Taxes",
+      "description": "A case table about the amounts of taxes collected in each of the United States.",
+      "path": "SampleDocs/Social_Science/United_States/States/Taxes/Taxes.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "States - Traffic",
+      "description": "A case table about traffic statistics in each of the United States.",
+      "path": "SampleDocs/Social_Science/United_States/States/Traffic/Traffic.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "States - Urban and Rural Population",
+      "description": "A case table about the urban and rural populations of the United States",
+      "path": "SampleDocs/Social_Science/United_States/States/UrbanNRuralPop/UrbanNRuralPop.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "States - Women",
+      "description": "A case table about women around the United States in 1998",
+      "path": "SampleDocs/Social_Science/United_States/States/Women/Women.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "CA Census 1880-1990",
+      "description": "Data from the United States Census from 1880 to 1990",
+      "path": "SampleDocs/Social_Science/United_States/US_Census/CA_2000/CA_2000.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "CA Census 2000, including Berkeley",
+      "description": "Data from the United States Census from 2000, including Berkeley",
+      "path": "SampleDocs/Social_Science/United_States/US_Census/CA_2000/CA_2000.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "US Census - DC",
+      "description": "Data from the District of Columbia Census.",
+      "path": "SampleDocs/Social_Science/United_States/US_Census/DC/DC.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "US Census - Massachusetts 1910 and 1990",
+      "description": "Data from the censuses of 1910 and 1990 in Massachusetts.",
+      "path": "SampleDocs/Social_Science/United_States/US_Census/MA_1990/MA_1990",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "US Census - Miami,Florida",
+      "description": "Data from the PUMA Census, part 3901.",
+      "path": "SampleDocs/Social_Science/United_States/US_Census/Miami/Miami.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "US Census - NY City 5206",
+      "description": "Data from an IPUMS Census from the University of Minnesota.",
+      "path": "SampleDocs/Social_Science/United_States/US_Census/NYC_5206/NYC_5206.json",
+      "visible": false,
+      "tag": [
+        "USA",
+        "census"
+      ],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "US Census - NY City 5507",
+      "description": "Data from an IPUMS Census from the University of Minnesota.",
+      "path": "SampleDocs/Social_Science/United_States/US_Census/NYC_5507/NYC_5507.json",
+      "visible": false,
+      "tag": [
+        "USA",
+        "census"
+      ],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "US Census - Ohio South",
+      "description": "Data from an IPUMS Census from the University of Minnesota.",
+      "path": "SampleDocs/Social_Science/United_States/US_Census/Ohio/Ohio.json",
+      "visible": false,
+      "tag": [
+        "USA",
+        "census"
+      ],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "Cereal Production",
+      "description": "This data set, from the World Bank, explores the total annual cereal production from 1991 to 2014.",
+      "path": "SampleDocs/Social_Science/World/Cereal_Production/Cereal_Production.codap",
+      "visible": true,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "Political Regimes",
+      "description": "This dataset looks at political regimes over the past 200 years. Be careful when loading this data set, since it contains nearly 30,000 cases.",
+      "path": "SampleDocs/Social_Science/World/Political_Regimes/Political_Regimes.codap",
+      "visible": true,
+      "tag": [],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "World Cities",
+      "description": "This dataset looks at 3215 cities around the world.",
+      "path": "SampleDocs/Social_Science/World/World_Cities/World_Cities.codap",
+      "visible": true,
+      "tag": [
+        "populations",
+        "social studies",
+        "world",
+        "cities"
+      ],
+      "categories": ["socsci"]
+    },
+    {
+      "title": "US Census - VA Arlington County",
+      "description": "Data from an IPUMS Census from the University of Minnesota.",
+      "path": "SampleDocs/Social_Science/United_States/Census/VA-Arlington/VA-Arlington.json",
+      "visible": false,
+      "tag": [
+        "USA",
+        "census"
+      ],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "US Crops",
+      "description": "Explore data on crops grown around the United States.",
+      "path": "SampleDocs/Social_Science/United_States/US_Crops/US_Crops.codap",
+      "visible": true,
+      "tag": [
+        "crops",
+        "social studies",
+        "agriculture",
+        "united states",
+        "corn",
+        "cotton",
+        "maize",
+        "almonds"
+      ],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "US Census 2000 - US PUMAs data",
+      "description": "US Data from an IPUMS Census from the University of Minnesota.",
+      "path": "SampleDocs/Social_Science/United_States/US_Census/US_PUMAS_2000/US_PUMAS_2000.codap",
+      "visible": true,
+      "tag": [
+        "census",
+        "social studies",
+        "United States"
+      ],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
+      "title": "Summer Olympics",
+      "description": "Compare the number of medals each country has won in the Summer Olympics.",
+      "path": "SampleDocs/Sports/Summer_Olympics/Summer_Olympics.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "miscellaneous"
+      ]
+    },
+    {
+      "title": "Atlanta 1996 Olympics Track Times",
+      "description": "This document contains information about the gold medal track times from the 1996 Atlanta Olympics.",
+      "path": "SampleDocs/Sports/Atlanta96/Atlanta96.json",
+      "visible": false,
+      "tag": [],
+      "categories": "Sports"
+    },
+    {
+      "title": "Baseball Stats 2009",
+      "description": "This document contains information about baseball players in 2009.",
+      "path": "SampleDocs/Sports/Baseball09/Baseball09.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "miscellaneous"
+      ]
+    },
+    {
+      "title": "Best of Seven",
+      "description": "Statistics on the best of seven games from NHL, NBA and MLB",
+      "path": "SampleDocs/Sports/BestOfSeven/BestOfSeven.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "miscellaneous"
+      ]
+    },
+    {
+      "title": "Bicycling",
+      "description": "This document contains information about bycicle trips on mountainous terrain",
+      "path": "SampleDocs/Sports/Bicycling/Bicycling.json",
+      "visible": false,
+      "tag": [],
+      "categories": [
+        "miscellaneous"
+      ]
+    }
+  ]
+}

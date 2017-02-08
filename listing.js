@@ -44,21 +44,22 @@ $(document).ready(function () {
             search_words = (keywords.split(space));
 
             for (var i = 0; i < obj.length - 1; i++) {
-                tags = obj[i].tag;
+                // tags = obj[i].tag;
                 words = obj[i].word_list;
-                categories=(obj[i].categories).split(space);
+                console.log("Words in searchResources: "+words);
+                // categories=(obj[i].categories).split(space);
 
-                for (k=0; k<categories.length;k++) {
-                    categories[k] =categories[k].toLowerCase();
-                }
+                // for (k=0; k<categories.length;k++) {
+                //     categories[k] =categories[k].toLowerCase();
+                // }
 
                 for (var j = 0; j < search_words.length; j++) {
-                    if (typeof tags != "undefined" && tags != null && tags.length > 0) {
-                        if (tags.includes(search_words[j])) {
-                            display_list.push(obj[i]);
-                        }
-
-                    }
+                //     if (typeof tags != "undefined" && tags != null && tags.length > 0) {
+                //         if (tags.includes(search_words[j])) {
+                //             display_list.push(obj[i]);
+                //         }
+                //
+                //     }
                     if (typeof words != "undefined" && words != null && words.length > 0) {
                         if (words.includes(search_words[j])) {
                             if (!(display_list.includes(obj[i]))) {
@@ -66,13 +67,13 @@ $(document).ready(function () {
                             }
                         }
                     }
-                    if (typeof categories != "undefined" && categories != null && categories.length > 0) {
-                        if (categories.includes(search_words[j])) {
-                            if (!(display_list.includes(obj[i]))) {
-                                display_list.push(obj[i]);
-                            }
-                        }
-                    }
+                    // if (typeof categories != "undefined" && categories != null && categories.length > 0) {
+                    //     if (categories.includes(search_words[j])) {
+                    //         if (!(display_list.includes(obj[i]))) {
+                    //             display_list.push(obj[i]);
+                    //         }
+                    //     }
+                    // }
                 }
             }
         }
@@ -89,14 +90,13 @@ $(document).ready(function () {
             checked_category=[],
             categoryCheckboxes = category_form.getElementsByTagName('input'),
             checked_num = categoryCheckboxes.length;
-            console.log("categoryCheckboxes is: "+categoryCheckboxes);
-            console.log("checked_num is: "+checked_num);
+        console.log("categoryCheckboxes is: "+categoryCheckboxes);
+        console.log("checked_num is: "+checked_num);
 
-        for (var k=0;k<checked_num;k++) {
+        for (var l=0;l<checked_num;l++) {
 
-
-            if (categoryCheckboxes[k].checked) {
-                checked_category.push(categoryCheckboxes[k].id);
+            if (categoryCheckboxes[l].checked) {
+                checked_category.push(categoryCheckboxes[l].id);
             }
         }
 
@@ -120,7 +120,7 @@ $(document).ready(function () {
             }
         }
 
-        buildListing(display_list);
+        searchResources(display_list);
 
     }
 
@@ -192,31 +192,43 @@ $(document).ready(function () {
         var sample_doc_list = response.sample_docs;
         var title='',
             description='',
+            categories='',
+            tags='',
             space = " ",
             words=[],
             word_list=[];
 
 
+
         for (var i=0; i<sample_doc_list.length-1;i++) {
             title = (((sample_doc_list[i].title).toLowerCase()).replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"")).trim();
             description = (((sample_doc_list[i].description).toLowerCase()).replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"")).trim();
+            categories = (sample_doc_list[i].categories);
+            tags = (sample_doc_list[i].tag);
             words = (title.split(space)+',' + description.split(space)).split(',');
 
+            for (var j=0; j<tags.length; j++) {
+               words.push(tags[j]);
+            }
+            for (var k=0; k<categories.length; k++) {
+                words.push(categories[k]);
+            }
             word_list = removeCommonWords(words);
 
             sample_doc_list[i].word_list = word_list;
+            console.log("words_list in buildPage categories: "+sample_doc_list[i].word_list);
+
         }
 
         buildListing(sample_doc_list);
 
-        $("#search").submit(function() {searchResources(sample_doc_list); return false;});
+        $("#search").submit(function() {filterCategory(sample_doc_list); return false;});
         $("#categories .category-checkbox").change(function() {filterCategory(sample_doc_list); return false;});
-        $('#codap-url').submit(function(){buildListing(sample_doc_list); return false;});
+        $('#codap-url').submit(function(){filterCategory(sample_doc_list); return false;});
 
     }
 
     fetchObjList();
-
 
 });
 
