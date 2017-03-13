@@ -492,6 +492,15 @@
     ]
   },
   {
+    "title": "Number of Factors",
+    "description": "Given a number, can you find patterns with its factors?",
+    "path": "SampleDocs/Mathematics/Number_Theory/Number_of_Factors/Number_of_Factors.codap",
+    "visible": true,
+    "categories": [
+      "Math/Number Theory"
+    ]
+  },
+  {
     "title": "Integer Ring",
     "description": "Explore the patterns of addition and multiplication of integers.",
     "path": "SampleDocs/Mathematics/Number_Theory/Integer_Ring/Integer_Ring.json",
