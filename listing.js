@@ -13,108 +13,114 @@ $(document).ready(function () {
         })
     }
 
-    function getCategories (obj){
-        console.log("In getCategories");
-        var categories_array=[],
-            category_objects=[],
-            cat_relationship_obj={};
+    function removeCommonWords(words) {
+        var word_list = [],
+            ignore_words = ["the", "it", "is", "we", "all", "a", "an", "by", "to", "you", "at", "she", "they", "we", "how", "it", "i", "are", "to", "for", "of", "in", "that", "and"];
 
-        for (var i=0; i < obj.sample_docs.length; i++) {
-            for (var j=0; j < obj.sample_docs[i].categories.length; j++) {
-                var category_read = obj.sample_docs[i].categories[j];
-                if (!categories_array.includes(category_read) ) {
-                    categories_array.push(category_read);
-                }
+        console.log("In removeCommonWords");
+
+        for (var k=0;k<words.length;k++) {
+            if (!(ignore_words.includes(words[k]))) {
+                word_list.push(words[k]);
             }
         }
-        category_objects = categories_array.map(function (s) {
-            var split=s.split('/');
-            return {parent:split[0],child:split[1]};
-        });
-
-        for (i=0;i<category_objects.length;i++) {
-            if (!cat_relationship_obj[category_objects[i].parent]){
-                cat_relationship_obj[category_objects[i].parent]=[category_objects[i].child];
-            }
-            else {
-                cat_relationship_obj[category_objects[i].parent].push(category_objects[i].child);
-            }
-        }
-        return (cat_relationship_obj);
+        return word_list;
     }
 
-    function buildNavBar(categories){
-        console.log("In buildNavBar, categories is: " + categories);
-        var nav_bar = $(".nav-bar");
-        var nav_bar_list = $("<ul>").addClass('menu-h');
-        var cat_main_header, cat_sub_header;
+    function searchResources(obj) {
+        console.log("in searchResources");
+        var tags = [],
+            words=[],
+            categories=[],
+            display_list=[],
+            search_words=[],
+            keywords = ($('#keyword').val()).toLowerCase(),
+            space=" ";
 
-        nav_bar_list.appendTo(nav_bar);
-        for (var key in categories) {
-            if (key.match(' ')){
-                cat_main_header = key.replace(/ /g, '_');
-            } else {
-                cat_main_header=key;
-            }
+        if (keywords=='') {
+            display_list = obj;
+        }
+        else {
+            search_words = (keywords.split(space));
 
-            nav_bar_list.append($('<li>').addClass('main_cat_'+cat_main_header).append($('<a>').attr('href', '#'+cat_main_header+'_header').text(key)));
+            for (var i = 0; i < obj.length - 1; i++) {
+                // tags = obj[i].tag;
+                words = obj[i].word_list;
+                console.log("Words in searchResources: "+words);
+                // categories=(obj[i].categories).split(space);
 
-            var sub_headers = categories[key];
-            if(!(sub_headers===undefined)) {
-                $('.main_cat_'+cat_main_header).append($('<ul>').addClass('menu-h-dropdown sub_cat_'+cat_main_header));
-                sub_headers.forEach(function (el) {
-                    if(!(el===undefined)) {
-                        if (el.match(' ')) {
-                            cat_sub_header = el.replace(/ /g, '_');
-                        } else {
-                            cat_sub_header = el;
+                // for (k=0; k<categories.length;k++) {
+                //     categories[k] =categories[k].toLowerCase();
+                // }
+
+                for (var j = 0; j < search_words.length; j++) {
+                //     if (typeof tags != "undefined" && tags != null && tags.length > 0) {
+                //         if (tags.includes(search_words[j])) {
+                //             display_list.push(obj[i]);
+                //         }
+                //
+                //     }
+                    if (typeof words != "undefined" && words != null && words.length > 0) {
+                        if (words.includes(search_words[j])) {
+                            if (!(display_list.includes(obj[i]))) {
+                                display_list.push(obj[i]);
+                            }
                         }
-                        $('.sub_cat_'+cat_main_header).append($('<li>').append($('<a>').attr('href', '#'+cat_sub_header + '_header').text(el)));
                     }
-                })
+                    // if (typeof categories != "undefined" && categories != null && categories.length > 0) {
+                    //     if (categories.includes(search_words[j])) {
+                    //         if (!(display_list.includes(obj[i]))) {
+                    //             display_list.push(obj[i]);
+                    //         }
+                    //     }
+                    // }
+                }
             }
-
         }
+
+        buildListing(display_list);
+
     }
 
-    function buildListingDivs(categories) {
-        console.log("In buildListingDivs");
-        var cat_list='';
-        var cat_main_header='';
-        var cat_sub_header='';
-        var listing_container = $("#listing_container");
-        var home_button = $('<a>').attr('href','#header').addClass('nav-to-top').text('Back to top').append('<img src="./Common/images/home.png" class="home-icon">');
+    function filterCategory(obj) {
+        console.log("in filterCategory");
+        var display_list=[],
+            category_form = document.getElementById('categories'),
+            categories = "",
+            checked_category=[],
+            categoryCheckboxes = category_form.getElementsByTagName('input'),
+            checked_num = categoryCheckboxes.length;
+        console.log("categoryCheckboxes is: "+categoryCheckboxes);
+        console.log("checked_num is: "+checked_num);
 
+        for (var l=0;l<checked_num;l++) {
 
-        for (var key in categories) {
-            if (key.match(' ')){
-                cat_main_header = key.replace(/ /g, '_');
-            } else {
-                cat_main_header=key;
+            if (categoryCheckboxes[l].checked) {
+                checked_category.push(categoryCheckboxes[l].id);
             }
-
-            var cat_listing_container = $('<div>').addClass('cat_listing_container').addClass(cat_main_header+'_div');
-            listing_container.append(cat_listing_container);
-            $('.'+cat_main_header+'_div').append($('<h2>').text(key).prop('id',cat_main_header+'_header'));
-            $('.'+cat_main_header+'_div').append($('<ul>').prop('id',cat_main_header+'_list'));
-            cat_list = $('#'+cat_main_header+'_list');
-
-            var sub_headers = categories[key];
-            console.log(sub_headers);
-                sub_headers.forEach(function (el) {
-                    if (!(el===undefined)) {
-                    if (el.match(' ')) {
-                        cat_sub_header = el.replace(/ /g, '_');
-                    } else {
-                        cat_sub_header = el;
-                    }
-                    cat_list.append($('<h3>').text(el).prop('id',cat_sub_header+'_header'));
-                    cat_list.append($('<ul>').prop('id', cat_sub_header + '_list'));
-                }
-                });
         }
-        $('.cat_listing_container').append(home_button);
-         buildNavBar(categories);
+
+        $('.listing').remove();
+
+        if (checked_category.length<=0) {
+            display_list = obj;
+        }
+        else {
+            for (var k = 0; k < obj.length - 1; k++) {
+                categories = obj[k].categories;
+
+                for (var j = 0; j < checked_category.length; j++) {
+                    if (categories.includes(checked_category[j])) {
+                        if (!(display_list.includes(obj[k]))) {
+                            display_list.push(obj[k])
+                        }
+                    }
+
+                }
+            }
+        }
+
+        searchResources(display_list);
 
     }
 
@@ -122,16 +128,20 @@ $(document).ready(function () {
         var title = obj.title,
             description = obj.description,
             path = '',
-            category = obj.categories,
+            categories = obj.categories,
             url = $("#codap-url").val(),
             category_bin ='',
             listing = '',
+            listing_category='',
             listing_desc ='',
             query_param = '?url=',
             launchLink = '',
             linkLink = '',
-            url_root = window.location.origin+window.location.pathname;
+            url_root = window.location.origin+window.location.pathname,
+            listing_container = "#listing_container";
 
+        // console.log("in AddListingObj");
+        // console.log(categories);
         if (obj.path.match('^http','i')) {
             path = obj.path;
         }
@@ -144,54 +154,81 @@ $(document).ready(function () {
             path=path.replace(/http/i,'https');
         }
 
-        for (var i=0; i<category.length;i++) {
-            if (category[i].includes('/')) {
-                console.log("In category split");
-
-                var category_split = category[i].split("/");
-                if (/ /g.test(category_split[1])){
-                    category_split[1] = category_split[1].replace(/ /g, '_');
-                }
-                category_bin = '#' + category_split[1]+'_list';
-            }
-            else {
-                if (/ /g.test(category[i])){
-                    category[i] = category[i].replace(/ /g, '_');
-                }
-                category_bin = '#' + category[i] + '_list';
-            }
-            listing = $('<li>').addClass('listing');
-             launchLink = $('<a class = "listing-title" target = "_blank" href='+url+query_param+path+'> '+title+' </a>'),
-                 listing_desc = $('<p>').addClass('listing-desc').text(description),
-                 linkLink = $('<a class = "listing-link" href=' + path + '> Embeddable Link </a>'),
-             launchLink.appendTo(listing);
-            listing_desc.appendTo(listing);
-             linkLink.appendTo(listing);
-             listing.appendTo(category_bin);
-        }
+        listing = $('<li>').addClass('listing').addClass(categories);
+        // categories.forEach(function(category)
+        //     {   console.log(category);
+        //         $('li.listing').addClass(category)} );
+        launchLink = $('<a class = "listing-title" target = "_blank" href='+url+query_param+path+'> '+title+' </a>'),
+            listing_desc = $('<p>').addClass('listing-desc').text(description),
+            linkLink = $('<a class = "listing-link" href=' + path + '> Embeddable Link </a>'),
+            launchLink.appendTo(listing);
+        listing_desc.appendTo(listing);
+        linkLink.appendTo(listing);
+        listing.appendTo(listing_container);
     }
 
-
     function buildListing(listing){
+        console.log("in buildListing");
         //check if item is visible
+
         $('.listing').remove();
-        for (var i=0; i<listing.length; i++) {
-            if (listing[i].visible) {
-                AddListingObj(listing[i]);
+        $('.error').remove();
+
+        if (typeof listing == "undefined" || listing == null || listing.length <= 0) {
+            $('#listing_container').append('<p class="error">Sorry, no document matches your search.</p>');
+        }
+        else {
+            // $('.error').remove();
+            for (var i = 0; i < listing.length; i++) {
+                if (listing[i].visible) {
+                    AddListingObj(listing[i]);
+                }
             }
         }
     }
 
     function buildPage(response) {
-        var categories_obj = getCategories(response);
+        console.log("in buildPage");
         var sample_doc_list = response.sample_docs;
-        buildListingDivs(categories_obj);
+        var title='',
+            description='',
+            categories='',
+            tags='',
+            space = " ",
+            words=[],
+            word_list=[];
+
+
+
+        for (var i=0; i<sample_doc_list.length-1;i++) {
+            title = (((sample_doc_list[i].title).toLowerCase()).replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"")).trim();
+            description = (((sample_doc_list[i].description).toLowerCase()).replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"")).trim();
+            categories = (sample_doc_list[i].categories);
+            tags = (sample_doc_list[i].tag);
+            words = (title.split(space)+',' + description.split(space)).split(',');
+
+            for (var j=0; j<tags.length; j++) {
+               words.push(tags[j]);
+            }
+            for (var k=0; k<categories.length; k++) {
+                words.push(categories[k]);
+            }
+            word_list = removeCommonWords(words);
+
+            sample_doc_list[i].word_list = word_list;
+            console.log("words_list in buildPage categories: "+sample_doc_list[i].word_list);
+
+        }
+
         buildListing(sample_doc_list);
 
-        $('form').submit(function(){buildListing(sample_doc_list); return false;});
+        $("#search").submit(function() {filterCategory(sample_doc_list); return false;});
+        $("#categories .category-checkbox").change(function() {filterCategory(sample_doc_list); return false;});
+        $('#codap-url').submit(function(){filterCategory(sample_doc_list); return false;});
 
     }
 
     fetchObjList();
+
 });
 

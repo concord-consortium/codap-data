@@ -7,7 +7,7 @@
       "guid": 2,
       "componentStorage": {
         "currentGameName": "Markov",
-        "currentGameUrl": "http://concord-consortium.github.io/codap-data-interactives/Markov/",
+        "currentGameUrl": "https://concord-consortium.github.io/codap-data-interactives/Markov/",
         "allowInitGameOverride": true,
         "_links_": {
           "context": {
