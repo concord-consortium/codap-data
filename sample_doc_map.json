@@ -1030,8 +1030,8 @@
     {
       "title": "Mauna Loa Carbon Levels",
       "description": "A case table of the levels of CO2 from 1958 to 2010 on Mauna Loa.",
-      "path": "SampleDocs/Science/E_Sciences/Mauna_Loa/Mauna_Loa.json",
-      "visible": false,
+      "path": "SampleDocs/Science/E_Sciences/Mauna_Loa/Mauna_Loa.codap",
+      "visible": true,
       "tag": [],
       "categories": [
         "science"
