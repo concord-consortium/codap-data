@@ -628,6 +628,16 @@
       ]
     },
     {
+      "title": "Number of Factors",
+      "description": "Investigate the spacing between numbers and their factors.",
+      "path": "SampleDocs/Mathematics/Number_Theory/Number_of_Factors/Number_of_Factors.codap",
+      "visible": true,
+      "tag": [],
+      "categories": [
+        "math"
+      ]
+    },
+    {
       "title": "Prime Density",
       "description": "Investigate the spacing between prime numbers.",
       "path": "SampleDocs/Mathematics/Number_Theory/Prime_Density/Prime_Density.json",
