@@ -68,6 +68,26 @@
       ]
     },
     {
+      "title": "The Future of Climate Change",
+      "description": "How can we better understand and project future climate changes?",
+      "path": "SampleDocs/Science/E_Sciences/EPA_Future_of_Climate_Change/EPA_Future_of_Climate-Change.codap",
+      "visible": true,
+      "tag": [
+        "climate",
+        "change",
+        "simulation",
+        "games",
+        "earth science",
+        "earth",
+        "projection",
+        "global warming",
+        "greenhouse"
+      ],
+      "categories": [
+        "science"
+      ]
+    },
+    {
       "title": "California Earthquakes",
       "description": "This dataset explores 491 earthquakes that took place in California in 2012.",
       "path": "SampleDocs/Science/E_Sciences/CA_earthquakes/CA_earthquakes.codap",
