@@ -1808,6 +1808,21 @@
       ]
     },
     {
+      "title": "Human Development Index",
+      "description": "This data set, from the United Nations Human Development Reports, explores the potential of human development in world countries.",
+      "path": "SampleDocs/Social_Science/World/Human_Development_Index/Human_Development_Index.codap",
+      "visible": true,
+      "tag": [],
+      "categories": [
+        "socsci",
+        "united nations",
+        "human development index",
+        "hdi",
+        "demographics",
+        "world"
+      ]
+    },
+    {
       "title": "Political Regimes",
       "description": "This dataset looks at political regimes over the past 200 years. Be careful when loading this data set, since it contains nearly 30,000 cases.",
       "path": "SampleDocs/Social_Science/World/Political_Regimes/Political_Regimes.codap",
