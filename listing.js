@@ -224,7 +224,8 @@ $(document).ready(function () {
 
         $("#search").submit(function() {filterCategory(sample_doc_list); return false;});
         $("#categories .category-checkbox").change(function() {filterCategory(sample_doc_list); return false;});
-        $('#codap-url').submit(function(){filterCategory(sample_doc_list); return false;});
+        // $('#codap-url').submit(function(){filterCategory(sample_doc_list); return false;});
+        $('#codap-url').on('input', function(){filterCategory(sample_doc_list); return false;});
 
     }
 
