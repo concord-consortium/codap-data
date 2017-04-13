@@ -68,6 +68,26 @@
       ]
     },
     {
+      "title": "The Future of Climate Change",
+      "description": "How can we better understand and project future climate changes?",
+      "path": "SampleDocs/Science/E_Sciences/EPA_Future_of_Climate_Change/EPA_Future_of_Climate_Change.codap",
+      "visible": true,
+      "tag": [
+        "climate",
+        "change",
+        "simulation",
+        "games",
+        "earth science",
+        "earth",
+        "projection",
+        "global warming",
+        "greenhouse"
+      ],
+      "categories": [
+        "science"
+      ]
+    },
+    {
       "title": "California Earthquakes",
       "description": "This dataset explores 491 earthquakes that took place in California in 2012.",
       "path": "SampleDocs/Science/E_Sciences/CA_earthquakes/CA_earthquakes.codap",
@@ -628,6 +648,16 @@
       ]
     },
     {
+      "title": "Number of Factors",
+      "description": "Investigate the spacing between numbers and their factors.",
+      "path": "SampleDocs/Mathematics/Number_Theory/Number_of_Factors/Number_of_Factors.codap",
+      "visible": true,
+      "tag": [],
+      "categories": [
+        "math"
+      ]
+    },
+    {
       "title": "Prime Density",
       "description": "Investigate the spacing between prime numbers.",
       "path": "SampleDocs/Mathematics/Number_Theory/Prime_Density/Prime_Density.json",
@@ -1020,8 +1050,8 @@
     {
       "title": "Mauna Loa Carbon Levels",
       "description": "A case table of the levels of CO2 from 1958 to 2010 on Mauna Loa.",
-      "path": "SampleDocs/Science/E_Sciences/Mauna_Loa/Mauna_Loa.json",
-      "visible": false,
+      "path": "SampleDocs/Science/E_Sciences/Mauna_Loa/Mauna_Loa.codap",
+      "visible": true,
       "tag": [],
       "categories": [
         "science"
@@ -1896,3 +1926,4 @@
     }
   ]
 }
+
