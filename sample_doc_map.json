@@ -1188,7 +1188,7 @@
       ]
     },
     {
-      "title": "Cars 2007",
+      "title": "Cars",
       "description": "Explore information about car models.",
       "path": "SampleDocs/Science/Technology/Cars/Cars.codap",
       "visible": true,
@@ -1509,8 +1509,8 @@
       ]
     },
     {
-      "title": "Cars",
-      "description": "A case table about random passenger car models from 1993",
+      "title": "Cars 2007",
+      "description": "A case table about random passenger car models from 2007",
       "path": "SampleDocs/Social_Science/United_States/Cars07/Cars07.json",
       "visible": true,
       "tag": [],
