@@ -5,6 +5,7 @@
       "description": "Save Madeline the dog by playing Roshambo against the evil Dr. Markov. Improve you odds by analyzing Markov's moves. ",
       "path": "SampleDocs/Mathematics/Probability/markov/Markov_Sample.json",
       "visible": true,
+      "image_path": "./resources/images/markov_banner.png",
       "tag": [
         "markov chains",
         "markov",
@@ -24,6 +25,7 @@
       "description": "Miguel and Bill took a PocketLab sensor onto BART to SF and back. They began recording pressure just before the train went into the tunnel under the bay.",
       "path": "SampleDocs/Science/PhysChem/BART_Pressure/BART_pressure.codap",
       "visible": true,
+      "image_path":"",
       "tag": [
         "physics",
         "san francisco",
