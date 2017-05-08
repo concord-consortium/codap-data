@@ -124,12 +124,6 @@ $(document).ready(function () {
 
     }
 
-    function imgerror(image) {
-        image.onerror='';
-        image.src = './resources/images/codap_logo.png';
-        return true;
-    }
-
     function AddListingObj(obj) {
         var title = obj.title,
             description = obj.description,
@@ -164,7 +158,7 @@ $(document).ready(function () {
 
         listing = $('<li>').addClass('listing').addClass(categories);
         launchLink = $('<a class = "listing-title" target = "_blank" href='+url+query_param+path+'> '+title+' </a>'),
-            listing_image = $('<div class = "listing-image"><object data ='+image_path+' type="image/png"><img src = '+alt_img_path+'/>'),
+            listing_image = $('<div class = "listing-image"><object data ='+image_path+' type="image/png"><img src = '+alt_img_path+'>'),
             listing_image_link=$('<a class = "listing-image-link" target = "_blank" href='+url+query_param+path+'> '+title),
             listing_desc = $('<span>').addClass('listing-desc').text(description).append('</a>'),
             linkLink = $('<a class = "listing-link" href=' + path + '> Embeddable Link </a>'),
