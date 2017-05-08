@@ -182,6 +182,7 @@
       "description": "Experiment dropping a parachute to see how changing the parachute's size and mass of its cargo changes the terminal velocity of the drop.",
       "path": "SampleDocs/Science/PhysChem/parachute/Parachute_Model_Sample.codap",
       "visible": true,
+      "image_path": "./resources/images/parachute.png",
       "tag": [
         "parachute",
         "physics",
