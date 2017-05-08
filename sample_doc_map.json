@@ -1801,6 +1801,21 @@
       ]
     },
     {
+      "title": "Crime Rates in Arizona and California",
+      "description": "Data from FBI crime reports over Arizona and California. CODAP document by Phil.",
+      "path": "SampleDocs/Social_Science/United_States/Crime_Rates/Crime_Rates.codap",
+      "visible": true,
+      "tag": [
+        "USA",
+        "census",
+        "FBI",
+        "Crime"
+      ],
+      "categories": [
+        "socsci"
+      ]
+    },
+    {
       "title": "Cereal Production",
       "description": "This data set, from the World Bank, explores the total annual cereal production from 1991 to 2014.",
       "path": "SampleDocs/Social_Science/World/Cereal_Production/Cereal_Production.codap",
