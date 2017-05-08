@@ -175,9 +175,9 @@ $(document).ready(function () {
             listing_desc = $('<span>').addClass('listing-desc').text(description).append('</a>'),
             linkLink = $('<a class = "listing-link" href=' + path + '> Embeddable Link </a>'),
             launchLink.appendTo(listing);
-        listing_image.appendTo(listing);
-        listing_image_link.appendTo(listing_image);
+        listing_image.appendTo(listing_image_link);
         listing_desc.appendTo(listing_image);
+        listing_image_link.appendTo(listing);
         linkLink.appendTo(listing);
         listing.appendTo(listing_container);
     }
