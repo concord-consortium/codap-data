@@ -286,6 +286,7 @@ a:hover {
     color: #fff;
     opacity: 0;
     z-index: 2;
+    transition: all 0.5s;
 }
 
 .listing-link {
@@ -306,6 +307,7 @@ a:hover {
 .listing-image:hover .listing-desc  {
     visibility: visible;
     opacity: .9;
+
 }
 
 .listing-image object {
