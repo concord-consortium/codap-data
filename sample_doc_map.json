@@ -1011,10 +1011,10 @@
       ]
     },
     {
-      "title": "Earthquakes",
-      "description": "Explore earthquakes across California and western Nevada.",
-      "path": "SampleDocs/Science/E_Sciences/Earthquakes/Earthquakes.json",
-      "visible": false,
+      "title": "Earthquakes Around the World",
+      "description": "Explore earthquakes across the globe.",
+      "path": "SampleDocs/Science/E_Sciences/Earthquakes/EarthquakeData.codap",
+      "visible": true,
       "tag": [],
       "categories": [
         "science"
