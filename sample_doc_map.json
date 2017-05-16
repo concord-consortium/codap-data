@@ -32,6 +32,7 @@
         "Pocketlab",
         "pressure changes"
       ],
+      "image_path": "./resources/images/BartPressure.jpg",
       "categories": [
         "miscellaneous",
         "science"
@@ -48,6 +49,7 @@
         "birth rates",
         "probability"
       ],
+      "image_path": "./resources/images/Birthdays.jpg",
       "categories": [
         "math"
       ]
@@ -65,6 +67,7 @@
         "earth science",
         "earth"
       ],
+      "image_path": "./resources/images/ClimateChange.jpg",
       "categories": [
         "science"
       ]
@@ -85,6 +88,7 @@
         "global warming",
         "greenhouse"
       ],
+      "image_path": "./resources/images/TheFutureofClimateChange.jpg",
       "categories": [
         "science"
       ]
@@ -100,6 +104,7 @@
         "earth science",
         "earth"
       ],
+      "image_path": "./resources/images/CaliforniaEarthquakes.jpg",
       "categories": [
         "science"
       ]
@@ -115,6 +120,7 @@
         "beginner",
         "biology"
       ],
+      "image_path": "./resources/images/FastPlants.jpg",
       "categories": [
         "miscellaneous",
         "science"
@@ -130,6 +136,7 @@
         "biology",
         "animals"
       ],
+      "image_path": "./resources/images/DomesticCats.jpg",
       "categories": [
         "science"
       ]
@@ -144,6 +151,7 @@
         "biology",
         "animals"
       ],
+      "image_path": "./resources/images/BirgittheGiantTortoise.png",
       "categories": [
         "science"
       ]
@@ -158,6 +166,7 @@
         "biology",
         "animals"
       ],
+      "image_path": "./resources/images/FourSeals.jpg",
       "categories": [
         "miscellaneous",
         "science"
@@ -173,6 +182,7 @@
         "biology",
         "animals"
       ],
+      "image_path": "./resources/images/Mammal.jpg",
       "categories": [
         "science"
       ]
@@ -210,6 +220,7 @@
         "USA",
         "model"
       ],
+      "image_path": "./resources/images/StatesandEducation.png",
       "categories": [
         "miscellaneous",
         "socsci"
@@ -247,6 +258,7 @@
       "tag": [
         "educaton"
       ],
+      "image_path": "./resources/images/FacultySalaries.jpg",
       "categories": [
         "miscellaneous"
       ]
@@ -274,6 +286,7 @@
         "height",
         "weight"
       ],
+      "image_path": "./resources/images/SchoolChildrenInfo.jpg",
       "categories": [
         "socsci",
         "math"
@@ -292,6 +305,7 @@
         "height",
         "weight"
       ],
+      "image_path": "./resources/images/SixTests.png",
       "categories": [
         "miscellaneous"
       ]
@@ -376,6 +390,7 @@
         "character",
         "imdb"
       ],
+      "image_path": "./resources/images/MovieCharacters.png",
       "categories": [
         "miscellaneous"
       ]
@@ -395,6 +410,7 @@
       "description": "List of art by artists.",
       "path": "SampleDocs/LanguageArts/Artists/Artists.json",
       "visible": true,
+      "image_path": "./resources/images/artists.jpg",
       "tag": [],
       "categories": [
         "miscellaneous"
