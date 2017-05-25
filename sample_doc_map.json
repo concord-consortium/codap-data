@@ -1047,7 +1047,7 @@
       ]
     },
     {
-      "title": "Earthquakes Around the World",
+      "title": "Earthquakes",
       "description": "Explore earthquakes across the globe.",
       "path": "SampleDocs/Science/E_Sciences/Earthquakes/EarthquakeData.codap",
       "visible": true,
@@ -1856,7 +1856,7 @@
       ]
     },
     {
-      "title": "Crime Rates in Arizona and California",
+      "title": "Crime Rates",
       "description": "Data from FBI crime reports over Arizona and California. CODAP document by Phil.",
       "path": "SampleDocs/Social_Science/United_States/Crime_Rates/Crime_Rates.codap",
       "visible": true,
@@ -1887,7 +1887,7 @@
       ]
     },
     {
-      "title": "Human Development Index",
+      "title": "Human Development",
       "description": "This data set, from the United Nations Human Development Reports, explores the potential of human development in world countries.",
       "path": "SampleDocs/Social_Science/World/Human_Development_Index/Human_Development_Index.codap",
       "visible": true,
