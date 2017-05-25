@@ -494,11 +494,11 @@
       "description": "Explore the 300 tallest buildings in the world.",
       "path": "SampleDocs/Mathematics/Algebra/Buildings/Buildings.codap",
       "visible": true,
+      "image_path": "./resources/images/BuildingHeights.jpg",
       "tag": [
         "building",
         "algebra"
       ],
-      "image_path": "./resources/images/BuildingHeights.jpg",
       "categories": [
         "math"
       ]
@@ -810,12 +810,12 @@
       "description": "Explore 400 stars from a rectangular area of the sky.",
       "path": "SampleDocs/Science/Astronomy/yale_bright/yale_bright.codap",
       "visible": true,
+      "image_path": "./resources/images/BrightStarCatalog.jpg",
       "tag": [
         "star",
         "astronomy",
         "sky"
       ],
-      "image_path": "./resources/images/BrightStarCatalog.jpg",
       "categories": [
         "science",
         "astronomy"
@@ -1236,6 +1236,7 @@
       "title": "Cars",
       "description": "Explore information about car models.",
       "path": "SampleDocs/Science/Technology/Cars/Cars.codap",
+      "image_path": "./resources/images/Cars.jpg",
       "visible": true,
       "tag": [
         "cars",
@@ -1243,7 +1244,6 @@
         "mpg",
         "miles per gallon"
       ],
-      "image_path": "./resources/images/Cars.jpg",
       "categories": [
         "science"
       ]
