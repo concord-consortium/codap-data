@@ -25,7 +25,6 @@
       "description": "Miguel and Bill took a PocketLab sensor onto BART to SF and back. They began recording pressure just before the train went into the tunnel under the bay.",
       "path": "SampleDocs/Science/PhysChem/BART_Pressure/BART_pressure.codap",
       "visible": true,
-      "image_path":"",
       "tag": [
         "physics",
         "san francisco",
@@ -509,6 +508,7 @@
       "description": "Case table shows a model of a savings account.",
       "path": "SampleDocs/Mathematics/Algebra/Compound/Compound.json",
       "visible": true,
+      "image_path": "./resources/images/CompoundInterest.jpg",
       "tag": [
         "compound interest",
         "interest",
@@ -518,7 +518,6 @@
         "math"
       ]
     },
-    "image_path": "./resources/images/CompoundInterest.jpg",
     {
       "title": "Cost Adjustment by Year",
       "description": "How much is your money worth based on the consumer price index.",
