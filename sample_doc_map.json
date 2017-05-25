@@ -420,7 +420,11 @@
       "description": "The collection at left contains the most recent 500 of the more than 450,000 Googlewhacks that were listed on November 11, 2004.",
       "path": "SampleDocs/LanguageArts/Googlewhacks/Googlewhacks.json",
       "visible": true,
-      "tag": [],
+      "image_path": "./resources/images/GoogleWhack.png",
+      "tag": [
+        "Google",
+        "Internet"
+      ],
       "categories": [
         "language"
       ]
@@ -607,6 +611,7 @@
       "description": "Investigate the effect of changing x and k in the logistics function f(x)=kx(1-x).",
       "path": "SampleDocs/Mathematics/Calculus/Logistics/Logistics.codap",
       "visible": true,
+      "image_path": "./resources/images/Logistics.png",
       "tag": [
         "calculus",
         "logistics"
@@ -620,6 +625,7 @@
       "description": "Find the minimum of a plotted function.",
       "path": "SampleDocs/Mathematics/Calculus/Minimization/Minimization.codap",
       "visible": true,
+      "image_path": "./resources/images/Minimization.png",
       "tag": [
         "calculus",
         "minimize"
@@ -633,6 +639,7 @@
       "description": "Plotting a graph that uses pi as a unit.",
       "path": "SampleDocs/Mathematics/Calculus/Pi/Pi.codap",
       "visible": true,
+      "image_path": "./resources/images/Unit_Pi.png",
       "tag": [
         "calculus"
       ],
@@ -645,6 +652,7 @@
       "description": "Explore the Johnson solids.",
       "path": "SampleDocs/Mathematics/Geometry/Solids/Solids.codap",
       "visible": true,
+      "image_path": "./resources/images/JohnsonSolids.png",
       "tag": [
         "geometry"
       ],
@@ -656,6 +664,7 @@
       "title": "Digits of Pi",
       "description": "Explore the digits of pi.",
       "path": "SampleDocs/Mathematics/Number_Theory/Digits_of_Pi/Digits_of_Pi.codap",
+      "image_path": "./resources/images/DigitsOfPi.png",
       "visible": true,
       "tag": [
         "number theory"
@@ -679,6 +688,7 @@
       "description": "Investigate the spacing between numbers and their factors.",
       "path": "SampleDocs/Mathematics/Number_Theory/Number_of_Factors/Number_of_Factors.codap",
       "visible": true,
+      "image_path": "./resources/images/NumberOfFactors.png",
       "tag": [],
       "categories": [
         "math"
@@ -755,9 +765,10 @@
       ]
     },
     {
-      "title": "Life Expectancy Probability",
+      "title": "Life Expectancy",
       "description": "What is the average life expectancy today?",
       "path": "SampleDocs/Mathematics/Probability/Life_Expectancy/Life_Expectancy.json",
+      "image_path": "./resources/images/LifeExpectancy.png",
       "visible": true,
       "tag": [],
       "categories": [
