@@ -1965,7 +1965,7 @@
       ]
     },
     {
-      "title": "US Census 2000 - US PUMAs data",
+      "title": "US Census 2000",
       "description": "US Data from an IPUMS Census from the University of Minnesota.",
       "path": "SampleDocs/Social_Science/United_States/US_Census/US_PUMAS_2000/US_PUMAS_2000.codap",
       "visible": true,
