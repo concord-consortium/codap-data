@@ -499,6 +499,7 @@
         "building",
         "algebra"
       ],
+      "image_path": "./resources/images/BuildingHeights.jpg",
       "categories": [
         "math"
       ]
@@ -508,11 +509,16 @@
       "description": "Case table shows a model of a savings account.",
       "path": "SampleDocs/Mathematics/Algebra/Compound/Compound.json",
       "visible": true,
-      "tag": [],
+      "tag": [
+        "compound interest",
+        "interest",
+        "money"
+      ],
       "categories": [
         "math"
       ]
     },
+    "image_path": "./resources/images/CompoundInterest.jpg",
     {
       "title": "Cost Adjustment by Year",
       "description": "How much is your money worth based on the consumer price index.",
@@ -542,6 +548,7 @@
         "algebra",
         "guess"
       ],
+      "image_path": "./resources/images/GuessAndcheck.png",
       "categories": [
         "math"
       ]
@@ -576,6 +583,7 @@
         "integral",
         "derivative"
       ],
+      "image_path": "./resources/images/IntegralsAndDerivatives.png",
       "categories": [
         "math"
       ]
@@ -590,6 +598,7 @@
         "integral",
         "integraton"
       ],
+      "image_path": "./resources/images/Integration.png",
       "categories": [
         "math"
       ]
@@ -792,6 +801,7 @@
       "path": "SampleDocs/Mathematics/Probability/Spinner_Game/Spinner_Game.json",
       "visible": true,
       "tag": [],
+      "image_path": "./resources/images/SpinnerGame.png",
       "categories": [
         "math"
       ]
@@ -801,9 +811,15 @@
       "description": "Explore 400 stars from a rectangular area of the sky.",
       "path": "SampleDocs/Science/Astronomy/yale_bright/yale_bright.codap",
       "visible": true,
-      "tag": [],
+      "tag": [
+        "star",
+        "astronomy",
+        "sky"
+      ],
+      "image_path": "./resources/images/BrightStarCatalog.jpg",
       "categories": [
-        "science"
+        "science",
+        "astronomy"
       ]
     },
     {
@@ -901,7 +917,12 @@
       "description": "This data covers information about North American first leaf and first bloom lilac phenology, from 1956 to 2003.",
       "path": "SampleDocs/Science/Biology/First_Bloom/First_Bloom.codap",
       "visible": true,
-      "tag": [],
+      "tag": [
+        "Biology",
+        "Plants",
+        "Botany"
+      ],
+      "image_path": "./resources/images/FirstBloom.jpg",
       "categories": [
         "science"
       ]
@@ -1032,6 +1053,7 @@
       "path": "SampleDocs/Science/E_Sciences/Earthquakes/EarthquakeData.codap",
       "visible": true,
       "tag": [],
+      "image_path": "./resources/images/EarthquakesAroundtheWorld.jpg",
       "categories": [
         "science"
       ]
@@ -1072,6 +1094,7 @@
       "path": "SampleDocs/Science/E_Sciences/Mauna_Loa/Mauna_Loa.codap",
       "visible": true,
       "tag": [],
+      "image_path": "./resources/images/MaunaLoaCarbonLevels.jpg",
       "categories": [
         "science"
       ]
@@ -1151,7 +1174,11 @@
       "description": "A case table with information about all of the elements of the periodic table.",
       "path": "SampleDocs/Science/PhysChem/Elements/Elements.json",
       "visible": true,
-      "tag": [],
+      "tag": [
+        "chemistry",
+
+      ],
+      "image_path": "./resources/images/PeriodicTable.png",
       "categories": [
         "science"
       ]
@@ -1211,7 +1238,13 @@
       "description": "Explore information about car models.",
       "path": "SampleDocs/Science/Technology/Cars/Cars.codap",
       "visible": true,
-      "tag": [],
+      "tag": [
+        "cars",
+        "automobile",
+        "mpg",
+        "miles per gallon"
+      ],
+      "image_path": "./resources/images/Cars.jpg",
       "categories": [
         "science"
       ]
@@ -1249,6 +1282,7 @@
         "female",
         "fertility"
       ],
+      "image_path": "./resources/images/ChildrenperWomen.jpg",
       "categories": [
         "socsci"
       ]
@@ -1266,6 +1300,7 @@
         "health",
         "infection"
       ],
+      "image_path": "./resources/images/HospitalInfectionRates.jpg",
       "categories": [
         "socsci",
         "science"
@@ -1532,7 +1567,12 @@
       "description": "A case table about random passenger car models from 2007",
       "path": "SampleDocs/Social_Science/United_States/Cars07/Cars07.json",
       "visible": true,
-      "tag": [],
+      "tag": [
+        "cars",
+        "passengers",
+        "car models",
+      ],
+      "image_path": "./resources/images/Cars2007.jpg",
       "categories": [
         "socsci"
       ]
@@ -1827,6 +1867,7 @@
         "FBI",
         "Crime"
       ],
+      "image_path": "./resources/images/CrimeRatesinArizonaandCalifornia.png",
       "categories": [
         "socsci"
       ]
@@ -1836,7 +1877,12 @@
       "description": "This data set, from the World Bank, explores the total annual cereal production from 1991 to 2014.",
       "path": "SampleDocs/Social_Science/World/Cereal_Production/Cereal_Production.codap",
       "visible": true,
-      "tag": [],
+      "tag": [
+        "Cereal",
+        "Food",
+        "World bank"
+      ],
+      "image_path": "./resources/images/CerealProduction.jpg",
       "categories": [
         "socsci"
       ]
@@ -1846,7 +1892,12 @@
       "description": "This data set, from the United Nations Human Development Reports, explores the potential of human development in world countries.",
       "path": "SampleDocs/Social_Science/World/Human_Development_Index/Human_Development_Index.codap",
       "visible": true,
-      "tag": [],
+      "tag": [
+        "human development index",
+        "social studies",
+        "hdi"
+      ],
+      "image_path": "./resources/images/HumanDevelopmentIndex.png",
       "categories": [
         "socsci",
         "united nations",
@@ -1862,6 +1913,7 @@
       "path": "SampleDocs/Social_Science/World/Political_Regimes/Political_Regimes.codap",
       "visible": true,
       "tag": [],
+      "image_path": "./resources/images/PoliticalRegimes.jpg",
       "categories": [
         "socsci"
       ]
@@ -1877,6 +1929,7 @@
         "world",
         "cities"
       ],
+      "image_path": "./resources/images/WorldCities.jpg",
       "categories": ["socsci"]
     },
     {
@@ -1907,6 +1960,7 @@
         "maize",
         "almonds"
       ],
+      "image_path": "./resources/images/USCrops.jpg",
       "categories": [
         "socsci"
       ]
@@ -1921,6 +1975,7 @@
         "social studies",
         "United States"
       ],
+      "image_path": "./resources/images/USCensus2000USPUMAsdata.jpg",
       "categories": [
         "socsci"
       ]
