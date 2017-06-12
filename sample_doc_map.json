@@ -817,6 +817,24 @@
       ]
     },
     {
+      "title": "Planets",
+      "description": "Investigate data about the 8 planets in our solar system.",
+      "path": "SampleDocs/Science/Astronomy/Planets/Planets.codap",
+      "visible": true,
+      "image_path": "./resources/images/Planets.png",
+      "tag": [
+        "planets",
+        "astronomy",
+        "sky",
+        "solar system"
+      ],
+      "categories": [
+        "science",
+        "astronomy",
+        "solar system"
+      ]
+    },
+    {
       "title": "Bright Star Catalog",
       "description": "Explore 400 stars from a rectangular area of the sky.",
       "path": "SampleDocs/Science/Astronomy/yale_bright/yale_bright.codap",
