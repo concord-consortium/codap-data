@@ -2,26 +2,26 @@
   {
     "name": "US_state_boundaries",
     "format": "codap",
-    "url": "http://codap.concord.org/codap-data/boundaries/US_State_Boundaries.codap"
+    "url": "//codap.concord.org/codap-data/boundaries/US_State_Boundaries.codap"
   },
   {
     "name": "country_boundaries",
     "format": "codap",
-    "url": "http://codap.concord.org/codap-data/boundaries/Country_Boundaries.codap"
+    "url": "//codap.concord.org/codap-data/boundaries/Country_Boundaries.codap"
   },
   {
     "name": "US_county_boundaries",
     "format": "codap",
-    "url": "http://codap.concord.org/codap-data/boundaries/US_County_Boundaries.codap"
+    "url": "//codap.concord.org/codap-data/boundaries/US_County_Boundaries.codap"
   },
   {
     "name": "US_congressional_boundaries",
     "format": "codap",
-    "url": "http://codap.concord.org/codap-data/boundaries/US_Congressional_Boundaries.codap"
+    "url": "//codap.concord.org/codap-data/boundaries/US_Congressional_Boundaries.codap"
   },
   {
     "name": "US_puma_boundaries",
     "format": "codap",
-    "url": "http://codap.concord.org/codap-data/boundaries/US_Puma_Boundaries.codap"
+    "url": "//codap.concord.org/codap-data/boundaries/US_Puma_Boundaries.codap"
   }
 ]
