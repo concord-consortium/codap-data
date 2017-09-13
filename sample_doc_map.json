@@ -63,7 +63,7 @@
         "fibonacci",
         "numbers"
       ],
-      "image_path": "./resources/images/Fibonacci.png",
+      "image_path": "./resources/images/fibonacci.png",
       "categories": [
         "math"
       ]
@@ -108,7 +108,7 @@
       ]
     },
     {
-      "title": "Climate Change",
+      "title": "Hurricanes 2005-2015",
       "description": "Explore NOAA data of hurricanes from 2005-2015.",
       "path": "SampleDocs/Science/E_Sciences/Hurricanes/Hurricanes.codap",
       "visible": true,
@@ -121,7 +121,7 @@
         "earth",
         "tropical storm"
       ],
-      "image_path": "./resources/images/Hurricanes.jpg",
+      "image_path": "./resources/images/hurricane.jpg",
       "categories": [
         "science"
       ]
