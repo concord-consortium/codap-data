@@ -54,6 +54,21 @@
       ]
     },
     {
+      "title": "Fibonacci",
+      "description": "Explore the Fibonacci numbers in CODAP.",
+      "path": "SampleDocs/Mathematics/Number_Theory/Fibonacci/Fibonacci.codap",
+      "visible": true,
+      "tag": [
+        "number theory",
+        "fibonacci",
+        "numbers",
+      ],
+      "image_path": "./resources/images/Fibonacci.png",
+      "categories": [
+        "math"
+      ]
+    },
+    {
       "title": "Climate Change",
       "description": "Explore models of climate change over time.",
       "path": "SampleDocs/Science/E_Sciences/Climate_Change/Climate-Change-A.codap",
@@ -88,6 +103,25 @@
         "greenhouse"
       ],
       "image_path": "./resources/images/TheFutureofClimateChange.jpg",
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Climate Change",
+      "description": "Explore NOAA data of hurricanes from 2005-2015.",
+      "path": "SampleDocs/Science/E_Sciences/Hurricanes/Hurricanes.codap",
+      "visible": true,
+      "tag": [
+        "climate",
+        "change",
+        "hurricanes",
+        "typhoon",
+        "earth science",
+        "earth",
+        "tropical storm"
+      ],
+      "image_path": "./resources/images/Hurricanes.jpg",
       "categories": [
         "science"
       ]
