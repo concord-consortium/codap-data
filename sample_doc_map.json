@@ -192,7 +192,7 @@
     {
       "title": "Four Seals",
       "description": "Display the tracks of four elephant seals in the Pacific on a map. Make graphs and use selection to help determine what is going on.",
-      "path": "SampleDocs/Science/Biology/four-seals/four-seals.json",
+      "path": "SampleDocs/Science/Biology/four-seals/Four_Seals.codap",
       "visible": true,
       "tag": [
         "seals",
