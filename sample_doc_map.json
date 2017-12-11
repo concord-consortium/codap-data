@@ -145,7 +145,7 @@
     {
       "title": "Fast Plants",
       "description": "An example document for CODAP beginners. Make graphs and use selection to look for patterns in fast plant growth.",
-      "path": "SampleDocs/Science/Biology/fast_plants/fast_plants.json",
+      "path": "SampleDocs/Science/Biology/fast_plants/fast_plants.codap",
       "visible": true,
       "tag": [
         "fast plants",
