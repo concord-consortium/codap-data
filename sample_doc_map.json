@@ -54,6 +54,21 @@
       ]
     },
     {
+      "title": "Fibonacci",
+      "description": "Explore the Fibonacci numbers in CODAP.",
+      "path": "SampleDocs/Mathematics/Number_Theory/Fibonacci/Fibonacci.codap",
+      "visible": true,
+      "tag": [
+        "number theory",
+        "fibonacci",
+        "numbers"
+      ],
+      "image_path": "./resources/images/fibonacci.png",
+      "categories": [
+        "math"
+      ]
+    },
+    {
       "title": "Climate Change",
       "description": "Explore models of climate change over time.",
       "path": "SampleDocs/Science/E_Sciences/Climate_Change/Climate-Change-A.codap",
@@ -93,6 +108,25 @@
       ]
     },
     {
+      "title": "Hurricanes 2005-2015",
+      "description": "Explore NOAA data of hurricanes from 2005-2015.",
+      "path": "SampleDocs/Science/E_Sciences/Hurricanes/Hurricanes.codap",
+      "visible": true,
+      "tag": [
+        "climate",
+        "change",
+        "hurricanes",
+        "typhoon",
+        "earth science",
+        "earth",
+        "tropical storm"
+      ],
+      "image_path": "./resources/images/hurricane.jpg",
+      "categories": [
+        "science"
+      ]
+    },
+    {
       "title": "California Earthquakes",
       "description": "This dataset explores 491 earthquakes that took place in California in 2012.",
       "path": "SampleDocs/Science/E_Sciences/CA_earthquakes/CA_earthquakes.codap",
@@ -111,7 +145,7 @@
     {
       "title": "Fast Plants",
       "description": "An example document for CODAP beginners. Make graphs and use selection to look for patterns in fast plant growth.",
-      "path": "SampleDocs/Science/Biology/fast_plants/fast_plants.json",
+      "path": "SampleDocs/Science/Biology/fast_plants/fast_plants.codap",
       "visible": true,
       "tag": [
         "fast plants",
@@ -158,7 +192,7 @@
     {
       "title": "Four Seals",
       "description": "Display the tracks of four elephant seals in the Pacific on a map. Make graphs and use selection to help determine what is going on.",
-      "path": "SampleDocs/Science/Biology/four-seals/four-seals.json",
+      "path": "SampleDocs/Science/Biology/four-seals/Four_Seals.codap",
       "visible": true,
       "tag": [
         "seals",
