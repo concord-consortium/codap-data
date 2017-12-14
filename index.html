@@ -43,17 +43,9 @@
         <div id = "listing_container"></div>
     </section>
 
-
-<div class="credits">
-    <p>Concord Consortium's CODAP example documents repository: <a target = "blank" href="https://github.com/concord-consortium/codap-data">https://github.com/concord-consortium/codap-data</a></p>
-    <p>Concord Consortium's CODAP data interactives repository: <a target="blank" href="https://github.com/concord-consortium/codap-data-interactives">github.com/concord-consortium/codap-data-interactives</a></p>
-    <p>Concord Consortium's CODAP project repository: <a target="blank" href="https://github.com/concord-consortium/codap">github.com/concord-consortium/codap</a></p>
-    <p>To find out more about the CODAP project: <a target="blank" href="https://concord.org/projects/codap">About CODAP</a></p>
-</div>
-
 <div class = "form_container">
-    <form action="">
-        <label>Enter CODAP build to use: </label>
+    <form action = "#" id="codap_url_form">
+        <label>Enter CODAP build to use:</label>
         <input id="codap-url" size="75" type="text" value="" />
         <script type="text/javascript">
             var pageLoc = location.href;
@@ -65,6 +57,27 @@
         </script>
     </form>
 </div>
+<div class="credits">
+    <p>Concord Consortium's CODAP example documents repository: <a target = "blank" href="https://github.com/concord-consortium/codap-data">https://github.com/concord-consortium/codap-data</a></p>
+    <p>Concord Consortium's CODAP data interactives repository: <a target="blank" href="https://github.com/concord-consortium/codap-data-interactives">github.com/concord-consortium/codap-data-interactives</a></p>
+    <p>Concord Consortium's CODAP project repository: <a target="blank" href="https://github.com/concord-consortium/codap">github.com/concord-consortium/codap</a></p>
+    <p>To find out more about the CODAP project: <a target="blank" href="https://concord.org/projects/codap">About CODAP</a></p>
+</div>
+
+<!--<div class = "form_container">-->
+    <!--<form action="#" id="codap_url_form">-->
+        <!--<label>Enter CODAP build to use: </label>-->
+        <!--<input id="codap-url" size="75" type="text" value="" />-->
+        <!--<script type="text/javascript">-->
+            <!--var pageLoc = location.href;-->
+            <!--if (pageLoc.indexOf("https") > -1) {-->
+                <!--$("#codap-url").val("https://codap.concord.org/releases/latest/static/dg/en/cert/index.html");-->
+            <!--} else {-->
+                <!--$("#codap-url").val("http://codap.concord.org/releases/latest/static/dg/en/cert/index.html");-->
+            <!--}-->
+        <!--</script>-->
+    <!--</form>-->
+<!--</div>-->
 
 
 

@@ -228,7 +228,11 @@ $(document).ready(function () {
         $("#search").submit(function() {filterCategory(sample_doc_list); return false;});
         $("#categories .category-checkbox").change(function() {filterCategory(sample_doc_list); return false;});
         // $('#codap-url').submit(function(){filterCategory(sample_doc_list); return false;});
-        $('#codap-url').on('input', function(){filterCategory(sample_doc_list); return false;});
+        //$('#codap-url').on('input', function(){filterCategory(sample_doc_list); return false;});
+        $('#codap_url_form').on('submit', function(event) {
+            buildListing(di_list);
+            event.preventDefault();
+            return false;});
 
     }
 
