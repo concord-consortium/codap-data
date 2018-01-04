@@ -1296,6 +1296,7 @@
         "acceleration",
         "ESTEEM"
       ],
+      "image_path": "./resources/images/rollercoasters.jpg",
       "categories": [
         "science"
       ]
@@ -1311,6 +1312,7 @@
         "acceleration",
         "ESTEEM"
       ],
+      "image_path": "./resources/images/2015cars.jpg",
       "categories": [
         "science"
       ]
@@ -1410,6 +1412,7 @@
         "granola bars",
         "granola bar"
       ],
+      "image_path": "./resources/images/granola_bars.jpg",
       "categories": [
         "socsci",
         "science"
