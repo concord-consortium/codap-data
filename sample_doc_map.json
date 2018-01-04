@@ -1286,6 +1286,37 @@
       ]
     },
     {
+      "title": "Roller Coasters",
+      "description": "Data on 157 roller coasters in the US that opened between 1915 and 2016.",
+      "path": "SampleDocs/Science/PhysChem/Roller_Coasters/rollercoasters.codap",
+      "visible": true,
+      "tag": [
+        "roller coasters",
+        "physics",
+        "acceleration",
+        "ESTEEM"
+      ],
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "2015 Vehicles",
+      "description": "Data from a random sample of 300 vehicles manufactured in the US in 2015.",
+      "path": "SampleDocs/Science/PhysChem/Vehicles/Vehicles.codap",
+      "visible": true,
+      "tag": [
+        "vehicles",
+        "physics",
+        "acceleration",
+        "ESTEEM"
+      ],
+      "categories": [
+        "science"
+      ]
+    },
+
+    {
       "title": "Airplanes",
       "description": "A case table about the operation statistics of various airplane models in 1999.",
       "path": "SampleDocs/Science/Technology/Airplanes/Airplanes.json",
@@ -1363,6 +1394,22 @@
         "infection"
       ],
       "image_path": "./resources/images/HospitalInfectionRates.jpg",
+      "categories": [
+        "socsci",
+        "science"
+      ]
+    },
+    {
+      "title": "Granola Bars",
+      "description": "Data from the US Department of Agriculture about 33 granola bars sold in the US in 2017.",
+      "path": "SampleDocs/Social_Science/Granola_Bars/Granola_Bars.codap",
+      "visible": true,
+      "tag": [
+       "food",
+        "agriculture",
+        "granola bars",
+        "granola bar"
+      ],
       "categories": [
         "socsci",
         "science"
