@@ -1288,7 +1288,7 @@
     {
       "title": "Roller Coasters",
       "description": "Data on 157 roller coasters in the US that opened between 1915 and 2016.",
-      "path": "SampleDocs/Science/PhysChem/Roller_Coasters/rollercoasters.codap",
+      "path": "SampleDocs/Science/PhysChem/rollercoasters/rollercoasters.codap",
       "visible": true,
       "tag": [
         "roller coasters",
