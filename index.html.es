@@ -1,7 +1,7 @@
 <?DOCTYPE html>
 <html>
 <head>
-    <title>CODAP Example Documents</title>
+    <title>Ejemplos de CODAP</title>
     <link rel="stylesheet" type="text/css" href ="./Common/css/site.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="./listing.js" language="javascript"></script>
@@ -11,23 +11,23 @@
     <div>
         <img src="https://codap.concord.org/_assets/img/codap-logo@2x.png" alt="Common Online Data Analysis Program">
         <div id="cc">
-            a product of
-            <a href="https://concord.org/" title="The Concord Consortium - Revolutionary digital learning for science, math, and engineering"><img src="http://codap.concord.org/_assets/img/cc-logo.png" alt="The Concord Consortium">
+            un producto de
+            <a href="https://concord.org/" title="The Concord Consortium - Aprendizaje digital revolucionario para ciencias, matemática e ingeniería"><img src="http://codap.concord.org/_assets/img/cc-logo.png" alt="The Concord Consortium">
             </a>
         </div>
     </div>
 </header>
 <section id="home-content">
     <section id="title">
-        <h1> CODAP Example Documents</h1>
+        <h1> Ejemplos de CODAP</h1>
     </section>
 </section>
     <section id="intro">
-        <p>To open a CODAP Example document, click on the title or drag the "Embeddable Link" into CODAP. To open a new CODAP document, click <a href="https://codap.concord.org/releases/latest/">here</a></p>
+        <p>Para abrir un documento ejemplo de CODAP, clic en el título o arrastrar el "Enlace embebible" a CODAP. Para abrir un documento CODAP, clic <a href="https://codap.concord.org/releases/latest/">acá</a></p>
     </section>
     <section id="search_area">
         <form id="search" action="#" ><input type="search" id="keyword" name="keyword" value=""
-                                                                        placeholder="Search by keyword..."/> <input
+                                                                        placeholder="Buscar por palabra clave..."/> <input
             class="button" type="submit" value="Search"/></form>
     </section><!-- /#search -->
     <section id="content_area" >
