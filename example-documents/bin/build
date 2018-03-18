@@ -1,0 +1,39 @@
+#!/bin/bash
+PROGNAME=`basename $0`
+DIRNAME=`dirname $0`
+BASEDIR=`dirname $DIRNAME`
+
+SRC_DIR=$BASEDIR/src
+TARGET_DIR=$BASEDIR/target
+REPLACEMENT_URL="//codap.concord.org/resources/examples"
+REPLACEMENT_URL="//localhost/~jsandoe/example-documents/target"
+REPLACEMENT_TOKEN="%_url_%"
+LANGUAGES=(en es de he tr zh-TW)
+
+typeset -fx fix_file
+
+IFS='
+'
+
+function fix_file() {
+  for t in $*; do
+    SFN="$t"
+    TFN=`echo $SFN | sed "s%$SRC_DIR%$TARGET_DIR%"`
+    echo $TFN
+    mkdir -p `dirname "$TFN"`
+    sed "s#$REPLACEMENT_TOKEN#$REPLACEMENT_URL#g" "$SFN" > "$TFN"
+  done
+}
+
+function copyIndex() {
+  for t in $*; do 
+    if [ ! -e $TARGET_DIR/index.json.$t ] ; then
+      cp $TARGET_DIR/index.json $TARGET_DIR/index.json.$t
+    fi
+  done
+}
+
+
+fix_file `find $SRC_DIR -type f`
+
+copyIndex ${LANGUAGES[@]}

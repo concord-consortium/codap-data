@@ -1,0 +1,4 @@
+#!/bin/bash
+PROGNAME=`basename $0`
+BASEDIR=`dirname $0`/..
+( cd $BASEDIR && rm -r target )

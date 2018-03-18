@@ -1,0 +1,28 @@
+{
+  "name": "example-documents",
+  "version": "1.0.0",
+  "description": "CODAP Example Documents: always available documents to demonstrate CODAP capabilities.",
+  "main": "index.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "bin/build",
+    "clean": "bin/clean",
+    "deploy": "bin/deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/concord-consortium/codap-data.git"
+  },
+  "keywords": [
+    "CODAP",
+    "Data",
+    "Analysis",
+    "Education"
+  ],
+  "author": "Concord Consortium",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/concord-consortium/codap-data/issues"
+  },
+  "homepage": "https://github.com/concord-consortium/codap-data#readme"
+}

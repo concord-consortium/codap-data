@@ -1,0 +1,36 @@
+{
+  "name": "Getting Started with CODAP",
+  "guid": 1,
+  "components": [
+    {
+      "type": "DG.GameView",
+      "guid": 2,
+      "componentStorage": {
+        "currentGameName": "",
+        "currentGameUrl": "//codap.concord.org/plugins/onboarding",
+        "savedGameState": {},
+        "title": "Getting on board CODAP",
+        "name": "Getting on board CODAP"
+      },
+      "layout": {
+        "width": 400,
+        "height": 550,
+        "x": 5,
+        "y": 5,
+        "isVisible": true,
+        "left": 5,
+        "top": 5,
+        "zIndex": 2
+      },
+      "savedHeight": null
+    }
+  ],
+  "contexts": [],
+  "globalValues": [],
+  "appName": "DG",
+  "appVersion": "2.0",
+  "appBuildNum": "0434",
+  "metadata": {
+    "changeCount": 0
+  }
+}

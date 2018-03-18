@@ -1,0 +1,1492 @@
+{
+  "name": "Map Data.codap",
+  "guid": 12,
+  "components": [
+    {
+      "type": "DG.TableView",
+      "guid": 103,
+      "componentStorage": {
+        "_links_": {
+          "context": {
+            "type": "DG.DataContextRecord",
+            "id": 401
+          }
+        },
+        "attributeWidths": [
+          {
+            "_links_": {
+              "attr": {
+                "type": "DG.Attribute",
+                "id": 1001
+              }
+            },
+            "width": 117
+          },
+          {
+            "_links_": {
+              "attr": {
+                "type": "DG.Attribute",
+                "id": 1003
+              }
+            },
+            "width": 53
+          },
+          {
+            "_links_": {
+              "attr": {
+                "type": "DG.Attribute",
+                "id": 1004
+              }
+            },
+            "width": 63
+          },
+          {
+            "_links_": {
+              "attr": {
+                "type": "DG.Attribute",
+                "id": 1005
+              }
+            },
+            "width": 66
+          },
+          {
+            "_links_": {
+              "attr": {
+                "type": "DG.Attribute",
+                "id": 1006
+              }
+            },
+            "width": 74
+          },
+          {
+            "_links_": {
+              "attr": {
+                "type": "DG.Attribute",
+                "id": 1007
+              }
+            },
+            "width": 67
+          },
+          {
+            "_links_": {
+              "attr": {
+                "type": "DG.Attribute",
+                "id": 1008
+              }
+            },
+            "width": 81
+          },
+          {
+            "_links_": {
+              "attr": {
+                "type": "DG.Attribute",
+                "id": 1009
+              }
+            },
+            "width": 60
+          },
+          {
+            "_links_": {
+              "attr": {
+                "type": "DG.Attribute",
+                "id": 1010
+              }
+            },
+            "width": 60
+          },
+          {
+            "_links_": {
+              "attr": {
+                "type": "DG.Attribute",
+                "id": 1011
+              }
+            },
+            "width": 61
+          },
+          {
+            "_links_": {
+              "attr": {
+                "type": "DG.Attribute",
+                "id": 1012
+              }
+            },
+            "width": 49
+          },
+          {
+            "_links_": {
+              "attr": {
+                "type": "DG.Attribute",
+                "id": 2052
+              }
+            },
+            "width": 40
+          }
+        ],
+        "title": "U.S. Population Data",
+        "name": "U.S. Population Data",
+        "userSetTitle": false
+      },
+      "layout": {
+        "width": 661,
+        "height": 190,
+        "left": 5,
+        "top": 0,
+        "isVisible": true,
+        "zIndex": 93
+      },
+      "savedHeight": null
+    },
+    {
+      "type": "DG.GuideView",
+      "guid": 2050,
+      "componentStorage": {
+        "title": "States and Education Guide",
+        "items": [
+          {
+            "itemTitle": "Getting Started",
+            "url": "%_url_%/guides/statesnpeople/statesnpeople_getstarted.html"
+          }
+        ],
+        "currentItemIndex": 0,
+        "isVisible": true,
+        "name": "States and Education Guide",
+        "userSetTitle": false
+      },
+      "layout": {
+        "left": 675,
+        "top": 0,
+        "width": 358,
+        "height": 664,
+        "isVisible": true,
+        "zIndex": 17
+      },
+      "savedHeight": null
+    },
+    {
+      "type": "DG.MapView",
+      "guid": 2053,
+      "componentStorage": {
+        "_links_": {
+          "context": {
+            "type": "DG.DataContextRecord",
+            "id": 401
+          },
+          "legendColl": {
+            "type": "DG.Collection",
+            "id": 2051
+          },
+          "legendAttr": {
+            "type": "DG.Attribute",
+            "id": 1007
+          },
+          "hiddenCases": []
+        },
+        "legendRole": 0,
+        "legendAttributeType": 1,
+        "pointColor": "#e6805b",
+        "strokeColor": "lightgrey",
+        "pointSizeMultiplier": 1,
+        "transparency": 0.85,
+        "strokeTransparency": 0.4,
+        "mapModelStorage": {
+          "center": {
+            "lat": 38.06539235133249,
+            "lng": -95.9326171875
+          },
+          "zoom": 4,
+          "baseMapLayerName": "Topographic",
+          "pointsShouldBeVisible": true,
+          "linesShouldBeVisible": false,
+          "grid": {
+            "gridMultiplier": 1,
+            "visible": false
+          },
+          "areaColor": "#FF3E00",
+          "areaTransparency": "0.5",
+          "areaStrokeColor": "white",
+          "areaStrokeTransparency": "0.6"
+        },
+        "title": "U.S. Population Map",
+        "name": "Map",
+        "userSetTitle": true,
+        "cannotClose": false
+      },
+      "layout": {
+        "width": 660,
+        "height": 450,
+        "zIndex": 95,
+        "left": 5,
+        "top": 190,
+        "isVisible": true
+      },
+      "savedHeight": null
+    }
+  ],
+  "contexts": [
+    {
+      "type": "DG.DataContext",
+      "document": 12,
+      "guid": 401,
+      "flexibleGroupingChangeFlag": true,
+      "name": "Population Data",
+      "title": "U.S. Population Data",
+      "collections": [
+        {
+          "areParentChildLinksConfigured": true,
+          "attrs": [
+            {
+              "name": "state",
+              "type": "none",
+              "title": "state",
+              "description": "The U.S. state",
+              "blockDisplayOfEmptyCategories": true,
+              "editable": true,
+              "hidden": false,
+              "guid": 1001,
+              "precision": 2,
+              "unit": null
+            },
+            {
+              "name": "Boundary",
+              "type": null,
+              "title": "Boundary",
+              "description": "",
+              "blockDisplayOfEmptyCategories": true,
+              "editable": true,
+              "hidden": false,
+              "formula": "lookupBoundary(US_state_boundaries, state)",
+              "guid": 2052,
+              "precision": 2,
+              "unit": null
+            },
+            {
+              "name": "Educ_Years",
+              "type": "none",
+              "title": "Educ_Years",
+              "description": "Mean years of schooling completed by persons age 25+",
+              "_categoryMap": {
+                "__order": [
+                  "11.611",
+                  "11.6157",
+                  "11.7972",
+                  "11.7999",
+                  "11.8005",
+                  "11.8127",
+                  "11.8142",
+                  "11.8163",
+                  "11.8209",
+                  "11.846",
+                  "11.8836",
+                  "11.884",
+                  "11.9059",
+                  "11.9086",
+                  "11.9167",
+                  "11.9443",
+                  "11.9557",
+                  "11.9668",
+                  "12.0186",
+                  "12.0349",
+                  "12.0368",
+                  "12.0512",
+                  "12.0591",
+                  "12.0698",
+                  "12.0792",
+                  "12.0808",
+                  "12.1081",
+                  "12.1112",
+                  "12.1145",
+                  "12.1206",
+                  "12.1274",
+                  "12.136",
+                  "12.1382",
+                  "12.1507",
+                  "12.151",
+                  "12.1561",
+                  "12.1692",
+                  "12.1765",
+                  "12.1935",
+                  "12.2081",
+                  "12.2096",
+                  "12.2316",
+                  "12.2482",
+                  "12.262",
+                  "12.273",
+                  "12.2932",
+                  "12.3019",
+                  "12.3347",
+                  "12.3596"
+                ],
+                "11.846": "#FFB300",
+                "11.9668": "#803E75",
+                "11.8142": "#FF6800",
+                "11.6157": "#A6BDD7",
+                "12.2316": "#C10020",
+                "12.136": "#CEA262",
+                "12.0808": "#817066",
+                "12.1382": "#007D34",
+                "11.9443": "#00538A",
+                "11.9059": "#F13A13",
+                "12.1081": "#53377A",
+                "12.0368": "#FF8E00",
+                "12.0349": "#B32851",
+                "12.1507": "#F4C800",
+                "12.1274": "#7F180D",
+                "11.7999": "#93AA00",
+                "11.8005": "#593315",
+                "12.1765": "#232C16",
+                "12.1145": "#FF7A5C",
+                "12.1206": "#F6768E",
+                "12.151": "#FFB300",
+                "12.273": "#803E75",
+                "11.8209": "#FF6800",
+                "12.0698": "#A6BDD7",
+                "12.3596": "#C10020",
+                "12.2081": "#CEA262",
+                "11.9086": "#817066",
+                "12.3019": "#007D34",
+                "12.0591": "#00538A",
+                "11.8127": "#F13A13",
+                "11.8836": "#53377A",
+                "11.9557": "#FF8E00",
+                "12.2482": "#B32851",
+                "12.1112": "#F4C800",
+                "12.0186": "#7F180D",
+                "12.1561": "#93AA00",
+                "12.0792": "#593315",
+                "11.8163": "#232C16",
+                "11.9167": "#FF7A5C",
+                "12.2096": "#F6768E",
+                "11.884": "#FFB300",
+                "11.611": "#803E75",
+                "12.262": "#FF6800",
+                "12.2932": "#A6BDD7",
+                "12.0512": "#C10020",
+                "12.1692": "#CEA262",
+                "11.7972": "#817066",
+                "12.1935": "#007D34",
+                "12.3347": "#00538A"
+              },
+              "blockDisplayOfEmptyCategories": true,
+              "editable": false,
+              "hidden": false,
+              "guid": 1004,
+              "precision": 2,
+              "unit": "years"
+            },
+            {
+              "name": "Educ_Tertiary_Perc",
+              "type": null,
+              "title": "Educ_Tertiary_Perc",
+              "description": "Percent of persons age 25+ who completed tertiary education",
+              "_categoryMap": {
+                "__order": [
+                  "17.2418",
+                  "19.6064",
+                  "19.6978",
+                  "20.7154",
+                  "21.4324",
+                  "21.454",
+                  "22.089",
+                  "22.5077",
+                  "22.8052",
+                  "22.9999",
+                  "24.4341",
+                  "24.5891",
+                  "24.6071",
+                  "24.6423",
+                  "24.757",
+                  "25.1462",
+                  "25.3637",
+                  "25.4914",
+                  "25.8634",
+                  "25.9468",
+                  "25.9881",
+                  "26.3432",
+                  "26.4416",
+                  "26.8356",
+                  "26.8906",
+                  "27.2692",
+                  "27.4817",
+                  "27.7211",
+                  "28.3932",
+                  "28.9323",
+                  "28.9747",
+                  "29.3107",
+                  "30.0254",
+                  "30.0749",
+                  "30.1035",
+                  "30.4612",
+                  "30.8753",
+                  "31.2897",
+                  "32.1383",
+                  "32.5216",
+                  "33.3957",
+                  "34.0213",
+                  "34.3177",
+                  "35.3323",
+                  "35.4826",
+                  "36.0035",
+                  "36.5971",
+                  "39.0203",
+                  "50.1098"
+                ],
+                "22.089": "#FFB300",
+                "25.9881": "#803E75",
+                "19.6064": "#FF6800",
+                "30.1035": "#A6BDD7",
+                "36.5971": "#C10020",
+                "35.4826": "#CEA262",
+                "27.4817": "#817066",
+                "50.1098": "#007D34",
+                "25.8634": "#00538A",
+                "27.2692": "#F13A13",
+                "24.4341": "#53377A",
+                "30.8753": "#FF8E00",
+                "22.8052": "#B32851",
+                "25.1462": "#F4C800",
+                "30.0749": "#7F180D",
+                "20.7154": "#93AA00",
+                "21.4324": "#593315",
+                "26.8356": "#232C16",
+                "36.0035": "#FF7A5C",
+                "39.0203": "#F6768E",
+                "25.4914": "#FFB300",
+                "32.1383": "#803E75",
+                "19.6978": "#FF6800",
+                "25.3637": "#A6BDD7",
+                "30.0254": "#C10020",
+                "27.7211": "#CEA262",
+                "21.454": "#817066",
+                "33.3957": "#007D34",
+                "35.3323": "#00538A",
+                "24.6423": "#F13A13",
+                "32.5216": "#53377A",
+                "26.4416": "#FF8E00",
+                "28.9747": "#B32851",
+                "24.5891": "#F4C800",
+                "22.5077": "#7F180D",
+                "28.9323": "#93AA00",
+                "26.8906": "#593315",
+                "30.4612": "#232C16",
+                "24.6071": "#FF7A5C",
+                "28.3932": "#F6768E",
+                "22.9999": "#FFB300",
+                "25.9468": "#803E75",
+                "29.3107": "#FF6800",
+                "34.0213": "#A6BDD7",
+                "34.3177": "#C10020",
+                "31.2897": "#CEA262",
+                "17.2418": "#817066",
+                "26.3432": "#007D34",
+                "24.757": "#00538A"
+              },
+              "blockDisplayOfEmptyCategories": true,
+              "editable": false,
+              "hidden": false,
+              "guid": 1005,
+              "precision": 2,
+              "unit": null
+            },
+            {
+              "name": "Educ_Secondary_Perc",
+              "type": null,
+              "title": "Educ_Secondary_Perc",
+              "description": "Percent of persons age 25+ who completed secondary education",
+              "blockDisplayOfEmptyCategories": true,
+              "editable": false,
+              "hidden": false,
+              "guid": 1006,
+              "precision": 2,
+              "unit": null
+            },
+            {
+              "name": "Educ_Primary_Perc",
+              "type": null,
+              "title": "Educ_Primary_Perc",
+              "description": "Percent of persons age 25+ who completed primary education",
+              "_categoryMap": {
+                "__order": [
+                  "95.0409",
+                  "95.7041",
+                  "96.4096",
+                  "96.7055",
+                  "96.7608",
+                  "97.2742",
+                  "97.4137",
+                  "97.4548",
+                  "97.4966",
+                  "97.541",
+                  "97.5698",
+                  "97.5776",
+                  "97.6763",
+                  "97.6769",
+                  "97.7364",
+                  "97.7404",
+                  "97.7972",
+                  "97.8299",
+                  "97.9488",
+                  "97.9527",
+                  "97.9948",
+                  "98.0173",
+                  "98.058",
+                  "98.0851",
+                  "98.1773",
+                  "98.2646",
+                  "98.2662",
+                  "98.3448",
+                  "98.3769",
+                  "98.4074",
+                  "98.4942",
+                  "98.537",
+                  "98.5824",
+                  "98.5869",
+                  "98.6134",
+                  "98.6589",
+                  "98.6776",
+                  "98.7066",
+                  "98.7219",
+                  "98.8139",
+                  "98.8371",
+                  "98.9033",
+                  "98.9267",
+                  "99.0018",
+                  "99.066",
+                  "99.1141",
+                  "99.2471",
+                  "99.5002",
+                  "99.5406"
+                ],
+                "97.8299": "#FFB300",
+                "97.541": "#803E75",
+                "97.6769": "#FF6800",
+                "95.0409": "#A6BDD7",
+                "98.4942": "#C10020",
+                "98.1773": "#CEA262",
+                "98.2662": "#817066",
+                "97.2742": "#007D34",
+                "97.4137": "#00538A",
+                "97.4548": "#F13A13",
+                "98.3769": "#53377A",
+                "98.0173": "#FF8E00",
+                "98.6589": "#B32851",
+                "98.8139": "#F4C800",
+                "98.537": "#7F180D",
+                "97.9527": "#93AA00",
+                "97.5698": "#593315",
+                "98.9267": "#232C16",
+                "98.0851": "#FF7A5C",
+                "97.4966": "#F6768E",
+                "98.5824": "#FFB300",
+                "98.6776": "#803E75",
+                "97.7364": "#FF6800",
+                "98.7219": "#A6BDD7",
+                "99.5002": "#C10020",
+                "98.7066": "#CEA262",
+                "97.5776": "#817066",
+                "99.1141": "#007D34",
+                "97.6763": "#00538A",
+                "96.7608": "#F13A13",
+                "96.7055": "#53377A",
+                "97.7972": "#FF8E00",
+                "99.066": "#B32851",
+                "98.8371": "#F4C800",
+                "98.4074": "#7F180D",
+                "98.2646": "#93AA00",
+                "98.6134": "#593315",
+                "96.4096": "#232C16",
+                "97.7404": "#FF7A5C",
+                "99.0018": "#F6768E",
+                "98.058": "#FFB300",
+                "95.7041": "#803E75",
+                "98.5869": "#FF6800",
+                "99.2471": "#A6BDD7",
+                "97.9948": "#C10020",
+                "97.9488": "#CEA262",
+                "98.3448": "#817066",
+                "98.9033": "#007D34",
+                "99.5406": "#00538A"
+              },
+              "blockDisplayOfEmptyCategories": true,
+              "editable": false,
+              "hidden": false,
+              "guid": 1007,
+              "precision": 2,
+              "unit": null
+            },
+            {
+              "name": "Educ_Less_Primary_Perc",
+              "type": null,
+              "title": "Educ_Less_Primary_Perc",
+              "description": "Percent of persons age 25+ with less than primary education",
+              "blockDisplayOfEmptyCategories": true,
+              "editable": false,
+              "hidden": false,
+              "guid": 1008,
+              "precision": 2,
+              "unit": null
+            },
+            {
+              "name": "Female_Pop",
+              "type": null,
+              "title": "Female_Pop",
+              "description": "",
+              "blockDisplayOfEmptyCategories": true,
+              "editable": false,
+              "hidden": false,
+              "guid": 1009,
+              "precision": 2,
+              "unit": null
+            },
+            {
+              "name": "Male_Pop",
+              "type": null,
+              "title": "Male_Pop",
+              "description": "",
+              "blockDisplayOfEmptyCategories": true,
+              "editable": false,
+              "hidden": false,
+              "guid": 1010,
+              "precision": 2,
+              "unit": null
+            },
+            {
+              "name": "Total_Pop",
+              "type": null,
+              "title": "Total_Pop",
+              "description": "",
+              "blockDisplayOfEmptyCategories": true,
+              "editable": false,
+              "hidden": false,
+              "guid": 1011,
+              "precision": 2,
+              "unit": null
+            },
+            {
+              "name": "Perc_Female",
+              "type": null,
+              "title": "Perc_Female",
+              "description": "",
+              "blockDisplayOfEmptyCategories": true,
+              "editable": false,
+              "hidden": false,
+              "guid": 1012,
+              "precision": 2,
+              "unit": null
+            },
+            {
+              "name": "GEOLEV1",
+              "type": null,
+              "title": "GEOLEV1",
+              "description": "",
+              "blockDisplayOfEmptyCategories": true,
+              "editable": false,
+              "hidden": false,
+              "guid": 1003,
+              "precision": 2,
+              "unit": null
+            }
+          ],
+          "cases": [
+            {
+              "guid": 2001,
+              "values": {
+                "state": "Alabama",
+                "Educ_Years": "11.846",
+                "Educ_Tertiary_Perc": "22.089",
+                "Educ_Secondary_Perc": "84.0946",
+                "Educ_Primary_Perc": "97.8299",
+                "Educ_Less_Primary_Perc": "2.17012",
+                "Female_Pop": "2461913",
+                "Male_Pop": "2323385",
+                "Total_Pop": "4785298",
+                "Perc_Female": "51.45",
+                "GEOLEV1": "840001"
+              }
+            },
+            {
+              "guid": 2002,
+              "values": {
+                "state": "Arizona",
+                "Educ_Years": "11.9668",
+                "Educ_Tertiary_Perc": "25.9881",
+                "Educ_Secondary_Perc": "87.3544",
+                "Educ_Primary_Perc": "97.541",
+                "Educ_Less_Primary_Perc": "2.45905",
+                "Female_Pop": "3225572",
+                "Male_Pop": "3188165",
+                "Total_Pop": "6413737",
+                "Perc_Female": "50.29",
+                "GEOLEV1": "840004"
+              }
+            },
+            {
+              "guid": 2003,
+              "values": {
+                "state": "Arkansas",
+                "Educ_Years": "11.8142",
+                "Educ_Tertiary_Perc": "19.6064",
+                "Educ_Secondary_Perc": "84.6838",
+                "Educ_Primary_Perc": "97.6769",
+                "Educ_Less_Primary_Perc": "2.32309",
+                "Female_Pop": "1490353",
+                "Male_Pop": "1431253",
+                "Total_Pop": "2921606",
+                "Perc_Female": "51.01",
+                "GEOLEV1": "840005"
+              }
+            },
+            {
+              "guid": 2004,
+              "values": {
+                "state": "California",
+                "Educ_Years": "11.6157",
+                "Educ_Tertiary_Perc": "30.1035",
+                "Educ_Secondary_Perc": "83.3282",
+                "Educ_Primary_Perc": "95.0409",
+                "Educ_Less_Primary_Perc": "4.95911",
+                "Female_Pop": "18782439",
+                "Male_Pop": "18566924",
+                "Total_Pop": "37349363",
+                "Perc_Female": "50.29",
+                "GEOLEV1": "840006"
+              }
+            },
+            {
+              "guid": 2005,
+              "values": {
+                "state": "Colorado",
+                "Educ_Years": "12.2316",
+                "Educ_Tertiary_Perc": "36.5971",
+                "Educ_Secondary_Perc": "91.2912",
+                "Educ_Primary_Perc": "98.4942",
+                "Educ_Less_Primary_Perc": "1.50576",
+                "Female_Pop": "2514593",
+                "Male_Pop": "2534478",
+                "Total_Pop": "5049071",
+                "Perc_Female": "49.8",
+                "GEOLEV1": "840008"
+              }
+            },
+            {
+              "guid": 2006,
+              "values": {
+                "state": "Connecticut",
+                "Educ_Years": "12.136",
+                "Educ_Tertiary_Perc": "35.4826",
+                "Educ_Secondary_Perc": "90.2514",
+                "Educ_Primary_Perc": "98.1773",
+                "Educ_Less_Primary_Perc": "1.82269",
+                "Female_Pop": "1844880",
+                "Male_Pop": "1732193",
+                "Total_Pop": "3577073",
+                "Perc_Female": "51.58",
+                "GEOLEV1": "840009"
+              }
+            },
+            {
+              "guid": 2007,
+              "values": {
+                "state": "Delaware",
+                "Educ_Years": "12.0808",
+                "Educ_Tertiary_Perc": "27.4817",
+                "Educ_Secondary_Perc": "88.6804",
+                "Educ_Primary_Perc": "98.2662",
+                "Educ_Less_Primary_Perc": "1.73383",
+                "Female_Pop": "464042",
+                "Male_Pop": "435727",
+                "Total_Pop": "899769",
+                "Perc_Female": "51.57",
+                "GEOLEV1": "840010"
+              }
+            },
+            {
+              "guid": 2008,
+              "values": {
+                "state": "District of Columbia",
+                "Educ_Years": "12.1382",
+                "Educ_Tertiary_Perc": "50.1098",
+                "Educ_Secondary_Perc": "88.6228",
+                "Educ_Primary_Perc": "97.2742",
+                "Educ_Less_Primary_Perc": "2.7258",
+                "Female_Pop": "319306",
+                "Male_Pop": "285147",
+                "Total_Pop": "604453",
+                "Perc_Female": "52.83",
+                "GEOLEV1": "840011"
+              }
+            },
+            {
+              "guid": 2009,
+              "values": {
+                "state": "Florida",
+                "Educ_Years": "11.9443",
+                "Educ_Tertiary_Perc": "25.8634",
+                "Educ_Secondary_Perc": "87.834",
+                "Educ_Primary_Perc": "97.4137",
+                "Educ_Less_Primary_Perc": "2.58633",
+                "Female_Pop": "9632568",
+                "Male_Pop": "9210758",
+                "Total_Pop": "18843326",
+                "Perc_Female": "51.12",
+                "GEOLEV1": "840012"
+              }
+            },
+            {
+              "guid": 2010,
+              "values": {
+                "state": "Georgia",
+                "Educ_Years": "11.9059",
+                "Educ_Tertiary_Perc": "27.2692",
+                "Educ_Secondary_Perc": "85.8436",
+                "Educ_Primary_Perc": "97.4548",
+                "Educ_Less_Primary_Perc": "2.5452",
+                "Female_Pop": "4969897",
+                "Male_Pop": "4742690",
+                "Total_Pop": "9712587",
+                "Perc_Female": "51.17",
+                "GEOLEV1": "840013"
+              }
+            },
+            {
+              "guid": 2011,
+              "values": {
+                "state": "Idaho",
+                "Educ_Years": "12.1081",
+                "Educ_Tertiary_Perc": "24.4341",
+                "Educ_Secondary_Perc": "90.0181",
+                "Educ_Primary_Perc": "98.3769",
+                "Educ_Less_Primary_Perc": "1.6231",
+                "Female_Pop": "782752",
+                "Male_Pop": "788698",
+                "Total_Pop": "1571450",
+                "Perc_Female": "49.81",
+                "GEOLEV1": "840016"
+              }
+            },
+            {
+              "guid": 2012,
+              "values": {
+                "state": "Illinois",
+                "Educ_Years": "12.0368",
+                "Educ_Tertiary_Perc": "30.8753",
+                "Educ_Secondary_Perc": "88.7232",
+                "Educ_Primary_Perc": "98.0173",
+                "Educ_Less_Primary_Perc": "1.98273",
+                "Female_Pop": "6544230",
+                "Male_Pop": "6298936",
+                "Total_Pop": "12843166",
+                "Perc_Female": "50.95",
+                "GEOLEV1": "840017"
+              }
+            },
+            {
+              "guid": 2013,
+              "values": {
+                "state": "Indiana",
+                "Educ_Years": "12.0349",
+                "Educ_Tertiary_Perc": "22.8052",
+                "Educ_Secondary_Perc": "88.4954",
+                "Educ_Primary_Perc": "98.6589",
+                "Educ_Less_Primary_Perc": "1.34114",
+                "Female_Pop": "3293027",
+                "Male_Pop": "3197594",
+                "Total_Pop": "6490621",
+                "Perc_Female": "50.74",
+                "GEOLEV1": "840018"
+              }
+            },
+            {
+              "guid": 2014,
+              "values": {
+                "state": "Iowa",
+                "Educ_Years": "12.1507",
+                "Educ_Tertiary_Perc": "25.1462",
+                "Educ_Secondary_Perc": "91.5859",
+                "Educ_Primary_Perc": "98.8139",
+                "Educ_Less_Primary_Perc": "1.18613",
+                "Female_Pop": "1544201",
+                "Male_Pop": "1505682",
+                "Total_Pop": "3049883",
+                "Perc_Female": "50.63",
+                "GEOLEV1": "840019"
+              }
+            },
+            {
+              "guid": 2015,
+              "values": {
+                "state": "Kansas",
+                "Educ_Years": "12.1274",
+                "Educ_Tertiary_Perc": "30.0749",
+                "Educ_Secondary_Perc": "90.3052",
+                "Educ_Primary_Perc": "98.537",
+                "Educ_Less_Primary_Perc": "1.46302",
+                "Female_Pop": "1445844",
+                "Male_Pop": "1413325",
+                "Total_Pop": "2859169",
+                "Perc_Female": "50.57",
+                "GEOLEV1": "840020"
+              }
+            },
+            {
+              "guid": 2016,
+              "values": {
+                "state": "Kentucky",
+                "Educ_Years": "11.7999",
+                "Educ_Tertiary_Perc": "20.7154",
+                "Educ_Secondary_Perc": "83.9434",
+                "Educ_Primary_Perc": "97.9527",
+                "Educ_Less_Primary_Perc": "2.04729",
+                "Female_Pop": "2207080",
+                "Male_Pop": "2139186",
+                "Total_Pop": "4346266",
+                "Perc_Female": "50.78",
+                "GEOLEV1": "840021"
+              }
+            },
+            {
+              "guid": 2017,
+              "values": {
+                "state": "Louisiana",
+                "Educ_Years": "11.8005",
+                "Educ_Tertiary_Perc": "21.4324",
+                "Educ_Secondary_Perc": "83.8091",
+                "Educ_Primary_Perc": "97.5698",
+                "Educ_Less_Primary_Perc": "2.43021",
+                "Female_Pop": "2317994",
+                "Male_Pop": "2226234",
+                "Total_Pop": "4544228",
+                "Perc_Female": "51.01",
+                "GEOLEV1": "840022"
+              }
+            },
+            {
+              "guid": 2018,
+              "values": {
+                "state": "Maine",
+                "Educ_Years": "12.1765",
+                "Educ_Tertiary_Perc": "26.8356",
+                "Educ_Secondary_Perc": "91.3572",
+                "Educ_Primary_Perc": "98.9267",
+                "Educ_Less_Primary_Perc": "1.07334",
+                "Female_Pop": "679910",
+                "Male_Pop": "647657",
+                "Total_Pop": "1327567",
+                "Perc_Female": "51.21",
+                "GEOLEV1": "840023"
+              }
+            },
+            {
+              "guid": 2019,
+              "values": {
+                "state": "Maryland",
+                "Educ_Years": "12.1145",
+                "Educ_Tertiary_Perc": "36.0035",
+                "Educ_Secondary_Perc": "89.4455",
+                "Educ_Primary_Perc": "98.0851",
+                "Educ_Less_Primary_Perc": "1.91489",
+                "Female_Pop": "2983757",
+                "Male_Pop": "2802225",
+                "Total_Pop": "5785982",
+                "Perc_Female": "51.57",
+                "GEOLEV1": "840024"
+              }
+            },
+            {
+              "guid": 2020,
+              "values": {
+                "state": "Massachusetts",
+                "Educ_Years": "12.1206",
+                "Educ_Tertiary_Perc": "39.0203",
+                "Educ_Secondary_Perc": "90.7095",
+                "Educ_Primary_Perc": "97.4966",
+                "Educ_Less_Primary_Perc": "2.50345",
+                "Female_Pop": "3382855",
+                "Male_Pop": "3174399",
+                "Total_Pop": "6557254",
+                "Perc_Female": "51.59",
+                "GEOLEV1": "840025"
+              }
+            },
+            {
+              "guid": 2021,
+              "values": {
+                "state": "Michigan",
+                "Educ_Years": "12.151",
+                "Educ_Tertiary_Perc": "25.4914",
+                "Educ_Secondary_Perc": "90.6432",
+                "Educ_Primary_Perc": "98.5824",
+                "Educ_Less_Primary_Perc": "1.41756",
+                "Female_Pop": "5030065",
+                "Male_Pop": "4847509",
+                "Total_Pop": "9877574",
+                "Perc_Female": "50.92",
+                "GEOLEV1": "840026"
+              }
+            },
+            {
+              "guid": 2022,
+              "values": {
+                "state": "Minnesota",
+                "Educ_Years": "12.273",
+                "Educ_Tertiary_Perc": "32.1383",
+                "Educ_Secondary_Perc": "92.9494",
+                "Educ_Primary_Perc": "98.6776",
+                "Educ_Less_Primary_Perc": "1.32237",
+                "Female_Pop": "2672794",
+                "Male_Pop": "2637790",
+                "Total_Pop": "5310584",
+                "Perc_Female": "50.33",
+                "GEOLEV1": "840027"
+              }
+            },
+            {
+              "guid": 2023,
+              "values": {
+                "state": "Mississippi",
+                "Educ_Years": "11.8209",
+                "Educ_Tertiary_Perc": "19.6978",
+                "Educ_Secondary_Perc": "82.7565",
+                "Educ_Primary_Perc": "97.7364",
+                "Educ_Less_Primary_Perc": "2.26356",
+                "Female_Pop": "1529348",
+                "Male_Pop": "1440688",
+                "Total_Pop": "2970036",
+                "Perc_Female": "51.49",
+                "GEOLEV1": "840028"
+              }
+            },
+            {
+              "guid": 2024,
+              "values": {
+                "state": "Missouri",
+                "Educ_Years": "12.0698",
+                "Educ_Tertiary_Perc": "25.3637",
+                "Educ_Secondary_Perc": "88.3726",
+                "Educ_Primary_Perc": "98.7219",
+                "Educ_Less_Primary_Perc": "1.27812",
+                "Female_Pop": "3064200",
+                "Male_Pop": "2932031",
+                "Total_Pop": "5996231",
+                "Perc_Female": "51.1",
+                "GEOLEV1": "840029"
+              }
+            },
+            {
+              "guid": 2025,
+              "values": {
+                "state": "Montana",
+                "Educ_Years": "12.3596",
+                "Educ_Tertiary_Perc": "30.0254",
+                "Educ_Secondary_Perc": "93.3189",
+                "Educ_Primary_Perc": "99.5002",
+                "Educ_Less_Primary_Perc": "0.499842",
+                "Female_Pop": "491000",
+                "Male_Pop": "499898",
+                "Total_Pop": "990898",
+                "Perc_Female": "49.55",
+                "GEOLEV1": "840030"
+              }
+            },
+            {
+              "guid": 2026,
+              "values": {
+                "state": "Nebraska",
+                "Educ_Years": "12.2081",
+                "Educ_Tertiary_Perc": "27.7211",
+                "Educ_Secondary_Perc": "92.0125",
+                "Educ_Primary_Perc": "98.7066",
+                "Educ_Less_Primary_Perc": "1.29342",
+                "Female_Pop": "921958",
+                "Male_Pop": "908471",
+                "Total_Pop": "1830429",
+                "Perc_Female": "50.37",
+                "GEOLEV1": "840031"
+              }
+            },
+            {
+              "guid": 2027,
+              "values": {
+                "state": "Nevada",
+                "Educ_Years": "11.9086",
+                "Educ_Tertiary_Perc": "21.454",
+                "Educ_Secondary_Perc": "87.1022",
+                "Educ_Primary_Perc": "97.5776",
+                "Educ_Less_Primary_Perc": "2.4224",
+                "Female_Pop": "1339050",
+                "Male_Pop": "1365592",
+                "Total_Pop": "2704642",
+                "Perc_Female": "49.51",
+                "GEOLEV1": "840032"
+              }
+            },
+            {
+              "guid": 2028,
+              "values": {
+                "state": "New Hampshire",
+                "Educ_Years": "12.3019",
+                "Educ_Tertiary_Perc": "33.3957",
+                "Educ_Secondary_Perc": "92.8105",
+                "Educ_Primary_Perc": "99.1141",
+                "Educ_Less_Primary_Perc": "0.885912",
+                "Female_Pop": "668441",
+                "Male_Pop": "648318",
+                "Total_Pop": "1316759",
+                "Perc_Female": "50.76",
+                "GEOLEV1": "840033"
+              }
+            },
+            {
+              "guid": 2029,
+              "values": {
+                "state": "New Jersey",
+                "Educ_Years": "12.0591",
+                "Educ_Tertiary_Perc": "35.3323",
+                "Educ_Secondary_Perc": "89.7514",
+                "Educ_Primary_Perc": "97.6763",
+                "Educ_Less_Primary_Perc": "2.32369",
+                "Female_Pop": "4519141",
+                "Male_Pop": "4282483",
+                "Total_Pop": "8801624",
+                "Perc_Female": "51.34",
+                "GEOLEV1": "840034"
+              }
+            },
+            {
+              "guid": 2030,
+              "values": {
+                "state": "New Mexico",
+                "Educ_Years": "11.8127",
+                "Educ_Tertiary_Perc": "24.6423",
+                "Educ_Secondary_Perc": "85.0081",
+                "Educ_Primary_Perc": "96.7608",
+                "Educ_Less_Primary_Perc": "3.23923",
+                "Female_Pop": "1046841",
+                "Male_Pop": "1019091",
+                "Total_Pop": "2065932",
+                "Perc_Female": "50.67",
+                "GEOLEV1": "840035"
+              }
+            },
+            {
+              "guid": 2031,
+              "values": {
+                "state": "New York",
+                "Educ_Years": "11.8836",
+                "Educ_Tertiary_Perc": "32.5216",
+                "Educ_Secondary_Perc": "86.7043",
+                "Educ_Primary_Perc": "96.7055",
+                "Educ_Less_Primary_Perc": "3.29451",
+                "Female_Pop": "10008101",
+                "Male_Pop": "9384182",
+                "Total_Pop": "19392283",
+                "Perc_Female": "51.61",
+                "GEOLEV1": "840036"
+              }
+            },
+            {
+              "guid": 2032,
+              "values": {
+                "state": "North Carolina",
+                "Educ_Years": "11.9557",
+                "Educ_Tertiary_Perc": "26.4416",
+                "Educ_Secondary_Perc": "86.1783",
+                "Educ_Primary_Perc": "97.7972",
+                "Educ_Less_Primary_Perc": "2.20285",
+                "Female_Pop": "4905216",
+                "Male_Pop": "4656342",
+                "Total_Pop": "9561558",
+                "Perc_Female": "51.3",
+                "GEOLEV1": "840037"
+              }
+            },
+            {
+              "guid": 2033,
+              "values": {
+                "state": "North Dakota",
+                "Educ_Years": "12.2482",
+                "Educ_Tertiary_Perc": "28.9747",
+                "Educ_Secondary_Perc": "91.5202",
+                "Educ_Primary_Perc": "99.066",
+                "Educ_Less_Primary_Perc": "0.933992",
+                "Female_Pop": "331184",
+                "Male_Pop": "343315",
+                "Total_Pop": "674499",
+                "Perc_Female": "49.1",
+                "GEOLEV1": "840038"
+              }
+            },
+            {
+              "guid": 2034,
+              "values": {
+                "state": "Ohio",
+                "Educ_Years": "12.1112",
+                "Educ_Tertiary_Perc": "24.5891",
+                "Educ_Secondary_Perc": "89.7134",
+                "Educ_Primary_Perc": "98.8371",
+                "Educ_Less_Primary_Perc": "1.16291",
+                "Female_Pop": "5903619",
+                "Male_Pop": "5632563",
+                "Total_Pop": "11536182",
+                "Perc_Female": "51.17",
+                "GEOLEV1": "840039"
+              }
+            },
+            {
+              "guid": 2035,
+              "values": {
+                "state": "Oklahoma",
+                "Educ_Years": "12.0186",
+                "Educ_Tertiary_Perc": "22.5077",
+                "Educ_Secondary_Perc": "87.7375",
+                "Educ_Primary_Perc": "98.4074",
+                "Educ_Less_Primary_Perc": "1.59262",
+                "Female_Pop": "1907000",
+                "Male_Pop": "1854702",
+                "Total_Pop": "3761702",
+                "Perc_Female": "50.7",
+                "GEOLEV1": "840040"
+              }
+            },
+            {
+              "guid": 2036,
+              "values": {
+                "state": "Oregon",
+                "Educ_Years": "12.1561",
+                "Educ_Tertiary_Perc": "28.9323",
+                "Educ_Secondary_Perc": "90.5734",
+                "Educ_Primary_Perc": "98.2646",
+                "Educ_Less_Primary_Perc": "1.73536",
+                "Female_Pop": "1935332",
+                "Male_Pop": "1903625",
+                "Total_Pop": "3838957",
+                "Perc_Female": "50.41",
+                "GEOLEV1": "840041"
+              }
+            },
+            {
+              "guid": 2037,
+              "values": {
+                "state": "Pennsylvania",
+                "Educ_Years": "12.0792",
+                "Educ_Tertiary_Perc": "26.8906",
+                "Educ_Secondary_Perc": "89.9183",
+                "Educ_Primary_Perc": "98.6134",
+                "Educ_Less_Primary_Perc": "1.38656",
+                "Female_Pop": "6528412",
+                "Male_Pop": "6181218",
+                "Total_Pop": "12709630",
+                "Perc_Female": "51.37",
+                "GEOLEV1": "840042"
+              }
+            },
+            {
+              "guid": 2038,
+              "values": {
+                "state": "Rhode Island",
+                "Educ_Years": "11.8163",
+                "Educ_Tertiary_Perc": "30.4612",
+                "Educ_Secondary_Perc": "85.5314",
+                "Educ_Primary_Perc": "96.4096",
+                "Educ_Less_Primary_Perc": "3.59044",
+                "Female_Pop": "543765",
+                "Male_Pop": "509121",
+                "Total_Pop": "1052886",
+                "Perc_Female": "51.65",
+                "GEOLEV1": "840044"
+              }
+            },
+            {
+              "guid": 2039,
+              "values": {
+                "state": "South Carolina",
+                "Educ_Years": "11.9167",
+                "Educ_Tertiary_Perc": "24.6071",
+                "Educ_Secondary_Perc": "85.8179",
+                "Educ_Primary_Perc": "97.7404",
+                "Educ_Less_Primary_Perc": "2.25962",
+                "Female_Pop": "2385140",
+                "Male_Pop": "2251172",
+                "Total_Pop": "4636312",
+                "Perc_Female": "51.44",
+                "GEOLEV1": "840045"
+              }
+            },
+            {
+              "guid": 2040,
+              "values": {
+                "state": "South Dakota",
+                "Educ_Years": "12.2096",
+                "Educ_Tertiary_Perc": "28.3932",
+                "Educ_Secondary_Perc": "91.4473",
+                "Educ_Primary_Perc": "99.0018",
+                "Educ_Less_Primary_Perc": "0.998169",
+                "Female_Pop": "406414",
+                "Male_Pop": "410049",
+                "Total_Pop": "816463",
+                "Perc_Female": "49.78",
+                "GEOLEV1": "840046"
+              }
+            },
+            {
+              "guid": 2041,
+              "values": {
+                "state": "Tennessee",
+                "Educ_Years": "11.884",
+                "Educ_Tertiary_Perc": "22.9999",
+                "Educ_Secondary_Perc": "85.3038",
+                "Educ_Primary_Perc": "98.058",
+                "Educ_Less_Primary_Perc": "1.94195",
+                "Female_Pop": "3264746",
+                "Male_Pop": "3092151",
+                "Total_Pop": "6356897",
+                "Perc_Female": "51.36",
+                "GEOLEV1": "840047"
+              }
+            },
+            {
+              "guid": 2042,
+              "values": {
+                "state": "Texas",
+                "Educ_Years": "11.611",
+                "Educ_Tertiary_Perc": "25.9468",
+                "Educ_Secondary_Perc": "82.2968",
+                "Educ_Primary_Perc": "95.7041",
+                "Educ_Less_Primary_Perc": "4.29587",
+                "Female_Pop": "12732957",
+                "Male_Pop": "12524157",
+                "Total_Pop": "25257114",
+                "Perc_Female": "50.41",
+                "GEOLEV1": "840048"
+              }
+            },
+            {
+              "guid": 2043,
+              "values": {
+                "state": "Utah",
+                "Educ_Years": "12.262",
+                "Educ_Tertiary_Perc": "29.3107",
+                "Educ_Secondary_Perc": "92.3797",
+                "Educ_Primary_Perc": "98.5869",
+                "Educ_Less_Primary_Perc": "1.41305",
+                "Female_Pop": "1379892",
+                "Male_Pop": "1396577",
+                "Total_Pop": "2776469",
+                "Perc_Female": "49.7",
+                "GEOLEV1": "840049"
+              }
+            },
+            {
+              "guid": 2044,
+              "values": {
+                "state": "Vermont",
+                "Educ_Years": "12.2932",
+                "Educ_Tertiary_Perc": "34.0213",
+                "Educ_Secondary_Perc": "93.0054",
+                "Educ_Primary_Perc": "99.2471",
+                "Educ_Less_Primary_Perc": "0.752859",
+                "Female_Pop": "317714",
+                "Male_Pop": "308246",
+                "Total_Pop": "625960",
+                "Perc_Female": "50.76",
+                "GEOLEV1": "840050"
+              }
+            },
+            {
+              "guid": 2045,
+              "values": {
+                "state": "Virginia",
+                "Educ_Years": "12.0512",
+                "Educ_Tertiary_Perc": "34.3177",
+                "Educ_Secondary_Perc": "87.9327",
+                "Educ_Primary_Perc": "97.9948",
+                "Educ_Less_Primary_Perc": "2.00521",
+                "Female_Pop": "4081919",
+                "Male_Pop": "3942698",
+                "Total_Pop": "8024617",
+                "Perc_Female": "50.87",
+                "GEOLEV1": "840051"
+              }
+            },
+            {
+              "guid": 2046,
+              "values": {
+                "state": "Washington",
+                "Educ_Years": "12.1692",
+                "Educ_Tertiary_Perc": "31.2897",
+                "Educ_Secondary_Perc": "91.2423",
+                "Educ_Primary_Perc": "97.9488",
+                "Educ_Less_Primary_Perc": "2.05119",
+                "Female_Pop": "3385247",
+                "Male_Pop": "3359249",
+                "Total_Pop": "6744496",
+                "Perc_Female": "50.19",
+                "GEOLEV1": "840053"
+              }
+            },
+            {
+              "guid": 2047,
+              "values": {
+                "state": "West Virginia",
+                "Educ_Years": "11.7972",
+                "Educ_Tertiary_Perc": "17.2418",
+                "Educ_Secondary_Perc": "84.3659",
+                "Educ_Primary_Perc": "98.3448",
+                "Educ_Less_Primary_Perc": "1.65517",
+                "Female_Pop": "941315",
+                "Male_Pop": "912658",
+                "Total_Pop": "1853973",
+                "Perc_Female": "50.77",
+                "GEOLEV1": "840054"
+              }
+            },
+            {
+              "guid": 2048,
+              "values": {
+                "state": "Wisconsin",
+                "Educ_Years": "12.1935",
+                "Educ_Tertiary_Perc": "26.3432",
+                "Educ_Secondary_Perc": "91.8633",
+                "Educ_Primary_Perc": "98.9033",
+                "Educ_Less_Primary_Perc": "1.09667",
+                "Female_Pop": "2866563",
+                "Male_Pop": "2824484",
+                "Total_Pop": "5691047",
+                "Perc_Female": "50.37",
+                "GEOLEV1": "840055"
+              }
+            },
+            {
+              "guid": 2049,
+              "values": {
+                "state": "Wyoming",
+                "Educ_Years": "12.3347",
+                "Educ_Tertiary_Perc": "24.757",
+                "Educ_Secondary_Perc": "93.819",
+                "Educ_Primary_Perc": "99.5406",
+                "Educ_Less_Primary_Perc": "0.459356",
+                "Female_Pop": "277752",
+                "Male_Pop": "286708",
+                "Total_Pop": "564460",
+                "Perc_Female": "49.21",
+                "GEOLEV1": "840056"
+              }
+            }
+          ],
+          "caseName": null,
+          "childAttrName": null,
+          "collapseChildren": null,
+          "guid": 2051,
+          "name": "States in the U.S.",
+          "title": "States in the U.S.",
+          "type": "DG.Collection"
+        }
+      ],
+      "contextStorage": {}
+    }
+  ],
+  "globalValues": [],
+  "appName": "DG",
+  "appVersion": "2.0",
+  "appBuildNum": "0435",
+  "metadata": {}
+}

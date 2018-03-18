@@ -1,0 +1,205 @@
+{
+  "name": null,
+  "guid": 1,
+  "components": [
+    {
+      "type": "DG.GameView",
+      "guid": 2,
+      "componentStorage": {
+        "currentGameName": "Next Gen MW",
+        "currentGameUrl": "https://lab.concord.org/embeddable.html#interactives/inquiry-space/parachute.json",
+        "allowInitGameOverride": true,
+        "_links_": {
+          "context": {
+            "type": "DG.DataContextRecord",
+            "id": 3
+          }
+        },
+        "title": "parachute",
+        "name": "parachute"
+      },
+      "layout": {
+        "width": 640,
+        "height": 480,
+        "x": 5,
+        "y": 5,
+        "isVisible": true,
+        "left": 5,
+        "top": 5,
+        "zIndex": 2
+      },
+      "savedHeight": null
+    },
+    {
+      "type": "DG.TableView",
+      "guid": 13,
+      "componentStorage": {
+        "_links_": {
+          "context": {
+            "type": "DG.DataContextRecord",
+            "id": 3
+          }
+        },
+        "attributeWidths": [],
+        "title": "runs/measurements",
+        "name": "runs/measurements"
+      },
+      "layout": {
+        "width": 471,
+        "height": 200,
+        "left": 640,
+        "top": 0,
+        "zIndex": 10,
+        "isVisible": true
+      },
+      "savedHeight": null
+    }
+  ],
+  "contexts": [
+    {
+      "type": "DG.GameContext",
+      "document": 1,
+      "guid": 3,
+      "flexibleGroupingChangeFlag": false,
+      "name": "Data_Set_1",
+      "title": "runs/measurements",
+      "collections": [
+        {
+          "areParentChildLinksConfigured": true,
+          "attrs": [
+            {
+              "name": "Row",
+              "type": "nominal",
+              "title": "Row",
+              "description": "",
+              "blockDisplayOfEmptyCategories": true,
+              "editable": false,
+              "hidden": false,
+              "formula": "caseIndex",
+              "guid": 5,
+              "precision": 2,
+              "unit": null
+            },
+            {
+              "name": "mass-of-jumper",
+              "type": "none",
+              "title": "mass-of-jumper",
+              "description": null,
+              "blockDisplayOfEmptyCategories": true,
+              "editable": [
+                true
+              ],
+              "hidden": false,
+              "guid": 6,
+              "precision": null,
+              "unit": "g"
+            },
+            {
+              "name": "parachute-size",
+              "type": "none",
+              "title": "parachute-size",
+              "description": null,
+              "blockDisplayOfEmptyCategories": true,
+              "editable": [
+                true
+              ],
+              "hidden": false,
+              "guid": 7,
+              "precision": null,
+              "unit": "cm^2"
+            }
+          ],
+          "cases": [],
+          "caseName": null,
+          "childAttrName": null,
+          "collapseChildren": true,
+          "guid": 4,
+          "labels": {
+            "singleCase": "run",
+            "pluralCase": "runs",
+            "singleCaseWithArticle": "a run",
+            "setOfCases": "set",
+            "setOfCasesWithArticle": "a set"
+          },
+          "name": "runs",
+          "title": "runs",
+          "type": "DG.Collection"
+        },
+        {
+          "areParentChildLinksConfigured": true,
+          "attrs": [
+            {
+              "name": "Time",
+              "type": "none",
+              "title": "Time",
+              "description": null,
+              "blockDisplayOfEmptyCategories": true,
+              "editable": [
+                true
+              ],
+              "hidden": false,
+              "guid": 9,
+              "precision": null,
+              "unit": "s"
+            },
+            {
+              "name": "Distance to surface",
+              "type": "none",
+              "title": "Distance to surface",
+              "description": null,
+              "blockDisplayOfEmptyCategories": true,
+              "editable": [
+                true
+              ],
+              "hidden": false,
+              "guid": 10,
+              "precision": null,
+              "unit": "m"
+            },
+            {
+              "name": "Velocity",
+              "type": "none",
+              "title": "Velocity",
+              "description": null,
+              "blockDisplayOfEmptyCategories": true,
+              "editable": [
+                true
+              ],
+              "hidden": false,
+              "guid": 11,
+              "precision": null,
+              "unit": "m/s"
+            }
+          ],
+          "cases": [],
+          "caseName": null,
+          "childAttrName": null,
+          "collapseChildren": null,
+          "guid": 8,
+          "labels": {
+            "singleCase": "measurement",
+            "pluralCase": "measurements",
+            "singleCaseWithArticle": "a measurement",
+            "setOfCases": "time series",
+            "setOfCasesWithArticle": "a time series"
+          },
+          "name": "measurements",
+          "parent": 4,
+          "title": "measurements",
+          "type": "DG.Collection"
+        }
+      ],
+      "contextStorage": {
+        "gameName": "Next Gen MW",
+        "gameUrl": "https://lab.concord.org/embeddable.html#interactives/inquiry-space/parachute.json"
+      }
+    }
+  ],
+  "globalValues": [],
+  "appName": "DG",
+  "appVersion": "2.0",
+  "appBuildNum": "0434",
+  "metadata": {
+    "changeCount": 0
+  }
+}
