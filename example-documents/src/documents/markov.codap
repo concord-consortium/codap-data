@@ -37,7 +37,7 @@
         "items": [
           {
             "itemTitle": "Getting Started",
-            "url": "%_url_%/Markov/markov_getstarted.html"
+            "url": "%_url_%/guides/Markov/markov_getstarted.html"
           }
         ],
         "currentItemIndex": 0,
