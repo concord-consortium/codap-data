@@ -21,7 +21,11 @@ function fix_file() {
     TFN=`echo $SFN | sed "s%$SRC_DIR%$TARGET_DIR%"`
     echo $TFN
     mkdir -p `dirname "$TFN"`
-    sed "s#$REPLACEMENT_TOKEN#$REPLACEMENT_URL#g" "$SFN" > "$TFN"
+    if file $SFN | grep image >/dev/null; then
+      cp $SFN $TFN
+    else 
+      sed "s#$REPLACEMENT_TOKEN#$REPLACEMENT_URL#g" "$SFN" > "$TFN"
+    fi
   done
 }
 
