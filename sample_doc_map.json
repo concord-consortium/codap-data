@@ -2093,6 +2093,23 @@
       ]
     },
     {
+      "title": "YouTube",
+      "description": "What are the top YouTube videos trending in 2017?",
+      "path": "SampleDocs/Other/YouTube/YouTube.codap",
+      "visible": true,
+      "tag": [
+        "other",
+        "youtube",
+        "video",
+        "viral",
+        "trends"
+      ],
+      "image_path": "./resources/images/YouTube.png",
+      "categories": [
+        "miscellaneous"
+      ]
+    },
+    {
       "title": "Summer Olympics",
       "description": "Compare the number of medals each country has won in the Summer Olympics.",
       "path": "SampleDocs/Sports/Summer_Olympics/Summer_Olympics.json",
