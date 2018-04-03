@@ -6,7 +6,7 @@
   },
   {
     "name": "Markov Game",
-    "description": "Play Roshambo against Dr. Markov. Analyze your moves in a graph and try to beat him.",
+    "description": "Salven al perro Madeline jugando Roshambo contra el malvado Dr. Markov. Mejoren sus chances analizando los movimientos de Markov.\n",
     "location": "%_url_%/documents/markov.codap"
   },
   {
@@ -16,12 +16,12 @@
   },
   {
     "name": "Cuatro elefantes marinos",
-    "description": "These are tracks on a map. Make graphs to explore factors that may affect their routes.",
+    "description": "Muestra el seguimiento de cuatro elefantes marinos en el Pacífico en un mapa. Hacer gráficos y usar la selección para investigar qué sucede.",
     "location": "%_url_%/documents/Cuatro_elefantes_marinos.codap"
   },
   {
     "name": "Mamiferos",
-    "description": "Explore the mammals and discover interesting factors using the graphs.",
+    "description": "Datos de 27 mamíferos, cada uno con ocho atributos. ¿Qué relaciones pueden encontrar?",
     "location": "%_url_%/documents/mamiferos.codap"
   },
   {
