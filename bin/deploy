@@ -1,0 +1,58 @@
+#!/bin/bash
+# Deploys a subset of codap-data documents to the CODAP server.
+#
+# Must be executed by a user that has access and root authority on 
+# the CODAP server
+PROGNAME=`basename $0`
+DIRNAME=`dirname $0`
+
+cd $DIRNAME/..
+
+#
+function error() {
+  $PROGNAME: Error: $1
+  exit 1
+}
+
+#
+function warn() {
+  $PROGNAME: Warning: $1
+}
+
+#
+# Set constants
+[ -f $HOME/.codap-build.rc ] && . $HOME/.codap-build.rc
+CODAP_SERVER=${CODAP_SERVER:=codap-server.concord.org}
+SERVER_PATH=${CODAP_SERVER_WWW_BASE:=/var/www/html}/codap-data
+TEMP_DIR=/tmp/$PROGNAME.$$
+
+#
+# Space separated list of directories that will be copied to the server
+DEPLOYABLES="boundaries"
+
+#
+# Confirm
+if [ -t 1 ] ; then
+echo  "Will deploy $DEPLOYABLES to $CODAP_SERVER:$SERVER_PATH."
+read -p "OK? [y|n] " ANSWER
+[ "$ANSWER" != "y" ] && exit 2
+fi
+
+#
+# Copy deployables to tmp
+mkdir $TEMP_DIR
+for a in $DEPLOYABLES; do 
+  cp -R ${a} $TEMP_DIR/${a}
+done
+
+#
+# Rsync deployables (requires login on server)
+rsync -av $TEMP_DIR/ $CODAP_SERVER:$TEMP_DIR
+
+#
+# Install on server (requires login and root)
+ssh $CODAP_SERVER "sudo rm -rf ${SERVER_PATH}.bak"
+ssh $CODAP_SERVER "sudo mv -f ${SERVER_PATH} ${SERVER_PATH}.bak"
+ssh $CODAP_SERVER "sudo mv ${TEMP_DIR} ${SERVER_PATH}"
+
+rm -r $TEMP_DIR

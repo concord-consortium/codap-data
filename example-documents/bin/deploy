@@ -1,0 +1,26 @@
+#!/bin/bash
+PROGNAME=`basename "$0"`
+DIRNAME=`dirname "$0"`
+BASENAME="$DIRNAME/.."
+ZIP_BASE=$PROGNAME.$$.zip
+TMP_ZIP=/tmp/$ZIP_BASE
+
+cd $BASENAME
+
+DEPLOY_SERVER=codap-server.concord.org
+DEPLOY_PATH=/var/www/html/resources/latest
+
+function error () {
+  echo $* 1>&2
+  exit 1
+}
+
+[ -d ./target ] || error "Nothing to deploy";
+
+( cd ./target && zip -r $TMP_ZIP . )
+
+scp $TMP_ZIP ${DEPLOY_SERVER}:/tmp
+ssh $DEPLOY_SERVER sudo unzip -uo $TMP_ZIP -d $DEPLOY_PATH
+ssh $DEPLOY_SERVER rm $TMP_ZIP
+
+rm $TMP_ZIP
