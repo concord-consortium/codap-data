@@ -33,6 +33,16 @@
     "name": "Roller Coasters",
     "description": "Data on 157 roller coasters in the US that opened between 1915 and 2016.  ",
     "location": "%_url_%/documents/rollercoasters.codap"
+  },
+  {
+    "name": "Picnic Para Hormigas",
+    "description": "Una actividad para explorar datos sobre las hormigas recolectados por científicos alrededor del mundo. O también para agregar tus propios datos sobre un picnic de hormigas.",
+    "location": "%_url_%/documents/picnic_para_hormigas.codap"
+  },
+  {
+    "name": "Plantas",
+    "description": "Una actividad introductoria para CODAP sobre datos de plantas (luz, días para floración, altura alcanzada, quién la cuidó, etc.)",
+    "location": "%_url_%/documents/plantas.codap"
   }
 ]
 
