@@ -1,0 +1,65 @@
+/* style.css - a simple style sheet */
+body {
+    margin-left: 3%;
+    margin-right: 3%;
+    color: white;
+    background:#3D81A6;
+    font-family: "Lucida Sans", "Lucida Grande", Verdana, Arial, sans-serif;
+}
+p { font-family: inherit;
+    font-size: 12px;
+    line-height: 1}
+
+.icon {height: 35px;
+        width: 35px}
+
+li {font-family: inherit;
+    font-size: 12px
+}
+
+ul {list-style-type: disc}
+.description_list {
+    list-style-type: none;
+    font-size: 12px    }
+
+#guide_next_button {
+    color: white;
+    font-family: "Lucida Sans", "Lucida Grande", Verdana, Arial, sans-serif;
+    font-size: 12px;
+}
+
+#guide_back_button {
+    color: white;
+    font-family: "Lucida Sans", "Lucida Grande", Verdana, Arial, sans-serif;
+    font-size: 12px;
+}
+
+#outside_link1 {
+    color: white;
+    font-family: "Lucida Sans", "Lucida Grande", Verdana, Arial, sans-serif;
+    font-size: 12px;
+}
+
+#outside_link2 {
+    color: white;
+    font-family: "Lucida Sans", "Lucida Grande", Verdana, Arial, sans-serif;
+    font-size: 12px;
+}
+
+#outside_link3 {
+    color: white;
+    font-family: "Lucida Sans", "Lucida Grande", Verdana, Arial, sans-serif;
+    font-size: 12px;
+}
+
+#outside_link4 {
+    color: white;
+    font-family: "Lucida Sans", "Lucida Grande", Verdana, Arial, sans-serif;
+    font-size: 12px;
+}
+
+#outside_link5  {
+    color: white;
+    font-family: "Lucida Sans", "Lucida Grande", Verdana, Arial, sans-serif;
+    font-size: 12px;
+}
