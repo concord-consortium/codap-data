@@ -68,14 +68,13 @@
           "areParentChildLinksConfigured": true,
           "attrs": [
             {
-              "name": "Row",
+              "name": "Run",
               "type": "nominal",
-              "title": "Row",
+              "title": "Run",
               "description": "",
               "blockDisplayOfEmptyCategories": true,
               "editable": false,
               "hidden": false,
-              "formula": "caseIndex",
               "guid": 5,
               "precision": 2,
               "unit": null
