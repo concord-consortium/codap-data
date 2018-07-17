@@ -9,23 +9,23 @@
         "currentGameName": "Markov",
         "currentGameUrl": "http://concord-consortium.github.io/codap-data-interactives/Markov/",
         "allowInitGameOverride": true,
+        "preventBringToFront": false,
+        "preventDataContextReorg": true,
         "_links_": {
           "context": {
             "type": "DG.DataContextRecord",
             "id": 3
           }
         },
-        "title": "Markov"
+        "title": "Markov",
+        "userSetTitle": false,
+        "cannotClose": false
       },
       "layout": {
-        "width": 566,
-        "height": 352,
-        "left": 5,
-        "top": 5,
-        "x": 5,
-        "y": 5,
-        "isVisible": true,
-        "zIndex": 2
+        "width": 550,
+        "height": 340,
+        "zIndex": 3,
+        "isVisible": true
       },
       "savedHeight": null
     },
@@ -120,29 +120,12 @@
               "unit": null
             }
           ],
-          "cases": [
-            {
-              "guid": 17,
-              "values": {
-                "game": 1,
-                "turns": "",
-                "winner": "",
-                "level": "Tethys"
-              }
-            },
-            {
-              "guid": 18,
-              "values": {
-                "game": 2,
-                "turns": "",
-                "winner": "",
-                "level": "Tethys"
-              }
-            }
-          ],
-          "caseName": null,
+          "cases": [],
           "childAttrName": null,
-          "collapseChildren": null,
+          "defaults": {
+            "xAttr": "game",
+            "yAttr": "score"
+          },
           "guid": 4,
           "name": "Games",
           "title": "Games",
@@ -249,9 +232,11 @@
             }
           ],
           "cases": [],
-          "caseName": null,
           "childAttrName": null,
-          "collapseChildren": null,
+          "defaults": {
+            "xAttr": "previous_2_markov_moves",
+            "yAttr": "markovs_move"
+          },
           "guid": 9,
           "name": "Turns",
           "parent": 4,
@@ -259,17 +244,65 @@
           "type": "DG.Collection"
         }
       ],
+      "description": "",
+      "preventReorg": false,
+      "setAsideItems": [],
       "contextStorage": {
         "gameName": "Markov",
-        "gameUrl": "http://concord-consortium.github.io/codap-data-interactives/Markov/"
+        "gameState": {
+          "gameNumber": 0,
+          "currentLevel": "Tethys",
+          "levelsMap": {
+            "Tethys": true,
+            "Deimos": true,
+            "Phobos": true,
+            "Callisto": true
+          },
+          "strategy": {
+            "RR": {
+              "move": "",
+              "weight": 2
+            },
+            "RP": {
+              "move": "",
+              "weight": 2
+            },
+            "RS": {
+              "move": "",
+              "weight": 2
+            },
+            "PP": {
+              "move": "",
+              "weight": 2
+            },
+            "PR": {
+              "move": "",
+              "weight": 2
+            },
+            "PS": {
+              "move": "",
+              "weight": 2
+            },
+            "SS": {
+              "move": "",
+              "weight": 2
+            },
+            "SR": {
+              "move": "",
+              "weight": 2
+            },
+            "SP": {
+              "move": "",
+              "weight": 2
+            }
+          }
+        }
       }
     }
   ],
   "globalValues": [],
   "appName": "DG",
   "appVersion": "2.0",
-  "appBuildNum": "0434",
-  "metadata": {
-    "changeCount": 3
-  }
+  "appBuildNum": "0449",
+  "metadata": {}
 }
