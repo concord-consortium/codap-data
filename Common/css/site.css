@@ -307,6 +307,10 @@ a:hover {
     position: relative;
 }
 
+.lesson-plan-link {
+    float: right;
+}
+
 .listing-image:hover .listing-desc  {
     visibility: visible;
     opacity: .9;
