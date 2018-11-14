@@ -1,18 +1,5 @@
 <html>
 <head>
-<style>
-  body h1 {
-    font-size: larger;
-    text-align: center;
-  }
-  article #codap {
-    position: relative;
-    float: right;
-    margin: 5px;
-    width: 80%;
-    height: 80vh;
-  }
-</style>
 <meta name="generator" content=
 "HTML Tidy for Mac OS X (vers 31 October 2006 - Apple Inc. build 16.1), see www.w3.org">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -113,8 +100,36 @@ idx<len;idx++){css=document.createElement("link");css.rel="stylesheet";css.type=
 css.href=styles[idx];css.media="screen";head.appendChild(css)}})();
 </script>
 
+<style>
+  html {
+    overflow-y: visible;
+    position: static!important;
+  }
+  body {
+    overflow: auto!important;
+  }
+  html body {
+    font-family: Times;
+    position: relative!important;
+  }
+  body h1 {
+    font-size: larger;
+    text-align: center;
+    padding: 2em;
+  }
+  article {
+    overflow: auto!important;
+  }
+  article #codap {
+    position: relative;
+    float: right;
+    margin: 5px;
+    width: 80%;
+    height: 80vh;
+  }
+</style>
 </head>
-<body>
+<body style="overflow:auto">
   <h1>Embedded Mode Example</h1>
   <p>Demonstrates CODAP in embedded mode.</p>
   <article>
