@@ -23,5 +23,10 @@
     "name": "US_puma_boundaries",
     "format": "codap",
     "url": "//codap.concord.org/codap-data/boundaries/US_Puma_Boundaries.codap"
+  },
+  {
+    "name": "IT_region_boundaries",
+    "format": "codap",
+    "url": "//localhost/~jsandoe/boundaries/IT_Region_Boundaries.codap"
   }
 ]
