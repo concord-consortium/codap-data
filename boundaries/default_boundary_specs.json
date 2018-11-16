@@ -27,6 +27,6 @@
   {
     "name": "IT_region_boundaries",
     "format": "codap",
-    "url": "//localhost/~jsandoe/boundaries/IT_Region_Boundaries.codap"
+    "url": "//codap.concord.org/codap-data/boundaries/IT_Region_Boundaries.codap"
   }
 ]
