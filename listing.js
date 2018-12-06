@@ -128,6 +128,7 @@ $(document).ready(function () {
         var title = obj.title,
             description = obj.description,
             path = '',
+            lesson_plan = obj.lesson_plan,
             categories = obj.categories,
             image_path = obj.image_path,
             alt_img_path = './resources/images/codap_logo.png',
@@ -135,7 +136,7 @@ $(document).ready(function () {
             category_bin ='',
             listing = '',
             listing_category='',
-            listing_image_link='',    
+            listing_image_link='',
             listing_desc ='',
             listing_image = '',
             query_param = '?url=',
@@ -162,11 +163,15 @@ $(document).ready(function () {
             listing_image_link=$('<a class = "listing-image-link" target = "_blank" href='+url+query_param+path+'> '+title),
             listing_desc = $('<span>').addClass('listing-desc').text(description).append('</a>'),
             linkLink = $('<a class = "listing-link" href=' + path + '> Embeddable Link </a>'),
+            lessonPlanLink = $('<a class="listing-link lesson-plan-link" href=' + lesson_plan + '> Lesson Plan </a>'),
             launchLink.appendTo(listing);
         listing_image.appendTo(listing_image_link);
         listing_desc.appendTo(listing_image);
         listing_image_link.appendTo(listing);
         linkLink.appendTo(listing);
+        if (typeof lesson_plan !== 'undefined') {
+          lessonPlanLink.appendTo(listing);
+        }
         listing.appendTo(listing_container);
     }
 
@@ -239,4 +244,3 @@ $(document).ready(function () {
     fetchObjList();
 
 });
-
