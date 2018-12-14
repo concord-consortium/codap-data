@@ -1,20 +1,5 @@
 [
   {
-    "name": "Getting started with CODAP",
-    "description": "Learn how to use CODAP using the CODAP plugin onboarding",
-    "location": "%_url_%/documents/get_started.codap"
-  },
-  {
-    "name": "Markov Game",
-    "description": "Play Roshambo against Dr. Markov. Analyze your moves in a graph and try to beat him.",
-    "location": "%_url_%/documents/markov.codap"
-  },
-  {
-    "name": "Parachute Model",
-    "description": "Drop the parachute to analyze how the size and mass effect the terminal velocity.",
-    "location": "%_url_%/documents/parachute.codap"
-  },
-  {
     "name": "Vier Robben",
     "description": "Dies sind Spuren auf einer Karte. Erstellen Sie Grafiken, um Faktoren zu identifizieren, die die Spuren der Seeelefanten beeinflussen.",
     "location": "%_url_%/documents/Vier_Robben.codap"
@@ -25,14 +10,23 @@
     "location": "%_url_%/documents/Säugetiere.codap"
   },
   {
+    "name": "Große Bauwerke",
+    "description": "Die höchsten Gebäude der Welt",
+    "location": "%_url_%/documents/Große Bauwerke.codap"
+  },
+  {
+    "name": "Olympia",
+    "description": "Leichtathletik Siegerzeiten und –höhen von 1986 bis 2016",
+    "location": "%_url_%/documents/Olympia.codap"
+  },
+  {
+    "name": "GrundschulenNRW",
+    "description": "Welche Gewohnheiten haben Grundschüler aus Nordrhein-Westfalen?",
+    "location": "%_url_%/documents/GrundschulenNRW.codap"
+  },
+  {
     "name": "Map Data",
     "description": "Explore United States  Population Data, and see what you discover.  ",
     "location": "%_url_%/documents/statesneducation.codap"
-  },
-  {
-    "name": "Roller Coasters",
-    "description": "Data on 157 roller coasters in the US that opened between 1915 and 2016.  ",
-    "location": "%_url_%/documents/rollercoasters.codap"
   }
 ]
-
