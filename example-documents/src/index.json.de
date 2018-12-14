@@ -20,9 +20,9 @@
     "location": "%_url_%/documents/Olympia.codap"
   },
   {
-    "name": "GrundschulenNRW",
+    "name": "Grundschulen NRW",
     "description": "Welche Gewohnheiten haben Grundschüler aus Nordrhein-Westfalen?",
-    "location": "%_url_%/documents/GrundschulenNRW.codap"
+    "location": "%_url_%/documents/Grundschulen_NRW.codap"
   },
   {
     "name": "Map Data",
