@@ -7,7 +7,7 @@ SRC_DIR=$BASEDIR/src
 TARGET_DIR=$BASEDIR/target/example-documents
 REPLACEMENT_URL="//codap.concord.org/resources/latest/example-documents"
 REPLACEMENT_TOKEN="%_url_%"
-LANGUAGES=(en es de he tr zh)
+LANGUAGES=(en el es de he tr zh)
 
 typeset -fx fix_file
 
