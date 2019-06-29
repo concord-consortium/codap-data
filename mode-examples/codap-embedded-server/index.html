@@ -1,0 +1,48 @@
+<html>
+<head>
+<script src="js/iframe-phone.js"></script>
+<style>
+  article iframe {
+    width: 80%;
+    height: 80vh;
+  }
+</style>
+</head>
+<body>
+  <h1>Embedded Mode Example</h1>
+  <button id="do-something" type="button">Make Text Box</button>
+  <p>Demonstrates CODAP in embedded mode and communicating with its parent.</p>
+  <article>
+  <iframe id="codap-iframe" src="https://codap.concord.org/releases/latest?embeddedServer=yes#shared=109578" ></iframe>
+<!--
+  <iframe id="codap-iframe" src="http://localhost:4020/dg?embeddedServer=yes#shared=109578" ></iframe>
+-->
+  </article>
+<script type="text/javascript">
+  function iframePhoneHandler() { 
+    // handle messages initiated _from_ CODAP here
+  }
+  // initiate connection to CODAP
+  var codapIframe = document.getElementById('codap-iframe');
+  var rpcHandler = new iframePhone.IframePhoneRpcEndpoint(
+          iframePhoneHandler, "data-interactive", codapIframe);
+
+  // this button demonstrates making a request to CODAP
+  var button = document.getElementById('do-something'); 
+  button.onclick = function (ev) {
+    rpcHandler.call({
+        action: 'create',
+        resource: 'component',
+        values: {
+          type: 'text'
+        }
+      }, function (resp) {
+        console.log('Response:' + JSON.stringify(resp));
+        // handle response to request here
+      }
+    );
+  }
+</script>
+</body>
+</html>
+
