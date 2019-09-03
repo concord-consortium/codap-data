@@ -5,7 +5,7 @@ BASEDIR=`dirname $DIRNAME`
 
 SRC_DIR=$BASEDIR/src
 TARGET_DIR=$BASEDIR/target/example-documents
-REPLACEMENT_URL="//codap.concord.org/resources/latest/example-documents"
+REPLACEMENT_URL=""
 REPLACEMENT_TOKEN="%_url_%"
 LANGUAGES=(en el es de he tr zh)
 
@@ -30,8 +30,8 @@ function fix_file() {
 
 function copyIndex() {
   for t in $*; do 
-    if [ ! -e $TARGET_DIR/index.json.$t ] ; then
-      cp $TARGET_DIR/index.json $TARGET_DIR/index.json.$t
+    if [ ! -e "$TARGET_DIR/index.json.$t" ] ; then
+      cp "$TARGET_DIR/index.json" "$TARGET_DIR/index.json.$t"
     fi
   done
 }
