@@ -5,7 +5,7 @@ BASEDIR=`dirname $DIRNAME`
 
 SRC_DIR=$BASEDIR/src
 TARGET_DIR=$BASEDIR/target/example-documents
-REPLACEMENT_URL=""
+REPLACEMENT_URL="../../../../extn/example-documents"
 REPLACEMENT_TOKEN="%_url_%"
 LANGUAGES=(en el es de he tr zh)
 
@@ -36,6 +36,7 @@ function copyIndex() {
   done
 }
 
+rm -rf $TARGET_DIR
 
 fix_file `find $SRC_DIR -type f`
 
