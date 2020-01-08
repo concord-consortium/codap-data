@@ -38,5 +38,10 @@
     "name": "CR_Provincias",
     "format": "codap",
     "url": "CR_Provincias_Boundaries.codap"
+  },
+  {
+    "name": "CR_Cantones",
+    "format": "codap",
+    "url": "CR_Cantones_Boundaries.codap"
   }
 ]
