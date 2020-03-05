@@ -22,7 +22,7 @@
   {
     "name": "哺乳類",
     "description": "哺乳類のデータを探索し，グラフを使っておもしろい関係性を見つけます",
-    "location": "./documents/mammals.codap"
+    "location": "./documents/哺乳類.codap"
   },
   {
     "name": "地図データ",
