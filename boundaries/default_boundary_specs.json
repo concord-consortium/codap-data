@@ -43,5 +43,10 @@
     "name": "CR_Cantones",
     "format": "codap",
     "url": "CR_Cantones_Boundaries.codap"
+  },
+  {
+    "name": "JP_Prefectures",
+    "format": "codap",
+    "url": "JP_Prefecture_Boundaries.codap"
   }
 ]
