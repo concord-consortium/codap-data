@@ -17,7 +17,7 @@
   {
     "name": "4匹のアザラシ",
     "description": "これらはアザラシが通った地図上の軌跡についてのデータです．グラフを作成し，ルートに影響を及ぼす要因を探索します．",
-    "location": "./documents/four-seals.codap"
+    "location": "./documents/4匹のアザラシ.codap"
   },
   {
     "name": "哺乳類",
@@ -27,7 +27,7 @@
   {
     "name": "地図データ",
     "description": "アメリカ合衆国の人口データを探索し，新たな発見をします．",
-    "location": "./documents/statesneducation.codap"
+    "location": "./documents/地図データ.codap"
   },
   {
     "name": "ジェットコースター",
