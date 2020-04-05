@@ -1,0 +1,38 @@
+[
+  {
+    "name": "CODAPチュートリアル",
+    "description": "埋め込まれたガイドに従って，CODAPの使い方を学びます",
+    "location": "./documents/get_started.codap"
+  },
+  {
+    "name": " Drマーコブとのじゃんけん対戦",
+    "description": "Dr. マーコブとジャンケン対戦をします．グラフを使ってクセを見抜き，彼を倒しましょう．",
+    "location": "./documents/markov.codap"
+  },
+  {
+    "name": "パラシュート実験",
+    "description": "パラシュートを落とし，かさの大きさと質量がどのように終端速度に影響を及ぼすか分析します．",
+    "location": "./documents/parachute.codap"
+  },
+  {
+    "name": "4匹のアザラシ",
+    "description": "これらはアザラシが通った地図上の軌跡についてのデータです．グラフを作成し，ルートに影響を及ぼす要因を探索します．",
+    "location": "./documents/4匹のアザラシ.codap"
+  },
+  {
+    "name": "哺乳類",
+    "description": "哺乳類のデータを探索し，グラフを使っておもしろい関係性を見つけます",
+    "location": "./documents/哺乳類.codap"
+  },
+  {
+    "name": "地図データ",
+    "description": "アメリカ合衆国の人口データを探索し，新たな発見をします．",
+    "location": "./documents/地図データ.codap"
+  },
+  {
+    "name": "ジェットコースター",
+    "description": "1915年から2016年の間にアメリカでオープンした， 157のジェットコースターについてのデータ",
+    "location": "./documents/rollercoasters.codap"
+  }
+]
+

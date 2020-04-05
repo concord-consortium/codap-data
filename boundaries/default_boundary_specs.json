@@ -33,5 +33,20 @@
     "name": "DE_state_boundaries",
     "format": "codap",
     "url": "DE_State_Boundaries.codap"
+  },
+  {
+    "name": "CR_Provincias",
+    "format": "codap",
+    "url": "CR_Provincias_Boundaries.codap"
+  },
+  {
+    "name": "CR_Cantones",
+    "format": "codap",
+    "url": "CR_Cantones_Boundaries.codap"
+  },
+  {
+    "name": "JP_Prefectures",
+    "format": "codap",
+    "url": "JP_Prefecture_Boundaries.codap"
   }
 ]
