@@ -15,17 +15,17 @@
     "location": "./documents/parachute.codap"
   },
   {
-    "name": "4匹のアザラシ",
+    "name": "4匹のアザラシ（日本語）",
     "description": "これらはアザラシが通った地図上の軌跡についてのデータです．グラフを作成し，ルートに影響を及ぼす要因を探索します．",
     "location": "./documents/4匹のアザラシ.codap"
   },
   {
-    "name": "哺乳類",
+    "name": "哺乳類（日本語）",
     "description": "哺乳類のデータを探索し，グラフを使っておもしろい関係性を見つけます",
     "location": "./documents/哺乳類.codap"
   },
   {
-    "name": "地図データ",
+    "name": "地図データ（日本語）",
     "description": "アメリカ合衆国の人口データを探索し，新たな発見をします．",
     "location": "./documents/地図データ.codap"
   },
