@@ -36,7 +36,7 @@
   },
   {
     "name": "Duck Pond",
-    "description": "Explore probability through a carnival game",
+    "description": "Explore probability through simulating a carnival game with a Sampler",
     "location": "./documents/duckpond.codap"
   },
   {
