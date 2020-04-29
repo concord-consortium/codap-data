@@ -33,6 +33,11 @@
     "name": "Roller Coasters",
     "description": "Data on 157 roller coasters in the US that opened between 1915 and 2016.  ",
     "location": "./documents/rollercoasters.codap"
+  },
+  {
+    "name": "Duck Pond",
+    "description": "Explore probability through a carnival game",
+    "location": "./documents/duckpond.codap"
   }
 ]
 

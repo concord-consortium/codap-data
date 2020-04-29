@@ -33,6 +33,11 @@
     "name": "ジェットコースター",
     "description": "1915年から2016年の間にアメリカでオープンした， 157のジェットコースターについてのデータ",
     "location": "./documents/rollercoasters.codap"
+  },
+  {
+    "name": "Duck Pond",
+    "description": "Explore probability through a carnival game",
+    "location": "./documents/duckpond.codap"
   }
 ]
 

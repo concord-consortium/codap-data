@@ -35,6 +35,11 @@
     "location": "./documents/rollercoasters.codap"
   },
   {
+    "name": "Duck Pond",
+    "description": "Explore probability through a carnival game",
+    "location": "./documents/duckpond.codap"
+  },
+  {
     "name": "Picnic Para Hormigas",
     "description": "Una actividad para explorar datos sobre las hormigas recolectados por científicos alrededor del mundo. O también para agregar tus propios datos sobre un picnic de hormigas.",
     "location": "./documents/picnic_para_hormigas.codap"

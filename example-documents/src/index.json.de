@@ -28,5 +28,10 @@
     "name": "Map Data",
     "description": "Explore United States  Population Data, and see what you discover.  ",
     "location": "./documents/statesneducation.codap"
+  },
+  {
+    "name": "Duck Pond",
+    "description": "Explore probability through a carnival game",
+    "location": "./documents/duckpond.codap"
   }
 ]
