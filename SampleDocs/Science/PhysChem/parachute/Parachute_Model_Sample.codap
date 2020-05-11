@@ -1,1 +1,107 @@
-{"name":"Parachutes","guid":17,"components":[{"type":"DG.GameView","guid":131,"componentStorage":{"currentGameName":"Next Gen MW","currentGameUrl":"https://lab.concord.org/embeddable.html?codap=true#interactives/inquiry-space/parachute.json","_links_":{"context":{"type":"DG.DataContextRecord","id":134}}},"layout":{"width":460,"height":475,"left":10,"top":5,"isVisible":true,"x":5,"y":5},"savedHeight":null},{"type":"DG.GuideView","guid":133,"componentStorage":{"title":"Parachute Model","items":[{"itemTitle":"Getting Started","url":"https://concord-consortium.github.io/codap-data/SampleDocs/Science/PhysChem/parachute/parachute_getstarted.html"},{"itemTitle":"- How-to Guide: new vocabulary","url":"http://concord-consortium.github.io/codap-data/SampleDocs/Science/E_Sciences/Climate_Change/vocabulary.html"},{"itemTitle":"How do I use the data table?","url":"http://concord-consortium.github.io/codap-data/SampleDocs/Science/E_Sciences/Climate_Change/data-table.html"},{"itemTitle":"Saving documents","url":"http://concord-consortium.github.io/codap-data/SampleDocs/Science/E_Sciences/Climate_Change/save.html"},{"itemTitle":"How do I make a graph?","url":"http://concord-consortium.github.io/codap-data/SampleDocs/Science/E_Sciences/Climate_Change/graph.html"},{"itemTitle":"How do I read the values of a point? ","url":"http://concord-consortium.github.io/codap-data/SampleDocs/Science/E_Sciences/Climate_Change/read-values.html"},{"itemTitle":"How can I look at only part of my data?","url":"http://concord-consortium.github.io/codap-data/SampleDocs/Science/E_Sciences/Climate_Change/part-of-data.html"},{"itemTitle":"How can I remove bad data?","url":"http://concord-consortium.github.io/codap-data/SampleDocs/Science/E_Sciences/Climate_Change/remove-bad-data.html"},{"itemTitle":"How can I look for patterns?","url":"http://concord-consortium.github.io/codap-data/SampleDocs/Science/E_Sciences/Climate_Change/look-for-patterns.html"},{"itemTitle":"How do I enter formulas?","url":"http://concord-consortium.github.io/codap-data/SampleDocs/Science/E_Sciences/Climate_Change/write-formulas.html"}],"currentURL":"https://concord-consortium.github.io/codap-data/SampleDocs/Science/PhysChem/parachute/parachute_getstarted.html","currentItemTitle":"Getting Started","isVisible":true},"layout":{"left":985,"top":5,"width":400,"height":495,"zIndex":40,"isVisible":true},"savedHeight":null},{"type":"DG.TableView","guid":535,"componentStorage":{"_links_":{"context":{"type":"DG.DataContextRecord","id":134}},"attributeWidths":[],"title":"runs / measurements"},"layout":{"width":501,"height":230,"left":480,"top":5,"isVisible":true,"zIndex":27},"savedHeight":null}],"contexts":[{"type":"DG.GameContext","document":17,"guid":134,"flexibleGroupingChangeFlag":false,"name":"context134","title":"runs/measurements","collections":[{"areParentChildLinksConfigured":true,"attrs":[{"name":"Row","type":null,"title":"Row","description":"","colormap":{},"blockDisplayOfEmptyCategories":true,"editable":false,"formula":"caseIndex","guid":136,"precision":2,"unit":null},{"name":"mass_of_jumper","type":null,"title":"mass_of_jumper","description":"","colormap":{},"blockDisplayOfEmptyCategories":true,"editable":false,"guid":137,"precision":2,"unit":null},{"name":"parachute_size","type":null,"title":"parachute_size","description":"","colormap":{},"blockDisplayOfEmptyCategories":true,"editable":false,"guid":138,"precision":2,"unit":null},{"name":"Final_vel","type":null,"title":"Final_vel","description":"","colormap":{},"blockDisplayOfEmptyCategories":true,"editable":false,"guid":179,"precision":2,"unit":null}],"cases":[],"caseName":null,"childAttrName":null,"collapseChildren":true,"guid":135,"labels":{"singleCase":"run","pluralCase":"runs","singleCaseWithArticle":"a run","setOfCases":"set","setOfCasesWithArticle":"a set"},"name":"runs","title":"runs","type":"DG.Collection"},{"areParentChildLinksConfigured":true,"attrs":[{"name":"Time","type":null,"title":"Time","description":"","colormap":{},"blockDisplayOfEmptyCategories":true,"editable":false,"guid":140,"precision":2,"unit":null},{"name":"Distance_to_surface","type":null,"title":"Distance_to_surface","description":"","colormap":{},"blockDisplayOfEmptyCategories":true,"editable":false,"guid":141,"precision":2,"unit":null},{"name":"Velocity","type":null,"title":"Velocity","description":"","colormap":{},"blockDisplayOfEmptyCategories":true,"editable":false,"guid":142,"precision":2,"unit":null}],"cases":[],"caseName":null,"childAttrName":null,"collapseChildren":null,"guid":139,"labels":{"singleCase":"measurement","pluralCase":"measurements","singleCaseWithArticle":"a measurement","setOfCases":"time series","setOfCasesWithArticle":"a time series"},"name":"measurements","parent":135,"title":"measurements","type":"DG.Collection"}],"contextStorage":{"gameName":"Next Gen MW","gameUrl":"https://lab.concord.org/embeddable.html?codap=true#interactives/inquiry-space/parachute.json"}}],"globalValues":[],"appName":"DG","appVersion":"2.0","appBuildNum":"0370","metadata":{"changeCount":13}}
+{
+    "name": "Parachutes",
+    "guid": 1,
+    "components": [
+        {
+            "type": "DG.GameView",
+            "guid": 2,
+            "componentStorage": {
+                "currentGameName": "Next Gen MW",
+                "currentGameUrl": "https://lab.concord.org/embeddable.html#interactives/inquiry-space/parachute.json",
+                "allowInitGameOverride": true,
+                "_links_": {
+                    "context": {
+                        "type": "DG.DataContextRecord",
+                        "id": 3
+                    }
+                },
+                "title": "parachute",
+                "name": "parachute",
+                "savedGameState": {
+                    "version": 1
+                },
+                "userSetTitle": false
+            },
+            "layout": {
+                "width": 640,
+                "height": 640,
+                "x": 5,
+                "y": 5,
+                "isVisible": true,
+                "left": 5,
+                "top": 5,
+                "zIndex": 4
+            },
+            "savedHeight": null
+        },
+        {
+            "type": "DG.GuideView",
+            "guid": 14,
+            "componentStorage": {
+                "title": "Getting Started",
+                "items": [
+                    {
+                        "itemTitle": "Getting Started",
+                        "url": "https://concord-consortium.github.io/codap-data/SampleDocs/Science/PhysChem/parachute/parachute_getstarted.html"
+                    },
+                    {
+                        "itemTitle": "- How-to Guide: new vocabulary",
+                        "url": "https://concord-consortium.github.io/codap-data/SampleDocs/Science/E_Sciences/Climate_Change/vocabulary.html"
+                    },
+                    {
+                        "itemTitle": "How do I use the data table?",
+                        "url": "https://concord-consortium.github.io/codap-data/SampleDocs/Science/E_Sciences/Climate_Change/data-table.html"
+                    },
+                    {
+                        "itemTitle": "Saving documents",
+                        "url": "https://concord-consortium.github.io/codap-data/SampleDocs/Science/E_Sciences/Climate_Change/save.html"
+                    },
+                    {
+                        "itemTitle": "How do I make a graph?",
+                        "url": "https://concord-consortium.github.io/codap-data/SampleDocs/Science/E_Sciences/Climate_Change/graph.html"
+                    },
+                    {
+                        "itemTitle": "How do I read the values of a point? ",
+                        "url": "https://concord-consortium.github.io/codap-data/SampleDocs/Science/E_Sciences/Climate_Change/read-values.html"
+                    },
+                    {
+                        "itemTitle": "How can I look at only part of my data?",
+                        "url": "https://concord-consortium.github.io/codap-data/SampleDocs/Science/E_Sciences/Climate_Change/part-of-data.html"
+                    },
+                    {
+                        "itemTitle": "How can I remove bad data?",
+                        "url": "https://concord-consortium.github.io/codap-data/SampleDocs/Science/E_Sciences/Climate_Change/remove-bad-data.html"
+                    },
+                    {
+                        "itemTitle": "How can I look for patterns?",
+                        "url": "https://concord-consortium.github.io/codap-data/SampleDocs/Science/E_Sciences/Climate_Change/look-for-patterns.html"
+                    },
+                    {
+                        "itemTitle": "How do I enter formulas?",
+                        "url": "https://concord-consortium.github.io/codap-data/SampleDocs/Science/E_Sciences/Climate_Change/write-formulas.html"
+                    }
+                ],
+                "currentItemIndex": 0,
+                "isVisible": true,
+                "userSetTitle": false,
+                "cannotClose": false
+            },
+            "layout": {
+                "left": 1115,
+                "top": 0,
+                "width": 415,
+                "height": 520,
+                "zIndex": 14,
+                "isVisible": true
+            },
+            "savedHeight": null
+        }
+    ],
+    "contexts": [],
+    "globalValues": [],
+    "appName": "DG",
+    "appVersion": "2.0",
+    "appBuildNum": "0534",
+    "lang": "en",
+    "metadata": {}
+}
