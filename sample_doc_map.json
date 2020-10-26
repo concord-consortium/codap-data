@@ -1,5 +1,6 @@
 {
   "sample_docs": [
+
     {
       "title": "Markov",
       "description": "Save Madeline the dog by playing Roshambo against the evil Dr. Markov. Improve you odds by analyzing Markov's moves. ",
@@ -66,6 +67,21 @@
       "image_path": "./resources/images/fibonacci.png",
       "categories": [
         "math"
+      ]
+    },
+    {
+      "title": "The Monty Hall Problem",
+      "description": "A classic statistical problem from the TV game show \"Let's Make a Deal\"",
+      "path": "SampleDocs/The_Monty_Hall_Problem.codap",
+      "image_path": "./resources/images/Monty_open_door.svg",
+      "visible": true,
+      "tag": [
+        "conditional probability",
+        "probability"
+      ],
+      "categories": [
+        "math",
+        "miscellaneous"
       ]
     },
     {
