@@ -28,10 +28,12 @@
       "image_path": "resources/images/US_PUMAS_2010.png",
       "visible": true,
       "tag": [
-        "United States",
-        "PUMA",
-        "Nativity",
-        "Births"
+        "united states",
+        "puma",
+        "nativity",
+        "births",
+        "census",
+        "2020"
       ],
       "categories": [
         "miscellaneous",
