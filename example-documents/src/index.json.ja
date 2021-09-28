@@ -27,7 +27,7 @@
   {
     "name": "地図データ（日本語）",
     "description": "アメリカ合衆国の人口データを探索し，新たな発見をします．",
-    "location": "./documents/地図データ.codap"
+    "location": "./documents/%e5%9c%b0%e5%9b%b3%e3%83%86%e3%82%99%e3%83%bc%e3%82%bf.codap"
   },
   {
     "name": "ジェットコースター",
