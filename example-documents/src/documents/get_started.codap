@@ -9,7 +9,7 @@
       "id": 12,
       "componentStorage": {
         "currentGameName": "",
-        "currentGameUrl": "../extn/plugins/onboarding/",
+        "currentGameUrl": "../../../../extn/plugins/onboarding/",
         "allowInitGameOverride": true,
         "savedGameState": {},
         "title": "Getting started with CODAP",
