@@ -25,35 +25,6 @@
         "isVisible": true
       },
       "savedHeight": null
-    },
-    {
-      "type": "DG.TableView",
-      "guid": 25,
-      "id": 25,
-      "componentStorage": {
-        "isActive": true,
-        "horizontalScrollOffset": 0,
-        "_links_": {
-          "context": {
-            "type": "DG.DataContextRecord",
-            "id": 14
-          }
-        },
-        "attributeWidths": [],
-        "rowHeights": [],
-        "title": "mammals",
-        "userSetTitle": false,
-        "cannotClose": false
-      },
-      "layout": {
-        "width": 500,
-        "height": 200,
-        "zIndex": 104,
-        "left": 410,
-        "top": 5,
-        "isVisible": false
-      },
-      "savedHeight": null
     }
   ],
   "contexts": [
