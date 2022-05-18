@@ -1,0 +1,1841 @@
+{
+  "name": "Getting Started with CODAP—Part 2",
+  "guid": 1,
+  "components": [
+    {
+      "type": "DG.GameView",
+      "guid": 2,
+      "componentStorage": {
+        "currentGameName": "",
+        "currentGameUrl": "../../../../extn/plugins/onboarding/onboarding_2.html",
+        "allowInitGameOverride": true,
+        "savedGameState": {},
+        "title": "Getting started with CODAP",
+        "userSetTitle": false,
+        "cannotClose": false,
+        "name": "Getting started with CODAP"
+      },
+      "layout": {
+        "width": 400,
+        "height": 550,
+        "zIndex": 4,
+        "isVisible": true,
+        "left": 5,
+        "top": 5
+      },
+      "savedHeight": null
+    },
+    {
+      "type": "DG.TableView",
+      "guid": 113,
+      "componentStorage": {
+        "_links_": {
+          "context": {
+            "type": "DG.DataContextRecord",
+            "id": 3
+          }
+        },
+        "attributeWidths": [
+          {
+            "_links_": {
+              "attr": {
+                "type": "DG.Attribute",
+                "id": 6
+              }
+            },
+            "width": 60
+          },
+          {
+            "_links_": {
+              "attr": {
+                "type": "DG.Attribute",
+                "id": 7
+              }
+            },
+            "width": 60
+          },
+          {
+            "_links_": {
+              "attr": {
+                "type": "DG.Attribute",
+                "id": 8
+              }
+            },
+            "width": 51
+          },
+          {
+            "_links_": {
+              "attr": {
+                "type": "DG.Attribute",
+                "id": 9
+              }
+            },
+            "width": 38
+          },
+          {
+            "_links_": {
+              "attr": {
+                "type": "DG.Attribute",
+                "id": 10
+              }
+            },
+            "width": 39
+          },
+          {
+            "_links_": {
+              "attr": {
+                "type": "DG.Attribute",
+                "id": 11
+              }
+            },
+            "width": 54
+          },
+          {
+            "_links_": {
+              "attr": {
+                "type": "DG.Attribute",
+                "id": 12
+              }
+            },
+            "width": 60
+          }
+        ],
+        "title": "People from NHANES",
+        "name": "People from NHANES",
+        "userSetTitle": true,
+        "cannotClose": false
+      },
+      "layout": {
+        "width": 433,
+        "height": 200,
+        "left": 405,
+        "top": 5,
+        "zIndex": 13,
+        "isVisible": true
+      },
+      "savedHeight": null
+    }
+  ],
+  "contexts": [
+    {
+      "type": "DG.DataContext",
+      "document": 1,
+      "guid": 3,
+      "flexibleGroupingChangeFlag": true,
+      "name": "NHANES - 100 cases",
+      "title": "People from NHANES",
+      "collections": [
+        {
+          "areParentChildLinksConfigured": false,
+          "attrs": [
+            {
+              "name": "Sex",
+              "type": null,
+              "title": "Sex",
+              "cid": "id:P_u09hCB3L0N7Xcx",
+              "description": "",
+              "_categoryMap": {
+                "__order": [
+                  "Female",
+                  "Male"
+                ],
+                "Male": "#FFB300",
+                "Female": "#803E75"
+              },
+              "blockDisplayOfEmptyCategories": true,
+              "editable": true,
+              "hidden": false,
+              "guid": 8,
+              "precision": 2,
+              "unit": null
+            },
+            {
+              "name": "Age",
+              "type": null,
+              "title": "Age",
+              "cid": "id:D5Ua5Dex368rz9fv",
+              "description": "",
+              "_categoryMap": {
+                "0": "#817066",
+                "1": "#FFB300",
+                "2": "#007D34",
+                "3": "#232C16",
+                "4": "#007D34",
+                "5": "#C10020",
+                "6": "#FF8E00",
+                "8": "#53377A",
+                "10": "#F6768E",
+                "11": "#CEA262",
+                "12": "#FF7A5C",
+                "13": "#232C16",
+                "14": "#C10020",
+                "15": "#00538A",
+                "16": "#7F180D",
+                "17": "#FF8E00",
+                "19": "#FFB300",
+                "20": "#93AA00",
+                "21": "#F4C800",
+                "23": "#93AA00",
+                "24": "#F13A13",
+                "26": "#F13A13",
+                "28": "#A6BDD7",
+                "30": "#B32851",
+                "31": "#593315",
+                "32": "#A6BDD7",
+                "33": "#593315",
+                "34": "#FF6800",
+                "35": "#803E75",
+                "36": "#B32851",
+                "37": "#7F180D",
+                "46": "#FF6800",
+                "50": "#F13A13",
+                "51": "#B32851",
+                "55": "#803E75",
+                "57": "#FF6800",
+                "58": "#00538A",
+                "59": "#F6768E",
+                "60": "#817066",
+                "61": "#803E75",
+                "62": "#FF7A5C",
+                "64": "#A6BDD7",
+                "66": "#F4C800",
+                "67": "#C10020",
+                "68": "#CEA262",
+                "70": "#53377A",
+                "71": "#CEA262",
+                "72": "#00538A",
+                "76": "#FFB300",
+                "77": "#007D34",
+                "78": "#53377A",
+                "84": "#817066",
+                "85": "#FF8E00",
+                "__order": [
+                  "0",
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "8",
+                  "10",
+                  "11",
+                  "12",
+                  "13",
+                  "14",
+                  "15",
+                  "16",
+                  "17",
+                  "19",
+                  "20",
+                  "21",
+                  "23",
+                  "24",
+                  "26",
+                  "28",
+                  "30",
+                  "31",
+                  "32",
+                  "33",
+                  "34",
+                  "35",
+                  "36",
+                  "37",
+                  "46",
+                  "50",
+                  "51",
+                  "55",
+                  "57",
+                  "58",
+                  "59",
+                  "60",
+                  "61",
+                  "62",
+                  "64",
+                  "66",
+                  "67",
+                  "68",
+                  "70",
+                  "71",
+                  "72",
+                  "76",
+                  "77",
+                  "78",
+                  "84",
+                  "85"
+                ]
+              },
+              "blockDisplayOfEmptyCategories": true,
+              "editable": true,
+              "hidden": false,
+              "guid": 9,
+              "precision": 2,
+              "unit": null
+            },
+            {
+              "name": "Height",
+              "type": "none",
+              "title": "Height",
+              "cid": "id:kBmlS2ZB6yuneEu9",
+              "description": null,
+              "_categoryMap": {
+                "137": "#FF8E00",
+                "139": "#FF8E00",
+                "151": "#803E75",
+                "159": "#FFB300",
+                "163": "#A6BDD7",
+                "166": "#B32851",
+                "169": "#F4C800",
+                "172": "#593315",
+                "173": "#C10020",
+                "181": "#F13A13",
+                "182": "#FFB300",
+                "__order": [
+                  "87.9",
+                  "89.8",
+                  "92.7",
+                  "98.7",
+                  "105.1",
+                  "107.8",
+                  "109.6",
+                  "110.2",
+                  "114.7",
+                  "115.4",
+                  "123.5",
+                  "137",
+                  "139",
+                  "141.5",
+                  "147.1",
+                  "147.2",
+                  "148.2",
+                  "151",
+                  "151.9",
+                  "153.1",
+                  "153.3",
+                  "153.9",
+                  "154.4",
+                  "154.7",
+                  "155.2",
+                  "155.5",
+                  "156.3",
+                  "157.5",
+                  "157.7",
+                  "158.1",
+                  "158.2",
+                  "158.5",
+                  "158.8",
+                  "159",
+                  "159.4",
+                  "159.8",
+                  "160.9",
+                  "161.2",
+                  "162.6",
+                  "163",
+                  "163.2",
+                  "163.3",
+                  "164.1",
+                  "164.4",
+                  "165.1",
+                  "166",
+                  "167.8",
+                  "168.6",
+                  "169",
+                  "169.1",
+                  "170.7",
+                  "171.5",
+                  "171.6",
+                  "172",
+                  "172.4",
+                  "172.7",
+                  "173",
+                  "173.1",
+                  "173.4",
+                  "173.9",
+                  "174.2",
+                  "174.3",
+                  "174.5",
+                  "174.8",
+                  "175.5",
+                  "176.1",
+                  "177.4",
+                  "177.9",
+                  "178.1",
+                  "178.2",
+                  "178.5",
+                  "178.9",
+                  "179.3",
+                  "180.1",
+                  "180.4",
+                  "181",
+                  "182",
+                  "182.9",
+                  "183.3",
+                  "184.1",
+                  "185.4",
+                  "186.9",
+                  "191.7",
+                  "197.6"
+                ],
+                "178.9": "#FFB300",
+                "156.3": "#FF6800",
+                "107.8": "#A6BDD7",
+                "87.9": "#CEA262",
+                "179.3": "#817066",
+                "165.1": "#007D34",
+                "151.9": "#00538A",
+                "174.5": "#F13A13",
+                "172.4": "#53377A",
+                "177.9": "#FF8E00",
+                "191.7": "#B32851",
+                "184.1": "#F4C800",
+                "197.6": "#7F180D",
+                "169.1": "#93AA00",
+                "162.6": "#593315",
+                "147.1": "#232C16",
+                "89.8": "#FF7A5C",
+                "157.5": "#F6768E",
+                "180.1": "#803E75",
+                "109.6": "#FF6800",
+                "159.4": "#C10020",
+                "153.3": "#CEA262",
+                "155.2": "#817066",
+                "160.9": "#007D34",
+                "182.9": "#00538A",
+                "155.5": "#F13A13",
+                "161.2": "#53377A",
+                "185.4": "#F4C800",
+                "163.2": "#7F180D",
+                "174.2": "#93AA00",
+                "183.3": "#232C16",
+                "154.7": "#FF7A5C",
+                "180.4": "#F6768E",
+                "158.5": "#FFB300",
+                "98.7": "#803E75",
+                "157.7": "#FF6800",
+                "158.8": "#A6BDD7",
+                "167.8": "#C10020",
+                "141.5": "#CEA262",
+                "178.2": "#817066",
+                "154.4": "#007D34",
+                "159.8": "#00538A",
+                "158.1": "#53377A",
+                "148.2": "#FF8E00",
+                "168.6": "#B32851",
+                "170.7": "#F4C800",
+                "178.5": "#7F180D",
+                "173.9": "#93AA00",
+                "174.8": "#593315",
+                "171.6": "#232C16",
+                "164.4": "#FF7A5C",
+                "114.7": "#F6768E",
+                "163.3": "#803E75",
+                "164.1": "#FF6800",
+                "172.7": "#A6BDD7",
+                "177.4": "#C10020",
+                "105.1": "#CEA262",
+                "153.1": "#817066",
+                "92.7": "#007D34",
+                "147.2": "#00538A",
+                "174.3": "#F13A13",
+                "171.5": "#53377A",
+                "186.9": "#B32851",
+                "176.1": "#7F180D",
+                "173.1": "#93AA00",
+                "175.5": "#593315",
+                "158.2": "#232C16",
+                "115.4": "#FF7A5C",
+                "178.1": "#F6768E",
+                "153.9": "#FFB300",
+                "123.5": "#803E75",
+                "110.2": "#FF6800",
+                "173.4": "#A6BDD7"
+              },
+              "blockDisplayOfEmptyCategories": true,
+              "editable": true,
+              "hidden": false,
+              "guid": 11,
+              "precision": null,
+              "unit": "cm"
+            },
+            {
+              "name": "BornIn",
+              "type": null,
+              "title": "BornIn",
+              "cid": "id:DI28tJkxnkE6E_f0",
+              "description": "",
+              "blockDisplayOfEmptyCategories": true,
+              "editable": true,
+              "hidden": false,
+              "guid": 6,
+              "precision": 2,
+              "unit": null
+            },
+            {
+              "name": "Education",
+              "type": null,
+              "title": "Education",
+              "cid": "id:DraQjG7rZgTb-M85",
+              "description": "",
+              "blockDisplayOfEmptyCategories": true,
+              "editable": true,
+              "hidden": false,
+              "guid": 7,
+              "precision": 2,
+              "unit": null
+            },
+            {
+              "name": "BMI",
+              "type": null,
+              "title": "BMI",
+              "cid": "id:Wd5JfCAWd2xbsX1M",
+              "description": "",
+              "blockDisplayOfEmptyCategories": true,
+              "editable": true,
+              "hidden": false,
+              "guid": 10,
+              "precision": 2,
+              "unit": null
+            },
+            {
+              "name": "Weight",
+              "type": "none",
+              "title": "Weight",
+              "cid": "id:2OevbKEYJhcVJwUc",
+              "description": null,
+              "blockDisplayOfEmptyCategories": true,
+              "editable": true,
+              "hidden": false,
+              "guid": 12,
+              "precision": null,
+              "unit": "kg"
+            }
+          ],
+          "cases": [
+            {
+              "guid": 13,
+              "itemID": "id:tMprKSEhTKcdFkMd",
+              "values": {
+                "Sex": "Male",
+                "Age": 1,
+                "Height": "",
+                "BornIn": "USA",
+                "Education": "",
+                "BMI": "",
+                "Weight": 10.8
+              }
+            },
+            {
+              "guid": 14,
+              "itemID": "id:iPoxTcqMw1dXL-7R",
+              "values": {
+                "Sex": "Male",
+                "Age": 35,
+                "Height": 178.9,
+                "BornIn": "USA",
+                "Education": "HS incl GED",
+                "BMI": 28.12,
+                "Weight": 90
+              }
+            },
+            {
+              "guid": 15,
+              "itemID": "id:VYlLL4wZA0yZg490",
+              "values": {
+                "Sex": "Female",
+                "Age": 34,
+                "Height": 151,
+                "BornIn": "Mexico",
+                "Education": "Less than HS",
+                "BMI": 24.34,
+                "Weight": 55.5
+              }
+            },
+            {
+              "guid": 16,
+              "itemID": "id:4A7hYEYAlErZ_ZvI",
+              "values": {
+                "Sex": "Male",
+                "Age": 64,
+                "Height": 156.3,
+                "BornIn": "Mexico",
+                "Education": "Less than HS",
+                "BMI": 36.72,
+                "Weight": 89.7
+              }
+            },
+            {
+              "guid": 17,
+              "itemID": "id:9Fb4YMy6NlTxqfJ3",
+              "values": {
+                "Sex": "Female",
+                "Age": 5,
+                "Height": 107.8,
+                "BornIn": "USA",
+                "Education": "",
+                "BMI": 16.01,
+                "Weight": 18.6
+              }
+            },
+            {
+              "guid": 18,
+              "itemID": "id:QGGUyYY3vlj4mCnz",
+              "values": {
+                "Sex": "Female",
+                "Age": 68,
+                "Height": 173,
+                "BornIn": "USA",
+                "Education": "More than HS",
+                "BMI": 36.52,
+                "Weight": 109.3
+              }
+            },
+            {
+              "guid": 19,
+              "itemID": "id:D_J13TB8kVywkFud",
+              "values": {
+                "Sex": "Female",
+                "Age": 0,
+                "Height": "",
+                "BornIn": "USA",
+                "Education": "",
+                "BMI": "",
+                "Weight": 6.5
+              }
+            },
+            {
+              "guid": 20,
+              "itemID": "id:QSTwgwwWW4xzQoNt",
+              "values": {
+                "Sex": "Female",
+                "Age": 2,
+                "Height": 87.9,
+                "BornIn": "USA",
+                "Education": "",
+                "BMI": 15.92,
+                "Weight": 12.3
+              }
+            },
+            {
+              "guid": 21,
+              "itemID": "id:5JMRxM5i4KbqmFLn",
+              "values": {
+                "Sex": "Male",
+                "Age": 15,
+                "Height": 179.3,
+                "BornIn": "USA",
+                "Education": "Less than HS",
+                "BMI": 21.06,
+                "Weight": 67.7
+              }
+            },
+            {
+              "guid": 22,
+              "itemID": "id:e31D5Z8TkYNxQI9K",
+              "values": {
+                "Sex": "Female",
+                "Age": 24,
+                "Height": 165.1,
+                "BornIn": "USA",
+                "Education": "More than HS",
+                "BMI": 46.04,
+                "Weight": 125.5
+              }
+            },
+            {
+              "guid": 23,
+              "itemID": "id:AHZK2SYgJGQa6A7X",
+              "values": {
+                "Sex": "Female",
+                "Age": 70,
+                "Height": 151.9,
+                "BornIn": "Mexico",
+                "Education": "Less than HS",
+                "BMI": 28.82,
+                "Weight": 66.5
+              }
+            },
+            {
+              "guid": 24,
+              "itemID": "id:X0KQsKZFD4pJ4n9h",
+              "values": {
+                "Sex": "Male",
+                "Age": 85,
+                "Height": 174.5,
+                "BornIn": "USA",
+                "Education": "More than HS",
+                "BMI": 19.44,
+                "Weight": 59.2
+              }
+            },
+            {
+              "guid": 25,
+              "itemID": "id:5ynRA0Icv87GrZ-u",
+              "values": {
+                "Sex": "Female",
+                "Age": 30,
+                "Height": 172.4,
+                "BornIn": "USA",
+                "Education": "More than HS",
+                "BMI": 26.51,
+                "Weight": 78.8
+              }
+            },
+            {
+              "guid": 26,
+              "itemID": "id:9gAlaYm6BNQKXpTP",
+              "values": {
+                "Sex": "Male",
+                "Age": 66,
+                "Height": 177.9,
+                "BornIn": "USA",
+                "Education": "More than HS",
+                "BMI": 26.13,
+                "Weight": 82.7
+              }
+            },
+            {
+              "guid": 27,
+              "itemID": "id:3DDeodN70KZBRK0-",
+              "values": {
+                "Sex": "Male",
+                "Age": 37,
+                "Height": 191.7,
+                "BornIn": "USA",
+                "Education": "Less than HS",
+                "BMI": 22.64,
+                "Weight": 83.2
+              }
+            },
+            {
+              "guid": 28,
+              "itemID": "id:MQ62VDAujln0hFhj",
+              "values": {
+                "Sex": "Male",
+                "Age": 20,
+                "Height": 184.1,
+                "BornIn": "Elsewhere",
+                "Education": "Less than HS",
+                "BMI": 20.18,
+                "Weight": 68.4
+              }
+            },
+            {
+              "guid": 29,
+              "itemID": "id:NfBB8o4FD4_SuqoN",
+              "values": {
+                "Sex": "Male",
+                "Age": 31,
+                "Height": 197.6,
+                "BornIn": "USA",
+                "Education": "More than HS",
+                "BMI": 22.97,
+                "Weight": 89.7
+              }
+            },
+            {
+              "guid": 30,
+              "itemID": "id:d6p_0IFkNjWHQy4N",
+              "values": {
+                "Sex": "Male",
+                "Age": 13,
+                "Height": 169.1,
+                "BornIn": "USA",
+                "Education": "Less than HS",
+                "BMI": 28.5,
+                "Weight": 81.5
+              }
+            },
+            {
+              "guid": 31,
+              "itemID": "id:d64GpNR3RaA1tCow",
+              "values": {
+                "Sex": "Male",
+                "Age": 12,
+                "Height": 162.6,
+                "BornIn": "USA",
+                "Education": "Less than HS",
+                "BMI": 20.5,
+                "Weight": 54.2
+              }
+            },
+            {
+              "guid": 32,
+              "itemID": "id:kEQ4zfw98VJonwMw",
+              "values": {
+                "Sex": "Female",
+                "Age": 59,
+                "Height": 147.1,
+                "BornIn": "USA",
+                "Education": "More than HS",
+                "BMI": 38.73,
+                "Weight": 83.8
+              }
+            },
+            {
+              "guid": 33,
+              "itemID": "id:ArVfcYhuaqWmSaPs",
+              "values": {
+                "Sex": "Female",
+                "Age": 2,
+                "Height": 89.8,
+                "BornIn": "USA",
+                "Education": "",
+                "BMI": 16.62,
+                "Weight": 13.4
+              }
+            },
+            {
+              "guid": 34,
+              "itemID": "id:mOImglNde_V3-Y1d",
+              "values": {
+                "Sex": "Female",
+                "Age": 76,
+                "Height": 157.5,
+                "BornIn": "USA",
+                "Education": "Less than HS",
+                "BMI": 33.1,
+                "Weight": 82.1
+              }
+            },
+            {
+              "guid": 35,
+              "itemID": "id:MO3d02hkKp2CF1cX",
+              "values": {
+                "Sex": "Male",
+                "Age": 20,
+                "Height": 182,
+                "BornIn": "USA",
+                "Education": "More than HS",
+                "BMI": 23.97,
+                "Weight": 79.4
+              }
+            },
+            {
+              "guid": 36,
+              "itemID": "id:y55f1khv2IfmK8v5",
+              "values": {
+                "Sex": "Male",
+                "Age": 0,
+                "Height": "",
+                "BornIn": "USA",
+                "Education": "",
+                "BMI": "",
+                "Weight": 6.3
+              }
+            },
+            {
+              "guid": 37,
+              "itemID": "id:fV7enZ5RyntTfICK",
+              "values": {
+                "Sex": "Male",
+                "Age": 55,
+                "Height": 180.1,
+                "BornIn": "USA",
+                "Education": "HS incl GED",
+                "BMI": 25.62,
+                "Weight": 83.1
+              }
+            },
+            {
+              "guid": 38,
+              "itemID": "id:H5IQ0dJeC7bveEfK",
+              "values": {
+                "Sex": "Male",
+                "Age": 5,
+                "Height": 109.6,
+                "BornIn": "USA",
+                "Education": "",
+                "BMI": 23.89,
+                "Weight": 28.7
+              }
+            },
+            {
+              "guid": 39,
+              "itemID": "id:1u35lWe1ayMIXWSH",
+              "values": {
+                "Sex": "Female",
+                "Age": 46,
+                "Height": 163,
+                "BornIn": "USA",
+                "Education": "HS incl GED",
+                "BMI": 55.1,
+                "Weight": 146.4
+              }
+            },
+            {
+              "guid": 40,
+              "itemID": "id:aT1FPsyMyreQd0Vf",
+              "values": {
+                "Sex": "Female",
+                "Age": 28,
+                "Height": 159.4,
+                "BornIn": "USA",
+                "Education": "More than HS",
+                "BMI": 24.4,
+                "Weight": 62
+              }
+            },
+            {
+              "guid": 41,
+              "itemID": "id:d2QhisTFQuCiRLIR",
+              "values": {
+                "Sex": "Female",
+                "Age": 14,
+                "Height": 153.3,
+                "BornIn": "Mexico",
+                "Education": "Less than HS",
+                "BMI": 27.23,
+                "Weight": 64
+              }
+            },
+            {
+              "guid": 42,
+              "itemID": "id:CE6jsF7XeFqMHfUR",
+              "values": {
+                "Sex": "Female",
+                "Age": 11,
+                "Height": 155.2,
+                "BornIn": "USA",
+                "Education": "Less than HS",
+                "BMI": 16.4,
+                "Weight": 39.5
+              }
+            },
+            {
+              "guid": 43,
+              "itemID": "id:Uoq1XzLgApwOuCPc",
+              "values": {
+                "Sex": "Female",
+                "Age": 84,
+                "Height": 160.9,
+                "BornIn": "USA",
+                "Education": "Less than HS",
+                "BMI": 26.46,
+                "Weight": 68.5
+              }
+            },
+            {
+              "guid": 44,
+              "itemID": "id:n2pSdeZ2g7eWHVKQ",
+              "values": {
+                "Sex": "Female",
+                "Age": 1,
+                "Height": "",
+                "BornIn": "USA",
+                "Education": "",
+                "BMI": "",
+                "Weight": 10
+              }
+            },
+            {
+              "guid": 45,
+              "itemID": "id:LtlhrAAJftUmXrFa",
+              "values": {
+                "Sex": "Male",
+                "Age": 0,
+                "Height": "",
+                "BornIn": "USA",
+                "Education": "",
+                "BMI": "",
+                "Weight": 8.8
+              }
+            },
+            {
+              "guid": 46,
+              "itemID": "id:TNmeVdp-_tKvGc6P",
+              "values": {
+                "Sex": "Male",
+                "Age": 77,
+                "Height": 182.9,
+                "BornIn": "USA",
+                "Education": "HS incl GED",
+                "BMI": 27.38,
+                "Weight": 91.6
+              }
+            },
+            {
+              "guid": 47,
+              "itemID": "id:Z67MZMCrki99SYbt",
+              "values": {
+                "Sex": "Female",
+                "Age": 72,
+                "Height": 155.5,
+                "BornIn": "USA",
+                "Education": "HS incl GED",
+                "BMI": 24.73,
+                "Weight": 59.8
+              }
+            },
+            {
+              "guid": 48,
+              "itemID": "id:_1Uf_Q43UnriD4dC",
+              "values": {
+                "Sex": "Female",
+                "Age": 50,
+                "Height": 161.2,
+                "BornIn": "USA",
+                "Education": "HS incl GED",
+                "BMI": 28.09,
+                "Weight": 73
+              }
+            },
+            {
+              "guid": 49,
+              "itemID": "id:uAEfFuifnQyghpug",
+              "values": {
+                "Sex": "Female",
+                "Age": 8,
+                "Height": 139,
+                "BornIn": "USA",
+                "Education": "Less than HS",
+                "BMI": 22.98,
+                "Weight": 44.4
+              }
+            },
+            {
+              "guid": 50,
+              "itemID": "id:nCYiv9lCnJbW2wyh",
+              "values": {
+                "Sex": "Female",
+                "Age": 17,
+                "Height": 166,
+                "BornIn": "USA",
+                "Education": "Less than HS",
+                "BMI": 28.67,
+                "Weight": 79
+              }
+            },
+            {
+              "guid": 51,
+              "itemID": "id:326mZDUjLD6DIspb",
+              "values": {
+                "Sex": "Male",
+                "Age": 51,
+                "Height": 185.4,
+                "BornIn": "USA",
+                "Education": "More than HS",
+                "BMI": 25.11,
+                "Weight": 86.3
+              }
+            },
+            {
+              "guid": 52,
+              "itemID": "id:AG_RaSFh1mXT8-lZ",
+              "values": {
+                "Sex": "Female",
+                "Age": 21,
+                "Height": 163.2,
+                "BornIn": "USA",
+                "Education": "HS incl GED",
+                "BMI": 28.53,
+                "Weight": 76
+              }
+            },
+            {
+              "guid": 53,
+              "itemID": "id:IOp7w-WnmtJvmYqv",
+              "values": {
+                "Sex": "Male",
+                "Age": 16,
+                "Height": 174.2,
+                "BornIn": "USA",
+                "Education": "Less than HS",
+                "BMI": 26.63,
+                "Weight": 80.8
+              }
+            },
+            {
+              "guid": 54,
+              "itemID": "id:w-IMm0f7NTASXSKt",
+              "values": {
+                "Sex": "Female",
+                "Age": 55,
+                "Height": 172,
+                "BornIn": "USA",
+                "Education": "More than HS",
+                "BMI": 18.76,
+                "Weight": 55.5
+              }
+            },
+            {
+              "guid": 55,
+              "itemID": "id:O8wlugZ9XG0tFXPL",
+              "values": {
+                "Sex": "Male",
+                "Age": 66,
+                "Height": 183.3,
+                "BornIn": "USA",
+                "Education": "More than HS",
+                "BMI": 26.28,
+                "Weight": 88.3
+              }
+            },
+            {
+              "guid": 56,
+              "itemID": "id:-m4E0qCtQdnGbTCa",
+              "values": {
+                "Sex": "Female",
+                "Age": 31,
+                "Height": 154.7,
+                "BornIn": "Mexico",
+                "Education": "Less than HS",
+                "BMI": 29.33,
+                "Weight": 70.2
+              }
+            },
+            {
+              "guid": 57,
+              "itemID": "id:jO5hvDrK-xhTvrtq",
+              "values": {
+                "Sex": "Male",
+                "Age": 11,
+                "Height": 154.7,
+                "BornIn": "USA",
+                "Education": "Less than HS",
+                "BMI": 19.51,
+                "Weight": 46.7
+              }
+            },
+            {
+              "guid": 58,
+              "itemID": "id:Z12wgiZU1e2NyQ6I",
+              "values": {
+                "Sex": "Male",
+                "Age": 23,
+                "Height": 180.4,
+                "BornIn": "USA",
+                "Education": "More than HS",
+                "BMI": 21.79,
+                "Weight": 70.9
+              }
+            },
+            {
+              "guid": 59,
+              "itemID": "id:xkkcgQLnEpmAbcsL",
+              "values": {
+                "Sex": "Female",
+                "Age": 33,
+                "Height": 158.5,
+                "BornIn": "Mexico",
+                "Education": "Less than HS",
+                "BMI": 26.15,
+                "Weight": 65.7
+              }
+            },
+            {
+              "guid": 60,
+              "itemID": "id:IIPJWkEqsCuwKC9U",
+              "values": {
+                "Sex": "Female",
+                "Age": 3,
+                "Height": 98.7,
+                "BornIn": "USA",
+                "Education": "",
+                "BMI": 19.2,
+                "Weight": 18.7
+              }
+            },
+            {
+              "guid": 61,
+              "itemID": "id:VRdDXFp5Lv4cNHhn",
+              "values": {
+                "Sex": "Female",
+                "Age": 68,
+                "Height": 157.7,
+                "BornIn": "Elsewhere",
+                "Education": "Less than HS",
+                "BMI": 32.45,
+                "Weight": 80.7
+              }
+            },
+            {
+              "guid": 62,
+              "itemID": "id:ipU70S9WqKEN-hko",
+              "values": {
+                "Sex": "Female",
+                "Age": 62,
+                "Height": 158.8,
+                "BornIn": "Mexico",
+                "Education": "Less than HS",
+                "BMI": 25.38,
+                "Weight": 64
+              }
+            },
+            {
+              "guid": 63,
+              "itemID": "id:JdqKuirMBbZp9Yar",
+              "values": {
+                "Sex": "Female",
+                "Age": 55,
+                "Height": 167.8,
+                "BornIn": "USA",
+                "Education": "More than HS",
+                "BMI": 33.7,
+                "Weight": 94.9
+              }
+            },
+            {
+              "guid": 64,
+              "itemID": "id:7Y4LMHTmhncacuxJ",
+              "values": {
+                "Sex": "Female",
+                "Age": 10,
+                "Height": 141.5,
+                "BornIn": "USA",
+                "Education": "Less than HS",
+                "BMI": 17.48,
+                "Weight": 35
+              }
+            },
+            {
+              "guid": 65,
+              "itemID": "id:dYULXx3CPunA_7sS",
+              "values": {
+                "Sex": "Male",
+                "Age": 50,
+                "Height": 178.2,
+                "BornIn": "USA",
+                "Education": "More than HS",
+                "BMI": 28.06,
+                "Weight": 89.1
+              }
+            },
+            {
+              "guid": 66,
+              "itemID": "id:xM3mUYPIVFW8hk0D",
+              "values": {
+                "Sex": "Female",
+                "Age": 10,
+                "Height": 154.4,
+                "BornIn": "USA",
+                "Education": "Less than HS",
+                "BMI": 18.54,
+                "Weight": 44.2
+              }
+            },
+            {
+              "guid": 67,
+              "itemID": "id:01rGgWlXVwyXQjWe",
+              "values": {
+                "Sex": "Female",
+                "Age": 11,
+                "Height": 159.8,
+                "BornIn": "USA",
+                "Education": "Less than HS",
+                "BMI": 18.68,
+                "Weight": 47.7
+              }
+            },
+            {
+              "guid": 68,
+              "itemID": "id:qGXRYXsDNUPjxFOs",
+              "values": {
+                "Sex": "Female",
+                "Age": 1,
+                "Height": "",
+                "BornIn": "USA",
+                "Education": "",
+                "BMI": "",
+                "Weight": 13.3
+              }
+            },
+            {
+              "guid": 69,
+              "itemID": "id:iQqnG2kVb890Z985",
+              "values": {
+                "Sex": "Male",
+                "Age": 28,
+                "Height": 181,
+                "BornIn": "Mexico",
+                "Education": "HS incl GED",
+                "BMI": 28.42,
+                "Weight": 93.1
+              }
+            },
+            {
+              "guid": 70,
+              "itemID": "id:Jlz-m899Dd7uFbvY",
+              "values": {
+                "Sex": "Female",
+                "Age": 16,
+                "Height": 158.1,
+                "BornIn": "USA",
+                "Education": "Less than HS",
+                "BMI": 25.52,
+                "Weight": 63.8
+              }
+            },
+            {
+              "guid": 71,
+              "itemID": "id:QWeEHmyZq9XF31Yx",
+              "values": {
+                "Sex": "Female",
+                "Age": 12,
+                "Height": 148.2,
+                "BornIn": "USA",
+                "Education": "Less than HS",
+                "BMI": 15.3,
+                "Weight": 33.6
+              }
+            },
+            {
+              "guid": 72,
+              "itemID": "id:dCJkE_HEDinHs4-A",
+              "values": {
+                "Sex": "Female",
+                "Age": 76,
+                "Height": 168.6,
+                "BornIn": "USA",
+                "Education": "More than HS",
+                "BMI": 23.99,
+                "Weight": 68.2
+              }
+            },
+            {
+              "guid": 73,
+              "itemID": "id:h-GXBI1clXRz4Os4",
+              "values": {
+                "Sex": "Male",
+                "Age": 19,
+                "Height": 170.7,
+                "BornIn": "USA",
+                "Education": "HS incl GED",
+                "BMI": 22.55,
+                "Weight": 65.7
+              }
+            },
+            {
+              "guid": 74,
+              "itemID": "id:sCB6Udnfi0xjleG3",
+              "values": {
+                "Sex": "Female",
+                "Age": 61,
+                "Height": 159.4,
+                "BornIn": "USA",
+                "Education": "HS incl GED",
+                "BMI": 44.12,
+                "Weight": 112.1
+              }
+            },
+            {
+              "guid": 75,
+              "itemID": "id:4fYwlQIZzkizYP57",
+              "values": {
+                "Sex": "Male",
+                "Age": 57,
+                "Height": 178.5,
+                "BornIn": "USA",
+                "Education": "More than HS",
+                "BMI": 41.74,
+                "Weight": 133
+              }
+            },
+            {
+              "guid": 76,
+              "itemID": "id:8nK2cQ7pZp8_NciG",
+              "values": {
+                "Sex": "Male",
+                "Age": 32,
+                "Height": 173.9,
+                "BornIn": "USA",
+                "Education": "HS incl GED",
+                "BMI": 23.11,
+                "Weight": 69.9
+              }
+            },
+            {
+              "guid": 77,
+              "itemID": "id:JxeeSnHS5k_g9PpK",
+              "values": {
+                "Sex": "Male",
+                "Age": 67,
+                "Height": 174.8,
+                "BornIn": "USA",
+                "Education": "HS incl GED",
+                "BMI": 34,
+                "Weight": 103.9
+              }
+            },
+            {
+              "guid": 78,
+              "itemID": "id:ycF5nbFG8SWlPfan",
+              "values": {
+                "Sex": "Female",
+                "Age": 19,
+                "Height": 163.2,
+                "BornIn": "USA",
+                "Education": "HS incl GED",
+                "BMI": 36.12,
+                "Weight": 96.2
+              }
+            },
+            {
+              "guid": 79,
+              "itemID": "id:fV3PzWU43MTqwACt",
+              "values": {
+                "Sex": "Male",
+                "Age": 68,
+                "Height": 171.6,
+                "BornIn": "Mexico",
+                "Education": "Less than HS",
+                "BMI": 31.14,
+                "Weight": 91.7
+              }
+            },
+            {
+              "guid": 80,
+              "itemID": "id:rbegl2krYfkRmcm0",
+              "values": {
+                "Sex": "Female",
+                "Age": 17,
+                "Height": 164.4,
+                "BornIn": "USA",
+                "Education": "Less than HS",
+                "BMI": 21.72,
+                "Weight": 58.7
+              }
+            },
+            {
+              "guid": 81,
+              "itemID": "id:8yI1q_12LblNSquB",
+              "values": {
+                "Sex": "Female",
+                "Age": 5,
+                "Height": 114.7,
+                "BornIn": "USA",
+                "Education": "",
+                "BMI": 18.93,
+                "Weight": 24.9
+              }
+            },
+            {
+              "guid": 82,
+              "itemID": "id:5eBgstHi0CLrmgc_",
+              "values": {
+                "Sex": "Female",
+                "Age": 71,
+                "Height": 158.5,
+                "BornIn": "USA",
+                "Education": "Less than HS",
+                "BMI": 32.28,
+                "Weight": 81.1
+              }
+            },
+            {
+              "guid": 83,
+              "itemID": "id:O9aStRxnft8cbehj",
+              "values": {
+                "Sex": "Male",
+                "Age": 11,
+                "Height": 159,
+                "BornIn": "USA",
+                "Education": "Less than HS",
+                "BMI": 22.27,
+                "Weight": 56.3
+              }
+            },
+            {
+              "guid": 84,
+              "itemID": "id:AK8a98HzB1H6cyz-",
+              "values": {
+                "Sex": "Female",
+                "Age": 13,
+                "Height": 163.3,
+                "BornIn": "USA",
+                "Education": "Less than HS",
+                "BMI": 22.91,
+                "Weight": 61.1
+              }
+            },
+            {
+              "guid": 85,
+              "itemID": "id:ZvtIJ0Ec6HvhXc3_",
+              "values": {
+                "Sex": "Female",
+                "Age": 60,
+                "Height": 164.1,
+                "BornIn": "USA",
+                "Education": "HS incl GED",
+                "BMI": 32.64,
+                "Weight": 87.9
+              }
+            },
+            {
+              "guid": 86,
+              "itemID": "id:f3IKy6SKXJX_xiNA",
+              "values": {
+                "Sex": "Male",
+                "Age": 15,
+                "Height": 172.7,
+                "BornIn": "USA",
+                "Education": "Less than HS",
+                "BMI": 22.87,
+                "Weight": 68.2
+              }
+            },
+            {
+              "guid": 87,
+              "itemID": "id:q072BCM6CvfErZqT",
+              "values": {
+                "Sex": "Female",
+                "Age": 1,
+                "Height": "",
+                "BornIn": "USA",
+                "Education": "",
+                "BMI": "",
+                "Weight": 10.7
+              }
+            },
+            {
+              "guid": 88,
+              "itemID": "id:JTMSceH2kLYTikl-",
+              "values": {
+                "Sex": "Male",
+                "Age": 21,
+                "Height": 177.4,
+                "BornIn": "USA",
+                "Education": "HS incl GED",
+                "BMI": 22.59,
+                "Weight": 71.1
+              }
+            },
+            {
+              "guid": 89,
+              "itemID": "id:_YZoWXds7PM78FHN",
+              "values": {
+                "Sex": "Female",
+                "Age": 4,
+                "Height": 105.1,
+                "BornIn": "USA",
+                "Education": "",
+                "BMI": 16.11,
+                "Weight": 17.8
+              }
+            },
+            {
+              "guid": 90,
+              "itemID": "id:iZzCruW3lXIQxylE",
+              "values": {
+                "Sex": "Female",
+                "Age": 11,
+                "Height": 153.1,
+                "BornIn": "USA",
+                "Education": "Less than HS",
+                "BMI": 23,
+                "Weight": 53.9
+              }
+            },
+            {
+              "guid": 91,
+              "itemID": "id:ChY1uUYM-Apxtq3k",
+              "values": {
+                "Sex": "Female",
+                "Age": 1,
+                "Height": "",
+                "BornIn": "USA",
+                "Education": "",
+                "BMI": "",
+                "Weight": 9.4
+              }
+            },
+            {
+              "guid": 92,
+              "itemID": "id:m7LQF3H6pVhJbjb3",
+              "values": {
+                "Sex": "Male",
+                "Age": 58,
+                "Height": 178.9,
+                "BornIn": "USA",
+                "Education": "Less than HS",
+                "BMI": 41.59,
+                "Weight": 133.1
+              }
+            },
+            {
+              "guid": 93,
+              "itemID": "id:4Fy7QDmEzWSAgLLj",
+              "values": {
+                "Sex": "Female",
+                "Age": 2,
+                "Height": 92.7,
+                "BornIn": "USA",
+                "Education": "",
+                "BMI": 19.43,
+                "Weight": 16.7
+              }
+            },
+            {
+              "guid": 94,
+              "itemID": "id:iC3JtuLf1neCL_qA",
+              "values": {
+                "Sex": "Female",
+                "Age": 72,
+                "Height": 159.8,
+                "BornIn": "Mexico",
+                "Education": "Less than HS",
+                "BMI": 31.72,
+                "Weight": 81
+              }
+            },
+            {
+              "guid": 95,
+              "itemID": "id:v2Z856w49gOO3P7y",
+              "values": {
+                "Sex": "Female",
+                "Age": 30,
+                "Height": 162.6,
+                "BornIn": "USA",
+                "Education": "More than HS",
+                "BMI": 51.14,
+                "Weight": 135.2
+              }
+            },
+            {
+              "guid": 96,
+              "itemID": "id:qFjbeMkliif1lf0b",
+              "values": {
+                "Sex": "Female",
+                "Age": 10,
+                "Height": 147.2,
+                "BornIn": "USA",
+                "Education": "Less than HS",
+                "BMI": 18.74,
+                "Weight": 40.6
+              }
+            },
+            {
+              "guid": 97,
+              "itemID": "id:AlvZrOJwBfEKxLmo",
+              "values": {
+                "Sex": "Male",
+                "Age": 13,
+                "Height": 174.3,
+                "BornIn": "USA",
+                "Education": "Less than HS",
+                "BMI": 23.93,
+                "Weight": 72.7
+              }
+            },
+            {
+              "guid": 98,
+              "itemID": "id:vT68n-xTJ3ewS_6J",
+              "values": {
+                "Sex": "Male",
+                "Age": 13,
+                "Height": 171.5,
+                "BornIn": "USA",
+                "Education": "Less than HS",
+                "BMI": 17.17,
+                "Weight": 50.5
+              }
+            },
+            {
+              "guid": 99,
+              "itemID": "id:CC-P-LwjNfzPN5A_",
+              "values": {
+                "Sex": "Female",
+                "Age": 10,
+                "Height": 137,
+                "BornIn": "USA",
+                "Education": "Less than HS",
+                "BMI": 17.16,
+                "Weight": 32.2
+              }
+            },
+            {
+              "guid": 100,
+              "itemID": "id:YLK716a2OLWRfNcq",
+              "values": {
+                "Sex": "Female",
+                "Age": 1,
+                "Height": "",
+                "BornIn": "USA",
+                "Education": "",
+                "BMI": "",
+                "Weight": 10.4
+              }
+            },
+            {
+              "guid": 101,
+              "itemID": "id:k4dqNcn4PE0flkdB",
+              "values": {
+                "Sex": "Male",
+                "Age": 46,
+                "Height": 186.9,
+                "BornIn": "USA",
+                "Education": "HS incl GED",
+                "BMI": 23.7,
+                "Weight": 82.8
+              }
+            },
+            {
+              "guid": 102,
+              "itemID": "id:pmhZ0KUPZPtnL_d0",
+              "values": {
+                "Sex": "Female",
+                "Age": 76,
+                "Height": 169,
+                "BornIn": "USA",
+                "Education": "HS incl GED",
+                "BMI": 33.89,
+                "Weight": 96.8
+              }
+            },
+            {
+              "guid": 103,
+              "itemID": "id:IrLXqo_NwESwv5Zn",
+              "values": {
+                "Sex": "Female",
+                "Age": 26,
+                "Height": 176.1,
+                "BornIn": "USA",
+                "Education": "HS incl GED",
+                "BMI": 24.48,
+                "Weight": 75.9
+              }
+            },
+            {
+              "guid": 104,
+              "itemID": "id:gfPvWrGWRI_95oE5",
+              "values": {
+                "Sex": "Male",
+                "Age": 16,
+                "Height": 173.1,
+                "BornIn": "USA",
+                "Education": "Less than HS",
+                "BMI": 36.74,
+                "Weight": 110.1
+              }
+            },
+            {
+              "guid": 105,
+              "itemID": "id:MAmCauv-GpSu63WQ",
+              "values": {
+                "Sex": "Male",
+                "Age": 78,
+                "Height": 175.5,
+                "BornIn": "USA",
+                "Education": "Less than HS",
+                "BMI": 35.97,
+                "Weight": 110.8
+              }
+            },
+            {
+              "guid": 106,
+              "itemID": "id:mTIdnK4Qk3IQX_sv",
+              "values": {
+                "Sex": "Female",
+                "Age": 46,
+                "Height": 158.2,
+                "BornIn": "Elsewhere",
+                "Education": "Less than HS",
+                "BMI": 24.01,
+                "Weight": 60.1
+              }
+            },
+            {
+              "guid": 107,
+              "itemID": "id:ThaTohhazJXG_DjQ",
+              "values": {
+                "Sex": "Female",
+                "Age": 5,
+                "Height": 115.4,
+                "BornIn": "USA",
+                "Education": "",
+                "BMI": 19.37,
+                "Weight": 25.8
+              }
+            },
+            {
+              "guid": 108,
+              "itemID": "id:nVusoJrafSE8jAxd",
+              "values": {
+                "Sex": "Male",
+                "Age": 20,
+                "Height": 178.1,
+                "BornIn": "USA",
+                "Education": "HS incl GED",
+                "BMI": 23.17,
+                "Weight": 73.5
+              }
+            },
+            {
+              "guid": 109,
+              "itemID": "id:KVSiCdvvTDn4iWoo",
+              "values": {
+                "Sex": "Female",
+                "Age": 12,
+                "Height": 153.9,
+                "BornIn": "USA",
+                "Education": "Less than HS",
+                "BMI": 19.38,
+                "Weight": 45.9
+              }
+            },
+            {
+              "guid": 110,
+              "itemID": "id:cvKolSnGeG-wEVjf",
+              "values": {
+                "Sex": "Female",
+                "Age": 5,
+                "Height": 123.5,
+                "BornIn": "USA",
+                "Education": "",
+                "BMI": 14.56,
+                "Weight": 22.2
+              }
+            },
+            {
+              "guid": 111,
+              "itemID": "id:715kwDV3xGc1FHv6",
+              "values": {
+                "Sex": "Male",
+                "Age": 6,
+                "Height": 110.2,
+                "BornIn": "USA",
+                "Education": "Less than HS",
+                "BMI": 15.32,
+                "Weight": 18.6
+              }
+            },
+            {
+              "guid": 112,
+              "itemID": "id:xrjSnihhekh7bR8E",
+              "values": {
+                "Sex": "Female",
+                "Age": 36,
+                "Height": 173.4,
+                "BornIn": "USA",
+                "Education": "More than HS",
+                "BMI": 23.65,
+                "Weight": 71.1
+              }
+            }
+          ],
+          "caseName": null,
+          "childAttrName": null,
+          "collapseChildren": null,
+          "guid": 4,
+          "name": "people",
+          "title": "Cases",
+          "type": "DG.Collection"
+        }
+      ],
+      "description": "",
+      "preventReorg": false,
+      "setAsideItems": [],
+      "contextStorage": {}
+    }
+  ],
+  "globalValues": [],
+  "appName": "DG",
+  "appVersion": "2.0",
+  "appBuildNum": "0479",
+  "lang": "en",
+  "_permissions": 1,
+  "metadata": {
+    "shared": {
+      "_permissions": 1
+    }
+  }
+}
