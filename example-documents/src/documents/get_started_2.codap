@@ -7,7 +7,7 @@
       "guid": 2,
       "componentStorage": {
         "currentGameName": "",
-        "currentGameUrl": "../../../../extn/plugins/onboarding/onboarding_2.html",
+        "currentGameUrl": "https://concord-consortium.github.io/codap-data-interactives/onboarding/target/onboarding_2.html",
         "allowInitGameOverride": true,
         "savedGameState": {},
         "title": "Getting started with CODAP",
