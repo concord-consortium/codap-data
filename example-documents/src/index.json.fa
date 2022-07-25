@@ -1,0 +1,13 @@
+[
+  {
+    "name": "چهار فُک.codap",
+    "description": "These are tracks on a map. Make graphs to explore factors that may affect their routes.",
+    "location": "./documents/(Four Seals)چهار(نوع) فُک.codap"
+  },
+  {
+    "name": "پستانداران",
+    "description": "Explore the mammals and discover interesting factors using the graphs.",
+    "location": "./documents/(Mammals)پستاندار.codap"
+  }
+]
+
