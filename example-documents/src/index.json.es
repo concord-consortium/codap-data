@@ -5,19 +5,9 @@
     "location": "./documents/get_started.codap"
   },
   {
-    "name": "Markov Game",
-    "description": "Salven al perro Madeline jugando Roshambo contra el malvado Dr. Markov. Mejoren sus chances analizando los movimientos de Markov.\n",
-    "location": "./documents/markov.codap"
-  },
-  {
-    "name": "Parachute Model",
-    "description": "Drop the parachute to analyze how the size and mass effect the terminal velocity.",
-    "location": "./documents/parachute.codap"
-  },
-  {
-    "name": "Cuatro elefantes marinos",
-    "description": "Muestra el seguimiento de cuatro elefantes marinos en el Pacífico en un mapa. Hacer gráficos y usar la selección para investigar qué sucede.",
-    "location": "./documents/Cuatro_elefantes_marinos.codap"
+    "name": "Getting started with CODAP 2",
+    "description": "More basics of CODAP",
+    "location": "./documents/get_started_2.codap"
   },
   {
     "name": "Mamiferos",
@@ -25,19 +15,34 @@
     "location": "./documents/mamiferos.codap"
   },
   {
-    "name": "Map Data",
-    "description": "Explore United States  Population Data, and see what you discover.  ",
-    "location": "./documents/statesneducation.codap"
-  },
-  {
     "name": "Roller Coasters",
     "description": "Data on 157 roller coasters in the US that opened between 1915 and 2016.  ",
     "location": "./documents/rollercoasters.codap"
   },
   {
+    "name": "Cuatro elefantes marinos",
+    "description": "Muestra el seguimiento de cuatro elefantes marinos en el Pacífico en un mapa. Hacer gráficos y usar la selección para investigar qué sucede.",
+    "location": "./documents/Cuatro_elefantes_marinos.codap"
+  },
+  {
+    "name": "Parachute Model",
+    "description": "Drop the parachute to analyze how the size and mass effect the terminal velocity.",
+    "location": "./documents/parachute.codap"
+  },
+  {
+    "name": "Markov Game",
+    "description": "Salven al perro Madeline jugando Roshambo contra el malvado Dr. Markov. Mejoren sus chances analizando los movimientos de Markov.\n",
+    "location": "./documents/markov.codap"
+  },
+  {
     "name": "Duck Pond",
     "description": "Explore probability through simulating a carnival game with a Sampler",
     "location": "./documents/duckpond.codap"
+  },
+  {
+    "name": "Map Data",
+    "description": "Explore United States  Population Data, and see what you discover.  ",
+    "location": "./documents/statesneducation.codap"
   },
   {
     "name": "Picnic Para Hormigas",
