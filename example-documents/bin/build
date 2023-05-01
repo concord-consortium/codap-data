@@ -7,7 +7,7 @@ SRC_DIR=$BASEDIR/src
 TARGET_DIR=$BASEDIR/target/example-documents
 REPLACEMENT_URL="../../../../extn/example-documents"
 REPLACEMENT_TOKEN="%_url_%"
-LANGUAGES=(en el es de fa he ja nb nn pt-BR th tr zh-TW zh-Hans)
+LANGUAGES=(en el es de fa he ja ko nb nn pl pt-BR th tr zh-TW zh-Hans)
 
 typeset -fx fix_file
 
@@ -22,14 +22,14 @@ function fix_file() {
     mkdir -p `dirname "$TFN"`
     if file $SFN | grep image >/dev/null; then
       cp $SFN $TFN
-    else 
+    else
       sed "s#$REPLACEMENT_TOKEN#$REPLACEMENT_URL#g" "$SFN" > "$TFN"
     fi
   done
 }
 
 function copyIndex() {
-  for t in $*; do 
+  for t in $*; do
     if [ ! -e "$TARGET_DIR/index.json.$t" ] ; then
       cp "$TARGET_DIR/index.json" "$TARGET_DIR/index.json.$t"
     fi
