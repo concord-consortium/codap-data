@@ -1,0 +1,42 @@
+{
+    "name": "Primeros pasos con CODAP 2",
+    "guid": 1,
+    "id": 1,
+    "components": [
+        {
+            "type": "DG.GameView",
+            "guid": 2,
+            "id": 2,
+            "componentStorage": {
+                "currentGameName": "",
+                "currentGameUrl": "../../../../extn/plugins/onboarding/onboarding_2.html",
+                "allowInitGameOverride": true,
+                "savedGameState": {},
+                "title": "Primeros pasos con CODAP 2",
+                "userSetTitle": false,
+                "cannotClose": false,
+                "name": "Primeros pasos con CODAP 2"
+            },
+            "layout": {
+                "width": 400,
+                "height": 550,
+                "zIndex": 4,
+                "isVisible": true,
+                "left": 5,
+                "top": 5,
+                "right": 405,
+                "bottom": 555
+            },
+            "savedHeight": null
+        }
+    ],
+    "contexts": [],
+    "globalValues": [],
+    "appName": "DG",
+    "appVersion": "2.0",
+    "appBuildNum": "0708",
+    "lang": "en",
+    "idCount": 0,
+    "_permissions": 1,
+    "metadata": {}
+}
