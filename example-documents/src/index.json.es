@@ -1,13 +1,13 @@
 [
   {
-    "name": "Getting started with CODAP",
+    "name": "Primeros pasos con CODAP",
     "description": "Learn how to use CODAP using the CODAP plugin onboarding",
-    "location": "./documents/get_started.codap"
+    "location": "./documents/Primeros-pasos-con-CODAP.codap"
   },
   {
-    "name": "Getting started with CODAP 2",
+    "name": "Primeros pasos con CODAP 2",
     "description": "More basics of CODAP",
-    "location": "./documents/get_started_2.codap"
+    "location": "./documents/Primeros-pasos-con-CODAP_2.codap"
   },
   {
     "name": "Mamiferos",

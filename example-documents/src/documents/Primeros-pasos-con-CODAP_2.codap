@@ -1,5 +1,5 @@
 {
-    "name": "Getting started with CODAP - Part 2",
+    "name": "Primeros pasos con CODAP 2",
     "guid": 1,
     "id": 1,
     "components": [
@@ -12,10 +12,10 @@
                 "currentGameUrl": "../../../../extn/plugins/onboarding/onboarding_2.html",
                 "allowInitGameOverride": true,
                 "savedGameState": {},
-                "title": "Getting started with CODAP",
+                "title": "Primeros pasos con CODAP 2",
                 "userSetTitle": false,
                 "cannotClose": false,
-                "name": "Getting started with CODAP"
+                "name": "Primeros pasos con CODAP 2"
             },
             "layout": {
                 "width": 400,
