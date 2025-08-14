@@ -7,7 +7,7 @@ SRC_DIR=$BASEDIR/src
 TARGET_DIR=$BASEDIR/target/example-documents
 REPLACEMENT_URL="../../../../extn/example-documents"
 REPLACEMENT_TOKEN="%_url_%"
-LANGUAGES=(en el es de fa he ja ko nb nn pl pt-BR th tr zh-TW zh-Hans)
+LANGUAGES=(en el es de fa fr he ja ko nb nl nn pl pt-BR th tr zh-TW zh-Hans)
 
 typeset -fx fix_file
 
