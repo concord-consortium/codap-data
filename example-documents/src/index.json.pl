@@ -33,6 +33,11 @@
     "name": "Cztery foki",
     "description": "Dane śledzenia mirungi naniesione na mapę. Utwórz wykresy, aby zbadać czynniki, które mogą wpływać na ich trasy.",
     "location": "./documents/Cztery-foki.codap"
+  },
+  {
+    "name": "PhET Projectile Data Lab",
+    "description": "Design and carry out experiments with the PhET projectile simulation and analyze the data with graphs and statistics.",
+    "location": "./documents/phet-projectile-data-lab.codap"
   }
 ]
 
