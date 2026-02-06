@@ -15,6 +15,11 @@
     "location": "./documents/parachute.codap"
   },
   {
+    "name": "PhET Projectile Data Lab",
+    "description": "Design and carry out experiments with the PhET projectile simulation and analyze the data with graphs and statistics.",
+    "location": "./documents/phet-projectile-data-lab.codap"
+  },
+  {
     "name": "4匹のアザラシ（日本語）",
     "description": "これらはアザラシが通った地図上の軌跡についてのデータです．グラフを作成し，ルートに影響を及ぼす要因を探索します．",
     "location": "./documents/4匹のアザラシ.codap"

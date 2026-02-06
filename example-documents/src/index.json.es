@@ -35,6 +35,11 @@
     "location": "./documents/markov.codap"
   },
   {
+    "name": "PhET Projectile Data Lab",
+    "description": "Design and carry out experiments with the PhET projectile simulation and analyze the data with graphs and statistics.",
+    "location": "./documents/phet-projectile-data-lab.codap"
+  },
+  {
     "name": "Duck Pond",
     "description": "Explore probability through simulating a carnival game with a Sampler",
     "location": "./documents/duckpond.codap"
